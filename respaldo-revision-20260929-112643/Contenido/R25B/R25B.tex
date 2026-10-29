@@ -1,0 +1,745 @@
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Large} % Este comando es para eliminar la aparición de "Capítulo N" en el PDF. Para emplear el formato de la tesis simplemente eliminamos la línea. 
+\chapter{Resultados 2025B}
+\section{Sistema BTP-4F-XXXX} 
+El sistema BTP-4F-XXXX se encuentra conformado por un grupo de siete moléculas: i) BTP-4F-T2C8, ii) BTP-4F-T2EH, iii) BTP-4F-T3EH, iv) BTP-4F-AC8, v) BTP-4F-A2EH, vi) BTP-4F-A3EH y vii) BTP-4F-NC (véase la Figura \ref{R25B:1}). 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth,height=0.8\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/sistema.png}
+   \caption{Estructuras químicas del sistema BTP-4F-XXXX}
+    \label{R25B:1} %Esto genera un numero a mi etiqueta
+\end{figure} \newpage \noindent
+Los primeros tres aceptores pertenecen al sistema isomérico estudiado por el grupo de Hu et. al \cite{shang2022over}, mientras que los últimos cuatro han sido propuestos de manera teórica para comparar, caracterizar y detectar cuál es el efecto que las cadenas laterales alquílicas tienen sobre el sistema BTP-4F-XXXX. Para ello, primero se obtuvieron las geometrías optimizadas de cada aceptor empleando para ello la DFT \cite{kohn1965self} con el funcional de intercambio y correlación HSE06 \cite{heyd2004efficient} con el conjunto base 6-311++g(d,p), añadiendo el modelo del continuum polarizable PCM \cite{cossi1996ab} para incluir los efectos de solvatación del cloroformo. El empleo de esta metodología se encuentra respaldada en trabajos previos \cite{chico2024study, romo2022improvement} y es una elección adecuada para este sistema debido a la precisión alta con la que se describen las energías del LUMO caracterizadas de forma experimental para el sistema T2C8, T2EH y T3EH. Además, la inclusión de funciones difusas permite describir de mejor manera a electrones que se encuentran ligados débilmente al núcleo. Estos cálculos fueron ejecutados con el paquete de software \textit{GAUSSIAN 16}.  \cite{frisch2016gaussian}. 
+\section{Espectros UV-vis}
+Se exploraron 50 estados electrónicos excitados para cada aceptor implementando un cálculo de energía TD-SCF \cite{makri1987time} con la misma metodología HSE06/6-311++g(d,p) bajo condiciones de solvatación en cloroformo usando el modelo PCM. Los espectros normalizados de los siete aceptores se pueden ver en la Figura \ref{R25B:2}.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth,height=0.55\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/spectralall.png}
+   \caption{Conjunto de espectos Uv-vis del sistema BTP-4F-XXXX}
+    \label{R25B:2} %Esto genera un numero a mi etiqueta
+\end{figure} \\
+Es apreciable la presencia de un pico máximo principal y la de otros dos picos secundarios. En la Tabla \ref{table:R25B-1} se muestra la caracterización de estos picos formados por transiciones hacia al primer estado excitado de cada aceptor, los cuáles están acompañados de su respectiva fuerza del oscilador $f$. Los picos máximos ($\lambda_{max}$) ordenados de mayor a menor van en: A3EH>T3EH>NC>(AC8, A2EH)>(T2C8, T2EH). Esta tendencia nos sugiere dos puntos principales: i) el par de aceptores (T2C8, T2EH) presentan una $\lambda_{max}$ equivalente; este patrón es observable aún cuando se ha sustraído una de las cadenas alquílicas del anillo de tiofeno, tal como se ve en los valores de $\lambda_{max}$ del par (AC8, A2EH).  \newpage
+\noindent Aunado al punto anterior, la forma de curva del espectro del par (T2C8, T2EH) se encuentra en su mayoría superpuesta una sobre la otra teniendo ligeros desplazamientos en los picos secundarios. Por otra parte, ii) los espectros de los aceptores sustituidos con cadenas alquílicas en la posición $\beta$ del anillo de tiofeno: T3EH, A3EH presentan un perfil óptico muy diferente. 
+\begin{table}[h] %La h es para decirle que coloque la tabla con el texto
+\caption{Perfil óptico del espectro de absorción UV-vis del sistema BPT-4F-XXXX }
+\label{table:R25B-1} \vspace{-0.5cm}
+\begin{center} 
+\begin{tabular}{ccc}
+\hline
+Aceptor & $\lambda_{max}$ (nm) & Fuerza del Oscilador $f$ \\ \hline
+BTP-4F-T2C8 & 739.64 & 2.0115 \\
+BTP-4F-T2EH & 739.64 & 1.9976 \\
+BTP-4F-T3EH & 746.10 & 2.0370 \\
+BTP-4F-AC8 & 742.04 & 2.0043 \\
+BTP-4F-A2EH & 742.04 & 1.9925 \\
+BTP-4F-A3EH & 746.85 & 2.0499 \\
+BTP-4F-NC & 743.24 & 2.0183  \\ \hline
+\end{tabular}
+\end{center}
+\vspace{-0.2cm}
+\end{table} \\ 
+Las $\lambda_{max}$ de este par de aceptores presentan un mayor desplazamiento batocrómico con respecto a los demás. Sumado a esto, el aceptor BTP-4F-NC tiene un mayor corrimiento al rojo con respecto al par (T2EH, T2C8) incluso cuando no tiene cadenas alquílicas sustituidas sobre sus anillos de tiofeno. Esta tendencia sugiere que el comportamiento óptico del sistema esta mayormente influenciado por cambios en la posición del anillo y la asimetría del sistema presente sobre las cadenas hidrocarbonadas. Por otra parte, los picos secundarios muestran un conjunto de desplazamientos únicos. Estos cambios son regidos por un perfil óptico variable, al menos en el rango donde estos picos están localizados. Para explicar más a detalle esta última premisa, en la Tabla \ref{table:R25B-2} se muestran las bandas de mayor $f$ ubicadas entre 300-400 nm (banda A) y 500-600 nm (banda B) de cada aceptor y la máxima de la envolvente gaussiana. 
+\begin{table}[h] %La h es para decirle que coloque la tabla con el texto
+\caption{Perfil óptico del espectro de absorción UV-vis del sistema BPT-4F-XXXX }
+\label{table:R25B-2} \vspace{-0.5cm}
+\begin{center} 
+\begin{tabular}{ccccccc}
+\hline 
+Aceptor & Banda A (nm) & $f$ & $\lambda_{max}^A $ (nm) & Banda B (nm) & $f$ & $\lambda_{max}^B $ (nm)  \\ \hline \
+BTP-4F-T2C8 & 352.91 &  0.2151 & 356.48 & 520.56 & 0.3978 & 538.17  \\
+BTP-4F-T2EH &  352.96 & 0.2218 & 356.48 & 520.95 &  0.4156 & 540.97 \\
+BTP-4F-T3EH & 352.83 & 0.2145 & 357.28 & 521.33 & 0.4276 & 532.97 \\
+BTP-4F-AC8 & 360.78 & 0.1210 & 354.88 & 517.18 & 0.4519 & 525.36  \\
+BTP-4F-A2EH & 352.28 & 0.1476 & 354.88 &517.09 &  0.4720 & 524.96\\
+BTP-4F-A3EH & 352.55 & 0.2008 & 355.28 & 518.15 &  0.4526 & 525.76\\
+BTP-4F-NC & 351.80 &  0.2059 &353.28 & 517.78 & 0.3934 & 520.56 \\ \hline
+\end{tabular}
+\end{center}
+\vspace{-0.2cm}
+\end{table} \\
+En la Figura \ref{R25B:3} se presentan los espectros UV-vis del conjunto de siete aceptores sin normalizar. Las intensidades de las $\lambda_{max}$ de cada aceptor varían de acuerdo con la siguiente tendencia: A3EH>T3EH>NC>T2C8>AC8>T2EH>A2EH, este patrón era esperado al observarse el mismo incremento en los valores de la fuerza del oscilador $f$. Por otro lado, los valores del $f$ localizados en la banda A van de acuerdo con el siguiente orden: T2EH>T2C8>T3EH>NC>A3EH>A2EH>AC8. Sin embargo, la contribución de otros estados excitados adyacentes, propicia que las intensidades de los picos formados en la zona A del espectro de la Figura \ref{R25B:3}, vayan en el siguiente acomodo: NC>AC8>A2EH>T2C8>T2EH>A3EH>T3EH. Dentro de este rango, es notable que hay un mayor desplazamiento hacia el azul del pico secundario A del BTP-4F-NC, véase la Figura \ref{R25B:4}. Cabe señalar que este corrimiento también es observado en el pico de la zona B y el orden de las intensidades de los picos localizados en dicha zona van en aumento de acuerdo con el siguiente arreglo: NC>A3EH>(AC8, T3EH, T2EH, T2C8)>A2EH. \newpage \noindent
+\vspace{-1cm}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth,height=0.55\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/spectralall-f.png}
+   \caption{Conjunto de espectos Uv-vis del sistema BTP-4F-XXXX sin normalizar}
+    \label{R25B:3} %Esto genera un numero a mi etiqueta
+\end{figure} \\
+La relevancia de estos picos secundarios subyace en cómo las cadenas alquílicas son capaces de modular el perfil óptico de los aceptores. En principio, los mayores desplazamientos hacia al azul se observan a medida que se las cadenas hidrocarbonadas se van retirando del anillo de tiofeno, al menos para los picos situados en la zona B del espectro. No obstante, en regiones más cercanas al ultravioleta los desplazamientos de $\lambda_{max}^A$ son mayormente influenciados por la sustitución de la cadena alquílica en el carbono $\beta$ del anillo de tiofeno.  
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth,height=0.35\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/secondpiks.png}
+   \caption{Desplazamientos hipsocrómicos de los picos secundarios A y B de los espectos Uv-vis del sistema BTP-4F-XXXX}
+    \label{R25B:4} %Esto genera un numero a mi etiqueta
+\end{figure} \\
+Para obtener mayor información de las configuraciones correspondientes de cada estado excitado, en las Tablas \ref{table:R25B-3}, \ref{table:R25B-4}, \ref{table:R25B-5} \ref{table:R25B-6}, \ref{table:R25B-7}, \ref{table:R25B-8} y \ref{table:R25B-9}, se presentan los NTOs (\textit{Natural Transition Orbitals}) de cada aceptor, de los cuales solo se muestran las configuraciones con una aportación mayor al 10\% de la transición correspondiente.  
+\begin{table}[H] %La h es para decirle que coloque la tabla con el texto
+\caption{NTOs del aceptor BTP-4F-T2C8}
+\label{table:R25B-3} \vspace{-0.5cm}
+{\footnotesize
+\begin{center} 
+\begin{tabular}{ccccc}
+\hline
+EE & Energía (eV) & $f$ & $\lambda$ (nm) & Configuración \\ \hline
+1 & 1.67 & 2.0115 & 739.94 &  H$\rightarrow$L 99\% \\ 
+2 & 1.95 & 0.1084 & 635.27  & H$\rightarrow$L 93\% \\ 
+3 & 2.16 & 0.3182 & 573.78 & H$\rightarrow$L 92\% \\
+4 & 2.25 & 0.2364 & 550.22 & H$\rightarrow$L 58\%, H-1$\rightarrow$L+1 41\% \\  
+5 & 2.28 & 0.0072 & 543.54 &H$\rightarrow$L 59\%, H-1$\rightarrow$L+1 41\% \\
+6 &  2.31 & 0.0119 & 536.34 & H$\rightarrow$L 75\%, H-1$\rightarrow$L+1 24\% \\
+7 & 2.38 & 0.0343 & 520.76 & H$\rightarrow$L 93\% \\ 
+8 & 2.38 & 0.3978 & 520.56 & H$\rightarrow$L 70\%, H-1$\rightarrow$L+1 25\% \\ 
+9 & 2.51 & 0.0723 & 493.87 & H$\rightarrow$L 98\% \\ 
+10 & 2.52 & 0.0787 & 491.75 & H$\rightarrow$L 98\% \\ 
+11 & 2.65 & 0.0021 & 467.56 & H$\rightarrow$L 97\% \\ 
+12 & 2.74 & 0.0391 & 451.41 & H$\rightarrow$L 73\%, H-1$\rightarrow$L+1 24\% \\
+13 & 2.74 & 0.0715 & 451.28 & H$\rightarrow$L 70\%, H-1$\rightarrow$L+1 24\% \\
+14 & 2.77 & 0.0505 & 447.46 & H$\rightarrow$L 90\% \\
+15 & 2.83 & 0.0290 & 437 & H$\rightarrow$L 89\% \\
+16 & 2.87 & 0.0374 & 430.77 & H$\rightarrow$L 98\% \\ 
+17 & 2.91 & 0.0258 & 424.79 & H$\rightarrow$L 90\% \\ 
+18 & 2.93 & 0.0076 & 421.80 &  H$\rightarrow$L 95\%  \\ 
+19 & 2.98 & 0.0038 & 415.67 & H$\rightarrow$L 82\%, H-1$\rightarrow$L+1 15\% \\ 
+20 & 2.99 & 0.0089 & 414.06 &  H$\rightarrow$L 77\%, H-1$\rightarrow$L+1 19\% \\ 
+21 & 3.01 & 410.84 & 0.0716 & H$\rightarrow$L 60\%, H-1$\rightarrow$L+1 35\% \\ 
+22 & 3.15 & 0.0309 & 393.18 & H$\rightarrow$L 93\% \\ 
+23 & 3.18 & 0.0317 & 388.86 & H$\rightarrow$L 94\% \\ 
+24 & 3.21 & 0.0006 & 385.98 & H$\rightarrow$L 93\% \\ 
+25 & 3.25 & 0.0227 & 380.87 & H$\rightarrow$L 81\% \\ 
+26 & 3.27 & 0.0446 & 378.43 & H$\rightarrow$L 90\% \\ 
+27 & 3.29 & 0.0128 & 376.69 & H$\rightarrow$L 79\%, H-1$\rightarrow$L+1 12\% \\ 
+28 & 3.30 & 0.0010 & 375.37 & H$\rightarrow$L 91\% \\ 
+29 & 3.34 & 0.0401 & 371.11 &  H$\rightarrow$L 38\%, H-1$\rightarrow$L+1 26\%, H-2$\rightarrow$L+2 16\%, H-3$\rightarrow$L+3 14\% \\
+30 & 3.35 & 0.0009 & 369.16 & H$\rightarrow$L 80\% \\ 
+31 & 3.38 & 0.0176 & 366.77 &  H$\rightarrow$L 75\%, H-1$\rightarrow$L+1 21\% \\
+32 & 3.39 & 0.0035 & 364.86 &   H$\rightarrow$L 66\%, H-1$\rightarrow$L+1 19\% \\ 
+33 & 3.42 & 0.1517 & 362.02 &  H$\rightarrow$L 64\%, H-1$\rightarrow$L+1 15\%,  H-2$\rightarrow$L+2 14\% \\ 
+34 & 3.42 & 0.0206 & 361.73 &  H$\rightarrow$L 94\% \\
+35 & 3.45 & 0.0071 & 358.44 &  H$\rightarrow$L 59\%, H-1$\rightarrow$L+1 20\%, H-2$\rightarrow$L+2 11\% \\ 
+36 & 3.46 & 0.0133 & 358.07 &  H$\rightarrow$L 83\% \\ 
+37 & 3.47 & 0.1047 & 356.38 &  H$\rightarrow$L 35\%, H-1$\rightarrow$L+1 32\%,  H-2$\rightarrow$L+2 19\%, H-3$\rightarrow$L+3 13\% \\ 
+38 & 3.50 & 0.0227 & 353.98 &  H$\rightarrow$L 81\% \\
+39 &  3.51 & 0.2151 & 351.91 &  H$\rightarrow$L 95\% \\ 
+40 & 3.51 & 0.0031 & 352.47 &  H$\rightarrow$L 73\%, H-1$\rightarrow$L+1 15\% \\ 
+41 & 3.53 & 0.0086 & 350.84 &  H$\rightarrow$L 66\%, H-1$\rightarrow$L+1 16\%,  H-2$\rightarrow$L+2 13\% \\
+42 & 3.54 & 0.0385 & 349.52 &   H$\rightarrow$L 45\%, H-1$\rightarrow$L+1 31\%,  H-2$\rightarrow$L+2 18\% \\ 
+43 & 3.55 & 0.0024 & 348.64 &  H$\rightarrow$L 41\%, H-1$\rightarrow$L+1 38\% \\ 
+44 & 3.58 & 0.0005 & 346.28 &  H$\rightarrow$L 38\%, H-1$\rightarrow$L+1 28\%,  H-2$\rightarrow$L+2 12\%,  H-3$\rightarrow$L+3 10\%, H-4$\rightarrow$L+4 10\% \\
+45 &  3.60 & 0.0649 & 343.76 &  H$\rightarrow$L 51\%, H-1$\rightarrow$L+1 43\% \\ 
+46 & 3..64 & 0.0186 & 339.69 &  H$\rightarrow$L 51\%, H-1$\rightarrow$L+1 37\% \\ 
+47 & 3.78 & 0.0374 & 327.39 &  H$\rightarrow$L 91\% \\ 
+48 & 3.84 & 0.1101 & 322.82 &  H$\rightarrow$L 56\%, H-1$\rightarrow$L+1 32\% \\ 
+49 & 3.84 & 0.1585 & 322.27 &  H$\rightarrow$L 52\%, H-1$\rightarrow$L+1 23\%,  H-2$\rightarrow$L+2 15\% \\
+50 & 3.85 & 0.0144 & 321.78 &  H$\rightarrow$L 36\%, H-1$\rightarrow$L+1 29\%,  H-2$\rightarrow$L+2 16\%, H-3$\rightarrow$L+3 11\% \\ \hline
+\end{tabular} 
+\end{center} }
+\vspace{-0.2cm}
+\end{table} \newpage \noindent
+
+\begin{table}[H]
+\caption{NTOs del aceptor BTP-4F-T2EH}
+\label{table:R25B-4} \vspace{-0.5cm}
+{\footnotesize
+\begin{center} 
+\begin{tabular}{ccccc}
+\hline
+EE & Energía (eV) & $f$ & $\lambda$ (nm) & Configuración \\ \hline
+1 & 1.68 & 1.9976 & 739.87 & H $\rightarrow$ L 100\% \\
+2 & 1.95 & 0.1062 & 635.31 & H $\rightarrow$ L 93\% \\
+3 & 2.15 & 0.3536 & 576.80 & H $\rightarrow$ L 93\% \\
+4 & 2.25 & 0.2275 & 552.25 & H $\rightarrow$ L 66\%, H-1 $\rightarrow$ L+1 33\% \\
+5 & 2.27 & 0.0100 & 545.08 & H $\rightarrow$ L 66\%, H-1 $\rightarrow$ L+1 33\% \\
+6 & 2.31 & 0.0120 & 536.38 & H $\rightarrow$ L 76\%, H-1 $\rightarrow$ L+1 23\% \\
+7 & 2.37 & 0.0211 & 523.42 & H $\rightarrow$ L 98\% \\
+8 & 2.38 & 0.4156 & 520.95 & H $\rightarrow$ L 74\%, H-1 $\rightarrow$ L+1 24\% \\
+9 & 2.50 & 0.0316 & 495.96 & H $\rightarrow$ L 98\% \\
+10 & 2.52 & 0.1252 & 492.48 & H $\rightarrow$ L 98\% \\
+11 & 2.65 & 0.0018 & 468.03 & H $\rightarrow$ L 97\% \\
+12 & 2.74 & 0.0936 & 452.69 & H $\rightarrow$ L 90\% \\
+13 & 2.75 & 0.0227 & 451.54 & H $\rightarrow$ L 96\% \\
+14 & 2.76 & 0.0494 & 449.39 & H $\rightarrow$ L 89\% \\
+15 & 2.82 & 0.0271 & 438.97 & H $\rightarrow$ L 89\% \\
+16 & 2.88 & 0.0389 & 431.20 & H $\rightarrow$ L 98\% \\
+17 & 2.90 & 0.0268 & 426.90 & H $\rightarrow$ L 90\% \\
+18 & 2.94 & 0.0055 & 421.88 & H $\rightarrow$ L 94\% \\
+19 & 2.97 & 0.0101 & 417.13 & H $\rightarrow$ L 89\% \\
+20 & 2.99 & 0.0093 & 415.11 & H $\rightarrow$ L 56\%, H-1 $\rightarrow$ L+1 39\% \\
+21 & 3.01 & 0.0665 & 411.50 & H $\rightarrow$ L 49\%, H-1 $\rightarrow$ L+1 47\% \\
+22 & 3.15 & 0.0301 & 393.70 & H $\rightarrow$ L 93\% \\
+23 & 3.21 & 0.0425 & 386.53 & H $\rightarrow$ L 93\% \\
+24 & 3.24 & 0.0056 & 383.08 & H $\rightarrow$ L 93\% \\
+25 & 3.25 & 0.0020 & 381.28 & H $\rightarrow$ L 87\% \\
+26 & 3.28 & 0.0434 & 378.37 & H $\rightarrow$ L 83\% \\
+27 & 3.29 & 0.0090 & 377.03 & H $\rightarrow$ L 73\%, H-1 $\rightarrow$ L+1 10\% \\
+28 & 3.29 & 0.0014 & 376.70 & H $\rightarrow$ L 83\% \\
+29 & 3.34 & 0.0461 & 371.57 & H $\rightarrow$ L 40\%, H-1 $\rightarrow$ L+1 24\%, H-2 $\rightarrow$ L+2 17\%, H-3 $\rightarrow$ L+3 16\% \\
+30 & 3.36 & 0.0006 & 369.15 & H $\rightarrow$ L 82\% \\
+31 & 3.38 & 0.0190 & 367.19 & H $\rightarrow$ L 74\%, H-1 $\rightarrow$ L+1 22\% \\
+32 & 3.39 & 0.0032 & 365.25 & H $\rightarrow$ L 63\%, H-1 $\rightarrow$ L+1 18\% \\
+33 & 3.41 & 0.0198 & 363.22 & H $\rightarrow$ L 89\% \\
+34 & 3.42 & 0.1541 & 362.34 & H $\rightarrow$ L 65\%, H-1 $\rightarrow$ L+1 15\%, H-2 $\rightarrow$ L+2 14\% \\
+35 & 3.46 & 0.0039 & 358.57 & H $\rightarrow$ L 61\%, H-1 $\rightarrow$ L+1 19\%, H-2 $\rightarrow$ L+2 10\% \\
+36 & 3.47 & 0.0517 & 357.28 & H $\rightarrow$ L 57\%, H-1 $\rightarrow$ L+1 23\%, H-2 $\rightarrow$ L+2 12\% \\
+37 & 3.48 & 0.0645 & 356.09 & H $\rightarrow$ L 37\%, H-1 $\rightarrow$ L+1 27\%, H-2 $\rightarrow$ L+2 19\%, H-3 $\rightarrow$ L+3 15\% \\
+38 & 3.51 & 0.2218 & 352.96 & H $\rightarrow$ L 95\% \\
+39 & 3.51 & 0.0114 & 352.83 & H $\rightarrow$ L 78\%, H-1 $\rightarrow$ L+1 13\% \\
+40 & 3.52 & 0.0179 & 352.41 & H $\rightarrow$ L 66\%, H-1 $\rightarrow$ L+1 24\% \\
+41 & 3.54 & 0.0029 & 350.70 & H $\rightarrow$ L 53\%, H-1 $\rightarrow$ L+1 26\%, H-2 $\rightarrow$ L+2 16\% \\
+42 & 3.56 & 0.0201 & 348.76 & H $\rightarrow$ L 52\%, H-1 $\rightarrow$ L+1 33\% \\
+43 & 3.56 & 0.0049 & 348.20 & H $\rightarrow$ L 48\%, H-1 $\rightarrow$ L+1 33\%, H-2 $\rightarrow$ L+2 12\% \\
+44 & 3.58 & 0.0013 & 346.50 & H $\rightarrow$ L 36\%, H-1 $\rightarrow$ L+1 30\%, H-2 $\rightarrow$ L+2 13\%, H-3 $\rightarrow$ L+3 10\% \\
+45 & 3.60 & 0.0668 & 343.92 & H $\rightarrow$ L 51\%, H-1 $\rightarrow$ L+1 43\% \\
+46 & 3.65 & 0.0224 & 339.91 & H $\rightarrow$ L 50\%, H-1 $\rightarrow$ L+1 37\% \\
+47 & 3.78 & 0.0386 & 327.77 & H $\rightarrow$ L 91\% \\
+48 & 3.83 & 0.0927 & 323.34 & H $\rightarrow$ L 53\%, H-1 $\rightarrow$ L+1 37\% \\
+49 & 3.85 & 0.1154 & 322.27 & H $\rightarrow$ L 50\%, H-1 $\rightarrow$ L+1 24\%, H-2 $\rightarrow$ L+2 11\%, H-3 $\rightarrow$ L+3 11\% \\
+50 & 3.85 & 0.0469 & 322.08 & H $\rightarrow$ L 41\%, H-1 $\rightarrow$ L+1 26\%, H-2 $\rightarrow$ L+2 14\%, H-3 $\rightarrow$ L+3 13\% \\
+\hline
+\end{tabular}
+\end{center} }
+\vspace{-0.2cm}
+\end{table} \newpage \noindent
+
+\begin{table}[H]
+\caption{NTOs del aceptor BTP-4F-T3EH}
+\label{table:R25B-5} \vspace{-0.5cm}
+{\footnotesize
+\begin{center} 
+\begin{tabular}{ccccc}
+\hline
+EE & Energía (eV) & $f$ & $\lambda$ (nm) & Configuración \\ \hline
+1 & 1.66 & 2.0370 & 746.10 & H $\rightarrow$ L 100\% \\
+2 & 1.95 & 0.1154 & 636.99 & H $\rightarrow$ L 93\% \\
+3 & 2.18 & 0.2674 & 568.74 & H $\rightarrow$ L 93\% \\
+4 & 2.26 & 0.1559 & 548.48 & H $\rightarrow$ L 91\% \\
+5 & 2.30 & 0.0184 & 538.47 & H $\rightarrow$ L 73\%, H-1 $\rightarrow$ L+1 26\% \\
+6 & 2.31 & 0.0602 & 536.89 & H $\rightarrow$ L 90\% \\
+7 & 2.38 & 0.4276 & 521.33 & H $\rightarrow$ L 71\%, H-1 $\rightarrow$ L+1 28\% \\
+8 & 2.41 & 0.0123 & 513.96 & H $\rightarrow$ L 98\% \\
+9 & 2.51 & 0.1500 & 493.12 & H $\rightarrow$ L 97\% \\
+10 & 2.56 & 0.0091 & 484.19 & H $\rightarrow$ L 99\% \\
+11 & 2.64 & 0.0018 & 469.21 & H $\rightarrow$ L 97\% \\
+12 & 2.73 & 0.0572 & 453.97 & H $\rightarrow$ L 96\% \\
+13 & 2.74 & 0.0197 & 452.35 & H $\rightarrow$ L 95\% \\
+14 & 2.81 & 0.0661 & 441.14 & H $\rightarrow$ L 96\% \\
+15 & 2.88 & 0.0190 & 431.25 & H $\rightarrow$ L 92\% \\
+16 & 2.88 & 0.0386 & 430.67 & H $\rightarrow$ L 97\% \\
+17 & 2.94 & 0.0060 & 421.19 & H $\rightarrow$ L 95\% \\
+18 & 2.97 & 0.0217 & 417.28 & H $\rightarrow$ L 71\%, H-1 $\rightarrow$ L+1 23\% \\
+19 & 2.99 & 0.0168 & 414.76 & H $\rightarrow$ L 41\%, H-1 $\rightarrow$ L+1 32\%, H-2 $\rightarrow$ L+2 22\% \\
+20 & 3.00 & 0.0005 & 413.90 & H $\rightarrow$ L 97\% \\
+21 & 3.01 & 0.0544 & 411.48 & H $\rightarrow$ L 48\%, H-1 $\rightarrow$ L+1 46\% \\
+22 & 3.03 & 0.0003 & 409.48 & H $\rightarrow$ L 99\% \\
+23 & 3.04 & 0.0040 & 407.34 & H $\rightarrow$ L 97\% \\
+24 & 3.15 & 0.0295 & 393.95 & H $\rightarrow$ L 93\% \\
+25 & 3.23 & 0.1116 & 383.55 & H $\rightarrow$ L 85\% \\
+26 & 3.26 & 0.0086 & 379.82 & H $\rightarrow$ L 60\%, H-1 $\rightarrow$ L+1 38\% \\
+27 & 3.29 & 0.0107 & 377.18 & H $\rightarrow$ L 69\%, H-1 $\rightarrow$ L+1 26\% \\
+28 & 3.30 & 0.0077 & 375.52 & H $\rightarrow$ L 71\%, H-1 $\rightarrow$ L+1 13\%, H-2 $\rightarrow$ L+2 11\% \\
+29 & 3.32 & 0.0019 & 373.29 & H $\rightarrow$ L 56\%, H-1 $\rightarrow$ L+1 32\% \\
+30 & 3.33 & 0.0139 & 371.91 & H $\rightarrow$ L 46\%, H-1 $\rightarrow$ L+1 19\%, H-2 $\rightarrow$ L+2 18\%, H-3 $\rightarrow$ L+3 11\% \\
+31 & 3.35 & 0.0067 & 370.45 & H $\rightarrow$ L 42\%, H-1 $\rightarrow$ L+1 26\%, H-2 $\rightarrow$ L+2 15\% \\
+32 & 3.35 & 0.0043 & 369.95 & H $\rightarrow$ L 72\%, H-1 $\rightarrow$ L+1 14\% \\
+33 & 3.38 & 0.0160 & 366.53 & H $\rightarrow$ L 81\%, H-1 $\rightarrow$ L+1 12\% \\
+34 & 3.39 & 0.0105 & 365.28 & H $\rightarrow$ L 71\%, H-1 $\rightarrow$ L+1 17\% \\
+35 & 3.43 & 0.1219 & 361.77 & H $\rightarrow$ L 42\%, H-1 $\rightarrow$ L+1 29\%, H-2 $\rightarrow$ L+2 23\% \\
+36 & 3.45 & 0.0522 & 359.72 & H $\rightarrow$ L 41\%, H-1 $\rightarrow$ L+1 40\%, H-2 $\rightarrow$ L+2 11\% \\
+37 & 3.46 & 0.0993 & 357.90 & H $\rightarrow$ L 32\%, H-1 $\rightarrow$ L+1 31\%, H-2 $\rightarrow$ L+2 24\% \\
+38 & 3.47 & 0.0096 & 356.95 & H $\rightarrow$ L 96\% \\
+39 & 3.51 & 0.0140 & 353.08 & H $\rightarrow$ L 72\%, H-1 $\rightarrow$ L+1 10\% \\
+40 & 3.51 & 0.2145 & 352.83 & H $\rightarrow$ L 94\% \\
+41 & 3.53 & 0.0030 & 351.52 & H $\rightarrow$ L 60\%, H-1 $\rightarrow$ L+1 20\%, H-2 $\rightarrow$ L+2 14\% \\
+42 & 3.54 & 0.0337 & 350.65 & H $\rightarrow$ L 48\%, H-1 $\rightarrow$ L+1 34\%, H-2 $\rightarrow$ L+2 11\% \\
+43 & 3.55 & 0.0040 & 349.17 & H $\rightarrow$ L 43\%, H-1 $\rightarrow$ L+1 35\% \\
+44 & 3.57 & 0.0005 & 347.34 & H $\rightarrow$ L 41\%, H-1 $\rightarrow$ L+1 28\%, H-2 $\rightarrow$ L+2 14\%, H-3 $\rightarrow$ L+3 10\% \\
+45 & 3.60 & 0.0442 & 344.65 & H $\rightarrow$ L 48\%, H-1 $\rightarrow$ L+1 45\% \\
+46 & 3.65 & 0.0100 & 340.15 & H $\rightarrow$ L 46\%, H-1 $\rightarrow$ L+1 40\% \\
+47 & 3.72 & 0.0247 & 333.68 & H $\rightarrow$ L 97\% \\
+48 & 3.75 & 0.0140 & 330.74 & H $\rightarrow$ L 93\% \\
+49 & 3.79 & 0.0222 & 327.25 & H $\rightarrow$ L 45\%, H-1 $\rightarrow$ L+1 44\% \\
+50 & 3.80 & 0.0189 & 326.15 & H $\rightarrow$ L 49\%, H-1 $\rightarrow$ L+1 40\% \\
+\hline
+\end{tabular}
+\end{center} }
+\vspace{-0.2cm}
+\end{table} \newpage \noindent
+
+
+\begin{table}[H]
+\caption{NTOs del aceptor BTP-4F-AC8}
+\label{table:R25B-6} \vspace{-0.5cm}
+{\footnotesize
+\begin{center} 
+\begin{tabular}{ccccc}
+\hline
+EE & Energía (eV) & $f$ & $\lambda$ (nm) & Configuración \\ \hline
+1 & 1.67 & 2.0043 & 742.39 & H $\rightarrow$ L 100\% \\
+2 & 1.95 & 0.1244 & 636.13 & H $\rightarrow$ L 94\% \\
+3 & 2.17 & 0.2594 & 570.92 & H $\rightarrow$ L 94\% \\
+4 & 2.26 & 0.1307 & 548.64 & H $\rightarrow$ L 97\% \\
+5 & 2.31 & 0.0298 & 537.76 & H $\rightarrow$ L 79\%, H-1 $\rightarrow$ L+1 21\% \\
+6 & 2.35 & 0.0590 & 528.10 & H $\rightarrow$ L 65\%, H-1 $\rightarrow$ L+1 33\% \\
+7 & 2.40 & 0.4519 & 517.18 & H $\rightarrow$ L 51\%, H-1 $\rightarrow$ L+1 46\% \\
+8 & 2.40 & 0.0450 & 517.00 & H $\rightarrow$ L 96\% \\
+9 & 2.52 & 0.1284 & 492.69 & H $\rightarrow$ L 97\% \\
+10 & 2.60 & 0.0209 & 475.96 & H $\rightarrow$ L 97\% \\
+11 & 2.67 & 0.0184 & 464.44 & H $\rightarrow$ L 97\% \\
+12 & 2.75 & 0.0185 & 450.42 & H $\rightarrow$ L 95\% \\
+13 & 2.79 & 0.1008 & 444.42 & H $\rightarrow$ L 83\%, H-1 $\rightarrow$ L+1 15\% \\
+14 & 2.81 & 0.0031 & 441.20 & H $\rightarrow$ L 84\%, H-1 $\rightarrow$ L+1 15\% \\
+15 & 2.86 & 0.0158 & 433.01 & H $\rightarrow$ L 96\% \\
+16 & 2.90 & 0.0383 & 427.79 & H $\rightarrow$ L 97\% \\
+17 & 2.93 & 0.0106 & 422.48 & H $\rightarrow$ L 96\% \\
+18 & 2.99 & 0.0352 & 415.19 & H $\rightarrow$ L 63\%, H-1 $\rightarrow$ L+1 35\% \\
+19 & 3.01 & 0.0110 & 412.14 & H $\rightarrow$ L 66\%, H-1 $\rightarrow$ L+1 30\% \\
+20 & 3.07 & 0.0552 & 403.52 & H $\rightarrow$ L 91\% \\
+21 & 3.08 & 0.0030 & 402.03 & H $\rightarrow$ L 97\% \\
+22 & 3.16 & 0.0296 & 392.73 & H $\rightarrow$ L 93\% \\
+23 & 3.19 & 0.0245 & 388.34 & H $\rightarrow$ L 97\% \\
+24 & 3.24 & 0.0641 & 382.26 & H $\rightarrow$ L 85\% \\
+25 & 3.29 & 0.0110 & 377.40 & H $\rightarrow$ L 95\% \\
+26 & 3.29 & 0.0054 & 376.41 & H $\rightarrow$ L 62\%, H-1 $\rightarrow$ L+1 36\% \\
+27 & 3.31 & 0.0396 & 374.67 & H $\rightarrow$ L 53\%, H-1 $\rightarrow$ L+1 40\% \\
+28 & 3.33 & 0.0013 & 372.61 & H $\rightarrow$ L 93\% \\
+29 & 3.36 & 0.0065 & 369.07 & H $\rightarrow$ L 75\%, H-1 $\rightarrow$ L+1 12\% \\
+30 & 3.37 & 0.0139 & 368.12 & H $\rightarrow$ L 55\%, H-1 $\rightarrow$ L+1 18\%, H-2 $\rightarrow$ L+2 13\%, H-3 $\rightarrow$ L+3 10\% \\
+31 & 3.40 & 0.0357 & 364.42 & H $\rightarrow$ L 77\%, H-1 $\rightarrow$ L+1 11\% \\
+32 & 3.43 & 0.0167 & 361.86 & H $\rightarrow$ L 72\%, H-1 $\rightarrow$ L+1 15\% \\
+33 & 3.44 & 0.1210 & 360.78 & H $\rightarrow$ L 62\%, H-1 $\rightarrow$ L+1 21\% \\
+34 & 3.46 & 0.0255 & 357.99 & H $\rightarrow$ L 62\%, H-1 $\rightarrow$ L+1 29\% \\
+35 & 3.48 & 0.0051 & 356.44 & H $\rightarrow$ L 49\%, H-1 $\rightarrow$ L+1 27\%, H-2 $\rightarrow$ L+2 16\% \\
+36 & 3.49 & 0.0804 & 355.43 & H $\rightarrow$ L 36\%, H-1 $\rightarrow$ L+1 28\%, H-2 $\rightarrow$ L+2 19\%, H-3 $\rightarrow$ L+3 14\% \\
+37 & 3.51 & 0.0480 & 352.93 & H $\rightarrow$ L 92\% \\
+38 & 3.52 & 0.1156 & 352.25 & H $\rightarrow$ L 53\%, H-1 $\rightarrow$ L+1 34\% \\
+39 & 3.52 & 0.0997 & 351.97 & H $\rightarrow$ L 44\%, H-1 $\rightarrow$ L+1 39\% \\
+40 & 3.54 & 0.0076 & 350.43 & H $\rightarrow$ L 85\% \\
+41 & 3.56 & 0.0468 & 348.76 & H $\rightarrow$ L 74\%, H-1 $\rightarrow$ L+1 16\% \\
+42 & 3.56 & 0.0060 & 348.25 & H $\rightarrow$ L 51\%, H-1 $\rightarrow$ L+1 26\%, H-2 $\rightarrow$ L+2 13\% \\
+43 & 3.60 & 0.0126 & 344.19 & H $\rightarrow$ L 40\%, H-1 $\rightarrow$ L+1 39\%, H-2 $\rightarrow$ L+2 10\% \\
+44 & 3.61 & 0.0567 & 343.56 & H $\rightarrow$ L 53\%, H-1 $\rightarrow$ L+1 24\%, H-2 $\rightarrow$ L+2 15\% \\
+45 & 3.62 & 0.0049 & 342.42 & H $\rightarrow$ L 91\% \\
+46 & 3.65 & 0.0238 & 339.59 & H $\rightarrow$ L 43\%, H-1 $\rightarrow$ L+1 41\% \\
+47 & 3.81 & 0.0154 & 325.11 & H $\rightarrow$ L 80\%, H-1 $\rightarrow$ L+1 12\% \\
+48 & 3.84 & 0.1017 & 322.88 & H $\rightarrow$ L 46\%, H-1 $\rightarrow$ L+1 33\%, H-2 $\rightarrow$ L+2 16\% \\
+49 & 3.85 & 0.0507 & 322.10 & H $\rightarrow$ L 55\%, H-1 $\rightarrow$ L+1 30\% \\
+50 & 3.85 & 0.0844 & 321.67 & H $\rightarrow$ L 67\%, H-1 $\rightarrow$ L+1 20\% \\
+\hline
+\end{tabular}
+\end{center} }
+\vspace{-0.2cm}
+\end{table} \newpage \noindent
+
+\begin{table}[H]
+\caption{NTOs del aceptor BTP-4F-A2EH}
+\label{table:R25B-7} \vspace{-0.5cm}
+{\footnotesize
+\begin{center} 
+\begin{tabular}{ccccc}
+\hline
+EE & Energía (eV) & $f$ & $\lambda$ (nm) & Configuración \\ \hline
+1 & 1.67 & 1.9925 & 742.41 & H $\rightarrow$ L 100\% \\
+2 & 1.95 & 0.1254 & 636.32 & H $\rightarrow$ L 93\% \\
+3 & 2.15 & 0.2862 & 575.39 & H $\rightarrow$ L 94\% \\
+4 & 2.26 & 0.1294 & 548.82 & H $\rightarrow$ L 97\% \\
+5 & 2.30 & 0.0332 & 538.00 & H $\rightarrow$ L 82\%, H-1 $\rightarrow$ L+1 18\% \\
+6 & 2.34 & 0.0453 & 528.98 & H $\rightarrow$ L 61\%, H-1 $\rightarrow$ L+1 38\% \\
+7 & 2.38 & 0.0349 & 520.79 & H $\rightarrow$ L 98\% \\
+8 & 2.40 & 0.4720 & 517.09 & H $\rightarrow$ L 53\%, H-1 $\rightarrow$ L+1 46\% \\
+9 & 2.52 & 0.1250 & 492.84 & H $\rightarrow$ L 97\% \\
+10 & 2.60 & 0.0243 & 476.29 & H $\rightarrow$ L 97\% \\
+11 & 2.67 & 0.0206 & 464.95 & H $\rightarrow$ L 97\% \\
+12 & 2.75 & 0.0185 & 450.60 & H $\rightarrow$ L 95\% \\
+13 & 2.77 & 0.0965 & 446.95 & H $\rightarrow$ L 92\% \\
+14 & 2.80 & 0.0100 & 442.20 & H $\rightarrow$ L 93\% \\
+15 & 2.85 & 0.0147 & 435.55 & H $\rightarrow$ L 96\% \\
+16 & 2.89 & 0.0387 & 428.33 & H $\rightarrow$ L 97\% \\
+17 & 2.93 & 0.0121 & 422.55 & H $\rightarrow$ L 96\% \\
+18 & 2.98 & 0.0385 & 415.42 & H $\rightarrow$ L 53\%, H-1 $\rightarrow$ L+1 45\% \\
+19 & 3.00 & 0.0101 & 412.65 & H $\rightarrow$ L 59\%, H-1 $\rightarrow$ L+1 37\% \\
+20 & 3.07 & 0.0529 & 404.05 & H $\rightarrow$ L 91\% \\
+21 & 3.08 & 0.0024 & 402.27 & H $\rightarrow$ L 97\% \\
+22 & 3.15 & 0.0305 & 393.12 & H $\rightarrow$ L 93\% \\
+23 & 3.22 & 0.0529 & 385.35 & H $\rightarrow$ L 91\% \\
+24 & 3.25 & 0.0252 & 382.01 & H $\rightarrow$ L 89\% \\
+25 & 3.28 & 0.0123 & 377.78 & H $\rightarrow$ L 95\% \\
+26 & 3.29 & 0.0045 & 376.87 & H $\rightarrow$ L 58\%, H-1 $\rightarrow$ L+1 40\% \\
+27 & 3.31 & 0.0442 & 374.95 & H $\rightarrow$ L 47\%, H-1 $\rightarrow$ L+1 31\%, H-2 $\rightarrow$ L+2 16\% \\
+28 & 3.31 & 0.0027 & 374.50 & H $\rightarrow$ L 79\%, H-1 $\rightarrow$ L+1 11\% \\
+29 & 3.36 & 0.0072 & 369.08 & H $\rightarrow$ L 75\%, H-1 $\rightarrow$ L+1 12\% \\
+30 & 3.37 & 0.0154 & 368.36 & H $\rightarrow$ L 58\%, H-1 $\rightarrow$ L+1 17\%, H-2 $\rightarrow$ L+2 12\%, H-3 $\rightarrow$ L+3 10\% \\
+31 & 3.40 & 0.0412 & 364.57 & H $\rightarrow$ L 74\%, H-1 $\rightarrow$ L+1 12\% \\
+32 & 3.42 & 0.0105 & 362.00 & H $\rightarrow$ L 75\%, H-1 $\rightarrow$ L+1 13\% \\
+33 & 3.44 & 0.1274 & 360.94 & H $\rightarrow$ L 60\%, H-1 $\rightarrow$ L+1 22\% \\
+34 & 3.47 & 0.0116 & 357.57 & H $\rightarrow$ L 49\%, H-1 $\rightarrow$ L+1 30\%, H-2 $\rightarrow$ L+2 17\% \\
+35 & 3.48 & 0.0552 & 355.86 & H $\rightarrow$ L 42\%, H-1 $\rightarrow$ L+1 34\%, H-2 $\rightarrow$ L+2 15\% \\
+36 & 3.50 & 0.0483 & 354.53 & H $\rightarrow$ L 58\%, H-1 $\rightarrow$ L+1 20\%, H-2 $\rightarrow$ L+2 10\% \\
+37 & 3.51 & 0.0281 & 353.10 & H $\rightarrow$ L 89\% \\
+38 & 3.52 & 0.1476 & 352.28 & H $\rightarrow$ L 67\%, H-1 $\rightarrow$ L+1 23\% \\
+39 & 3.52 & 0.0710 & 352.09 & H $\rightarrow$ L 48\%, H-1 $\rightarrow$ L+1 27\%, H-2 $\rightarrow$ L+2 11\% \\
+40 & 3.54 & 0.0146 & 350.43 & H $\rightarrow$ L 83\% \\
+41 & 3.55 & 0.0399 & 349.00 & H $\rightarrow$ L 72\%, H-1 $\rightarrow$ L+1 21\% \\
+42 & 3.56 & 0.0074 & 348.07 & H $\rightarrow$ L 50\%, H-1 $\rightarrow$ L+1 26\%, H-2 $\rightarrow$ L+2 12\% \\
+43 & 3.60 & 0.0030 & 344.25 & H $\rightarrow$ L 37\%, H-1 $\rightarrow$ L+1 29\%, H-2 $\rightarrow$ L+2 20\%, H-3 $\rightarrow$ L+3 11\% \\
+44 & 3.61 & 0.0686 & 343.61 & H $\rightarrow$ L 43\%, H-1 $\rightarrow$ L+1 30\%, H-2 $\rightarrow$ L+2 20\% \\
+45 & 3.62 & 0.0079 & 342.47 & H $\rightarrow$ L 90\% \\
+46 & 3.65 & 0.0225 & 339.48 & H $\rightarrow$ L 44\%, H-1 $\rightarrow$ L+1 40\% \\
+47 & 3.81 & 0.0221 & 325.46 & H $\rightarrow$ L 83\% \\
+48 & 3.84 & 0.0912 & 322.95 & H $\rightarrow$ L 45\%, H-1 $\rightarrow$ L+1 34\%, H-2 $\rightarrow$ L+2 17\% \\
+49 & 3.85 & 0.0312 & 322.19 & H $\rightarrow$ L 56\%, H-1 $\rightarrow$ L+1 30\% \\
+50 & 3.85 & 0.0786 & 321.96 & H $\rightarrow$ L 70\%, H-1 $\rightarrow$ L+1 18\% \\
+\hline
+\end{tabular}
+\end{center} }
+\vspace{-0.2cm}
+\end{table} \newpage \noindent
+
+\begin{table}[H]
+\caption{NTOs del aceptor BTP-4F-A3EH}
+\label{table:R25B-8} \vspace{-0.5cm}
+{\footnotesize
+\begin{center} 
+\begin{tabular}{ccccc}
+\hline
+EE & Energía (eV) & $f$ & $\lambda$ (nm) & Configuración \\ \hline
+1 & 1.66 & 2.0499 & 747.14 & H $\rightarrow$ L 100\% \\
+2 & 1.95 & 0.1212 & 637.35 & H $\rightarrow$ L 94\% \\
+3 & 2.20 & 0.2214 & 563.68 & H $\rightarrow$ L 93\% \\
+4 & 2.26 & 0.1264 & 548.07 & H $\rightarrow$ L 97\% \\
+5 & 2.30 & 0.0219 & 539.24 & H $\rightarrow$ L 74\%, H-1 $\rightarrow$ L+1 25\% \\
+6 & 2.35 & 0.0973 & 527.86 & H $\rightarrow$ L 71\%, H-1 $\rightarrow$ L+1 27\% \\
+7 & 2.39 & 0.4526 & 518.15 & H $\rightarrow$ L 51\%, H-1 $\rightarrow$ L+1 48\% \\
+8 & 2.44 & 0.0113 & 508.73 & H $\rightarrow$ L 97\% \\
+9 & 2.51 & 0.1465 & 493.03 & H $\rightarrow$ L 97\% \\
+10 & 2.61 & 0.0126 & 474.76 & H $\rightarrow$ L 98\% \\
+11 & 2.66 & 0.0150 & 466.73 & H $\rightarrow$ L 97\% \\
+12 & 2.75 & 0.0157 & 451.34 & H $\rightarrow$ L 95\% \\
+13 & 2.80 & 0.0393 & 443.58 & H $\rightarrow$ L 96\% \\
+14 & 2.84 & 0.0578 & 436.62 & H $\rightarrow$ L 95\% \\
+15 & 2.90 & 0.0429 & 428.19 & H $\rightarrow$ L 87\%, H-1 $\rightarrow$ L+1 10\% \\
+16 & 2.91 & 0.0113 & 426.49 & H $\rightarrow$ L 85\%, H-1 $\rightarrow$ L+1 11\% \\
+17 & 2.95 & 0.0051 & 420.98 & H $\rightarrow$ L 96\% \\
+18 & 2.99 & 0.0076 & 414.71 & H $\rightarrow$ L 77\%, H-1 $\rightarrow$ L+1 17\% \\
+19 & 2.99 & 0.0206 & 414.28 & H $\rightarrow$ L 67\%, H-1 $\rightarrow$ L+1 23\% \\
+20 & 3.03 & 0.0122 & 408.73 & H $\rightarrow$ L 86\%, H-1 $\rightarrow$ L+1 12\% \\
+21 & 3.07 & 0.0529 & 404.25 & H $\rightarrow$ L 91\% \\
+22 & 3.09 & 0.0019 & 400.73 & H $\rightarrow$ L 96\% \\
+23 & 3.15 & 0.0315 & 393.80 & H $\rightarrow$ L 92\% \\
+24 & 3.21 & 0.0799 & 385.69 & H $\rightarrow$ L 92\% \\
+25 & 3.26 & 0.0471 & 380.49 & H $\rightarrow$ L 86\% \\
+26 & 3.26 & 0.0038 & 379.93 & H $\rightarrow$ L 72\%, H-1 $\rightarrow$ L+1 26\% \\
+27 & 3.30 & 0.0067 & 375.88 & H $\rightarrow$ L 72\%, H-1 $\rightarrow$ L+1 25\% \\
+28 & 3.31 & 0.0153 & 374.42 & H $\rightarrow$ L 65\%, H-1 $\rightarrow$ L+1 25\% \\
+29 & 3.35 & 0.0049 & 369.97 & H $\rightarrow$ L 68\%, H-1 $\rightarrow$ L+1 17\% \\
+30 & 3.36 & 0.0032 & 368.92 & H $\rightarrow$ L 44\%, H-1 $\rightarrow$ L+1 29\%, H-2 $\rightarrow$ L+2 16\% \\
+31 & 3.38 & 0.0045 & 367.26 & H $\rightarrow$ L 51\%, H-1 $\rightarrow$ L+1 25\%, H-2 $\rightarrow$ L+2 12\% \\
+32 & 3.39 & 0.0216 & 365.78 & H $\rightarrow$ L 78\%, H-1 $\rightarrow$ L+1 13\% \\
+33 & 3.42 & 0.0550 & 362.13 & H $\rightarrow$ L 62\%, H-1 $\rightarrow$ L+1 21\%, H-2 $\rightarrow$ L+2 10\% \\
+34 & 3.44 & 0.1286 & 360.15 & H $\rightarrow$ L 60\%, H-1 $\rightarrow$ L+1 22\% \\
+35 & 3.46 & 0.0091 & 357.94 & H $\rightarrow$ L 42\%, H-1 $\rightarrow$ L+1 34\%, H-2 $\rightarrow$ L+2 17\% \\
+36 & 3.48 & 0.0566 & 355.78 & H $\rightarrow$ L 33\%, H-1 $\rightarrow$ L+1 29\%, H-2 $\rightarrow$ L+2 20\%, H-3 $\rightarrow$ L+3 15\% \\
+37 & 3.50 & 0.0228 & 354.14 & H $\rightarrow$ L 74\%, H-1 $\rightarrow$ L+1 13\% \\
+38 & 3.52 & 0.2008 & 352.55 & H $\rightarrow$ L 93\% \\
+39 & 3.53 & 0.0287 & 351.66 & H $\rightarrow$ L 83\%, H-1 $\rightarrow$ L+1 13\% \\
+40 & 3.54 & 0.0066 & 350.71 & H $\rightarrow$ L 73\% \\
+41 & 3.54 & 0.0341 & 349.81 & H $\rightarrow$ L 71\%, H-1 $\rightarrow$ L+1 18\% \\
+42 & 3.55 & 0.0162 & 348.80 & H $\rightarrow$ L 47\%, H-1 $\rightarrow$ L+1 27\%, H-2 $\rightarrow$ L+2 10\% \\
+43 & 3.58 & 0.0013 & 346.11 & H $\rightarrow$ L 59\%, H-1 $\rightarrow$ L+1 15\%, H-2 $\rightarrow$ L+2 15\% \\
+44 & 3.60 & 0.0237 & 344.36 & H $\rightarrow$ L 57\%, H-1 $\rightarrow$ L+1 32\% \\
+45 & 3.60 & 0.0418 & 343.95 & H $\rightarrow$ L 51\%, H-1 $\rightarrow$ L+1 21\%, H-2 $\rightarrow$ L+2 19\% \\
+46 & 3.65 & 0.0097 & 339.85 & H $\rightarrow$ L 45\%, H-1 $\rightarrow$ L+1 40\% \\
+47 & 3.72 & 0.0226 & 333.70 & H $\rightarrow$ L 97\% \\
+48 & 3.79 & 0.0045 & 327.54 & H $\rightarrow$ L 93\% \\
+49 & 3.82 & 0.0245 & 324.50 & H $\rightarrow$ L 82\% \\
+50 & 3.83 & 0.0987 & 323.75 & H $\rightarrow$ L 69\%, H-1 $\rightarrow$ L+1 17\% \\
+\hline
+\end{tabular}
+\end{center} }
+\vspace{-0.2cm}
+\end{table} \newpage \noindent
+
+\begin{table}[H]
+\caption{NTOs del aceptor BTP-4F-NC}
+\label{table:R25B-9} \vspace{-0.5cm}
+{\footnotesize
+\begin{center} 
+\begin{tabular}{ccccc}
+\hline
+EE & Energía (eV) & $f$ & $\lambda$ (nm) & Configuración \\ \hline
+1 & 1.67 & 2.0183 & 744.16 & H $\rightarrow$ L 100\% \\
+2 & 1.95 & 0.1279 & 637.30 & H $\rightarrow$ L 95\% \\
+3 & 2.23 & 0.1380 & 556.21 & H $\rightarrow$ L 94\% \\
+4 & 2.26 & 0.1295 & 548.72 & H $\rightarrow$ L 98\% \\
+5 & 2.31 & 0.0133 & 537.52 & H $\rightarrow$ L 59\%, H-1 $\rightarrow$ L+1 41\% \\
+6 & 2.39 & 0.3934 & 517.78 & H $\rightarrow$ L 59\%, H-1 $\rightarrow$ L+1 39\% \\
+7 & 2.40 & 0.2533 & 516.97 & H $\rightarrow$ L 76\%, H-1 $\rightarrow$ L+1 21\% \\
+8 & 2.46 & 0.0028 & 503.53 & H $\rightarrow$ L 93\% \\
+9 & 2.53 & 0.1556 & 490.99 & H $\rightarrow$ L 96\% \\
+10 & 2.64 & 0.0021 & 469.12 & H $\rightarrow$ L 99\% \\
+11 & 2.71 & 0.0055 & 457.84 & H $\rightarrow$ L 96\% \\
+12 & 2.76 & 0.0175 & 449.23 & H $\rightarrow$ L 94\% \\
+13 & 2.84 & 0.0449 & 436.17 & H $\rightarrow$ L 86\%, H-1 $\rightarrow$ L+1 12\% \\
+14 & 2.87 & 0.0454 & 432.21 & H $\rightarrow$ L 85\%, H-1 $\rightarrow$ L+1 13\% \\
+15 & 2.93 & 0.0127 & 422.49 & H $\rightarrow$ L 57\%, H-1 $\rightarrow$ L+1 38\% \\
+16 & 2.94 & 0.0145 & 422.23 & H $\rightarrow$ L 60\%, H-1 $\rightarrow$ L+1 36\% \\
+17 & 2.94 & 0.0394 & 421.38 & H $\rightarrow$ L 94\% \\
+18 & 2.99 & 0.0236 & 414.95 & H $\rightarrow$ L 92\% \\
+19 & 3.06 & 0.0098 & 404.86 & H $\rightarrow$ L 92\% \\
+20 & 3.11 & 0.0583 & 398.82 & H $\rightarrow$ L 93\% \\
+21 & 3.12 & 0.0019 & 396.90 & H $\rightarrow$ L 96\% \\
+22 & 3.16 & 0.0264 & 391.97 & H $\rightarrow$ L 93\% \\
+23 & 3.23 & 0.1095 & 384.03 & H $\rightarrow$ L 91\% \\
+24 & 3.28 & 0.0017 & 377.68 & H $\rightarrow$ L 92\% \\
+25 & 3.29 & 0.0023 & 376.78 & H $\rightarrow$ L 90\% \\
+26 & 3.31 & 0.0273 & 374.63 & H $\rightarrow$ L 95\% \\
+27 & 3.33 & 0.0161 & 372.14 & H $\rightarrow$ L 51\%, H-1 $\rightarrow$ L+1 41\% \\
+28 & 3.37 & 0.0055 & 367.94 & H $\rightarrow$ L 50\%, H-1 $\rightarrow$ L+1 31\%, H-2 $\rightarrow$ L+2 12\% \\
+29 & 3.38 & 0.0017 & 367.07 & H $\rightarrow$ L 37\%, H-1 $\rightarrow$ L+1 27\%, H-2 $\rightarrow$ L+2 14\%, H-3 $\rightarrow$ L+3 12\% \\
+30 & 3.41 & 0.0002 & 363.76 & H $\rightarrow$ L 81\% \\
+31 & 3.43 & 0.0126 & 361.44 & H $\rightarrow$ L 66\%, H-1 $\rightarrow$ L+1 16\%, H-2 $\rightarrow$ L+2 14\% \\
+32 & 3.44 & 0.0244 & 360.77 & H $\rightarrow$ L 75\%, H-1 $\rightarrow$ L+1 15\% \\
+33 & 3.45 & 0.1588 & 359.49 & H $\rightarrow$ L 56\%, H-1 $\rightarrow$ L+1 19\%, H-2 $\rightarrow$ L+2 10\% \\
+34 & 3.49 & 0.0381 & 355.47 & H $\rightarrow$ L 43\%, H-1 $\rightarrow$ L+1 25\%, H-2 $\rightarrow$ L+2 24\% \\
+35 & 3.49 & 0.0571 & 354.91 & H $\rightarrow$ L 46\%, H-1 $\rightarrow$ L+1 28\%, H-2 $\rightarrow$ L+2 15\% \\
+36 & 3.51 & 0.0444 & 353.14 & H $\rightarrow$ L 65\%, H-1 $\rightarrow$ L+1 20\% \\
+37 & 3.52 & 0.2059 & 351.80 & H $\rightarrow$ L 95\% \\
+38 & 3.54 & 0.0012 & 349.91 & H $\rightarrow$ L 82\%, H-1 $\rightarrow$ L+1 10\% \\
+39 & 3.56 & 0.0108 & 348.52 & H $\rightarrow$ L 40\%, H-1 $\rightarrow$ L+1 21\%, H-2 $\rightarrow$ L+2 18\%, H-3 $\rightarrow$ L+3 17\% \\
+40 & 3.57 & 0.0342 & 347.13 & H $\rightarrow$ L 46\%, H-1 $\rightarrow$ L+1 21\%, H-2 $\rightarrow$ L+2 16\%, H-3 $\rightarrow$ L+3 11\% \\
+41 & 3.57 & 0.0420 & 346.85 & H $\rightarrow$ L 47\%, H-1 $\rightarrow$ L+1 39\% \\
+42 & 3.59 & 0.0031 & 345.00 & H $\rightarrow$ L 79\%, H-1 $\rightarrow$ L+1 10\% \\
+43 & 3.60 & 0.0052 & 344.47 & H $\rightarrow$ L 43\%, H-1 $\rightarrow$ L+1 32\%, H-2 $\rightarrow$ L+2 15\% \\
+44 & 3.61 & 0.0689 & 343.82 & H $\rightarrow$ L 64\%, H-1 $\rightarrow$ L+1 16\%, H-2 $\rightarrow$ L+2 11\% \\
+45 & 3.64 & 0.0081 & 340.97 & H $\rightarrow$ L 67\%, H-1 $\rightarrow$ L+1 14\% \\
+46 & 3.65 & 0.0178 & 339.70 & H $\rightarrow$ L 47\%, H-1 $\rightarrow$ L+1 39\% \\
+47 & 3.84 & 0.0780 & 322.99 & H $\rightarrow$ L 76\%, H-1 $\rightarrow$ L+1 17\% \\
+48 & 3.84 & 0.1487 & 322.65 & H $\rightarrow$ L 63\%, H-1 $\rightarrow$ L+1 18\%, H-2 $\rightarrow$ L+2 13\% \\
+49 & 3.86 & 0.1196 & 321.49 & H $\rightarrow$ L 45\%, H-1 $\rightarrow$ L+1 30\%, H-2 $\rightarrow$ L+2 21\% \\
+50 & 3.86 & 0.0037 & 320.91 & H $\rightarrow$ L 45\%, H-1 $\rightarrow$ L+1 37\% \\
+\hline
+\end{tabular}
+\end{center} }
+\vspace{-0.2cm}
+\end{table} \newpage 
+\section{Propiedades Electrónicas y Estructurales} 
+Los orbitales de frontera HOMO y LUMO del sistema de aceptores se muestra en las Figuras \ref{R25B:5} y \ref{R25B:6}. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth,height=0.78\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/hl-1.png}
+   \caption{Orbitales moleculares de frontera: HOMO y LUMO, de los aceptores BTP-4F-T2C8, BTP-4F-T2EH y BTP-4F-T3EH}
+    \label{R25B:5} %Esto genera un numero a mi etiqueta
+\end{figure} 
+\noindent Se puede apreciar que las energías del LUMO respetan la siguiente tendencia: (T2C8, T2EH)>(AC8, A2EH)>T3EH>NC>A3EH. Sumado con los desplazamientos hipsocrómicos de los picos secundarios mostrados en la Figura \ref{R25B:4}, estas variaciones son producto de la intercepción en la comunicación electrónica entre el \textit{core} y las unidades terminales, el cuál es causado por una parte, a la inclusión de un mayor impedimento estérico generado por las cadenas laterales, y por otra, a la coplanaridad mejorada de la molécula \cite{chai2020enhanced}. Aunado a lo anterior, estos efectos impulsan mejores interacciones intermoleculares al mismo tiempo que se fomenta un bloqueo en el número de conformaciones rotacionales accesibles por la molécula \cite{tian2024recent}. Para comprobar de mejor manera lo anterior, se procedió a hacer un análisis estructural del sistema obteniendo la planaridad MPP y el desorden torsional del sistema de aceptores.  El MPP (\textit{Molecular Planarity Parameter}) esta definido por la siguiente expresión: 
+\begin{equation}
+\text{MPP} = \sqrt{\frac{1}{N} \sum_{i=1}^N d_i^2}
+\end{equation} 
+\noindent Donde $N$ es el número de átomos y $d_{i}$ es la distancia perpendicular del centro de masa del átomo $i$ al plano de ajuste. Mientras más cercano es el MPP a cero, más plana es su geometría molecular. Por otro lado, el desorden torsional se ha calculado como el promedio de los ángulos diedros presentados en la Figura \ref{R25B:7}, con la siguiente expresión \cite{wang2025impact}:
+\begin{equation}
+\bar{\theta}= \frac{\theta_1+\theta_2+\theta_3+\theta_4}{4}
+\end{equation} \vspace{-0.5cm}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth,height=0.9\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/hl-2.png}
+   \caption{Orbitales moleculares de frontera: HOMO y LUMO, de los aceptores BTP-4F-AC8, BTP-4F-A2EH, BTP-4F-A3EH y BTP-4F-NC}
+    \label{R25B:6} %Esto genera un numero a mi etiqueta
+\end{figure} 
+\noindent Se aprecia que la planaridad MPP del sistema de aceptores es ligeramente variable, Tabla \ref{table:R25B-10}, siendo el BTP-4F-NC la molécula con la menor planaridad comparado con los otros seis candidatos del sistema. Asimismo, se demuestra que el desorden torsional es casi equivalente en todos los aceptores a excepción del T3EH y el A3EH, lo cuál suma valor a la premisa de que hay una mayor influencia de las cadenas alquílicas cuando se cambian de posición en el anillo de tiofeno. Los desordenes torsionales pequeños promueven el traslape de orbitales tipo $\pi$ entre los planos conjugados formados por la molécula, promoviendo: i) el acoplamiento orbital entre fracciones vecinas, lo cuál mejora el $V_{oc}$ y ii) reduce pérdidas no radiativas \cite{wang2025impact}.
+\begin{table}[H] %La h es para decirle que coloque la tabla con el texto
+\caption{Planaridad MPP y desorden torsional del sistema de aceptores}
+\label{table:R25B-10} \vspace{-0.5cm}
+\begin{center} 
+\begin{tabular}{ccc}
+\hline
+Aceptor & MPP  & $\bar{\theta}$ \\ \hline
+BTP-4F-T2C8 &  2.479 &  157.77\\
+BTP-4F-T2EH & 2.489 & 157.97\\
+BTP-4F-T3EH & 2.455 & 65.76 \\
+BTP-4F-AC8 & 2.493 & 156.44 \\
+BTP-4F-A2EH & 2.512 & 157.36 \\
+BTP-4F-A3EH & 2.573 & 65.24 \\
+BTP-4F-NC & 2.638 & 155.83  \\ \hline
+\end{tabular}
+\end{center}
+\vspace{-0.2cm}
+\end{table} 
+\noindent Resulta relevante que a pesar de este menor desorden torsional, la distribución del  HOMO y LUMO en el sistema de aceptores es altamente similar. Por su parte, cuando se observan los valores de $\lambda_{max}$ de la zona A y B del espectro, Tabla \ref{table:R25B-2}, los valores de $\lambda_{max}^A$ varían ligeramente como máximo 4 nm. En cambio, los valores de $\lambda_{max}^B$ varían de forma más significativa entre 7-15 nm. Resulta relevante que el T2EH presenta el pico máximo de la zona B más desplazado hacia el rojo, siendo que éste es el aceptor con mayor $V_{oc}$ registrado experimentalmente, véase la Tabla \ref{table:i3}. Mientras que al separar una de las cadenas alquílicas como el caso de los aceptores AC8, A2EH y A3EH, no hay grandes discrepancias en $\lambda_{max}^B$. Esta observación sugiere que la asimetría causada en la molécula es capaz de influir en el voltaje $V_{oc}$ del sistema. Para comprobar estas premisas, se calcularon las afinidades electrónicas del sistema de aceptores, la transferencia de carga intramolecular por medio del método IFCT (\textit{interfragment charge transfer}), la matriz de densidad de transiciones y se hizo un análisis de estados excitados. Estos últimos tres cálculos se llevaron a cabo empleando Multiwfn \cite{lu2024comprehensive}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth,height=0.4\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/Diedrals.png}
+   \caption{Ángulos diedros implementados para el cálculo del desorden torsional}
+    \label{R25B:7} %Esto genera un numero a mi etiqueta
+\end{figure}
+\subsection{Afinidad electrónica}
+La afinidad electrónica se define como la pérdida energética de una molécula cuando recibe un electrón, y por tanto, refleja la capacidad de una determinada sustancia para aceptar carga. También se obtuvieron los potenciales de ionización con el fin de proporcionar el $E_{gap}$ fundamental del material, donde $E_+$ es la energía vertical de la molécula en estado catiónico. \vspace{-0.5cm}
+\begin{gather}
+EA=[E_0-E_-] ,\\ 
+IP=[E_+-E_0] , \\ 
+E_{gap}=IP-EA ,
+\end{gather} 
+siendo que cuanto mayor es la afinidad electrónica, la sustancia posee un poder elctroaceptor superior. Los valores de $EA$ obtenidos del sistema de aceptores se visualizan en la Tabla \ref{table:R25B-11}.
+\begin{table}[H] %La h es para decirle que coloque la tabla con el texto
+\caption{Afinidades electrónicas del sistema de aceptores}
+\label{table:R25B-11} \vspace{-0.5cm}
+\begin{center} 
+\begin{tabular}{ccccc}
+\hline
+Aceptor & $EA$ (eV) & $IP$ (eV) & $E_{gap}$ (eV) & $E_B$ (meV) \\ \hline
+BTP-4F-T2C8 &  3.73 & 5.75 & 2.01 & 340  \\
+BTP-4F-T2EH & 3.73 & 5.75 & 2.01 & 330\\
+BTP-4F-T3EH & 3.76 & 5.76 & 1.99  & 330\\
+BTP-4F-AC8 &  3.75 &  5.76 & 2.01 & 340 \\
+BTP-4F-A2EH & 3.75 & 5.76 & 2.01 & 340 \\
+BTP-4F-A3EH & 3.78 & 5.78 & 1.99 & 330\\
+BTP-4F-NC & 3.77 & 5.78 & 2.00 & 330\\ \hline
+\end{tabular}
+\end{center}
+\vspace{-0.2cm}
+\end{table}
+\noindent La tendencia sugiere que la asimetría de las cadenas laterales puede modular ligeramente el poder electroaceptor del sistema, observándose que la afinidad electrónica aumenta de 3.73 eV en el caso del T2C8, hasta en un 3.78 eV como se ve para el A3EH. Una mayor capacidad de aceptación de electrones incrementa la probabilidad de disociar el excitón, lo cual resulta en un beneficio para la eficiencia de la celda fotovoltaica \cite{kiven2024enhancing}. Además, los $E_{gap}$ fundamentales se encuentran en un rango equivalente oscilando apenas entre 0.01 - 0.02 eV.  \\ \\
+Debido a la baja constante dieléctrica de los materiales orgánicos ($\epsilon \approx 3 − 5$) y a las interacciones electrón-electrón y electrón-vibración, la disociación del excitón en cargas libres es improbable bajo condiciones ambientales \cite{scharber2013efficiency, bredas2014mind}. Estas limitaciones son responsables de que la energía de unión del excitón ($E_B$) en materiales orgánicos sea considerablemente alta. Esta es estrictamente determinada por la diferencia entre la energía de la banda prohibida menos la energía del primer estado excitado, o también conocida como $E_{opt}$ \cite{bisquertcap3, mubashar2021designing}:
+\begin{equation}
+E_{B}=E_{gap}-E_{opt} .
+\end{equation} 
+Las energías de unión del excitón se presentan en la última columna de la Tabla \ref{table:R25B-11}. A su vez, esta energía es inversamente proporcional a la constante dieléctrica del material y esta aumenta de manera lineal con la polarizabilidad de la molécula  \cite{wang2022principles}. \\ \\ La arquitectura A–D–A y la fuerte transferencia de carga intramolecular en los FREAs generan grandes momentos cuadrupolares y una alta polarización, lo cual favorece constantes dieléctricas superiores. Adicionalmente, las fuerzas de atracción cuadrupolar entre moléculas contiguas eliminan la degeneración energética y promueven la separación de cargas intermoleculares, dando como resultado,  una distribución de los portadores de carga asociados a excitones de baja energía en moléculas adyacentes \cite{liu2020charge}. Este momento cuadrupolar, además es capaz de modular las interacciones electrostáticas existentes entre dímeros A/A y A/D, disminuyendo las pérdidas de energía implicadas en la generación de carga \cite{dai2025modulation}. \\ \\
+En la Figura \ref{R25B:8} se presentan los momentos dipolares y cuadrupolares del sistema BTP-4F-XXXX. Es notorio que existe una diferencia significativa entre las moléculas que cuentan con ambas cadenas alquílicas y las que solo poseen una o ninguna. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth,height=0.4\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/momentos.png}
+   \caption{Momentos dipolares y cuadrupolares del sistema BTP-4F-XXXX}
+    \label{R25B:8} %Esto genera un numero a mi etiqueta
+\end{figure} 
+\noindent El sistema T2C8, T2EH y T3EH presentan un momento dipolar y cuadrupolar en un orden mayor de magnitud que con respecto al sistema AC8, A2EH, A3EH y NC. Un momento cuadrupolar mayor induce interacciones electrostáticas más fuertes \cite{dai2025modulation}, y a la par es capaz de optimizar la interface de unión entre donador y aceptor. La tendencia va en incremento en T3EH>T2EH>T2C8>A3EH>A2EH>AC8>NC, sugiriendo de este modo, que las cadenas laterales juegan un papel primordial en la modulación de las interacciones no covalentes. Por otra parte, las energías de unión del excitón tienen el siguiente orden: (T2C8, AC8, A2EH)>(T2EH, T3EH, A3EH, NC), siendo que las moléculas que poseen de una o dos cadenas alquílicas sustituidas en el carbono $\alpha$ del anillo de tiofeno presentan una probabilidad menor de disociar el excitón. \\ \\
+El desorden torsional inducido por las cadenas laterales juega un rol primordial en el transporte intramolecular de carga. Una geometría excesivamente distorsionada reduce los apilamientos tipo $\pi-\pi$ y suprime el transporte electrónico \cite{zhang2025correlation}. Para explorar los efectos que ejercen las cadenas laterales sobre esta última característica, se calculó la transferencia de carga interfragmentaria por medio del método IFCT de Multiwfn. \\ \\
+El análisis de la matriz de transferencia de carga interfragmentaria (IFCT) constituye una herramienta robusta para cuantificar el flujo neto de electrones entre dominios moleculares específicos, facilitando la identificación de regiones susceptibles de establecer interacciones electrostáticas de largo alcance inducidas por la excitación electrónica. Como se ilustra en la Figura \ref{R25B:9} la escala cromática codifica la naturaleza del intercambio: las tonalidades rojas delimitan  a los fragmentos con una transferencia neta positiva (carácter donador), mientras que las azules indican un balance neto negativo (carácter aceptor). Dado que la magnitud y el signo de este flujo determinan la direccionalidad de la redistribución de carga, el análisis revela la polarización local del sistema en el estado excitado, donde los procesos de transferencia de carga (CT) predominan sobre excitaciones locales (LE). Además, las regiones de saturación cromática prominente no solo señalan los centros de mayor actividad electrónica, sino que definen sitios críticos para la modulación del transporte de carga, actuando potencialmente como centros de atracción o localización de portadores de carga \cite{basuroy2023axial}. Las mapas IFCT del sistema de aceptores BTP-4F-NC, BTP-4F-T2C8, BTP-4F-T2EH y BTP-4F-T3EH se ilustran en la Figura \ref{R25B:9}. A primera vista, la transferencia de carga interfragmentaria se distribuye de manera equivalente sobre el primer estado excitado, habiendo una alta actividad de intercambio electrónico entre los fragmentos (1, 2) y (3, 4 ,5) los cuales corresponden a las zonas denotadas por la Figura \ref{R25B:11}. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth,height=0.9\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/IFCT-all.pdf}
+   \caption{Diagramas de transferencia de carga interfragmentaria (IFCT) a) BTP-4F-NC, b) BTP-4F-T2C8, c) BTP-4F-T2EH y d) BTP-4F-T3EH}
+    \label{R25B:9} %Esto genera un numero a mi etiqueta
+\end{figure} 
+\noindent A su vez, los grupos laterales compuestos por los anillos de tiofeno y las cadenas alquílicas, los cuales estan denotados por los fragmentos (6, 7) tienen una participación paupérrima en la transferencia neta de carga, siendo casi nula. No obstante, se puede apreciar que la distribución electrónica en niveles más energéticos (diagramas de la segunda columna), como lo es en el caso del sexto estado excitado del BTP-4F-NC, el fragmento (7) presenta una alta actividad de intercambio electrónico con los fragmentos (1, 2, 3, 4). Por su parte, la triada de isómeros: T2C8, T2EH y T3EH, manifiestan un alto canje de electrones que es equivalente entre las fracciones (1, 2) y (3, 4, 5). Mientras que los grupos laterales (6, 7), no intervienen de manera significativa. Es evidente que la transferencia de carga reflejada en los diagramas IFCT de la última columna presentan un patrón semejante. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth,height=0.35\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/fragmentos.pdf}
+   \caption{Definición de fragmentos del sistema de aceptores simétricos}
+    \label{R25B:11} %Esto genera un numero a mi etiqueta
+\end{figure}
+\noindent Primeramente, en los diagramas de la segunda columna se muestran a las cadenas laterales, fragmento (6), con una mayor participación en el canje electrónico con las fracciones (1, 2, 3, 4). Esta tendencia es pareja en los tres aceptores AC8, A2EH y A3EH, siendo que el grupo lateral que intercambia carga con estas fracciones corresponde al anillo de tiofeno que no tiene sustituida la cadena alquílica, véase la Figura \ref{R25B:12}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth,height=0.7\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/IFCT-all-2.pdf}
+   \caption{Diagramas de transferencia de carga interfragmentaria (IFCT) a) BTP-4F-AC8, b) BTP-4F-A2EH y c) BTP-4F-A3EH}
+    \label{R25B:10} %Esto genera un numero a mi etiqueta
+\end{figure} 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth,height=0.35\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/fragmentos-2.pdf} 
+   \caption{Definición de fragmentos del sistema de aceptores asimétricos}
+    \label{R25B:12}%Esto genera un numero a mi etiqueta
+\end{figure}
+\noindent Aunado a lo anterior, en los estados excitados donde se presenta este intercambio se puede contemplar que el porcentaje de transiciones HOMO-1$\rightarrow$LUMO+1 es más elevado (>40\%). Esto sugiere que las cadenas alquílicas son capaces de modular la transferencia de carga interfragmentaria al tiempo que controlan la configuración de la transición.  \\ \\
+El tiempo de vida del estado excitado ($\tau$) es un parámetro crítico que influye directamente en la capacidad de transferencia de carga del material. Cuanto mayor es el tiempo de vida, mejor se vuelve el transporte de carga \cite{nalccakan2023computational}. El tiempo de vida del estado excitado se puede caracterizar con la siguiente expresión \cite{zahoor2023dft}:
+\begin{equation}
+    \tau=\frac{1.499}{f  E_{Ex}^{2}} ,
+\end{equation}
+donde $E_{EX}$ es la energía del estado excitado. En la Tabla \ref{table:R25B-12} se muestran los tiempos de vida de los estados excitados correspondientes a la banda principal (primer estado excitado) y a las dos bandas secundarias (zona A y zona B) del sistema de aceptores.
+\begin{table}[H] %La h es para decirle que coloque la tabla con el texto
+\caption{Tiempos de vida de estados excitados}
+\label{table:R25B-12} \vspace{-0.5cm}
+\begin{center} 
+\begin{tabular}{cccc}
+\hline
+Aceptor & BP (ns) & BA (ns) & BB (ns)  \\ \hline
+BTP-4F-T2C8   & 0.267 & 0.665 & 0.566\\
+BTP-4F-T2EH  & 0.266 & 0.637 & 0.549\\
+BTP-4F-T3EH  & 0.267 & 0.619 & 0.567\\
+BTP-4F-AC8  & 0.268 & 0.576  & 1.047\\
+BTP-4F-A2EH  & 0.270 & 0.551 & 0.820 \\
+BTP-4F-A3EH  & 0.265 & 0.580  & 0.602 \\
+BTP-4F-NC & 0.266 & 0.667 & 0.588\\ \hline
+\end{tabular}
+\end{center}
+\vspace{-0.2cm}
+\end{table}
+\noindent Los tiempos de vida de la banda principal (BP) presentan valores semejantes en el orden de los 0.26 ns. Mientras que la banda A (BA) oscila en valores de 0.5 a 0.6 ns. Sin embargo, la banda B (BB) experimenta una mayor variación entre los tiempos de vida del estado excitado correspondiente. El  BTP-4F-AC8 posee la excitación más prolongada, siendo de 1.047 ns, seguido del A2EH con 0.820 ns y por último el A3EH con 0.602 ns. Además, cabe señalar que de todo el sistema, estos últimos tres aceptores poseen de un tiempo de vida mayor de la banda BB con respecto a la banda BA. 
+\begin{table}[H]
+% He ajustado el caption para que refleje que son 3 bandas
+\caption{Porcentajes de transferencia de carga y transiciones locales para las tres bandas del sistema de aceptores}
+\label{table:R25B-13} 
+% \centering es mejor que \begin{center} para evitar espacio vertical extra no deseado
+\centering 
+% Ajustamos el tabular para 7 columnas: l (texto alineado a izq) y 6 c (centradas)
+\begin{tabular}{lcccccc} 
+\hline
+ & \multicolumn{2}{c}{BP} & \multicolumn{2}{c}{BA} & \multicolumn{2}{c}{BB} \\ \cline{2-7}
+Aceptor & \% CT & \% LE & \% CT & \% LE & \% CT & \% LE \\ \hline
+BTP-4F-T2C8 & 82.38 & 17.61 & 84.41 & 15.58 & 79.01 & 20.98 \\
+BTP-4F-T2EH & 82.40 & 17.95 & 84.57 & 15.46 & 79.07 & 20.92 \\
+BTP-4F-T3EH & 82.21 & 17.78 & 84.44 & 15.55 & 79.13 & 20.86 \\
+BTP-4F-AC8  & 82.46 & 17.53 & 84.20 & 15.80 & 78.97 & 21.02 \\
+BTP-4F-A2EH & 82.57 & 17.50 & 84.31 & 15.86 & 84.55 & 15.53 \\
+BTP-4F-A3EH & 82.23 & 17.76 & 84.22 & 15.77 & 80.07 & 19.92 \\
+BTP-4F-NC   & 82.34 & 17.65 & 84.74 & 15.25 & 79.55 & 20.44 \\ \hline
+\end{tabular}
+\end{table} 
+\noindent A su vez, el porcentaje de transferencia de carga (\% CT) de la banda BB (véase la Tabla \ref{table:R25B-13}) es incluso mayor que el manifestado sobre la banda principal BP para los aceptores A3EH y A2EH. Este resultado es producto de una disminución en las excitaciones locales de dicho estado excitado, siendo que el A2EH refleja un porcentaje \%LE de 15.53 \%, el cuál es el menor de entre todos los aceptores que conforman el sistema. Por otra parte, las bandas de los aceptores T3EH, T2EH, T2C8 y NC muestran tiempos de vida similares, siendo de al rededor de unos 0.2 ns para la banda BP, 0.6 ns para la banda BA y 0.5 ns para la banda BB. \\ \\ 
+La longitud del CT (\textit{Charge Transfer}) puede ser medida por la distancia que hay entre el centroide del hueco y del electrón en sus direcciones correspondientes. Esta distancia es caracterizada por el índice $D_{index}$ y es un indicador directo del radio del excitón formado en un estado excitado específico. Estas distancias pueden visualizarse en la Tabla \ref{table:R25B-14}. 
+\begin{table}[H] %La h es para decirle que coloque la tabla con el texto
+\caption{Indices $D_{index}$ para las tres bandas del sistema de aceptores}
+\label{table:R25B-14} \vspace{-0.5cm}
+\begin{center} 
+\begin{tabular}{cccc}
+\hline
+Aceptor & BP (\AA) & BA (\AA) & BB (\AA)  \\ \hline
+BTP-4F-T2C8   & 1.203 & 2.430 & 2.434\\
+BTP-4F-T2EH & 1.231 & 2.454 & 2.438 \\
+BTP-4F-T3EH & 1.225 & 2.406 & 2.413 \\
+BTP-4F-AC8  & 1.669 & 2.122 & 1.902\\
+BTP-4F-A2EH & 1.804 & 2.113 & 0.636 \\
+BTP-4F-A3EH & 1.269 & 2.150 & 2.324  \\
+BTP-4F-NC & 1.284 & 2.424 & 2.498 \\ \hline
+\end{tabular}
+\end{center}
+\vspace{-0.2cm}
+\end{table}
+\noindent En la banda prinicipal BP, el T2C8, T2EH, T3EH, A3EH y NC manifiestan un índice $D_{indez}$ de 1.2 \AA $\,$ aproximadamente. Mientras que el AC8 y el A2EH tienen los radios más grandes con 1.6 \AA $\,$ y 1.8 \AA $\,$ respectivamente. En la banda A, todos los aceptores muestran una distancia de separación del excitón de entre 2.1-2.4 \AA $\,$  y en la banda B, esta separación es similar a excepción del A2EH y del AC8, siendo este último el aceptor que presenta el índice $D_{index}$ más pequeño de todos. \\ \\
+Distancias más grandes pueden fomentar la separación eficiente del excitón y por tanto incrementar el flujo de transferencia de carga. Tal cómo se ilustra en la Figura \ref{R25B:13} a medida que el índice $D_{index}$ incrementa, el cociente entre los porcentajes \%CT/\%LE también lo hace. No obstante, algunos cocientes son más pequeños a longitudes de separación del excitón en el orden de 0.6 \AA $,$ y viceversa, cocientes de aproximadamente 3.7 presentes en radios de 2.5 \AA. $\,$Para explorar más a detalle estas variaciones, se obtuvieron las matrices de densidad de transiciones para cada una de las bandas de cada aceptor, Figura \ref{R25B:13}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth,height=0.35\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/CT-D.png} 
+   \caption{Relación \%CT/\%LE y $D_{index}$}
+    \label{R25B:13}%Esto genera un numero a mi etiqueta
+\end{figure}
+\noindent A diferencia de los mapas de transferencia de carga interfragmentaria, en estas gráficas se muestra la cantidad de transiciones electrónicas que surgen desde los fragmentos localizados sobre el eje horizontal y que terminan en niveles energéticos formados por los fragmentos ubicados en el eje vertical de los diagramas. Estos a su vez, aportan un panorama global de la coherencia del excitón, es decir,  reflejan la extensión espacial y temporal a lo largo de la cual un excitón es deslocalizado a través de múltiples moléculas o fragmentos de las mismas  \cite{saleem2021designing}. \\ \\ En la Figura \ref{R25B:14} se muestran las matrices de densidad de transiciones de tres bandas para el sistema de aceptores NC, T2C8, T2EH y T3EH. Es apreciable que cada aceptor presenta una coherencia del excitón única. Por una parte, el NC mantiene mayormente una densidad de transiciones que se reparte sobre el fragmento (1) en la banda principal. En este mismo primer estado excitado, el T2C8 manifiesta transiciones que se reparten mayormente entre el fragmento (6) hacia la fracción (3). Mientras que el T2EH mantiene una alta densidad sobre el fragmento (3). En el caso del T3EH, se aprecia una alta concentración de estas repartidas desde el fragmento (4) hacia la fracción (7). Con base en lo anterior, podemos clasificar las transiciones en locales cuando ocurren entre fracciones equivalentes y en transiciones de transferencia de carga cuando suceden entre fragmentos diferentes. Además, una alta densidad de transiciones se puede interpretar como una región que es favorecida con una alta concentración de electrones, los cuales, pueden transferirse hacia otros fragmentos como se aprecia en las Figuras  \ref{R25B:9} y \ref{R25B:10}. Tal como se destaca en el T2C8 y el T3EH, las cadenas laterales tienen una densidad altamente significativa de transiciones, fungiendo como un sitio espacial de recepción de electrones durante la primera transición. Los puntos que presentan una desviación notable en la Figura \ref{R25B:13} corresponden a los estados excitados compuestos por la banda B. A su vez se aprecia que las TDM que competen a esta banda (diagramas de la última columna de la Figura \ref{R25B:13}) todos se componen de una coherencia localizada sobre el fragmento (3). \\ \\
+A cuanto a las tres moléculas propuestas de forma teoría, el AC8, A2EH y A3EH, las matrices TDM se ilustran en la Figura \ref{R25B:15}. La coherencia del excitón en los estados señalados es equivalente sobre la primera banda. Mientras que en la segunda banda, se observa la presencia de una alta densidad de transiciones en un grupo alternativo en el A3EH denotado por el fragmento (9). Si se visualiza la variación del momento dipolar con respecto al estado basal $\Delta \mu$, Tabla \ref{table:R25B-15}. Esta variación brinda la capacidad de polarizabilidad de la molécula, mientras más grande sea esta variación y el momento cuadrupolar, se conduce a una mejor disociación de las cargas generadas \cite{wang2024physical}. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth,height=1\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/TDM-all.pdf} 
+   \caption{Matriz de densidad de transiciones de los aceptores NC, T2C8, T2EH y T3EH}
+    \label{R25B:14}%Esto genera un numero a mi etiqueta
+\end{figure}
+\begin{table}[H] %La h es para decirle que coloque la tabla con el texto
+\caption{$\Delta \mu$ respecto a las bandas BP, BA y BB}
+\label{table:R25B-15} \vspace{-0.5cm}
+\begin{center} 
+\begin{tabular}{cccc}
+\hline
+Aceptor & BP (Debye) & BA (Debye) & BB (Debye)  \\ \hline
+BTP-4F-T2C8 & 2.271 & 4.589 &  4.594 \\
+BTP-4F-T2EH & 2.325 & 4.639 & 4.611\\
+BTP-4F-T3EH  & 2.313 & 4.545 & 4.551\\
+BTP-4F-AC8  & 3.151 & 4.004 & 3.591\\
+BTP-4F-A2EH  & 3.408 & 3.992 & 1.203 \\
+BTP-4F-A3EH  & 2.396 & 4.061 & 4.403\\
+BTP-4F-NC & 2.425 & 4.578 & 4.728 \\ \hline
+\end{tabular}
+\end{center}
+\vspace{-0.2cm}
+\end{table}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth,height=0.7\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/R25B/TDM-all-2.pdf} 
+   \caption{Matriz de densidad de transiciones de los aceptores AC8, A2EH y A3EH}
+    \label{R25B:15}%Esto genera un numero a mi etiqueta
+\end{figure}
+
+

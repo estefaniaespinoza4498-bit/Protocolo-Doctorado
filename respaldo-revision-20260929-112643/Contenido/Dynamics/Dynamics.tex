@@ -1,0 +1,36 @@
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Large} % Este comando es para eliminar la aparición de "Capítulo N" en el PDF. Para emplear el formato de la tesis simplemente eliminamos la línea. 
+\chapter{Reporte Complejos}
+\section{Interacciones $\pi-\pi$}
+La estructura química de los materiales orgánicos implementados en celdas solares, se encuentra formada principalmente por una serie de anillos conjugados que están fusionados en un sistema ampliamente aromático. Especialmente, con este arreglo pueden surgir interacciones atractivas del tipo $\pi-\pi$ entre moléculas adyacentes. La naturaleza de estas fuerzas atractivas es de carácter dispersivo y electroestático con contribuciones por interacciones de van der Waals, dipolos inducidos y efectos del solvente \cite{hunter1990nature}. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth,height=0.3\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/Dynamics/quadrupole.pdf} 
+   \caption{Representación de la distribución de carga del benceno}
+    \label{Dy:1}%Esto genera un numero a mi etiqueta
+\end{figure} 
+\noindent De acuerdo con el modelo de Hunders y Sanders, la carga negativa parcial se distribuye de forma deslocalizada sobre los enlaces $\pi$ mientras que la carga parcial positiva se concentra sobre la periferia del anillo, tal como se puede apreciar en la  Figura \ref{Dy:1}. Este fenómeno produce un par dipolar conocido como momento cuadrupolar (\textit{quadrupole moment}) \cite{carlone2017physics},  el cuál produce dos acercamientos  fundamentales conocidos como \textit{T-shaped} y \textit{parallel-displaced} \cite{dias2024pi}, Figura \ref{Dy:2}.  \\ \\
+ En términos más estrictos, estas interacciones suceden cuando los electrones $\pi$ y el fragmento $\sigma$ superan las condiciones desfavorables de la repulsión electrónica. En detalle, el alcance espacial de estas interacciones en modelos simples como el benceno varia de entre 3.5-5 $\text{\AA}$  \cite{dias2024pi}. Aunado a lo anterior, la presencia de sustituyentes con una gran capacidad electroaceptora pueden llegar a polarizar la nube electrónica del sistema conjugado \cite{martinez2012rethinking}. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth,height=0.3\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/Dynamics/complex.pdf} 
+   \caption{Principales dimeros formados en anillos conjugados}
+    \label{Dy:2}%Esto genera un numero a mi etiqueta
+\end{figure} 
+\noindent El efecto anterior interpreta un papel sustancial en la formación de un tipo de dimero u otro. En el caso de los arquetipos más ampliamente estudiados: el benceno y el tolueno, se ha reportado experimentalmente por medio de difracción de neutrones, que la forma paralelo-desplazado es la interacción más favorable en distancias menores a 5 $\text{\AA}$, mientras que en separaciones más grandes los anillos aromáticos adyacentes son predominantemente perpendiculares, con dos átomos de H por molécula que se encuentran apuntando hacia los orbitales $\pi$  del otro vecino conjugado \cite{headen2010structure}. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth,height=0.4\textwidth]{~/Documentos/Protocolo-Doctorado/imagenes/Dynamics/stacking.png} 
+   \caption{Dimeros favorecidos en modelos aromáticos}
+    \label{Dy:3}%Esto genera un numero a mi etiqueta
+\end{figure} 
+\noindent En particular, se ha reportado que la mayor contribución a la energía de interacción $\pi-\pi$ entre sistemas conjugados proviene de efectos dispersivos \cite{salonen2011aromatic}. Las interacciones de dispersión pueden definirse empíricamente como la parte atractiva del potencial de interacción de van der Waals que hay entre dos moléculas que no se encuentran enlazadas de manera covalente o iónica. Estas interacciones también denominadas como fuerzas de dispersión de London, son resultado de la correlación electrónica de largo alcance en sistemas con varios electrones. Por ello, la descripción precisa de estos efectos es vital para conseguir una buena caracterización de las interacciones intermoleculares o no-covalentes \cite{grimme2016dispersion}. \\ \\
+Además de las interacciones $\pi-\pi$, un enfoque moderno sugiere modificar las propiedades de los sistemas $\pi$ por medio de la modulación de otro tipo de interacciones no covalentes. Estas interacciones son un grupo de fuerzas más débiles y cinéticamente lábiles \cite{haque2023non}. \newpage
+\section{Interacciones No Covalentes}
+Por un lado existen los enlaces tradicionales de hidrógeno, comúnmente denominados como puentes de hidrógeno, que constan de interacciones \ce{X-H$\cdots$X, X$=$F, O, N} \cite{haque2023non}. Estrictamente, aunque estas son de naturaleza electrostática, los enlaces muestran restricciones angulares mayores de lo que cabría esperar de interacciones puramente electrostáticas, lo que indica un traslape orbital y un carácter parcialmente covalente \cite{herschlag2018hydrogen}. En estudios de luminiscencia, las interacciones de hidrógeno restringen el movimiento vibracional y difusivo  entre un fósforo orgánico y una matriz sólida, causando que a temperatura ambiente el material presente fosforencencia \cite{kwon2014tailoring}. \\ \\ 
+Las pérdidas de energía no radiativas se originan principalmente en los procesos de recombinación de carga sin emisión de luz. Adicionalmente, los defectos estructurales, las impurezas y los desalineamientos entre los niveles de energía de los materiales aceptores y donadores contribuyen a aumentar estas pérdidas al generar niveles trampa. Además, la intensidad de los efectos de agregación molecular y el acoplamiento electrón-fonón amplifican dichos procesos. Por el contrario, si el material presenta una reducción en las rutas de recombinación no radiativa,  manteniendo una EQE considerable, la interfaz tendrá menores pérdidas no radiativas y, por ende, el desempeño incrementará. La influencia que tienen las interacciones sobre la luminiscencia del material las convierte en factores ideales para propiciar este objetivo \cite{wei2025reducing}. \\ \\
+Por otra parte, cuando un halógeno \textbf{X} es sustituido sobre un grupo R, se genera un sitio electrofílico al rededor de \textbf{X}, conocido como: $\sigma$ \textit{hole}. Esta región interacciona con una fracción rica en electrones situada en la misma molécula o en una adyacente, además de que posee un carácter hidrófobo \cite{kwon2014tailoring}. Este enlace de hidrógeno es no tradicional y comúnmente se compone por  arreglos: \ce{O$\cdots$H-C$_{sp^2}$}, \ce{N$\cdots$H-C$_{sp^2}$}, \ce{C-H$\cdots$ $\pi$}, \ce{C-F$\cdots$H-O} y \ce{C-F$\cdots$H-N}.
+
+
+
+

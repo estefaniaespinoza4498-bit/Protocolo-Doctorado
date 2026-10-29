@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Protocolo-revision.aux
+The style file: ieeetr.bst
+Database file #1: ref.bib
+Warning--empty journal in salvadorgenetica
+Warning--empty year in salvadorgenetica
+Warning--empty journal in roquefactores
+Warning--empty year in roquefactores
+Warning--empty journal in andrada2012nanotecnologia
+You've used 58 entries,
+            1876 wiz_defined-function locations,
+            823 strings with 18727 characters,
+and the built_in function-call counts, 18185 in all, are:
+= -- 1704
+> -- 1026
+< -- 0
++ -- 363
+- -- 305
+* -- 1389
+:= -- 2670
+add.period$ -- 61
+call.type$ -- 58
+change.case$ -- 53
+chr.to.int$ -- 0
+cite$ -- 63
+duplicate$ -- 922
+empty$ -- 1439
+format.name$ -- 305
+if$ -- 4360
+int.to.chr$ -- 0
+int.to.str$ -- 58
+missing$ -- 59
+newline$ -- 182
+num.names$ -- 58
+pop$ -- 138
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 702
+stack$ -- 0
+substring$ -- 996
+swap$ -- 457
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 153
+width$ -- 60
+write$ -- 598
+(There were 5 warnings)

@@ -1,0 +1,87 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Resumen}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Antecedentes}{4}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Dinámica Evolutiva del Serotipo 2 (DENV-2)}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Comportamiento Epidemiológico en México}{5}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Estructura Genómica del Virus del Dengue (DENV)}{6}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Arquitectura Molecular del Complejo Proteico NS2B-NS3}{8}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Mecanismo Catalítico e Inhibición Enzimática}{10}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Mecanismos de Transmisión}{11}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Fisiopatología Local y Viremia Sistémica}{12}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Inmunopatología del Dengue Secundario}{13}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Ciclo de Replicación Intracelular y Maduración Viral}{14}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Estrategias de Inhibición de la Proteasa NS2B-NS3 en DENV-2}{16}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Inhibidores alostéricos derivados de quinoxalina}{16}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Inhibidores Alostéricos (Benzotiazol y Benzofurano)}{17}{subsection.3.9.2}%
+\contentsline {subsection}{\numberline {3.9.3}Inhibidores Ortostéricos y Modulación Mecánica (Rigidificación)}{18}{subsection.3.9.3}%
+\contentsline {subsection}{\numberline {3.9.4}Tabla Comparativa de Inhibidores de la Proteasa NS2B-NS3}{19}{subsection.3.9.4}%
+\contentsline {section}{\numberline {3.10}Manifestaciones Clínicas}{19}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Tratamiento y Desafíos Terapéuticos en la Infección por DENV}{21}{subsection.3.10.1}%
+\contentsline {section}{\numberline {3.11}Fundamentos y Propiedades de la Nanotecnología}{21}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Nanopartículas Funcionalizadas e Interacción con Sistemas Biológicos}{22}{section.3.12}%
+\contentsline {subsection}{\numberline {3.12.1}Nanoestructuras de carbono}{22}{subsection.3.12.1}%
+\contentsline {subsection}{\numberline {3.12.2}Historia y Descubrimiento}{23}{subsection.3.12.2}%
+\contentsline {subsection}{\numberline {3.12.3}Propiedades Fisicoquímicas y Estructura Cristalina del C\textsubscript {60}}{24}{subsection.3.12.3}%
+\contentsline {section}{\numberline {3.13}Estrategias de Funcionalización Química}{26}{section.3.13}%
+\contentsline {subsubsection}{Fulereno con Glicina (C\textsubscript {60}--Gly): Síntesis y Caracterización Estructural}{27}{subsubsection*.3}%
+\contentsline {section}{\numberline {3.14}Química Cuántica y Teoría del Funcional de la Densidad (DFT)}{29}{section.3.14}%
+\contentsline {subsection}{\numberline {3.14.1}acoplamiento molecular, dinámica molecular y Evaluación de Actividad Biomédica}{31}{subsection.3.14.1}%
+\contentsline {chapter}{\numberline {4}Planteamiento del problema}{32}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Justificación}{33}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Hipótesis}{34}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Objetivos}{35}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Objetivo general}{35}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Objetivos particulares}{35}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Materiales y métodos}{36}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Construcción y optimización del sistema C\textsubscript {60}(Gly)\textsubscript {4}}{36}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Determinación de la reactividad local}{36}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Evaluación de la reactividad global y mapa de potencial electrostático}{37}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Acoplamiento molecular}{37}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Simulaciones de acoplamiento molecular con AutoDock Vina}{38}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Preparación del sistema y solvatación}{38}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Minimización de energía}{38}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Fases de equilibrio (NVT y NPT)}{39}{section.8.8}%
+\contentsline {section}{\numberline {8.9}Simulación de producción}{39}{section.8.9}%
+\contentsline {section}{\numberline {8.10}Procesamiento de trayectoria y análisis estructural}{39}{section.8.10}%
+\contentsline {chapter}{\numberline {9}Resultados}{40}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Identificación de propuestas regioquímicas}{40}{section.9.1}%
+\contentsline {subsubsection}{Análisis de energías relativas y control de reacción}{41}{subsubsection*.7}%
+\contentsline {section}{\numberline {9.2}Mecanismo de reacción y cálculo de los índices de reactividad local}{47}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Análisis de las adiciones secuenciales (C\textsubscript {60}(Gly)\textsubscript {2} a C\textsubscript {60}(Gly)\textsubscript {4})}{48}{section.9.3}%
+\contentsline {paragraph}{Segunda adición: C\textsubscript {60}(Gly)\textsubscript {2}}{48}{paragraph*.10}%
+\contentsline {paragraph}{Tercera adición: C\textsubscript {60}(Gly)\textsubscript {3}}{48}{paragraph*.11}%
+\contentsline {paragraph}{Cuarta adición: C\textsubscript {60}(Gly)\textsubscript {4}}{48}{paragraph*.12}%
+\contentsline {section}{\numberline {9.4}Análisis de descriptores de reactividad global (PI y AE)}{49}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Análisis de parámetros de reactividad global y potencial biológico}{49}{subsection.9.4.1}%
+\contentsline {section}{\numberline {9.5}Potencial electrostático superficial}{50}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}Implicaciones en el reconocimiento molecular con la proteína 2FOM (DENV2)}{50}{subsection.9.5.1}%
+\contentsline {section}{\numberline {9.6}Distribución del potencial electrostático molecular (MEP)}{52}{section.9.6}%
+\contentsline {subsection}{\numberline {9.6.1}Implicaciones en el reconocimiento molecular con la proteína 2FOM (DENV2)}{53}{subsection.9.6.1}%
+\contentsline {section}{\numberline {9.7}Acoplamiento molecular}{53}{section.9.7}%
+\contentsline {subsection}{\numberline {9.7.1}Comportamiento de la estabilidad global y movilidad (RMSD)}{56}{subsection.9.7.1}%
+\contentsline {subsection}{\numberline {9.7.2}Proceso de compactación y exposición hidrofóbica ($R_g$ y SASA)}{56}{subsection.9.7.2}%
+\contentsline {subsection}{\numberline {9.7.3}Dinámica de la red interna de enlaces de hidrógeno}{56}{subsection.9.7.3}%
+\contentsline {subsection}{\numberline {9.7.4}Evaluación del Acoplamiento Alostérico del Derivado C\textsubscript {60}(Gly)\textsubscript {4}}{67}{subsection.9.7.4}%
+\contentsline {subsection}{\numberline {9.7.5}Análisis Comparativo entre el Derivado de Fulereno y el Inhibidor Alostérico de Referencia (Benzamida/Benzofurano)}{69}{subsection.9.7.5}%
+\contentsline {subsection}{\numberline {9.7.6}Perfil Energético y Convergencia Absoluta en el Sitio Ortostérico}{70}{subsection.9.7.6}%
+\contentsline {subsection}{\numberline {9.7.7}Análisis de Contactos No Covalentes e Interacciones Clave}{71}{subsection.9.7.7}%
+\contentsline {subsection}{\numberline {9.7.8}Contraste Comparativo con el Inhibidor Sintético de Referencia (246DA)}{71}{subsection.9.7.8}%
+\contentsline {chapter}{\numberline {10}Cronograma}{73}{chapter.10}%
+\contentsline {chapter}{\numberline {A}Fundamentos de los cálculos de estructura electrónica}{74}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Teoría del funcional de la densidad}{74}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Funcional B3LYP y conjunto de bases}{74}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}Optimización, frecuencias y comparación energética}{75}{section.Alph1.3}%
+\contentsline {chapter}{\numberline {B}funciones de Fukui y descriptores de reactividad}{76}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}funciones de Fukui en el espacio}{76}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Índices condensados a átomos}{76}{section.Alph2.2}%
+\contentsline {section}{\numberline {B.3}Ionización y afinidad electrónica}{77}{section.Alph2.3}%
+\contentsline {section}{\numberline {B.4}Potencial químico, electronegatividad y dureza}{77}{section.Alph2.4}%
+\contentsline {section}{\numberline {B.5}Potencial electrostático molecular}{78}{section.Alph2.5}%
+\contentsline {chapter}{\numberline {C}Alcance de la metodología computacional documentada}{79}{appendix.Alph3}%
+\contentsline {section}{\numberline {C.1}Información que consta en el proyecto}{79}{section.Alph3.1}%
+\contentsline {section}{\numberline {C.2}Información pendiente de corroborar}{79}{section.Alph3.2}%
+\contentsline {section}{\numberline {C.3}Coherencia de los resultados y límites de interpretación}{79}{section.Alph3.3}%
+\contentsline {section}{\numberline {C.4}Observaciones editoriales para completar la revisión}{80}{section.Alph3.4}%
+\contentsline {chapter}{Referencias de los apéndices}{81}{section*.21}%
+\contentsline {chapter}{Bibliografía}{82}{Item.33}%

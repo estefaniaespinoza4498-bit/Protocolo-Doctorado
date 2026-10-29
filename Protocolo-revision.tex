@@ -1,0 +1,558 @@
+% !TeX program = xelatex
+%_______Néstor Juan Pablo Chico Beltrán_______
+%       "Smokeeee in the wateeeeeerr chan chan chaaan, chan chan, chan chaaaan"
+%------- PREAMBULO -------------
+\RequirePackage{silence}
+\WarningFilter{latexfont}{Font shape `TU/TimesNewRoman(0)/m/sc' }
+\WarningFilter{spanish}{Replacing `TU/TimesNewRoman(0)/m/sc' }
+% Lo de arriba es para solucionar el problema de los numeros romanos que se generan con el comando \frontmatter
+\RequirePackage{silence}
+\WarningFilter{latexfont}{Font shape `TU/TimesNewRoman(0)/m/sc' }
+\WarningFilter{spanish}{Replacing `TU/TimesNewRoman(0)/b/sc'}
+\WarningFilter{latexfont}{Some font shapes were}
+\documentclass[12 pt, letter, oneside]{book}
+% Codificación Unicode mediante fontspec (XeLaTeX).
+\usepackage[spanish, mexico]{babel}
+\usepackage{layout} 
+\usepackage{fancyhdr}
+\usepackage{blindtext}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{etoolbox}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{microtype}
+%MATEMATICO:::::
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb} 
+%IMAGENES:::::
+\usepackage{graphicx}
+%CITAS:::::
+\usepackage[autostyle=true]{csquotes}
+\usepackage[colorlinks=true, citecolor=LimeGreen, linkcolor=black, menucolor=cyan, linkcolor=black]{hyperref} 
+%ESTILOS:::::
+%\usepackage{fontspec}
+%\setmainfont{TimesNewRoman}
+%FORMATO CAPITULOS Y SECCIONES
+% Codificación Unicode mediante fontspec (XeLaTeX).
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}[SmallCapsFont={Latin Modern Roman Caps}]
+
+\usepackage{titlesec}
+\usepackage{emptypage}
+\usepackage{afterpage}
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+%_______ Para ajustar el corte de las palabra
+\usepackage{hyphenat}
+\hyphenpenalty=9000\exhyphenpenalty=10000  
+\sloppy
+%_______ Tablas en la tesis _______
+\usepackage[flushleft]{threeparttable}
+\usepackage{makecell,booktabs}
+\usepackage{float}
+
+\usepackage{tikz} %Este paquete es para crear figuras (diagramas)
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows.meta, positioning}
+%__________ Moleculas Latex
+\usepackage{listings}
+%___ Apendices
+\usepackage{appendix}
+%Separación de la sección y el texto
+% \titlespacing*{<command>}{<left>}{<before-sep>}{<after-sep>}
+\titlespacing*{\section} {0pt}{2ex}{3ex} 
+\titlespacing*{\subsection} {0pt}{2ex}{1ex}
+\titlespacing*{\subsubsection} {0pt}{2ex}{1ex}
+%Imagenes paquete faltante
+\usepackage{ragged2e} 
+\usepackage{caption}
+\captionsetup{font=small} % Este comando fija el tamaño de la letra que va en el caption
+\captionsetup{labelfont=bf} % Este comando coloca en negritas el caption Figura X
+% Para poner el simbolo de grado
+\usepackage{gensymb}
+%Colores
+\usepackage{xcolor}
+\definecolor{r2}{RGB}{219, 80, 74}
+\definecolor{r4}{RGB}{14, 60, 84}
+\definecolor{azuli}{RGB}{209, 228, 237}
+\definecolor{azuld}{RGB}{209, 237, 230}
+\definecolor{rojocho}{RGB}{237, 209, 220}
+\definecolor{blu}{RGB}{209, 230, 240}
+\definecolor{blu1}{RGB}{97, 170, 204}
+\definecolor{AzulOscuro}{RGB}{245, 236, 233}
+\definecolor{GrisClaro}{RGB}{223, 237, 247}
+\definecolor{AzulGris}{RGB}{250, 247, 252}
+\definecolor{headerbg}{RGB}{220, 230, 241}
+% \noindent    Este comando sirve para eliminar la indentación de un parrafo 
+
+% Formato de tablas: Sumar columnas y filas
+\usepackage{multirow} 
+% Para colocar el angstoms
+\usepackage{textcomp}
+\usepackage{booktabs} % Para líneas horizontales más bonitas en tablas
+\usepackage{makecell} 
+\usepackage{xltabular} %para entorno \begin{xltabular}
+\usepackage{float} % Este paquete es para el acomodo de las imágenes cuando se usan flotantes como [h] [H] [etc...]
+\usepackage{pdfpages} % Para usar documentos pdf en el escrito
+\usepackage{csquotes} % Para colocar comillas \enquote{Esto es una frase entre comillas} o utilizar doble apóstrofe '' y al final comillas simples " o usar esto: “texto”
+\usepackage{geometry}
+\geometry{letterpaper, left=25mm,right=25mm, top=25mm ,bottom=25mm}
+\usepackage{titlesec}
+\usepackage[version=4]{mhchem} % para fórmulas químicas \ce{CO2}
+
+%%%% PARA EVITAR QUE LAS CITAS SALGAN EN EL INDICE DE LAS FIGURAS
+%\caption [Factores de inestabilidad de celdas solares orgánicas]{ Factores de inestabilidad de celdas solares \cite{duan2020progress}.} LO QUE ESTA ENTRE [] es lo que aparecerá en el índice de figuras. Mientras que lo que esta entre {} aparece en el texto.
+\floatstyle{plain} % Cambia el estilo de 'caja' a 'plano' (sin bordes)
+\restylefloat{figure} % Aplica el cambio al entorno de figuras
+
+
+%----------- INICIO DEL DOCUMENTO ------------- 
+\begin{document}
+\hypersetup{pageanchor=false}
+
+
+%----- PORTADA ----
+\setlength{\hoffset}{0 pt} % 1 (Para centrar más la portada)
+\begin{titlepage}
+{\centering
+{\bfseries\Huge Universidad de Guadalajara \par}
+\vspace{0.3cm}
+{\scshape\Large \bfseries Centro Universitario de los Lagos \par}
+\vspace{0.3cm}
+{\scshape\large \bfseries Maestría en Ciencia y Tecnología \par}
+\vspace{0.3cm}
+{\graphicspath{{imagenes/Portada}} %ruta de las imagenes
+\includegraphics[width=0.3\textwidth]{imagenes/Portada/Logo.png}\par}
+\vspace{0.5cm}
+\textbf{TÍTULO}
+\vspace{0.5cm} \\
+{\scshape\large\bfseries “Efectos del \textit{side-chain} sobre la estructura electrónica de un sistema de isómeros orgánicos BTP-4F-T2C8, BTP-4F-T2EH y BTP-4F-T3EH y su relación con la eficiencia fotovoltaica.” \par}
+\vspace{0.5cm}
+{\normalsize TESIS PARA OBTENER EL GRADO DE: \\ Maestro en Ciencia y Tecnología}
+\vspace{0.5 cm} \\ 
+{\large \textbf{Presenta:} \\Néstor Juan Pablo Chico Beltrán \par}
+\vfill
+{\large \textbf{Director de Tesis:} \\Dr. Jaime Gustavo Rodríguez Zavala \par}
+\vfill
+{\large \textbf{Codirector de Tesis:} \\Dr. Alessandro Romo Gutierrez \par}
+\vfill
+\vfill
+{\large \textbf{Lagos de Moreno, Jalisco, a julio 2025}
+\vfill}}
+{\large  \par}
+\end{titlepage}
+
+
+%----- CONTRAPORTADA ----
+\setlength{\hoffset}{0 pt} % 1 (Para centrar más la portada)
+\begin{titlepage}
+{\centering
+{\bfseries\Huge Universidad de Guadalajara \par}
+\vspace{0.3cm}
+{\scshape\Large \bfseries Centro Universitario de los Lagos \par}
+\vspace{0.3cm}
+{\scshape\large \bfseries Doctorado en Ciencia y Tecnología \par}
+\vspace{0.3cm}
+{\graphicspath{{imagenes/Portada}} %ruta de las imagenes
+	\includegraphics[width=0.3\textwidth]{imagenes/Portada/EscudoUdeG.png}\par}
+\vspace{0.5cm}
+\textbf{TÍTULO}
+\vspace{0.5cm} \\
+{\scshape\large\bfseries “Influencia del side-chain en la nanoestructura, las pérdidas de energía y las interacciones moleculares de aceptores isoméricos, y su relación con el factor de llenado (FF)” \par}
+\vspace{0.5cm}
+{\normalsize PROTOCOLO DE TESIS}
+\vspace{0.5 cm} \\ 
+{\large \textbf{Presenta:} \\Mtro. Néstor Juan Pablo Chico Beltrán \par}
+\vfill
+{\large \textbf{Director de Tesis:} \\Dr. Jaime Gustavo Rodríguez Zavala \par}
+\vfill
+{\large \textbf{Codirector de Tesis:}\\ Dr. Carlos Ivan Mendez Barrientos \\ \par}
+\vfill
+\vfill
+{\large \textbf{Lagos de Moreno, Jalisco, México. }
+\vfill}}
+{\large  \par}
+\end{titlepage}
+%\newpage
+%\thispagestyle{empty} Este de aquí elimina todo los headers y footers
+%\mbox{}  Este es el que modificamos para poner una página en blanco.
+%\newpage 
+
+% %% 					DOCUMENTO VISTO BUENO
+%\includepdf[pages=1, offset=-1cm 0 cm]{imagenes/Portada/Vistobueno.pdf}
+%                        GEOMETRÍA DE LA HOJA
+% A point is approximately 1/72.27 inch, that means about 0.0138 inch or 0.3515 mm
+%\setlength{\hoffset}{0 pt} % 1 Ajusta el margen izquierdo
+%\setlength{\voffset}{-1 pt} % 2
+%\setlength{\evensidemargin}{10 pt} % 3
+%\setlength{\oddsidemargin}{10 pt} % 3
+%\setlength{\topmargin}{8.534pt} % 4
+%%\setlength{\headheight}{31 pt} % 5
+%%\setlength{\headsep}{14pt} % 6
+%%\setlength{\textheight}{640 pt} %7
+%%%\setlength{\textwidth}{500 pt} % 8
+%\setlength{\marginparsep}{8.5345pt} % 9
+%\setlength{\marginparwidth}{28.449pt} % 10
+%\setlength{\footskip}{35 pt} % 11
+%----------------------------------------
+\frontmatter
+\hypersetup{pageanchor=true}
+\renewcommand{\thepage}{\Large\roman{page}} %Con este comando puedo cambiar el tamaño de la numeración romana
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhfoffset[LE,RO]{0 cm} %Para variar el tamaño de las lineas con el texto
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand\headrulewidth{0 pt}
+%La presente investigación fue elaborada en el área de Modelado Molecular y Materiales del Centro Universitario de los Lagos, ubicado en Lagos de Moreno, Jalisco, México, y estuvo auspiciada por el Consejo Nacional de Humanidades Ciencias y Tecnología (CONAHCYT).
+%
+%Además se desea reconocer los recursos computacionales y el soporte técnico ofrecidos por el Centro de Análisis de Datos y Supercómputo (CADS) de la Universidad de Guadalajara a través del supercomputador Leo Atrox.
+%\newpage
+
+%%% FRASES %%%
+% \begin{flushright}
+%\large\textbf{\textit{“¿Para qué repetir los errores antiguos \\ habiendo tantos errores nuevos que cometer?” }} \\%\addcontentsline{toc}{chapter}{Resumen}
+%\vspace{2 cm} 
+%\normalsize Bertrand Russell (1872-1970) Matemático británico
+%\end{flushright} \newpage
+
+%%%% DEDICATORIAS 
+
+%\large\textbf{\textit{A mis padres}} \newpage
+
+%%% AGRADECIMIENTOS
+%\begin{center}
+%\Large \centering \textit{\textbf{Agradecimientos}}
+%\end{center} 
+%El presente escrito ha sido elaborado gracias al apoyo inconmensurable del grupo de Modelado Molecular y Materiales, por lo que me gustaría agradecer especialmente a las siguientes personas:
+%\begin{itemize}
+%\item A mi director, el Dr. Jaime Gustavo Rodríguez Zavala, por su asesoría, guía, consejos y paciencia mostrada en el transcurso del posgrado. 
+%\item A mi codirector, el Dr. Alessandro Romo Gutierrez, por sus valiosas y motivadoras observaciones al escrito, por su amistad y conocimientos compartidos.
+%\item Dr. Zuriel Natanel Cisneros García, por atender mis dudas e inquietudes en diferentes áreas referentes al proyecto realizado en esta tesis. 
+%\end{itemize}
+%Además me gustaría agradecer con sumo aprecio y cariño a mis padres, quienes siempre me han apoyado en cada decisión de mi vida. A mi prometida, por brindarme su compañía incondicional, sabiduría y motivarme día a día. \\ \\
+%Añado un agradecimiento final a todos y cada uno de mis amigos y compañeros del laboratorio, a mis sinodales por sus contribuciones y sugerencias al proyecto y a la Universidad de Guadalajara por brindarme la oportunidad de seguir creciendo en el ámbito académico. 
+
+
+% ___________ CONTENIDO_________ 
+%_________ “Sapere aude.”  ___
+\tableofcontents 
+%\listoffigures %Índice de figuras
+%\listoftables %Índice de tablas
+\newpage
+%%%%%%%%%%%%%%%%%%%%%% Para hacer dos rayas en el header %%%%%%%%%%%%%%%%
+\fancyhf{}
+\fancyfoot[RO,LE]{\thepage}
+\fancyhead[RE]{\nouppercase{\leftmark}}
+\fancyhead[LO]{\nouppercase{\rightmark}}
+\renewcommand\headrulewidth{0pt}
+\makeatletter
+\def\headrule{{\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
+\hrule\@height\headrulewidth\@width\headwidth
+\vskip 2pt% 2pt between lines
+\hrule\@height1pt\@width\headwidth% lower line with .5pt line width
+\vskip-\headrulewidth
+\vskip -10pt}} %Este parametro de aqui controla que tan separadas estas las lineas del Header con respecto al texto
+\makeatother
+%       Color de la linea del encabezado
+\let\oldheadrule\headrule% Copy \headrule into \oldheadrule
+\renewcommand{\headrule}{\color{r4}\oldheadrule}% Add colour to \headrule
+\renewcommand{\headrulewidth}{2.5 pt}
+%\rule{\textwidth}{0.3pt} Este comando genera lineas 
+%%%% Color Linea del pie de página
+\let\oldfootrule
+\footrule 
+\renewcommand{\footrule}{\color{black}\oldfootrule}
+\renewcommand{\footrulewidth}{2 pt}
+%%%%%%%%%%%%%%%%%%%%    Para Cambiar Color del texto del footer %%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\patchcmd{\f@nch@foot}{\rlap}{\color{Black}\rlap}{}{}
+\patchcmd{\footrule}{\hrule}{\color{Black}\hrule}{}{}
+%%%%% PARA el HEADER %%%%%%%%%%%%
+%\patchcmd{\f@nch@head}{\rlap}{\color{red}\rlap}{}{}
+%\patchcmd{\headrule}{\hrule}{\color{red}\hrule}{}{}
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\fancyhead{}
+\fancyhead[L]{Resumen}
+%\input{Contenido/Resumen}
+\mainmatter 
+\fancyfoot{}
+\fancyfoot[RO,LE]{\thepage}
+\fancyhead{}
+%___ Para modificar solo la primera pagina de cada capitulo
+\input{Contenido/Int/Int}
+\input{Contenido/Res/Res}
+\input{Contenido/Ant/Ant}
+\input{Contenido/Plan/Plan}
+\input{Contenido/Jus/Jus}
+\input{Contenido/Hip/Hip}
+\input{Contenido/Obj/Obj}
+\input{Contenido/Mat/Mat}
+\input{Contenido/Resu/Resu}
+\input{Contenido/Cro/Cro}
+%\input{Contenido/R25B/R25B}             
+%\input{Contenido/Dynamics/Interac}                  
+% Material exclusivo de Protocolo-revision.tex.
+\clearpage
+\appendix
+\chapter{Fundamentos de los cálculos de estructura electrónica}
+\label{ap:fundamentos-gaussian}
+
+Los estudios de estructura electrónica permiten relacionar la geometría de una molécula con su energía y con la distribución de sus electrones. En este trabajo, estos conceptos sirven de base para interpretar la caracterización del fulereno y de sus derivados con glicina. Gaussian 16 es el programa de cálculo considerado en el proyecto; GaussView es la interfaz utilizada para construir y visualizar las estructuras. El programa, el método teórico y el conjunto de bases cumplen funciones distintas y, por ello, deben identificarse por separado [\ref{anexo-ref-1}].
+
+\section{Teoría del funcional de la densidad}
+La teoría del funcional de la densidad, conocida como DFT, describe el estado electrónico fundamental a partir de la densidad electrónica $\rho(\mathbf r)$. Esta magnitud representa cómo se distribuyen los electrones en el espacio y su integral corresponde al número de electrones del sistema. En el esquema de Kohn--Sham, la energía se escribe como
+\begin{equation}
+ E[\rho]=T_s[\rho]+\int v_{\mathrm{ext}}(\mathbf r)\rho(\mathbf r)\,d\mathbf r
+ +J[\rho]+E_{\mathrm{xc}}[\rho]+E_{\mathrm{NN}}.
+\end{equation}
+Aquí, $T_s$ es la energía cinética del sistema auxiliar de electrones no interactuantes; $v_{\mathrm{ext}}$ representa el potencial externo, que incluye la atracción de los núcleos; $J$ es la repulsión electrostática clásica entre electrones; $E_{\mathrm{xc}}$ reúne las contribuciones de intercambio y correlación, incluida la diferencia de energía cinética respecto al sistema auxiliar; y $E_{\mathrm{NN}}$ es la repulsión entre núcleos. La aproximación empleada para $E_{\mathrm{xc}}$ influye en las propiedades calculadas [\ref{anexo-ref-2}].
+
+\section{Funcional B3LYP y conjunto de bases}
+El nivel de teoría declarado en Materiales y métodos es B3LYP/6-311G(d,p). B3LYP es un funcional híbrido que combina una fracción de intercambio de Hartree--Fock con términos de intercambio y correlación dependientes de la densidad. Su denominación incorpora la formulación de tres parámetros de Becke y la correlación de Lee, Yang y Parr [\ref{anexo-ref-3}, \ref{anexo-ref-4}]. Se trata de una aproximación: su uso no garantiza, por sí solo, que todas las propiedades de una molécula se describan con la misma precisión.
+
+El conjunto de bases proporciona las funciones con las que se representan los orbitales. En 6-311G(d,p), la valencia se describe mediante tres componentes de distinta extensión radial. Las funciones de polarización $d$, en los átomos distintos del hidrógeno, y $p$, en el hidrógeno, permiten representar cambios en la forma de la distribución electrónica [\ref{anexo-ref-5}]. Esta notación no incluye funciones difusas, que se indican mediante signos $+$. Por tanto, no debe confundirse con 6-311+G(d,p) ni con 6-311++G(d,p).
+
+\section{Optimización, frecuencias y comparación energética}
+La optimización geométrica busca una estructura estacionaria sobre la superficie de energía potencial. El análisis vibracional permite caracterizar ese punto mediante la curvatura de la superficie: un mínimo local presenta curvaturas positivas en sus modos vibracionales. Por ello, el protocolo declara la comprobación de ausencia de frecuencias imaginarias. Esta comprobación debe respaldarse con las salidas correspondientes y no demuestra que se haya localizado el mínimo global entre todas las conformaciones posibles.
+
+Las energías relativas se expresan respecto a una referencia común:
+\begin{equation}
+ \Delta E_i=E_i-E_{\mathrm{ref}}.
+\end{equation}
+Si la referencia no es la estructura de menor energía, pueden aparecer valores negativos. Además, la comparación directa exige que los sistemas tengan la misma composición y que las energías se hayan obtenido con criterios equivalentes. La energía electrónica, la energía corregida por el punto cero, la entalpía y la energía libre de Gibbs son cantidades distintas; no deben presentarse bajo un mismo encabezado sin aclarar cuál se utilizó. Una diferencia entre isómeros tampoco constituye, por sí sola, una energía de formación.
+
+\chapter{funciones de Fukui y descriptores de reactividad}
+\label{ap:reactividad}
+
+La reactividad electrónica puede analizarse desde dos perspectivas. Los descriptores globales resumen la respuesta de toda la molécula ante cambios en su número de electrones. Los descriptores locales muestran cómo se distribuye esa respuesta en distintas regiones. Ambos enfoques se complementan, pero no sustituyen el estudio de una reacción ni demuestran actividad biológica.
+
+\section{funciones de Fukui en el espacio}
+La función de Fukui describe el cambio de la densidad electrónica cuando varía el número de electrones, manteniendo fijo el potencial externo:
+\begin{equation}
+ f(\mathbf r)=\left(\frac{\partial\rho(\mathbf r)}{\partial N}\right)_{v_{\mathrm{ext}}}.
+\end{equation}
+En una molécula, esto implica conservar la disposición nuclear al comparar las densidades. La aproximación por diferencias finitas distingue tres respuestas [\ref{anexo-ref-6}]:
+\begin{align}
+ f^+(\mathbf r)&=\rho_{N+1}(\mathbf r)-\rho_N(\mathbf r),\\
+ f^-(\mathbf r)&=\rho_N(\mathbf r)-\rho_{N-1}(\mathbf r),\\
+ f^0(\mathbf r)&=\tfrac12\left[\rho_{N+1}(\mathbf r)-\rho_{N-1}(\mathbf r)\right].
+\end{align}
+La función $f^+$ se relaciona con la respuesta al recibir electrones y con regiones susceptibles a un ataque nucleofílico. La función $f^-$ describe la respuesta al perder electrones y se asocia con regiones susceptibles a un ataque electrófilo. La función $f^0$ es el promedio de ambas respuestas y se emplea en el análisis de reactividad radicalaria. El signo del superíndice identifica la variación electrónica considerada; no representa la carga formal de un átomo.
+
+\section{Índices condensados a átomos}
+Para expresar la respuesta por átomo se requiere una partición de la densidad. Si $n_k$ es la población electrónica asignada al átomo $k$, los índices condensados se escriben como [\ref{anexo-ref-7}]
+\begin{align}
+ f_k^+&=n_k(N+1)-n_k(N),\\
+ f_k^-&=n_k(N)-n_k(N-1),\\
+ f_k^0&=\tfrac12[n_k(N+1)-n_k(N-1)].
+\end{align}
+La población electrónica no debe confundirse con la carga atómica neta. Si se utilizan cargas $q_k=Z_k-n_k$, las expresiones equivalentes son
+\begin{align}
+ f_k^+&=q_k(N)-q_k(N+1),\\
+ f_k^-&=q_k(N-1)-q_k(N),\\
+ f_k^0&=\tfrac12[q_k(N-1)-q_k(N+1)].
+\end{align}
+Esta diferencia explica por qué una fórmula puede aparecer con signos invertidos cuando cambia la magnitud utilizada. El esquema de población debe indicarse de manera explícita y mantenerse consistente entre los estados comparados. En el proyecto revisado no se identificó documentación suficiente para atribuir un esquema concreto a los índices reportados.
+
+\section{Ionización y afinidad electrónica}
+El potencial de ionización $I$ expresa el costo energético de retirar un electrón; la afinidad electrónica $A$ expresa la energía liberada al incorporarlo, con la convención de signo aquí adoptada. A partir de energías totales,
+\begin{align}
+ I&=E(N-1)-E(N),\\
+ A&=E(N)-E(N+1).
+\end{align}
+Si las energías se comparan en una misma geometría, las magnitudes son verticales. Si cada estado se encuentra en su propia geometría de equilibrio, corresponden a diferencias adiabáticas, cuya definición debe precisar también las correcciones energéticas incluidas.
+
+Las expresiones $I\approx-\varepsilon_{\mathrm{HOMO}}$ y $A\approx-\varepsilon_{\mathrm{LUMO}}$ constituyen aproximaciones orbitales. No son equivalentes a las diferencias de energía total. En DFT, la discontinuidad de la derivada de la energía limita la identificación directa de la afinidad electrónica con el negativo de la energía del LUMO del sistema neutro [\ref{anexo-ref-8}]. Por ello, los dos enfoques deben distinguirse al describir los resultados.
+
+\section{Potencial químico, electronegatividad y dureza}
+El potencial químico electrónico $\mu$ y la electronegatividad $\chi$ se aproximan mediante
+\begin{equation}
+ \mu\approx-\frac{I+A}{2},\qquad \chi=-\mu.
+\end{equation}
+Para evitar ambigüedades, en este apéndice se adopta la convención de dureza como curvatura, $\eta\approx I-A$. Con ella, la blandura global y el índice de electrofilicidad se expresan como
+\begin{equation}
+ S=\frac{1}{\eta},\qquad \omega=\frac{\mu^2}{2\eta}.
+\end{equation}
+La dureza describe la resistencia de la distribución electrónica a cambiar; la blandura expresa la respuesta inversa. La electrofilicidad combina el potencial químico y la dureza para describir la estabilización asociada con aceptar densidad electrónica en un modelo de respuesta cuadrática [\ref{anexo-ref-9}].
+
+Existe también la convención de semidureza $\eta_{1/2}=(I-A)/2$. Bajo esa definición, las mismas cantidades anteriores serían $S=1/(2\eta_{1/2})$ y $\omega=\mu^2/(4\eta_{1/2})$. Por tanto, la fórmula y la convención deben declararse juntas antes de comparar valores de distintas fuentes. Si $I$ y $A$ se expresan en eV, $\mu$, $\chi$, $\eta$ y $\omega$ se expresan en eV, mientras que $S$ se expresa en eV$^{-1}$.
+
+Estos descriptores se presentan como fundamento teórico. No se incorporan como resultados nuevos, pues el protocolo contiene valores de ionización y afinidad electrónica, pero no una tabla documentada de todos los índices anteriores.
+
+\section{Potencial electrostático molecular}
+El potencial electrostático molecular representa la interacción de una carga positiva de prueba con la distribución de núcleos y electrones. En unidades atómicas,
+\begin{equation}
+ V(\mathbf r)=\sum_A\frac{Z_A}{|\mathbf r-\mathbf R_A|}
+ -\int\frac{\rho(\mathbf r')}{|\mathbf r-\mathbf r'|}\,d\mathbf r'.
+\end{equation}
+Su representación sobre una superficie molecular permite reconocer regiones de potencial positivo y negativo. Para comparar mapas es necesario conocer las unidades, la superficie representada y la escala de colores. El potencial electrostático no equivale a la densidad electrónica ni al momento dipolar. Asimismo, un potencial cercano a cero no demuestra que una región sea hidrofóbica.
+
+\chapter{Alcance de la metodología computacional documentada}
+\label{ap:documentacion}
+
+Este apéndice relaciona los fundamentos anteriores con lo escrito en el protocolo. Se distingue entre la metodología declarada y la evidencia disponible, porque la descripción de un procedimiento no sustituye los archivos de cálculo que permiten verificarlo.
+
+\section{Información que consta en el proyecto}
+Materiales y métodos declara la construcción de estructuras en GaussView, el uso de B3LYP/6-311G(d,p), la optimización geométrica y la comprobación de frecuencias vibracionales. También describe el análisis de reactividad local mediante funciones de Fukui y la obtención de ionización y afinidad electrónica a partir de los estados neutro, catiónico y aniónico. Estos son los elementos documentados que sustentan la explicación teórica; no se añaden versiones del programa, opciones de cálculo ni condiciones que no estén respaldadas por los archivos disponibles.
+
+\section{Información pendiente de corroborar}
+En la carpeta revisada no se localizaron entradas ni salidas electrónicas de Gaussian que permitan comprobar la configuración de los cálculos. Los archivos con extensión \texttt{.log} examinados corresponden a la compilación de LaTeX. Por ello, quedan por corroborar la revisión de Gaussian 16, las cargas y multiplicidades de los sistemas, el tratamiento del disolvente, los criterios de convergencia, el esquema de población y la naturaleza vertical o adiabática de los descriptores. Estos datos deben recuperarse del registro original del estudio, sin atribuirles valores por defecto.
+
+\section{Coherencia de los resultados y límites de interpretación}
+La tabla de ionización y afinidad electrónica se identificó de acuerdo con sus columnas y unidades, conservando sus valores numéricos. En las tablas de energías relativas debe confirmarse la referencia utilizada y si se presentan energías electrónicas o cantidades con correcciones adicionales. En el análisis del potencial electrostático faltan las unidades y la definición de la magnitud promediada; hasta disponer de esa información, no corresponde asignarles una interpretación cuantitativa adicional.
+
+La caracterización electrónica permite discutir tendencias de donación y aceptación de electrones. Sin embargo, una tendencia favorable no demuestra por sí misma actividad antioxidante, solubilidad, eficacia antiviral o seguridad biológica. En este protocolo, los cálculos deben interpretarse dentro de sus supuestos y las conclusiones biológicas mantenerse como hipótesis que requieren evaluación independiente.
+
+\section{Observaciones editoriales para completar la revisión}
+Persisten elementos que requieren información del estudio: la correspondencia entre algunas imágenes de acoplamiento y las poses indicadas en las tablas, la identificación uniforme del compuesto denominado 264 en el texto y 246 en los archivos, la fuente de una imagen de antecedentes y la imagen de la estructura química que aparece como espacio reservado. También se conservaron, como comentarios en el archivo de métodos, párrafos de un borrador previo con campos vacíos y parámetros distintos de los apartados posteriores. Esta conservación permite cotejarlos sin presentar ambas versiones contradictorias como una sola metodología confirmada.
+
+Las cifras epidemiológicas y las afirmaciones clínicas requieren una revisión de sus fuentes y de su fecha de corte. La corrección de estilo realizada no constituye una actualización de esos datos ni una validación de todas las referencias bibliográficas preexistentes.
+
+
+\chapter{Fundamentos y procedimiento del acoplamiento molecular}
+\label{ap:acoplamiento-vina}
+
+El acoplamiento molecular explora posiciones y orientaciones de un ligando dentro de una región del receptor y las ordena mediante una función de puntuación. En este trabajo se empleó AutoDock Vina para estudiar la asociación de los ligandos con el complejo NS2B--NS3 del virus del dengue. Cada solución geométrica se denomina \textit{pose}. La puntuación permite comparar soluciones bajo un mismo protocolo, pero no constituye una medida experimental de afinidad ni demuestra inhibición enzimática [\ref{anexo-ref-10}].
+
+\section{Preparación del receptor y definición de la búsqueda}
+El protocolo identifica la estructura 2FOM como punto de partida y describe su reconstrucción, minimización y preparación en AutoDockTools. El receptor y el ligando se proporcionaron en formato PDBQT, que contiene coordenadas, tipos atómicos y cargas parciales, así como la información de torsiones del ligando. La protonación, la identidad química y los enlaces definidos como rotables deben conservarse de forma consistente entre la preparación, el acoplamiento y la selección de complejos para dinámica molecular.
+
+La región de búsqueda se define mediante las coordenadas del centro y las dimensiones de una caja, expresadas en Å. Una caja amplia permite explorar varios sitios; una caja dirigida restringe la búsqueda a una región seleccionada. El parámetro \texttt{exhaustiveness} controla el esfuerzo de búsqueda, \texttt{num\_modes} limita el número de modos comunicados y \texttt{energy\_range} delimita su intervalo de puntuaciones respecto al mejor modo. El número de modos solicitado no garantiza que todos sean encontrados [\ref{anexo-ref-11}].
+
+Como registro concreto, el archivo \path{Acoplamiento/246/Aco-246DA/acoplamiento.conf} especifica el receptor \path{2FOM.pdbqt}, el ligando \path{246DA.pdbqt}, el centro $(37.299,\,63.840,\,60.975)$ Å y dimensiones $(38.041,\,36.414,\,30.441)$ Å. También establece \texttt{exhaustiveness = 80}, \texttt{num\_modes = 10}, \texttt{energy\_range = 3} y \texttt{cpu = 10}. Estos parámetros pertenecen a ese conjunto de archivos y no se extrapolan a otros ligandos o sitios. La carpeta contiene salidas numeradas del 1 al 10; el protocolo declara un conjunto de 100 poses. Para reproducir cada conjunto es necesario conservar sus entradas y salidas, la versión del ejecutable y las semillas de búsqueda.
+
+\section{Puntuación y separación de las poses}
+La función original de Vina combina términos empíricos de contacto estérico, repulsión, interacciones hidrofóbicas y puentes de hidrógeno, junto con un tratamiento de la flexibilidad del ligando. El algoritmo explora configuraciones y realiza optimizaciones locales para encontrar soluciones favorables [\ref{anexo-ref-10}]. Las puntuaciones se comunican en kcal/mol; un valor más negativo indica una solución mejor puntuada dentro del modelo utilizado. No debe identificarse automáticamente esta puntuación con una energía libre de unión rigurosa.
+
+Las salidas PDBQT pueden contener varios modelos. La herramienta \texttt{vina\_split} separa esos modelos en archivos individuales; no ejecuta un nuevo acoplamiento ni modifica su clasificación energética. El instructivo local documenta el siguiente procedimiento, donde el nombre del archivo representa una salida de Vina:
+\begin{lstlisting}[basicstyle=\ttfamily\small,breaklines=true]
+vina_split --input corrida_1.pdbqt
+obabel -ipdbqt corrida_1_ligand_1.pdbqt -opdb -O pose1.pdb
+\end{lstlisting}
+El segundo comando ilustra la conversión a PDB para el análisis estructural. Deben utilizarse los nombres realmente generados por \texttt{vina\_split} y conservar una correspondencia entre corrida, modo y nombre final de pose. Los scripts de agrupamiento extraen la puntuación del registro \texttt{REMARK VINA RESULT:}; por ello se debe verificar que dicho registro se conserve tras la conversión.
+
+\section{RMSD y agrupamiento estructural}
+Para dos configuraciones con correspondencia atómica definida, la raíz de la desviación cuadrática media es
+\begin{equation}
+ \mathrm{RMSD}=\sqrt{\frac{1}{N}\sum_{i=1}^{N}\lVert\mathbf r_i-\mathbf r_i^{\mathrm{ref}}\rVert^2}.
+\end{equation}
+El resultado depende de la selección de átomos, su correspondencia y la realización o no de un ajuste previo. En acoplamiento se comparan las posiciones del ligando en el marco del receptor. Las columnas \texttt{rmsd l.b.} y \texttt{rmsd u.b.} de Vina describen diferencias respecto al mejor modo de la corrida, con tratamientos distintos de la correspondencia atómica; no son desviaciones respecto a una estructura experimental ni medidas de afinidad [\ref{anexo-ref-11}].
+
+El script local \path{cluster_vina_10_S7.py}, junto con \path{RMSD_lb.py} en la carpeta del compuesto 246, construye una matriz entre poses a partir de átomos pesados. Empareja de manera sucesiva cada átomo con el más cercano del mismo elemento sin reutilizarlo, repite el procedimiento en sentido inverso y conserva el mayor de ambos valores. No realiza una superposición independiente de los ligandos. Aunque el archivo utiliza la denominación \texttt{lb}, este emparejamiento voraz no garantiza una asignación global óptima ni equivale necesariamente al límite inferior comunicado por Vina.
+
+La matriz se usa en un agrupamiento jerárquico aglomerativo de enlace promedio. En la copia de \path{Acoplamiento/246/cluster_vina_10_S7.py} el umbral es 8 Å, coincidente con el valor declarado en métodos; en la copia de la carpeta \path{Acoplamiento_2FOM-gli} es 10 Å. Por ello, el umbral debe asociarse a cada conjunto de resultados. En enlace promedio, el corte se aplica a la distancia promedio entre grupos y no exige que todas las parejas de un grupo estén separadas por menos de ese valor.
+
+Las energías se utilizan después del agrupamiento para ordenar los miembros y calcular la puntuación mínima y promedio por grupo. El histograma local presenta el número de poses de cada grupo y su puntuación mínima. Esa frecuencia refleja el muestreo del acoplamiento, no una población de equilibrio termodinámico. La selección de poses para dinámica debe considerar también la localización del ligando, la diversidad geométrica y los contactos con el receptor.
+
+\chapter{Fundamentos y análisis de la dinámica molecular con AMBER}
+\label{ap:dinamica-amber}
+
+La dinámica molecular describe la evolución temporal de un sistema mediante un modelo de energía potencial y la integración de las ecuaciones de movimiento. A diferencia del acoplamiento, permite estudiar fluctuaciones y reorganizaciones del complejo a lo largo de una trayectoria. Para un átomo de masa $m_i$, la relación clásica básica es
+\begin{equation}
+ m_i\frac{d^2\mathbf r_i}{dt^2}=-\nabla_i U(\mathbf R),
+\end{equation}
+donde $U$ contiene contribuciones enlazantes y no enlazantes del campo de fuerza. AMBER comprende programas y herramientas para la preparación, simulación y análisis; el campo de fuerza específico debe identificarse por separado [\ref{anexo-ref-12}].
+
+\section{Sistemas y evidencia del procedimiento}
+Las simulaciones fueron realizadas con AMBER, según el registro del estudio proporcionado por la autora. La carpeta \path{Campo-amber/comparative_analysis_all6_20261002} conserva el análisis de las poses 61, 72, 51, 03 y 01, además de una proteína apo preparada desde las coordenadas iniciales de pose72. El identificador interno \texttt{pose1} se representa como Pose 01. El sistema apo permite una comparación sin ligando desde una conformación de partida relacionada; no se incluyó el intento apo iniciado desde otra estructura.
+
+El archivo \path{README.md} documenta 100 ns de producción por sistema, distribuidos en cinco tramos, sin incluir la equilibración ni la prueba previa de 1 ns. Las proteínas tienen 247 residuos y 247 átomos C$\alpha$ en el mismo orden. En las topologías de soluto, la proteína se selecciona mediante \texttt{:1-247} y el ligando mediante \texttt{:248}; el apo carece de este último residuo. Los registros de análisis identifican CPPTRAJ 7.6.2 y el instructivo de reproducción menciona AmberTools 26 [\ref{anexo-ref-13}].
+
+La copia disponible contiene topologías y trayectorias procesadas, entradas de CPPTRAJ, registros y scripts de representación. Las rutas de los archivos originales de producción están indicadas en \path{run_cpptraj.py}, pero no están incluidas en esta copia. Los nombres de topología hacen referencia a OPC y 150 mM; el nombre por sí solo no permite verificar la composición del disolvente o la concentración efectiva. Quedan por corroborar con las entradas y salidas originales el campo de fuerza proteico, los parámetros y cargas del ligando, el motor y versión de simulación, el paso de integración, los controles de temperatura y presión y las etapas de minimización y equilibración. Las condiciones de GROMACS descritas en el cuerpo del protocolo no se transfieren a estas simulaciones de AMBER sin esa comprobación.
+
+\section{Procesamiento y muestreo de las trayectorias}
+El flujo de extracción aplica \texttt{autoimage anchor :1-247 origin} para reorganizar las imágenes periódicas alrededor de la proteína, elimina agua e iones y guarda el soluto en formato NetCDF. El análisis utiliza un cuadro cada 100 ps, con 1000 cuadros por sistema. Este intervalo de muestreo no es el paso de integración de la simulación.
+
+Para pose03, el tercer tramo se reconstruyó uniendo la parte válida de \path{prod_03_20ns.nc} con \path{prod_03_resume1_10p4ns.nc}. El registro documenta que se conservaron los primeros 960 cuadros del archivo original, hasta 51\,300 ps, y se añadió la continuación desde 51\,310 ps, evitando el solapamiento. Las carpetas identificadas como \texttt{incomplete\_attempt} corresponden a intentos anteriores y no sustentan las figuras finales.
+
+\section{Desviación y fluctuaciones estructurales}
+El RMSD de C$\alpha$ se calcula después del ajuste óptimo al primer cuadro de producción de cada sistema. Se utiliza la expresión del apéndice de acoplamiento, ahora con superposición de C$\alpha$. Las curvas permiten comparar la magnitud de la desviación respecto al inicio propio, pero no comparten una estructura de referencia idéntica. Una meseta de RMSD indica una desviación aproximadamente estacionaria en esa métrica; no prueba por sí sola convergencia ni permanencia del ligando en el sitio.
+
+La RMSF describe la fluctuación de cada C$\alpha$ respecto a su posición promedio después del ajuste:
+\begin{equation}
+ \mathrm{RMSF}_i=\sqrt{\left\langle\left\lVert\mathbf r_i(t)-\langle\mathbf r_i\rangle\right\rVert^2\right\rangle}.
+\end{equation}
+El comando \texttt{atomicfluct} proporciona los valores por residuo. En las figuras, la separación entre cadenas se marca en 62.5, de acuerdo con la numeración interna del análisis. Los máximos permiten localizar segmentos de mayor movilidad dentro de la ventana estudiada.
+
+\section{Compactación, superficie y puentes de hidrógeno}
+El radio de giro resume la dispersión espacial de los átomos seleccionados respecto a su centro. El análisis aplica \texttt{radgyr} a los átomos pesados de la proteína, con la máscara \texttt{:1-247\&!@H=}; sus variaciones permiten estudiar cambios de compactación, sin identificar por sí solas qué región se reorganiza.
+
+La superficie accesible al disolvente se calcula con \texttt{surf}, mediante LCPO, en Å$^2$. Los registros especifican un incremento de radios de 1.4 Å. En los complejos se seleccionan proteína, ligando y conjunto proteína--ligando; en el apo, únicamente proteína. En CPPTRAJ, las superficies de subconjuntos se calculan considerando los vecinos del soluto completo: representan contribuciones a su superficie y no necesariamente las superficies de proteína y ligando aislados [\ref{anexo-ref-14}]. Por ello no deben combinarse automáticamente como si fueran un cálculo independiente de superficie enterrada.
+
+Los puentes de hidrógeno se identifican con \texttt{hbond}. Los registros confirman un corte de distancia donador--aceptor de 3.0 Å y un ángulo donador--hidrógeno--aceptor de 135$^\circ$. Se cuentan interacciones proteína--proteína en los seis sistemas y proteína--ligando en ambos sentidos en los cinco complejos. Las selecciones explícitas de donadores y aceptores proteína--ligando incluyen N, O y S. El número de puentes de hidrógeno no representa la totalidad de las interacciones estabilizantes; deben considerarse también los contactos no polares y otras contribuciones.
+
+\section{Correlaciones dinámicas y componentes principales}
+La matriz de correlación dinámica cruzada (DCCM) se calcula sobre los 247 C$\alpha$ después del ajuste de cada sistema. Para desplazamientos respecto a la posición media, $\Delta\mathbf r_i=\mathbf r_i-\langle\mathbf r_i\rangle$, se expresa como
+\begin{equation}
+ C_{ij}=\frac{\langle\Delta\mathbf r_i\cdot\Delta\mathbf r_j\rangle}
+ {\sqrt{\langle\lVert\Delta\mathbf r_i\rVert^2\rangle\langle\lVert\Delta\mathbf r_j\rVert^2\rangle}}.
+\end{equation}
+Los valores positivos indican movimientos correlacionados y los negativos, anticorrelacionados; esta relación no demuestra causalidad ni comunicación alostérica por sí sola.
+
+El análisis de componentes principales (PCA) utiliza una base común para comparar los seis sistemas. CPPTRAJ alinea las trayectorias de C$\alpha$ al primer cuadro de pose61, reúne 6000 cuadros y construye una matriz de covarianza de 741 coordenadas cartesianas. Su diagonalización define autovectores sobre los que se proyectan todos los sistemas. La fracción de varianza de cada componente es $\lambda_k/\sum_j\lambda_j$, donde $\lambda_k$ es su autovalor. El registro informa 34.30\% para PC1 y 15.42\% para PC2, con 49.71\% conjunto según los valores sin redondear. Esta base incorpora tanto diferencias de conformación media entre sistemas como fluctuaciones internas; no equivale a comparar PCA independientes.
+
+\section{Paisajes conformacionales y alcance estadístico}
+El script \path{plot_pca_fel.py} calcula histogramas de $48\times48$ intervalos sobre los mismos ejes PC1/PC2 y aplica un filtro gaussiano con $\sigma=1.2$ intervalos. La representación relativa se obtiene mediante
+\begin{equation}
+ \Delta G(x,y)=-RT\ln\!\left[\frac{P(x,y)}{P_{\max}}\right],
+\end{equation}
+con $T=300$ K y $R=0.0019872043$ kcal mol$^{-1}$ K$^{-1}$. Esta temperatura corresponde al parámetro del mapa y no verifica por sí sola el termostato de producción. Cada sistema tiene su propio mínimo fijado en cero y se enmascaran las celdas originalmente vacías. Los mapas describen poblaciones conformacionales muestreadas; su interpretación termodinámica requiere muestreo suficiente y no proporciona una energía libre de unión.
+
+Las series temporales se representan con una media móvil de diez cuadros, equivalente a 1 ns; el archivo de resumen utiliza los datos sin suavizar. Se dispone de una trayectoria por sistema, y los cuadros sucesivos no constituyen réplicas independientes. En consecuencia, las desviaciones estándar describen dispersión temporal, no incertidumbre entre réplicas.
+
+
+\clearpage
+\chapter*{Referencias de los apéndices}
+\phantomsection
+\addcontentsline{toc}{chapter}{Referencias de los apéndices}
+Las referencias de los apéndices se numeran de manera independiente de la bibliografía del protocolo, según su primera aparición en los apéndices.
+\begingroup
+\renewcommand{\labelenumi}{[\arabic{enumi}]}
+\begin{enumerate}
+\setlength{\itemsep}{0.65\baselineskip}
+\item\label{anexo-ref-1} M. J. Frisch et al. \textit{Gaussian 16}. Gaussian, Inc., 2016. La revisión específica del programa utilizado queda pendiente de corroborar.
+
+\item\label{anexo-ref-2} W. Kohn y L. J. Sham. ``Self-Consistent Equations Including Exchange and Correlation Effects''. \textit{Physical Review}, 140, A1133--A1138, 1965. DOI: \href{https://doi.org/10.1103/PhysRev.140.A1133}{10.1103/PhysRev.140.A1133}.
+
+\item\label{anexo-ref-3} A. D. Becke. ``Density-functional thermochemistry. III. The role of exact exchange''. \textit{The Journal of Chemical Physics}, 98, 5648--5652, 1993. DOI: \href{https://doi.org/10.1063/1.464913}{10.1063/1.464913}.
+
+\item\label{anexo-ref-4} C. Lee, W. Yang y R. G. Parr. ``Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density''. \textit{Physical Review B}, 37, 785--789, 1988. DOI: \href{https://doi.org/10.1103/PhysRevB.37.785}{10.1103/PhysRevB.37.785}.
+
+\item\label{anexo-ref-5} R. Krishnan, J. S. Binkley, R. Seeger y J. A. Pople. ``Self-consistent molecular orbital methods. XX. A basis set for correlated wave functions''. \textit{The Journal of Chemical Physics}, 72, 650--654, 1980. DOI: \href{https://doi.org/10.1063/1.438955}{10.1063/1.438955}.
+
+\item\label{anexo-ref-6} R. G. Parr y W. Yang. ``Density functional approach to the frontier-electron theory of chemical reactivity''. \textit{Journal of the American Chemical Society}, 106(14), 4049--4050, 1984. DOI: \href{https://doi.org/10.1021/ja00326a036}{10.1021/ja00326a036}.
+
+\item\label{anexo-ref-7} W. Yang y W. J. Mortier. ``The use of global and local molecular parameters for the analysis of the gas-phase basicity of amines''. \textit{Journal of the American Chemical Society}, 108(19), 5708--5711, 1986. DOI: \href{https://doi.org/10.1021/ja00279a008}{10.1021/ja00279a008}.
+
+\item\label{anexo-ref-8} J. P. Perdew, R. G. Parr, M. Levy y J. L. Balduz. ``Density-Functional Theory for Fractional Particle Number: Derivative Discontinuities of the Energy''. \textit{Physical Review Letters}, 49, 1691--1694, 1982. DOI: \href{https://doi.org/10.1103/PhysRevLett.49.1691}{10.1103/PhysRevLett.49.1691}.
+
+\item\label{anexo-ref-9} R. G. Parr, L. von Szentpály y S. Liu. ``Electrophilicity Index''. \textit{Journal of the American Chemical Society}, 121(9), 1922--1924, 1999. DOI: \href{https://doi.org/10.1021/ja983494x}{10.1021/ja983494x}.
+
+
+\item\label{anexo-ref-10} O. Trott y A. J. Olson. ``AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading''. \textit{Journal of Computational Chemistry}, 31(2), 455--461, 2010. DOI: \href{https://doi.org/10.1002/jcc.21334}{10.1002/jcc.21334}.
+
+\item\label{anexo-ref-11} The Scripps Research Institute. \textit{AutoDock Vina Manual}. Documentación del programa. \url{https://vina.scripps.edu/manual/}. Consulta: 20 de octubre de 2026.
+
+\item\label{anexo-ref-12} D. A. Case et al. ``AmberTools''. \textit{Journal of Chemical Information and Modeling}, 63, 6183--6191, 2023. Referencia recomendada por los desarrolladores: \url{https://ambermd.org/CiteAmber.php}.
+
+\item\label{anexo-ref-13} D. R. Roe y T. E. Cheatham III. ``PTRAJ and CPPTRAJ: Software for Processing and Analysis of Molecular Dynamics Trajectory Data''. \textit{Journal of Chemical Theory and Computation}, 9(7), 3084--3095, 2013. DOI: \href{https://doi.org/10.1021/ct400341p}{10.1021/ct400341p}.
+
+\item\label{anexo-ref-14} AMBER-hub. \textit{surf: cálculo de superficie mediante LCPO en CPPTRAJ}. Documentación del comando y de las selecciones parciales. \url{https://amberhub.chpc.utah.edu/surf/}. Consulta: 20 de octubre de 2026.
+
+\end{enumerate}
+\endgroup
+
+% Fin de los apéndices exclusivos de la revisión.
+
+%_______ Referencias ________
+\bibliographystyle{ieeetr} %Podemos intercalar el estilo (naturamag, apalike, acm, alpha, ieeetr, plain, siam, unsrt)
+\fancyhead{}
+\newpage
+\addcontentsline{toc}{chapter}{Bibliografía}
+\bibliography{ref}
+\end{document}
