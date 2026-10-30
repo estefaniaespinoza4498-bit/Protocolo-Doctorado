@@ -1,0 +1,55 @@
+\frametitle{Justificación}
+\begin{tikzpicture}[remember picture, overlay]
+
+        % 1. TÍTULO: Justificación
+        \node[fill=AzulOscuro, text=white, font=\bfseries\large, inner sep=10pt,
+              anchor=north west, minimum width=4cm, rounded corners=2pt]
+              (justificacion) at ([shift={(1cm,-1cm)}]current page.north west) {Justificación};
+
+        % 2. INTRODUCCIÓN
+        \node[draw=AzulOscuro!30, fill=GrisClaro, text width=9.5cm, inner sep=10pt,
+              anchor=north east, rounded corners=2pt, font=\small\itshape]
+              (intro) at ([shift={(-1cm,-1cm)}]current page.north east) {
+              Los fullerenos, conocidos por sus propiedades estructurales y electrónicas únicas,
+              han captado el interés en aplicaciones biomédicas.
+        };
+
+        % --- ESTILOS ---
+        \tikzset{
+            etiqueta/.style={fill=AzulGris!20, draw=AzulGris, text=AzulOscuro,
+                             font=\bfseries\small, minimum width=3.2cm, minimum height=0.7cm,
+                             rounded corners=2pt, inner sep=5pt},
+            descripcion/.style={text width=10.5cm, font=\small, text=TextoGris, anchor=west},
+            flecha/.style={-{Stealth[scale=1.2]}, AzulGris, thick}
+        }
+
+        % 3. FILAS
+        % Limitación
+        \node[etiqueta] (lim) at ([shift={(1.1cm,-3.5cm)}]current page.north west) {Limitación};
+        \node[descripcion] (d-lim) at ([xshift=1cm]lim.east) {
+            Su baja solubilidad en medios biológicos sigue siendo un obstáculo que restringe su potencial terapéutico.
+        };
+        \draw[flecha] (lim.east) -- ([xshift=0.8cm]lim.east);
+
+        % Solución
+        \node[etiqueta, below=0.7cm of lim] (sol) {Solución};
+        \node[descripcion] at ([xshift=1cm]sol.east) {
+            La funcionalización con aminoácidos como \textbf{glicina y arginina}, aumenta la solubilidad y mejora la afinidad hacia biomoléculas.
+        };
+        \draw[flecha] (sol.east) -- ([xshift=0.8cm]sol.east);
+
+        % Herramientas
+        \node[etiqueta, below=1.2cm of sol] (her) {Herramientas};
+        \node[descripcion] at ([xshift=1cm]her.east) {
+            El uso de herramientas de \textbf{acoplamiento y modelado molecular} brindan una comprensión profunda de las interacciones.
+        };
+        \draw[flecha] (her.east) -- ([xshift=0.8cm]her.east);
+
+        % Impacto
+        \node[etiqueta, below=0.7cm of her] (imp) {Impacto};
+        \node[descripcion] at ([xshift=1cm]imp.east) {
+            Diseño racional de sistemas funcionalizados dirigidos a la proteína \textbf{NS2B-NS3} del serotipo 2 del virus del \textbf{dengue}.
+        };
+        \draw[flecha] (imp.east) -- ([xshift=0.8cm]imp.east);
+
+    \end{tikzpicture}

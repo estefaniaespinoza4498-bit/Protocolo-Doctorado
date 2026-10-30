@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\title{Resumen de Tipos de Funcionales de Intercambio y Correlación en DFT}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{\textbf{Tipos de funcionales según el modelo de aproximación}}
+
+Los funcionales de intercambio y correlación (XC) en la Teoría del Funcional de la Densidad (DFT) se clasifican en distintos niveles de aproximación conocidos como la ``\textbf{escalera de Jacob's Ladder}'' (Perdew et al.). Cada nivel busca mejorar la precisión considerando más información sobre la densidad electrónica:
+
+\begin{enumerate}[label=\textbf{\arabic*.}]
+  \item \textbf{LDA (Local Density Approximation)}: Basado en la densidad local, apropiado para sistemas con densidad electrónica casi homogénea.
+  \item \textbf{GGA (Generalized Gradient Approximation)}: Incluye derivadas de la densidad (gradientes). Mejora significativamente sobre LDA. Ej.: PBE, BP86.
+  \item \textbf{Meta-GGA}: Usa densidad, gradientes y la energía cinética o el Laplaciano. Ej.: TPSS, M06-L.
+  \item \textbf{Funcionales Híbridos}: Combinan GGA o meta-GGA con una fracción de intercambio exacto de Hartree-Fock. Ej.: B3LYP, PBE0, M06-2X.
+  \item \textbf{Funcionales con separación de rango}: Incorporan intercambio de Hartree-Fock a corto alcance solamente. Ej.: HSE06.
+\end{enumerate}
+
+\section{Características y aplicaciones}
+
+\begin{itemize}
+  \item \textbf{B3LYP}: Híbrido GGA, ampliamente usado en química computacional para estructuras, frecuencias y energías de activación.
+  \item \textbf{PBE y PBEPBE}: GGA puro, no empírico, robusto y generalizado, utilizado en sólidos y moléculas.
+  \item \textbf{BP86}: GGA puro, muy eficiente para geometrías.
+  \item \textbf{M06-2X}: Meta-GGA híbrido, útil en enlaces no covalentes, química orgánica y barreras de reacción.
+  \item \textbf{PBE0 (PBE1PBE)}: Híbrido con 25\% de Hartree-Fock. Buena precisión para propiedades estructurales y energéticas.
+  \item \textbf{HSE06}: Separación de rango. Muy efectivo para estudios de materiales y propiedades de banda.
+\end{itemize}
+
+\section{Notas adicionales}
+
+\begin{itemize}
+  \item Los funcionales híbridos suelen ser más costosos computacionalmente pero más precisos.
+  \item La elección del funcional depende del sistema (molécula vs. sólido), propiedad buscada (geometría, energía, espectro) y el equilibrio entre costo y precisión.
+  \item Los funcionales modernos como los de la familia M06 (desarrollados por Truhlar) están diseñados para cubrir mejor una variedad amplia de propiedades químicas.
+\end{itemize}
+
+\end{document}

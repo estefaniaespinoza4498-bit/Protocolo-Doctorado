@@ -1,0 +1,13 @@
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {1}{Introducción}{2}{0}{1}
+\beamer@sectionintoc {2}{Antecedentes}{4}{0}{2}
+\beamer@sectionintoc {3}{Planteamiento del problema}{19}{0}{3}
+\beamer@sectionintoc {4}{Justificación}{21}{0}{4}
+\beamer@sectionintoc {5}{Hipótesis}{23}{0}{5}
+\beamer@sectionintoc {6}{Objetivos}{25}{0}{6}
+\beamer@sectionintoc {7}{Metodología}{27}{0}{7}
+\beamer@sectionintoc {8}{Resultados y Discusiones}{28}{0}{8}
+\beamer@sectionintoc {9}{Conclusiones}{47}{0}{9}
+\beamer@sectionintoc {10}{Perspectivas}{49}{0}{10}
+\beamer@sectionintoc {11}{Cronograma}{51}{0}{11}
+\beamer@sectionintoc {12}{Referencias}{53}{0}{12}
