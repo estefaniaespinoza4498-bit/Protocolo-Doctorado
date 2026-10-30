@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Protocolo"] 1793302846 "Protocolo.aux" "Protocolo.bbl" "Protocolo" 1793302855
+["bibtex Protocolo"] 1793399016 "Protocolo.aux" "Protocolo.bbl" "Protocolo" 1793399025
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "Protocolo.aux" 1793302855 50382 f524e27c2a7f2e7a0723bb163f7eb146 "pdflatex"
+  "Protocolo.aux" 1793399025 50400 b4202e0768573c488f5308b58d4243bb "pdflatex"
   "ref.bib" 1792709377 68648 eefb3a4a39ddff50ae36d3ed70920676 ""
   (generated)
   "Protocolo.bbl"
   "Protocolo.blg"
-["pdflatex"] 1793302846 "/home/fanny/Documentos/Protocolo-Doctorado/Protocolo.tex" "Protocolo.pdf" "Protocolo" 1793302855
+["pdflatex"] 1793399016 "/home/fanny/Documentos/Protocolo-Doctorado/Protocolo.tex" "Protocolo.pdf" "Protocolo" 1793399025
   "/etc/texmf/web2c/texmf.cnf" 1740422946 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/fanny/Documentos/Protocolo-Doctorado/Protocolo.tex" 1793302460 15683 75564fd32d399da9e9f2348013f1aa55 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -299,14 +299,14 @@
   "Contenido/Plan/Plan.tex" 1793138874 1547 08ac3cd5797f9c747de439c88e012662 ""
   "Contenido/Plan/planteamiento-1.png" 1779734357 1702963 c87550ef0b5e32e153e526a745fa1997 ""
   "Contenido/Res/Res.tex" 1792708163 1891 3ae2b216f1abcdb729d0f3c69bbc2eca ""
-  "Contenido/Resu/Resu.tex" 1793302829 113641 1629d3a7c57a71409fb33b1b3cf7145d ""
-  "Protocolo.aux" 1793302855 50382 f524e27c2a7f2e7a0723bb163f7eb146 "pdflatex"
-  "Protocolo.bbl" 1793302846 16243 1d39bb8a66c874296cdbaf1718d464bf "bibtex Protocolo"
-  "Protocolo.lof" 1793302855 12160 10c643d3bbae4ae041abd8aec0c89828 "pdflatex"
-  "Protocolo.lot" 1793302855 3247 74d99f201a1a26a69dc7514bbc2eb161 "pdflatex"
-  "Protocolo.out" 1793302855 19103 3e968f73d6b4a291547aab78b19c1abe "pdflatex"
+  "Contenido/Resu/Resu.tex" 1793399007 112660 f6383c249c59163005f5cbb52fd0cafd ""
+  "Protocolo.aux" 1793399025 50400 b4202e0768573c488f5308b58d4243bb "pdflatex"
+  "Protocolo.bbl" 1793399016 16243 1d39bb8a66c874296cdbaf1718d464bf "bibtex Protocolo"
+  "Protocolo.lof" 1793399025 12195 6bf77a1fe6760ba42f13390fa484e4ea "pdflatex"
+  "Protocolo.lot" 1793399025 3317 cd8a340945616525e467eb8cbe52135c "pdflatex"
+  "Protocolo.out" 1793399025 18618 bb1dd5713323073f1659b376941da299 "pdflatex"
   "Protocolo.tex" 1793302460 15683 75564fd32d399da9e9f2348013f1aa55 ""
-  "Protocolo.toc" 1793302855 7581 10b04b78da3d3d9bb964ac9e88248907 "pdflatex"
+  "Protocolo.toc" 1793399025 7429 77b1fcc5421212991ccce9924744a44d "pdflatex"
   "imagenes/Ant/2FOM-bucles.png" 1787165578 1093791 427b6a458ee14d2578875454893fd296 ""
   "imagenes/Ant/2FOM-conformaciones.png" 1787179451 1296374 4d8af8abdc33115cd2133f4281afbc3c ""
   "imagenes/Ant/NMR.png" 1778106982 208019 a79e90bafc8a74e19773c1bab492d6c9 ""

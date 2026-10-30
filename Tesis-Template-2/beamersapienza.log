@@ -1,34 +1,30 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2026.1.30)  9 SEP 2026 13:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.30)  30 OCT 2026 16:01
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**beamersapienza.tex
-(./beamersapienza.tex
+**/home/fanny/Documentos/Protocolo-Doctorado/Tesis-Template-2/beamersapienza.tex
+(/home/fanny/Documentos/Protocolo-Doctorado/Tesis-Template-2/beamersapienza.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-01-21>
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
+L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2022/01/21 v3.65 A class for typesetting presentations
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count181
+\etb@tempcnta=\count185
 )
 \beamer@tempbox=\box50
-\beamer@tempcount=\count182
-\c@beamerpauses=\count183
-
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
-\beamer@slideinframe=\count184
-\beamer@minimum=\count185
+\beamer@tempcount=\count186
+\c@beamerpauses=\count187
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count188
+\beamer@minimum=\count189
 \beamer@decode@box=\box51
 )
 \beamer@commentbox=\box52
-\beamer@modecount=\count186
-)
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+\beamer@modecount=\count190
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \headdp=\dimen138
@@ -54,44 +50,40 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \beamer@sectionbox=\box56
 \beamer@logobox=\box57
 \beamer@linebox=\box58
-\beamer@sectioncount=\count187
-\beamer@subsubsectionmax=\count188
-\beamer@subsectionmax=\count189
-\beamer@sectionmax=\count190
-\beamer@totalheads=\count191
-\beamer@headcounter=\count192
-\beamer@partstartpage=\count193
-\beamer@sectionstartpage=\count194
-\beamer@subsectionstartpage=\count195
-\beamer@animationtempa=\count196
-\beamer@animationtempb=\count197
-\beamer@xpos=\count198
-\beamer@ypos=\count199
-\beamer@ypos@offset=\count266
-\beamer@showpartnumber=\count267
-\beamer@currentsubsection=\count268
-\beamer@coveringdepth=\count269
-\beamer@sectionadjust=\count270
-\beamer@toclastsection=\count271
-\beamer@tocsectionnumber=\count272
-
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+\beamer@sectioncount=\count191
+\beamer@subsubsectionmax=\count192
+\beamer@subsectionmax=\count193
+\beamer@sectionmax=\count194
+\beamer@totalheads=\count195
+\beamer@headcounter=\count196
+\beamer@partstartpage=\count197
+\beamer@sectionstartpage=\count198
+\beamer@subsectionstartpage=\count199
+\beamer@animationtempa=\count266
+\beamer@animationtempb=\count267
+\beamer@xpos=\count268
+\beamer@ypos=\count269
+\beamer@ypos@offset=\count270
+\beamer@showpartnumber=\count271
+\beamer@currentsubsection=\count272
+\beamer@coveringdepth=\count273
+\beamer@sectionadjust=\count274
+\beamer@toclastsection=\count275
+\beamer@tocsectionnumber=\count276
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 ))
 \beamer@paperwidth=\skip48
 \beamer@paperheight=\skip49
-
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count273
-\Gm@cntv=\count274
-\c@Gm@tempcnt=\count275
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
 \Gm@bindingoffset=\dimen154
 \Gm@wd@mp=\dimen155
 \Gm@odd@mp=\dimen156
@@ -101,51 +93,35 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen160
 \Gm@layoutvoffset=\dimen161
 \Gm@dimlist=\toks17
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 107.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen162
 \Gin@req@width=\dimen163
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks18
 \pgfutil@tempdima=\dimen164
 \pgfutil@tempdimb=\dimen165
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box59
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks19
 \pgfkeys@temptoks=\toks20
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks21
 ))
 \pgf@x=\dimen166
@@ -160,48 +136,36 @@ ex
 \pgf@yd=\dimen175
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count276
-\c@pgf@countb=\count277
-\c@pgf@countc=\count278
-\c@pgf@countd=\count279
+\c@pgf@counta=\count280
+\c@pgf@countb=\count281
+\c@pgf@countc=\count282
+\c@pgf@countd=\count283
 \t@pgf@toka=\toks22
 \t@pgf@tokb=\toks23
 \t@pgf@tokc=\toks24
-\pgf@sys@id@count=\count280
+\pgf@sys@id@count=\count284
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
-Driver file for pgf: pgfsys-xetex.def
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
-File: pgfsys-xetex.def 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
-File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
-)
-\pgfsys@objnum=\count281
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count282
-\pgfsyssoftpath@bigbuffer@items=\count283
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
+\pgfsyssoftpath@smallbuffer@items=\count285
+\pgfsyssoftpath@bigbuffer@items=\count286
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 227.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
 Package xcolor Info: Model `RGB' extended on input line 1368.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
@@ -209,44 +173,18 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen176
-\pgfmath@count=\count284
+\pgfmath@count=\count287
 \pgfmath@box=\box60
 \pgfmath@toks=\toks25
 \pgfmath@stack@operand=\toks26
 \pgfmath@stack@operation=\toks27
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count285
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count288
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen177
 \pgf@picmaxx=\dimen178
@@ -262,154 +200,110 @@ File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@yy=\dimen188
 \pgf@zx=\dimen189
 \pgf@zy=\dimen190
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@path@lastx=\dimen191
 \pgf@path@lasty=\dimen192
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@end@additional=\dimen193
 \pgf@shorten@start@additional=\dimen194
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box61
 \pgf@hbox=\box62
 \pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count286
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex
+\pgf@picture@serial@count=\count289
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen195
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@pt@x=\dimen196
 \pgf@pt@y=\dimen197
 \pgf@pt@temp=\dimen198
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowsep=\dimen199
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen256
-\pgf@sys@shading@range@num=\count287
-\pgf@shadingcount=\count288
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+\pgf@sys@shading@range@num=\count290
+\pgf@shadingcount=\count291
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfexternal@startupbox=\box64
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count289
-\XC@countmixins=\count290
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+\XC@nummixins=\count292
+\XC@countmixins=\count293
+) (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen257
-\Hy@linkcounter=\count291
-\Hy@pagecounter=\count292
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+\Hy@linkcounter=\count294
+\Hy@pagecounter=\count295
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
-File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
-nguages
-)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel languages
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count293
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+\Hy@SavedSpaceFactor=\count296
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 4073.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 4073.
@@ -421,23 +315,19 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count294
-
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\c@Hy@tempcnt=\count297
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen258
-
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count295
+\Fld@menulength=\count298
 \Field@Width=\dimen259
 \Fld@charsize=\dimen260
 Package hyperref Info: Hyper figures OFF on input line 6076.
@@ -449,47 +339,30 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6101.
 Package hyperref Info: PDF/A mode OFF on input line 6106.
 LaTeX Info: Redefining \ref on input line 6146.
 LaTeX Info: Redefining \pageref on input line 6150.
-\Hy@abspage=\count296
+\Hy@abspage=\count299
 
 
 Package hyperref Message: Stopped early.
 
 )
-Package hyperref Info: Driver (autodetected): hxetex.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2021-06-07 v7.00m Hyperref driver for XeTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box65
-\c@Hy@AnnotLevel=\count297
-\HyField@AnnotCount=\count298
-\Fld@listcount=\count299
-\c@bookmark@seq@number=\count300
-
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+\Fld@listcount=\count300
+\c@bookmark@seq@number=\count301
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks28
 \symAMSa=\mathgroup4
@@ -497,80 +370,58 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
 Package: sansmathaccent 2020/01/31
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
 Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
 Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
-)))))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+))))) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
-))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
-\beamer@argscount=\count301
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count302
 \beamer@lastskipcover=\skip50
-\beamer@trivlistdepth=\count302
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
-\c@lecture=\count303
-\c@part=\count304
-\c@section=\count305
-\c@subsection=\count306
-\c@subsubsection=\count307
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
-\beamer@framebox=\box66
-\beamer@frametitlebox=\box67
-\beamer@zoombox=\box68
-\beamer@zoomcount=\count308
-\beamer@zoomframecount=\count309
+\beamer@trivlistdepth=\count303
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count304
+\c@part=\count305
+\c@section=\count306
+\c@subsection=\count307
+\c@subsubsection=\count308
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box65
+\beamer@frametitlebox=\box66
+\beamer@zoombox=\box67
+\beamer@zoomcount=\count309
+\beamer@zoomframecount=\count310
 \beamer@frametextheight=\dimen261
-\c@subsectionslide=\count310
+\c@subsectionslide=\count311
 \beamer@frametopskip=\skip51
 \beamer@framebottomskip=\skip52
 \beamer@frametopskipautobreak=\skip53
 \beamer@framebottomskipautobreak=\skip54
 \beamer@envbody=\toks29
 \framewidth=\dimen262
-\c@framenumber=\count311
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\c@framenumber=\count312
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
-\beamer@splitbox=\box69
-\beamer@autobreakcount=\count312
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box68
+\beamer@autobreakcount=\count313
 \beamer@autobreaklastheight=\dimen263
 \beamer@frametitletoks=\toks30
 \beamer@framesubtitletoks=\toks31
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
-\beamer@footins=\box70
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
-\beamer@frameboxcopy=\box71
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+\beamer@footins=\box69
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box70
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
 \beamer@sbttoks=\toks32
-
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
-\bmb@box=\box72
-\bmb@colorbox=\box73
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box71
+\bmb@colorbox=\box72
 \bmb@boxwidth=\dimen264
 \bmb@boxheight=\dimen265
 \bmb@prevheight=\dimen266
@@ -580,66 +431,58 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 \bmb@prevheight=\dimen270
 )
 \beamer@blockheadheight=\dimen271
-))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks33
 )
 \beamer@bibiconwidth=\skip55
-\c@figure=\count313
-\c@table=\count314
+\c@figure=\count314
+\c@table=\count315
 \abovecaptionskip=\skip56
 \belowcaptionskip=\skip57
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
 \beamer@section@min@dim=\dimen272
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip58
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks34
 \ex@=\dimen273
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen274
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count315
+\inf@bad=\count316
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count316
-\leftroot@=\count317
+\uproot@=\count317
+\leftroot@=\count318
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count318
-\DOTSCASE@=\count319
+\classnum@=\count319
+\DOTSCASE@=\count320
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box74
-\strutbox@=\box75
+\Mathstrutbox@=\box73
+\strutbox@=\box74
 \big@size=\dimen275
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count320
-\c@MaxMatrixCols=\count321
+\macc@depth=\count321
+\c@MaxMatrixCols=\count322
 \dotsspace@=\muskip17
-\c@parentequation=\count322
-\dspbrk@lvl=\count323
+\c@parentequation=\count323
+\dspbrk@lvl=\count324
 \tag@help=\toks35
-\row@=\count324
-\column@=\count325
-\maxfields@=\count326
+\row@=\count325
+\column@=\count326
+\maxfields@=\count327
 \andhelp@=\toks36
 \eqnshift@=\dimen276
 \alignsep@=\dimen277
@@ -653,8 +496,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks38
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks39
 \thm@bodyfont=\toks40
@@ -666,62 +508,47 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip63
 \dth@everypar=\toks44
 )
-\c@theorem=\count327
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
+\c@theorem=\count328
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen282
 \beamer@dimb=\dimen283
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/01/26 3.70 The Babel package
-\babel@savecnt=\count328
+\babel@savecnt=\count329
 \U@D=\dimen284
 \l@unhyphenated=\language87
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def))
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
 LaTeX Info: Redefining \textlatin on input line 3967.
-\bbl@dirlevel=\count329
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+\bbl@dirlevel=\count330
+ (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks45
-\es@quotdepth=\count330
+\es@quotdepth=\count331
 Package babel Info: Making " an active character on input line 570.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen285
-\ar@mcellbox=\box76
+\ar@mcellbox=\box75
 \extrarowheight=\dimen286
 \NC@list=\toks46
 \extratabsurround=\skip64
 \backup@length=\skip65
-\ar@cellbox=\box77
+\ar@cellbox=\box76
 )
 \everycr=\toks47
 \minrowclearance=\skip66
-)
-(/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box78
-)
-(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+\@tempboxb=\box77
+) (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen287
-\c@nlinenum=\count331
+\c@nlinenum=\count332
 \TeXr@lab=\toks48
-)
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen288
 \lightrulewidth=\dimen289
@@ -733,61 +560,43 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen295
 \cmidrulekern=\dimen296
 \defaultaddspace=\dimen297
-\@cmidla=\count332
-\@cmidlb=\count333
+\@cmidla=\count333
+\@cmidlb=\count334
 \@aboverulesep=\dimen298
 \@belowrulesep=\dimen299
-\@thisruleclass=\count334
-\@lastruleclass=\count335
+\@thisruleclass=\count335
+\@lastruleclass=\count336
 \@thisrulewidth=\dimen300
-)
-(/usr/share/texlive/texmf-dist/tex/latex/mfnfss/oldgerm.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/mfnfss/oldgerm.sty
 Package: oldgerm 2000/08/02 v2.1k LaTeX2e package for Old German fonts
-)
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box79
+\pgfnodeparttextbox=\box78
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@nodesepstart=\dimen301
 \pgf@nodesepend=\dimen302
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen303
 \pgffor@skip=\dimen304
 \pgffor@stack=\toks49
 \pgffor@toks=\toks50
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count336
+\pgf@plot@mark@count=\count337
 \pgfplotmarksize=\dimen305
 )
 \tikz@lastx=\dimen306
@@ -798,398 +607,78 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@lastmovetoy=\dimen311
 \tikzleveldistance=\dimen312
 \tikzsiblingdistance=\dimen313
-\tikz@figbox=\box80
-\tikz@figbox@bg=\box81
-\tikz@tempbox=\box82
-\tikz@tempbox@bg=\box83
-\tikztreelevel=\count337
-\tikznumberofchildren=\count338
-\tikznumberofcurrentchild=\count339
-\tikz@fig@count=\count340
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+\tikz@figbox=\box79
+\tikz@figbox@bg=\box80
+\tikz@tempbox=\box81
+\tikz@tempbox@bg=\box82
+\tikztreelevel=\count338
+\tikznumberofchildren=\count339
+\tikznumberofcurrentchild=\count340
+\tikz@fig@count=\count341
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count341
-\pgfmatrixcurrentcolumn=\count342
-\pgf@matrix@numberofcolumns=\count343
+\pgfmatrixcurrentrow=\count342
+\pgfmatrixcurrentcolumn=\count343
+\pgf@matrix@numberofcolumns=\count344
 )
-\tikz@expandcount=\count344
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex
+\tikz@expandcount=\count345
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
-code.tex
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowinset=\dimen314
 \pgfarrowlength=\dimen315
 \pgfarrowwidth=\dimen316
 \pgfarrowlinewidth=\dimen317
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.misc.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
 File: tikzlibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.misc.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (./beamerthemesintef.sty
 Package: beamerthemesintef 2021/11/02
-
-(/usr/share/texlive/texmf-dist/tex/latex/caladea/caladea.sty
-Package: caladea 2014/08/17 (Bob Tennent) Supports Caladea fonts for LaTeX, pdf
-LaTeX, luaLaTeX and xeLaTeX.
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/caladea/caladea.sty
+Package: caladea 2014/08/17 (Bob Tennent) Supports Caladea fonts for LaTeX, pdfLaTeX, luaLaTeX and xeLaTeX.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks51
 \XKV@tempa@toks=\toks52
 )
-\XKV@depth=\count345
+\XKV@depth=\count346
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-01-21 L3 programming layer (loader) 
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2022-01-12 L3 backend support: XeTeX
-
-(|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count346
-\l__color_backend_stack_int=\count347
-\g__color_backend_stack_int=\count348
-\g__graphics_track_int=\count349
-\l__pdf_internal_box=\box84
-\g__pdf_backend_object_int=\count350
-\g__pdf_backend_annotation_int=\count351
-\g__pdf_backend_link_int=\count352
-))
-Package: xparse 2022-01-12 L3 Experimental document command parser
-)
-Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
-X
-\l__fontspec_script_int=\count353
-\l__fontspec_language_int=\count354
-\l__fontspec_strnum_int=\count355
-\l__fontspec_tmp_int=\count356
-\l__fontspec_tmpa_int=\count357
-\l__fontspec_tmpb_int=\count358
-\l__fontspec_tmpc_int=\count359
-\l__fontspec_em_int=\count360
-\l__fontspec_emdef_int=\count361
-\l__fontspec_strong_int=\count362
-\l__fontspec_strongdef_int=\count363
-\l__fontspec_tmpa_dim=\dimen318
-\l__fontspec_tmpb_dim=\dimen319
-\l__fontspec_tmpc_dim=\dimen320
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/carlito/carlito.sty
+Package: carlito 2014/08/20 (Bob Tennent) Supports Carlito fonts for LaTeX, pdfLaTeX, luaLaTeX and xeLaTeX.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-Requested font "[Caladea-Regular.ttf]/OT" at 10.94997pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Regular
-.ttf
-Requested font "[Caladea-Regular.ttf]/OT" at 10.95003pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Regular
-.ttf
-Requested font "[Caladea-Regular.ttf]/OT:script=latn;language=dflt;" at 10.9500
-3pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Regular
-.ttf
-Requested font "[Caladea-Bold.ttf]/OT:script=latn;language=dflt;" at 10.95003pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Bold.tt
-f
-Requested font "[Caladea-Italic.ttf]/OT:script=latn;language=dflt;" at 10.95003
-pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Italic.
-ttf
-Requested font "[Caladea-BoldItalic.ttf]/OT:script=latn;language=dflt;" at 10.9
-5003pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-BoldIta
-lic.ttf
-
-Package fontspec Info: Font family 'Caladea(0)' created for font 'Caladea'
-(fontspec)             with options [Ligatures = TeX,Scale = 1,Extension =
-(fontspec)             .ttf,Ligatures=TeX,UprightFont = *-Regular,ItalicFont =
-(fontspec)             *-Italic,BoldFont = *-Bold,BoldItalicFont =
-(fontspec)             *-BoldItalic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Caladea-Regular.ttf]/OT:script=latn;language=d
-flt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Caladea-Bold.ttf]/OT:script=latn;language=dflt
-;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Caladea-Italic.ttf]/OT:script=latn;language=df
-lt;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Caladea-BoldItalic.ttf]/OT:script=latn;languag
-e=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-Package fontspec Info: Font family 'Caladea(1)' created for font 'Caladea'
-(fontspec)             with options [Ligatures = TeX,Scale = 1,Extension =
-(fontspec)             .ttf,UprightFont = *-Regular,ItalicFont =
-(fontspec)             *-Italic,BoldFont = *-Bold,BoldItalicFont =
-(fontspec)             *-BoldItalic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Caladea-Regular.ttf]/OT:script=latn;language=d
-flt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Caladea-Bold.ttf]/OT:script=latn;language=dflt
-;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Caladea-Italic.ttf]/OT:script=latn;language=df
-lt;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Caladea-BoldItalic.ttf]/OT:script=latn;languag
-e=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-)
-(/usr/share/texlive/texmf-dist/tex/latex/carlito/carlito.sty
-Package: carlito 2014/08/20 (Bob Tennent) Supports Carlito fonts for LaTeX, pdf
-LaTeX, luaLaTeX and xeLaTeX.
-Requested font "[Carlito-Regular.ttf]/OT" at 10.94997pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Regul
-ar.ttf
-Requested font "[Carlito-Regular.ttf]/OT" at 10.95003pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Regul
-ar.ttf
-Requested font "[Carlito-Regular.ttf]/OT:script=latn;language=dflt;" at 10.9500
-3pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Regul
-ar.ttf
-Requested font "[Carlito-Bold.ttf]/OT:script=latn;language=dflt;" at 10.95003pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Bold.
-ttf
-Requested font "[Carlito-Italic.ttf]/OT:script=latn;language=dflt;" at 10.95003
-pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Itali
-c.ttf
-Requested font "[Carlito-BoldItalic.ttf]/OT:script=latn;language=dflt;" at 10.9
-5003pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-BoldI
-talic.ttf
-
-Package fontspec Info: Font family 'Carlito(0)' created for font 'Carlito'
-(fontspec)             with options [Ligatures = TeX,Scale = 1,Extension =
-(fontspec)             .ttf,Ligatures=TeX,Numbers =
-(fontspec)             {OldStyle,Proportional},UprightFont =
-(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
-(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Regular.ttf]/OT:script=latn;language=d
-flt;+onum;+pnum;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Bold.ttf]/OT:script=latn;language=dflt
-;+onum;+pnum;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Italic.ttf]/OT:script=latn;language=df
-lt;+onum;+pnum;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-BoldItalic.ttf]/OT:script=latn;languag
-e=dflt;+onum;+pnum;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 85.
-Requested font "[Carlito-Regular.ttf]/OT:script=latn;language=dflt;+onum;+pnum;
-mapping=tex-text;" at 10.95pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Regul
-ar.ttf
-
-Package fontspec Info: Font family 'Carlito(1)' created for font 'Carlito'
-(fontspec)             with options [Ligatures = TeX,Scale = 1,Extension =
-(fontspec)             .ttf,Numbers = {OldStyle,Proportional},UprightFont =
-(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
-(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Regular.ttf]/OT:script=latn;language=d
-flt;+onum;+pnum;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Bold.ttf]/OT:script=latn;language=dflt
-;+onum;+pnum;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Italic.ttf]/OT:script=latn;language=df
-lt;+onum;+pnum;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-BoldItalic.ttf]/OT:script=latn;languag
-e=dflt;+onum;+pnum;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-Package fontspec Info: Font family 'Carlito(2)' created for font 'Carlito'
-(fontspec)             with options [Ligatures = TeX,Scale = 1,Extension =
-(fontspec)             .ttf,Numbers = {Proportional,OldStyle},UprightFont =
-(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
-(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Regular.ttf]/OT:script=latn;language=d
-flt;+pnum;+onum;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Bold.ttf]/OT:script=latn;language=dflt
-;+pnum;+onum;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Italic.ttf]/OT:script=latn;language=df
-lt;+pnum;+onum;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-BoldItalic.ttf]/OT:script=latn;languag
-e=dflt;+pnum;+onum;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-Package fontspec Info: Font family 'Carlito(3)' created for font 'Carlito'
-(fontspec)             with options [Ligatures = TeX,Scale = 1,Extension =
-(fontspec)             .ttf,Numbers = {Proportional,Lining},UprightFont =
-(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
-(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Regular.ttf]/OT:script=latn;language=d
-flt;+pnum;+lnum;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Bold.ttf]/OT:script=latn;language=dflt
-;+pnum;+lnum;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Italic.ttf]/OT:script=latn;language=df
-lt;+pnum;+lnum;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-BoldItalic.ttf]/OT:script=latn;languag
-e=dflt;+pnum;+lnum;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-Package fontspec Info: Font family 'Carlito(4)' created for font 'Carlito'
-(fontspec)             with options [Ligatures = TeX,Scale = 1,Extension =
-(fontspec)             .ttf,Numbers = {Monospaced, Lining},UprightFont =
-(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
-(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Regular.ttf]/OT:script=latn;language=d
-flt;+tnum;+lnum;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Bold.ttf]/OT:script=latn;language=dflt
-;+tnum;+lnum;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Italic.ttf]/OT:script=latn;language=df
-lt;+tnum;+lnum;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-BoldItalic.ttf]/OT:script=latn;languag
-e=dflt;+tnum;+lnum;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-Package fontspec Info: Font family 'Carlito(5)' created for font 'Carlito'
-(fontspec)             with options [Ligatures = TeX,Scale = 1,Extension =
-(fontspec)             .ttf,Numbers = {Monospaced, OldStyle},UprightFont =
-(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
-(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Regular.ttf]/OT:script=latn;language=d
-flt;+tnum;+onum;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Bold.ttf]/OT:script=latn;language=dflt
-;+tnum;+onum;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-Italic.ttf]/OT:script=latn;language=df
-lt;+tnum;+onum;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[Carlito-BoldItalic.ttf]/OT:script=latn;languag
-e=dflt;+tnum;+onum;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
 LaTeX Info: Redefining \textin on input line 153.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty)
-(./sintefcolor.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (./sintefcolor.sty
 Package: sintefcolor 2021/03/04
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language88
 LaTeX Info: Redefining \_ on input line 43.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \CenteringLeftskip=\skip67
 \RaggedLeftLeftskip=\skip68
@@ -1205,59 +694,49 @@ Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \RaggedLeftParindent=\skip78
 \RaggedRightParindent=\skip79
 \JustifyingParindent=\skip80
-)
-(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip81
-\multirow@cntb=\count364
+\multirow@cntb=\count347
 \multirow@dima=\skip82
-\bigstrutjot=\dimen321
-)
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+\bigstrutjot=\dimen318
+) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
-
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
--ends (calc, etex, pgfmath)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
-
-(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box85
+\collectedbox=\box83
 )
-\tc@llx=\dimen322
-\tc@lly=\dimen323
-\tc@urx=\dimen324
-\tc@ury=\dimen325
-Package trimclip Info: Using driver 'tc-xetex.def'.
-
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def
-File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+\tc@llx=\dimen319
+\tc@lly=\dimen320
+\tc@urx=\dimen321
+\tc@ury=\dimen322
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen326
-\adjbox@Height=\dimen327
-\adjbox@Depth=\dimen328
-\adjbox@Totalheight=\dimen329
-\adjbox@pwidth=\dimen330
-\adjbox@pheight=\dimen331
-\adjbox@pdepth=\dimen332
-\adjbox@ptotalheight=\dimen333
-
-(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+\adjbox@Width=\dimen323
+\adjbox@Height=\dimen324
+\adjbox@Depth=\dimen325
+\adjbox@Totalheight=\dimen326
+\adjbox@pwidth=\dimen327
+\adjbox@pheight=\dimen328
+\adjbox@pdepth=\dimen329
+\adjbox@ptotalheight=\dimen330
+ (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count365
-)
-(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+\c@checkoddpage=\count348
+) (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box86
-\sift@deathcycles=\count366
-\@vwid@loff=\dimen334
-\@vwid@roff=\dimen335
+\@vwid@box=\box84
+\sift@deathcycles=\count349
+\@vwid@loff=\dimen331
+\@vwid@roff=\dimen332
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1323,7 +802,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 61.
 
-(./beamersapienza.aux
+LaTeX Font Info:    Trying to load font information for OT1+Carlito-OsF on input line 61.
+(/usr/share/texlive/texmf-dist/tex/latex/carlito/OT1Carlito-OsF.fd
+File: OT1Carlito-OsF.fd 2014/08/20 (autoinst) Font definitions for OT1/Carlito-OsF.
+)
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 61.
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count350
+\l__pdf_internal_box=\box85
+) (./beamersapienza.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 
@@ -1372,13 +861,6 @@ LaTeX Font Info:    ... okay on input line 61.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
-1.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
@@ -1390,9 +872,9 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1423,787 +905,556 @@ LaTeX Font Info:    ... okay on input line 61.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count351
+\scratchdimen=\dimen333
+\scratchbox=\box86
+\nofMPsegments=\count352
+\nofMParguments=\count353
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count354
+\MPscratchDim=\dimen334
+\MPnumerator=\count355
+\makeMPintoPDFobject=\count356
+\everyMPtoPDFconversion=\toks54
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
 Package hyperref Info: Link coloring OFF on input line 61.
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count367
+\c@section@level=\count357
 )
 LaTeX Info: Redefining \ref on input line 61.
 LaTeX Info: Redefining \pageref on input line 61.
 LaTeX Info: Redefining \nameref on input line 61.
-
-(./beamersapienza.out) (./beamersapienza.out)
+ (./beamersapienza.out) (./beamersapienza.out)
 \@outlinefile=\write5
 \openout5 = `beamersapienza.out'.
 
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Caladea(0)/m/n on input line 61.
+(Font)                  OT1/cmr/m/n --> OT1/Caladea-TLF/m/n on input line 61.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Caladea(0)/b/n on input line 61.
+(Font)                  OT1/cmr/bx/n --> OT1/Caladea-TLF/b/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Caladea(0)/b/n on input line 61.
+(Font)                  OT1/cmr/bx/n --> OT1/Caladea-TLF/b/n on input line 61.
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Carlito(0)/m/n on input line 61.
+(Font)                  OT1/cmss/m/n --> OT1/Carlito-OsF/m/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Carlito(0)/m/n on input line 61.
+(Font)                  OT1/cmss/bx/n --> OT1/Carlito-OsF/m/n on input line 61.
 LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Caladea(0)/m/it on input line 61.
+(Font)                  OT1/cmr/m/it --> OT1/Caladea-TLF/m/it on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Caladea(0)/m/it on input line 61.
+(Font)                  OT1/cmr/bx/it --> OT1/Caladea-TLF/m/it on input line 61.
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 61.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 61.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 61.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/Caladea(0)/m/n --> TU/Caladea(0)/b/n on input line 6
-1.
+(Font)                  OT1/Caladea-TLF/m/n --> OT1/Caladea-TLF/b/n on input line 61.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/Caladea(0)/m/it --> TU/Caladea(0)/b/it on input line
- 61.
+(Font)                  OT1/Caladea-TLF/m/it --> OT1/Caladea-TLF/b/it on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Caladea(0)/b/n on input line 61.
+(Font)                  OT1/cmr/bx/n --> OT1/Caladea-TLF/b/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/Caladea(0)/b/n --> TU/Caladea(0)/b/n on input line 6
-1.
+(Font)                  OT1/Caladea-TLF/b/n --> OT1/Caladea-TLF/b/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/Carlito(0)/m/n --> TU/Carlito(0)/b/n on input line 6
-1.
+(Font)                  OT1/Carlito-OsF/m/n --> OT1/Carlito-OsF/b/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/Caladea(0)/m/it --> TU/Caladea(0)/b/it on input line
- 61.
+(Font)                  OT1/Caladea-TLF/m/it --> OT1/Caladea-TLF/b/it on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 61.
-
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
--English.dict
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 61.
+ (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dic
-tionary-English.dict
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dict
-ionary-English.dict
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionar
-y-English.dict
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
 Dictionary: translator-months-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictiona
-ry-English.dict
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
-ry-English.dict
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \. on input line 61.
 LaTeX Info: Redefining \% on input line 61.
-
-Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
-(fontspec)             this).
-
-\symlegacymaths=\mathgroup9
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 61.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 61.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 61.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 61.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 61.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 61.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 61.
-LaTeX Font Info:    Redeclaring math accent \check on input line 61.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 61.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 61.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 61.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 61.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 61.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 61.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 61.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 61.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 61.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 61.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 61.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 61.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 61.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 61.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 61.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 61.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 61.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Caladea(0)/m/n on input line 61.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 61.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Caladea(0)/m/n on input line 61.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Caladea(0)/m/n --> TU/Caladea(0)/m/n on input line 6
-1.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  TU/Caladea(0)/m/it --> TU/Caladea(0)/m/it on input line
- 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  TU/Caladea(0)/b/n --> TU/Caladea(0)/b/n on input line 6
-1.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  TU/Carlito(0)/m/n --> TU/Carlito(0)/m/n on input line 6
-1.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 61.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Caladea(0)/m/n --> TU/Caladea(0)/b/n on input line 6
-1.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/Caladea(0)/b/it --> TU/Caladea(0)/b/it on input line
- 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/Carlito(0)/b/n --> TU/Carlito(0)/b/n on input line 6
-1.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/b/n --> TU/lmtt/b/n on input line 61.
-\symgns@font=\mathgroup10
+\c@mv@tabular=\count358
+\c@mv@boldtabular=\count359
+\symgns@font=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/Carlito(0)/m/n --> TS1/Carlito(0)/b/n on input line
- 61.
+(Font)                  TS1/Carlito-OsF/m/n --> TS1/Carlito-OsF/b/n on input line 61.
 Package gensymb Info: Math companion symbols declared on input line 61.
 LaTeX Info: Redefining \degree on input line 61.
 LaTeX Info: Redefining \celsius on input line 61.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 61.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 61.
 LaTeX Info: Redefining \ohm on input line 61.
 Package gensymb Info: Using \textohm for \ohm on input line 61.
 Package gensymb Info: Using \textmu for \micro on input line 61.
  (./beamersapienza.nav)
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 61.
-Requested font "[Carlito-Regular.ttf]/OT:script=latn;language=dflt;+onum;+pnum;
-mapping=tex-text;" at 6.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Regul
-ar.ttf
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 61.
-Requested font "[Carlito-Regular.ttf]/OT:script=latn;language=dflt;+onum;+pnum;
-mapping=tex-text;" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Regul
-ar.ttf
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 62.
-Requested font "[Carlito-Regular.ttf]/OT:script=latn;language=dflt;+onum;+pnum;
-mapping=tex-text;" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Regul
-ar.ttf
-LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 62.
-Requested font "[Carlito-Bold.ttf]/OT:script=latn;language=dflt;+onum;+pnum;map
-ping=tex-text;" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Bold.
-ttf
-LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 62.
-Requested font "[Carlito-Bold.ttf]/OT:script=latn;language=dflt;+onum;+pnum;map
-ping=tex-text;" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Bold.
-ttf
-LaTeX Font Info:    Trying to load font information for TU+ptm on input line 62
-.
-LaTeX Font Info:    No file TUptm.fd. on input line 62.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 62.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/it' undefined
-(Font)              using `TU/ptm/b/n' instead on input line 62.
-
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 62.
-Requested font "[Caladea-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-
-text;" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Regular
-.ttf
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 62.
-Requested font "[Caladea-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-
-text;" at 7.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Regular
-.ttf
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 62.
-Requested font "[Caladea-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-
-text;" at 5.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Regular
-.ttf
-Requested font "cmex7" at 7.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-Requested font "cmex7" at 5.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 62.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-Requested font "msam10" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-Requested font "msam7" at 7.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-Requested font "msam5" at 5.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Requested font "msbm10" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-Requested font "msbm7" at 7.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-Requested font "msbm5" at 5.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 62
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 62.
+ (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Requested font "rsfs10" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-Requested font "rsfs7" at 7.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm
-Requested font "rsfs5" at 5.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/it' will be
+LaTeX Font Info:    Trying to load font information for OT1+Caladea-TLF on input line 62.
+ (/usr/share/texlive/texmf-dist/tex/latex/caladea/OT1Caladea-TLF.fd
+File: OT1Caladea-TLF.fd 2014/08/17 (autoinst) Font definitions for OT1/Caladea-TLF.
+)
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 62.
-Requested font "[Caladea-Italic.ttf]/OT:script=latn;language=dflt;mapping=tex-t
-ext;" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Italic.
-ttf
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/it' will be
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
 (Font)              scaled to size 7.0pt on input line 62.
-Requested font "[Caladea-Italic.ttf]/OT:script=latn;language=dflt;mapping=tex-t
-ext;" at 7.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Italic.
-ttf
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/it' will be
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
 (Font)              scaled to size 5.0pt on input line 62.
-Requested font "[Caladea-Italic.ttf]/OT:script=latn;language=dflt;mapping=tex-t
-ext;" at 5.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Italic.
-ttf
-LaTeX Font Info:    Trying to load font information for TS1+Carlito(0) on input
- line 62.
-LaTeX Font Info:    No file TS1Carlito(0).fd. on input line 62.
-
-
-LaTeX Font Warning: Font shape `TS1/Carlito(0)/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead on input line 62.
-
-Requested font "tcrm1000" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
-Requested font "tcrm0700" at 7.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
-Requested font "tcrm0500" at 5.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
-Requested font "[lmroman7-regular]:mapping=tex-text;" at 7.0pt
- -> /usr/share/texmf/fonts/opentype/public/lm/lmroman7-regular.otf
-LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 62.
-Requested font "[Carlito-Bold.ttf]/OT:script=latn;language=dflt;+onum;+pnum;map
-ping=tex-text;" at 9.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Bold.
-ttf
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 62.
-Requested font "[Carlito-Regular.ttf]/OT:script=latn;language=dflt;+onum;+pnum;
-mapping=tex-text;" at 9.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Regul
-ar.ttf
-LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 62.
-Requested font "[Carlito-Bold.ttf]/OT:script=latn;language=dflt;+onum;+pnum;map
-ping=tex-text;" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Bold.
-ttf
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 62.
-Requested font "[Carlito-Regular.ttf]/OT:script=latn;language=dflt;+onum;+pnum;
-mapping=tex-text;" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Regul
-ar.ttf
-File: assets/back.png Graphic file (type bmp)
-<assets/back.png>
-[1
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
+(Font)              scaled to size 7.0pt on input line 62.
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
+(Font)              scaled to size 5.0pt on input line 62.
+LaTeX Font Info:    Trying to load font information for TS1+Carlito-OsF on input line 62.
+ (/usr/share/texlive/texmf-dist/tex/latex/carlito/TS1Carlito-OsF.fd
+File: TS1Carlito-OsF.fd 2014/08/20 (autoinst) Font definitions for TS1/Carlito-OsF.
+)
+LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 62.
+LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 62.
+LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 62.
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 62.
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 62.
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 62.
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 62.
+<assets/back.png, id=62, 713.064pt x 520.344pt>
+File: assets/back.png Graphic file (type png)
+<use assets/back.png>
+Package pdftex.def Info: assets/back.png  used on input line 62.
+(pdftex.def)             Requested size: 350.92767pt x 256.0748pt.
+ [1
 
-] (./beamersapienza.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/back.png>] (./beamersapienza.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/n' will be
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 2.
-Requested font "[Caladea-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-
-text;" at 10.95pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Regular
-.ttf
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/n' will be
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 2.
-Requested font "[Caladea-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-
-text;" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Regular
-.ttf
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/n' will be
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 2.
-Requested font "[Caladea-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-
-text;" at 6.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Regular
-.ttf
-Requested font "cmmi10" at 10.95pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-Requested font "cmmi8" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-Requested font "cmmi6" at 6.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-Requested font "cmsy10" at 10.95pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-Requested font "cmsy8" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-Requested font "cmsy6" at 6.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-Requested font "cmex10" at 10.95pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-Requested font "cmex8" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-Requested font "cmex7" at 6.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-Requested font "msam10" at 10.95pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-Requested font "msam10" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-Requested font "msam7" at 6.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-Requested font "msbm10" at 10.95pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-Requested font "msbm10" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-Requested font "msbm7" at 6.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-Requested font "rsfs10" at 10.95pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-Requested font "rsfs10" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-Requested font "rsfs5" at 6.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/it' will be
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
 (Font)              scaled to size 10.95pt on input line 2.
-Requested font "[Caladea-Italic.ttf]/OT:script=latn;language=dflt;mapping=tex-t
-ext;" at 10.95pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Italic.
-ttf
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/it' will be
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 2.
-Requested font "[Caladea-Italic.ttf]/OT:script=latn;language=dflt;mapping=tex-t
-ext;" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Italic.
-ttf
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/it' will be
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
 (Font)              scaled to size 6.0pt on input line 2.
-Requested font "[Caladea-Italic.ttf]/OT:script=latn;language=dflt;mapping=tex-t
-ext;" at 6.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Italic.
-ttf
-Requested font "cmr10" at 10.95pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-Requested font "cmr8" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-Requested font "cmr6" at 6.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-Requested font "tcrm1095" at 10.95pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
-Requested font "tcrm0800" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
-Requested font "tcrm0600" at 6.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
+LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 2.
+LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 2.
+LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 2.
 )
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
 (Font)              scaled to size 4.0pt on input line 64.
-Requested font "[Carlito-Regular.ttf]/OT:script=latn;language=dflt;+onum;+pnum;
-mapping=tex-text;" at 4.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Regul
-ar.ttf
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [2
 
-]
-File: ~/Tesis-Template-2/imagenes/Intro/fullereno.png Graphic file (type bmp)
-<~/Tesis-Template-2/imagenes/Intro/fullereno.png>
-LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
+ <./imagenes/Portada/Logo.png>]
+<~/Tesis-Template-2/imagenes/Intro/fullereno.png, id=105, 650.43pt x 619.31375pt>
+File: ~/Tesis-Template-2/imagenes/Intro/fullereno.png Graphic file (type png)
+<use ~/Tesis-Template-2/imagenes/Intro/fullereno.png>
+Package pdftex.def Info: ~/Tesis-Template-2/imagenes/Intro/fullereno.png  used on input line 118.
+(pdftex.def)             Requested size: 95.59518pt x 95.59573pt.
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 118.
-Requested font "[Carlito-Bold.ttf]/OT:script=latn;language=dflt;+onum;+pnum;map
-ping=tex-text;" at 10.95pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Bold.
-ttf
-LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/n' will be
 (Font)              scaled to size 6.0pt on input line 118.
-Requested font "[Carlito-Bold.ttf]/OT:script=latn;language=dflt;+onum;+pnum;map
-ping=tex-text;" at 6.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Bold.
-ttf
-File: ~/Tesis-Template-2/imagenes/Intro/biomedica.png Graphic file (type bmp)
-<~/Tesis-Template-2/imagenes/Intro/biomedica.png>
-File: ~/Tesis-Template-2/imagenes/Intro/inhibidor-denv2.png Graphic file (type 
-bmp)
-<~/Tesis-Template-2/imagenes/Intro/inhibidor-denv2.png>
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
+<~/Tesis-Template-2/imagenes/Intro/biomedica.png, id=106, 1027.84pt x 561.09625pt>
+File: ~/Tesis-Template-2/imagenes/Intro/biomedica.png Graphic file (type png)
+<use ~/Tesis-Template-2/imagenes/Intro/biomedica.png>
+Package pdftex.def Info: ~/Tesis-Template-2/imagenes/Intro/biomedica.png  used on input line 118.
+(pdftex.def)             Requested size: 107.54213pt x 59.74304pt.
+<~/Tesis-Template-2/imagenes/Intro/inhibidor-denv2.png, id=107, 564.1075pt x 386.44376pt>
+File: ~/Tesis-Template-2/imagenes/Intro/inhibidor-denv2.png Graphic file (type png)
+<use ~/Tesis-Template-2/imagenes/Intro/inhibidor-denv2.png>
+Package pdftex.def Info: ~/Tesis-Template-2/imagenes/Intro/inhibidor-denv2.png  used on input line 118.
+(pdftex.def)             Requested size: 119.49898pt x 119.50148pt.
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 118.
-Requested font "[Carlito-Italic.ttf]/OT:script=latn;language=dflt;+onum;+pnum;m
-apping=tex-text;" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Itali
-c.ttf
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [3
 
-] (./beamersapienza.toc
+pdfTeX warning (ext4): destination with the same identifier (name{bb}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.118 \end{frame}
+                  </home/fanny/Tesis-Template-2/imagenes/Intro/fullereno.png> </home/fanny/Tesis-Template-2/imagenes/Intro/biomedica.png> </home/fanny/Tesis-Template-2/imagenes/Intro/Inhibidor-denv2.png>] (./beamersapienza.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [4
 
 ]
-File: ~/Tesis-Template-2/imagenes/Intro/dengue.png Graphic file (type bmp)
-<~/Tesis-Template-2/imagenes/Intro/dengue.png>
-LaTeX Font Info:    Font shape `TU/Carlito(0)/b/it' will be
+<~/Tesis-Template-2/imagenes/Intro/dengue.png, id=137, 331.2375pt x 257.96375pt>
+File: ~/Tesis-Template-2/imagenes/Intro/dengue.png Graphic file (type png)
+<use ~/Tesis-Template-2/imagenes/Intro/dengue.png>
+Package pdftex.def Info: ~/Tesis-Template-2/imagenes/Intro/dengue.png  used on input line 157.
+(pdftex.def)             Requested size: 159.33083pt x 79.66484pt.
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/it' will be
 (Font)              scaled to size 8.0pt on input line 157.
-Requested font "[Carlito-BoldItalic.ttf]/OT:script=latn;language=dflt;+onum;+pn
-um;mapping=tex-text;" at 8.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-BoldI
-talic.ttf
-
+pdfTeX warning (ext4): destination with the same identifier (name{int:1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.157 \end{frame}
+                 
 Underfull \hbox (badness 3302) in paragraph at lines 157--157
-[]\TU/Carlito(0)/m/n/10.95 El virus del dengue es un flavivirus que
+[]\OT1/Carlito-OsF/m/n/10.95 El vi-rus del den-gue es un fla-vi-vi-rus que
  []
 
-File: ~/Tesis-Template-2/imagenes/Ante/diagrama-1.png Graphic file (type bmp)
-<~/Tesis-Template-2/imagenes/Ante/diagrama-1.png>
+<~/Tesis-Template-2/imagenes/Ante/diagrama-1.png, id=142, 313.4109pt x 174.8934pt>
+File: ~/Tesis-Template-2/imagenes/Ante/diagrama-1.png Graphic file (type png)
+<use ~/Tesis-Template-2/imagenes/Ante/diagrama-1.png>
+Package pdftex.def Info: ~/Tesis-Template-2/imagenes/Ante/diagrama-1.png  used on input line 157.
+(pdftex.def)             Requested size: 179.24863pt x 119.50237pt.
 
-Underfull \hbox (badness 3158) in paragraph at lines 157--157
-[]\TU/Carlito(0)/m/n/8 Figura 5:[] \TU/Carlito(0)/b/n/8 Diferenciación antigéni
-ca de los serotipos del
+Underfull \hbox (badness 3128) in paragraph at lines 157--157
+[]\OT1/Carlito-OsF/m/n/8 Figura 5:[] \OT1/Carlito-OsF/b/n/8 Di-fe-ren-cia-ci[]on an-tig[]eni-ca de los se-ro-ti-pos del
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{bb}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.157 \end{frame}
+                 
+Overfull \vbox (12.52646pt too high) detected at line 157
  []
 
 
-Overfull \vbox (12.57188pt too high) detected at line 157
- []
-
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [5
 
-]
-File: ~/Tesis-Template-2/imagenes/Ante/casos_confirmados.png Graphic file (type
- bmp)
-<~/Tesis-Template-2/imagenes/Ante/casos_confirmados.png>
+ </home/fanny/Tesis-Template-2/imagenes/Intro/dengue.png> </home/fanny/Tesis-Template-2/imagenes/Ante/diagrama-1.png>]
+<~/Tesis-Template-2/imagenes/Ante/casos_confirmados.png, id=154, 587.3142pt x 480.5955pt>
+File: ~/Tesis-Template-2/imagenes/Ante/casos_confirmados.png Graphic file (type png)
+<use ~/Tesis-Template-2/imagenes/Ante/casos_confirmados.png>
+Package pdftex.def Info: ~/Tesis-Template-2/imagenes/Ante/casos_confirmados.png  used on input line 206.
+(pdftex.def)             Requested size: 159.32973pt x 162.52031pt.
 
 Underfull \hbox (badness 2134) in paragraph at lines 206--206
-[]\TU/Carlito(0)/m/n/8 Figura 6:[] \TU/Carlito(0)/b/n/8 Serotipos identificados
- e incidencia
+[]\OT1/Carlito-OsF/m/n/8 Figura 6:[] \OT1/Carlito-OsF/b/n/8 Se-ro-ti-pos iden-ti-fi-ca-dos e in-ci-den-cia
  []
 
 
 Underfull \hbox (badness 1067) in paragraph at lines 206--206
-\TU/Carlito(0)/b/n/8 de casos confirmados por entidad federativa;
+\OT1/Carlito-OsF/b/n/8 de ca-sos con-fir-ma-dos por en-ti-dad fe-de-ra-ti-va;
  []
 
 
-Overfull \vbox (9.92549pt too high) detected at line 206
+Overfull \vbox (9.88034pt too high) detected at line 206
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [6
 
-]
-File: ~/Tesis-Template-2/imagenes/Ante/proteinas-conformación.pdf Graphic file 
-(type pdf)
+ </home/fanny/Tesis-Template-2/imagenes/Ante/casos_confirmados.png>]
+<~/Tesis-Template-2/imagenes/Ante/proteinas-conformación.pdf, id=165, 570.28525pt x 349.41742pt>
+File: ~/Tesis-Template-2/imagenes/Ante/proteinas-conformación.pdf Graphic file (type pdf)
 <use ~/Tesis-Template-2/imagenes/Ante/proteinas-conformación.pdf>
+Package pdftex.def Info: ~/Tesis-Template-2/imagenes/Ante/proteinas-conformación.pdf  used on input line 245.
+(pdftex.def)             Requested size: 262.90872pt x 143.406pt.
 
-Overfull \hbox (23.90312pt too wide) in paragraph at lines 245--245
+Overfull \hbox (23.90314pt too wide) in paragraph at lines 245--245
  [] 
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [7
 
-]
-File: imagenes/Intro/ns2b-ns3-1.png Graphic file (type bmp)
-<imagenes/Intro/ns2b-ns3-1.png>
+ </home/fanny/Tesis-Template-2/imagenes/Ante/proteinas-conformación.pdf>]
+<imagenes/Intro/ns2b-ns3-1.png, id=193, 1461.46pt x 737.75626pt>
+File: imagenes/Intro/ns2b-ns3-1.png Graphic file (type png)
+<use imagenes/Intro/ns2b-ns3-1.png>
+Package pdftex.def Info: imagenes/Intro/ns2b-ns3-1.png  used on input line 255.
+(pdftex.def)             Requested size: 318.66779pt x 159.3237pt.
 
-Overfull \vbox (4.89772pt too high) detected at line 255
+Overfull \vbox (4.82968pt too high) detected at line 255
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [8
 
-]
-File: imagenes/Intro/serina.png Graphic file (type bmp)
-<imagenes/Intro/serina.png>
+ <./imagenes/Intro/ns2b-ns3-1.png>]
+<imagenes/Intro/serina.png, id=200, 1017.8025pt x 511.9125pt>
+File: imagenes/Intro/serina.png Graphic file (type png)
+<use imagenes/Intro/serina.png>
+Package pdftex.def Info: imagenes/Intro/serina.png  used on input line 281.
+(pdftex.def)             Requested size: 318.66818pt x 159.33174pt.
 
-Overfull \vbox (4.90576pt too high) detected at line 281
+Overfull \vbox (4.83772pt too high) detected at line 281
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [9
 
-]
-File: imagenes/Intro/proteina-2FOM.png Graphic file (type bmp)
-<imagenes/Intro/proteina-2FOM.png>
-File: imagenes/Intro/proteina-2FP7.png Graphic file (type bmp)
-<imagenes/Intro/proteina-2FP7.png>
-
-Overfull \vbox (20.49042pt too high) detected at line 322
+ <./imagenes/Intro/serina.png>]
+<imagenes/Intro/proteina-2FOM.png, id=207, 476.5002pt x 352.4367pt>
+File: imagenes/Intro/proteina-2FOM.png Graphic file (type png)
+<use imagenes/Intro/proteina-2FOM.png>
+Package pdftex.def Info: imagenes/Intro/proteina-2FOM.png  used on input line 322.
+(pdftex.def)             Requested size: 159.33226pt x 159.33717pt.
+pdfTeX warning (ext4): destination with the same identifier (name{dete}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.322 \end{frame}
+                 
+<imagenes/Intro/proteina-2FP7.png, id=208, 307.1475pt x 333.6465pt>
+File: imagenes/Intro/proteina-2FP7.png Graphic file (type png)
+<use imagenes/Intro/proteina-2FP7.png>
+Package pdftex.def Info: imagenes/Intro/proteina-2FP7.png  used on input line 322.
+(pdftex.def)             Requested size: 159.3333pt x 159.33392pt.
+pdfTeX warning (ext4): destination with the same identifier (name{dete}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.322 \end{frame}
+                 
+Overfull \vbox (20.44316pt too high) detected at line 322
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [10
 
-]
-File: imagenes/Intro/proteina-sitio-alosterico-1.pdb.png Graphic file (type bmp
-)
-<imagenes/Intro/proteina-sitio-alosterico-1.pdb.png>
+ <./imagenes/Intro/proteina-2FOM.png> <./imagenes/Intro/proteina-2FP7.png>]
+<imagenes/Intro/proteina-sitio-alosterico-1.pdb.png, id=216, 289.08pt x 216.81pt>
+File: imagenes/Intro/proteina-sitio-alosterico-1.pdb.png Graphic file (type png)
+<use imagenes/Intro/proteina-sitio-alosterico-1.pdb.png>
+Package pdftex.def Info: imagenes/Intro/proteina-sitio-alosterico-1.pdb.png  used on input line 361.
+(pdftex.def)             Requested size: 191.2036pt x 143.41263pt.
+LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 361.
 
-Overfull \vbox (8.91495pt too high) detected at line 361
+Overfull \vbox (8.87192pt too high) detected at line 361
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [11
 
-]
-File: imagenes/Intro/proteina-ortoesterico.png Graphic file (type bmp)
-<imagenes/Intro/proteina-ortoesterico.png>
+ <./imagenes/Intro/proteina-sitio-alosterico-1.pdb.png>]
+<imagenes/Intro/proteina-ortoesterico.png, id=225, 289.08pt x 216.81pt>
+File: imagenes/Intro/proteina-ortoesterico.png Graphic file (type png)
+<use imagenes/Intro/proteina-ortoesterico.png>
+Package pdftex.def Info: imagenes/Intro/proteina-ortoesterico.png  used on input line 404.
+(pdftex.def)             Requested size: 250.95059pt x 195.19334pt.
 
 Underfull \hbox (badness 6364) in paragraph at lines 404--404
-[]\TU/Carlito(0)/m/n/8 [[]]Jonniya, N. & Kar, P.,\TU/Carlito(0)/m/it/8 Journal 
-of Chemical
+[]\OT1/Carlito-OsF/m/n/8 [[]]Jonniya, N. & Kar, P.,\OT1/Carlito-OsF/m/it/8 Journal of Che-mi-cal
  []
 
 
-Overfull \vbox (18.3775pt too high) detected at line 404
+Overfull \vbox (18.33176pt too high) detected at line 404
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [12
 
-]
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
+ <./imagenes/Intro/proteina-ortoesterico.png>]
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/it' will be
 (Font)              scaled to size 10.95pt on input line 427.
-Requested font "[Carlito-Italic.ttf]/OT:script=latn;language=dflt;+onum;+pnum;m
-apping=tex-text;" at 10.95pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Itali
-c.ttf
-File: imagenes/Intro/inhibidor-b.png Graphic file (type bmp)
-<imagenes/Intro/inhibidor-b.png>
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
+<imagenes/Intro/inhibidor-b.png, id=233, 587.19376pt x 381.425pt>
+File: imagenes/Intro/inhibidor-b.png Graphic file (type png)
+<use imagenes/Intro/inhibidor-b.png>
+Package pdftex.def Info: imagenes/Intro/inhibidor-b.png  used on input line 427.
+(pdftex.def)             Requested size: 191.20306pt x 143.40068pt.
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [13
 
-]
-File: imagenes/Intro/inhibidor-3.png Graphic file (type bmp)
-<imagenes/Intro/inhibidor-3.png>
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
+ <./imagenes/Intro/inhibidor-b.png>]
+<imagenes/Intro/inhibidor-3.png, id=243, 254.1495pt x 252.945pt>
+File: imagenes/Intro/inhibidor-3.png Graphic file (type png)
+<use imagenes/Intro/inhibidor-3.png>
+Package pdftex.def Info: imagenes/Intro/inhibidor-3.png  used on input line 446.
+(pdftex.def)             Requested size: 99.58327pt x 139.42122pt.
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [14
 
-]
-Underfull \hbox (badness 1565) in paragraph at lines 467--467
-\TU/Carlito(0)/m/n/10.95 y hace contactos clave con Lys74
+ <./imagenes/Intro/inhibidor-3.png>]
+Underfull \hbox (badness 1571) in paragraph at lines 467--467
+\OT1/Carlito-OsF/m/n/10.95 y ha-ce con-tac-tos cla-ve con Lys74
  []
 
-File: imagenes/Intro/inhibidor-c.png Graphic file (type bmp)
-<imagenes/Intro/inhibidor-c.png>
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
+<imagenes/Intro/inhibidor-c.png, id=252, 252.945pt x 348.30125pt>
+File: imagenes/Intro/inhibidor-c.png Graphic file (type png)
+<use imagenes/Intro/inhibidor-c.png>
+Package pdftex.def Info: imagenes/Intro/inhibidor-c.png  used on input line 467.
+(pdftex.def)             Requested size: 119.50555pt x 143.40498pt.
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [15
 
-]
-File: imagenes/Intro/inhibidor-a.png Graphic file (type bmp)
-<imagenes/Intro/inhibidor-a.png>
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
+ <./imagenes/Intro/inhibidor-c.png>]
+<imagenes/Intro/inhibidor-a.png, id=262, 501.875pt x 254.9525pt>
+File: imagenes/Intro/inhibidor-a.png Graphic file (type png)
+<use imagenes/Intro/inhibidor-a.png>
+Package pdftex.def Info: imagenes/Intro/inhibidor-a.png  used on input line 493.
+(pdftex.def)             Requested size: 167.30402pt x 119.50479pt.
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [16
 
-]
-File: imagenes/Intro/sintesis.png Graphic file (type bmp)
-<imagenes/Intro/sintesis.png>
-File: imagenes/Intro/NMR.png Graphic file (type bmp)
-<imagenes/Intro/NMR.png>
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/n' will be
+ <./imagenes/Intro/inhibidor-a.png>]
+<imagenes/Intro/sintesis.png, id=270, 669.2202pt x 139.9629pt>
+File: imagenes/Intro/sintesis.png Graphic file (type png)
+<use imagenes/Intro/sintesis.png>
+Package pdftex.def Info: imagenes/Intro/sintesis.png  used on input line 522.
+(pdftex.def)             Requested size: 215.1045pt x 47.80031pt.
+<imagenes/Intro/NMR.png, id=271, 949.5475pt x 865.2325pt>
+File: imagenes/Intro/NMR.png Graphic file (type png)
+<use imagenes/Intro/NMR.png>
+Package pdftex.def Info: imagenes/Intro/NMR.png  used on input line 522.
+(pdftex.def)             Requested size: 143.39673pt x 143.39091pt.
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 522.
-Requested font "[Caladea-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-
-text;" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Regular
-.ttf
-Requested font "cmmi12" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-Requested font "cmsy10" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-Requested font "cmex10" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-Requested font "msam10" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-Requested font "msbm10" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-Requested font "rsfs10" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/it' will be
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
 (Font)              scaled to size 14.4pt on input line 522.
-Requested font "[Caladea-Italic.ttf]/OT:script=latn;language=dflt;mapping=tex-t
-ext;" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Italic.
-ttf
-Requested font "cmr12" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-Requested font "tcrm1440" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1440.tfm
-LaTeX Font Info:    Font shape `TU/Carlito(0)/b/it' will be
+LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 522.
-Requested font "[Carlito-BoldItalic.ttf]/OT:script=latn;language=dflt;+onum;+pn
-um;mapping=tex-text;" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-BoldI
-talic.ttf
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/it' will be
+(Font)              scaled to size 14.4pt on input line 522.
 
-Overfull \vbox (11.6073pt too high) detected at line 522
+Overfull \vbox (11.51308pt too high) detected at line 522
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [17
 
-]
-File: imagenes/Intro/Fullereno-glicina.png Graphic file (type bmp)
-<imagenes/Intro/Fullereno-glicina.png>
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+pdfTeX warning (ext4): destination with the same identifier (name{workin}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.522 \end{frame}
+                  <./imagenes/Intro/sintesis.png> <./imagenes/Intro/NMR.png>]
+<imagenes/Intro/Fullereno-glicina.png, id=282, 654.19406pt x 363.60844pt>
+File: imagenes/Intro/Fullereno-glicina.png Graphic file (type png)
+<use imagenes/Intro/Fullereno-glicina.png>
+Package pdftex.def Info: imagenes/Intro/Fullereno-glicina.png  used on input line 547.
+(pdftex.def)             Requested size: 139.41118pt x 99.58482pt.
+pdfTeX warning (ext4): destination with the same identifier (name{workin}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.547 \end{frame}
+                 
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [18
 
-] (./beamersapienza.toc
+ <./imagenes/Intro/Fullereno-glicina.png>] (./beamersapienza.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2211,74 +1462,45 @@ Overfull \hbox (399.54431pt too wide) has occurred while \output is active
 
 ]
 Underfull \hbox (badness 3590) in paragraph at lines 581--581
-[]\TU/Carlito(0)/m/n/10 ¿Cómo afecta la funcionalización de fullerenos con amin
-oácidos a su estructura
+[]\OT1/Carlito-OsF/m/n/10 ?`C[]omo afec-ta la fun-cio-na-li-za-ci[]on de fu-lle-re-nos con amino[]aci-dos a su es-truc-tu-ra
  []
 
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/n' will be
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 581.
-Requested font "[Caladea-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-
-text;" at 9.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Regular
-.ttf
-Requested font "cmmi9" at 9.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
-Requested font "cmsy9" at 9.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
-Requested font "cmex9" at 9.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
-Requested font "msam10" at 9.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-Requested font "msbm10" at 9.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-Requested font "rsfs10" at 9.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-LaTeX Font Info:    Font shape `TU/Caladea(0)/m/it' will be
+LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 581.
-Requested font "[Caladea-Italic.ttf]/OT:script=latn;language=dflt;mapping=tex-t
-ext;" at 9.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/huerta/caladea/Caladea-Italic.
-ttf
-Requested font "cmr9" at 9.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
-Requested font "tcrm0900" at 9.0pt
- -> /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
-File: imagenes/Intro/planteamiento-1.png Graphic file (type bmp)
-<imagenes/Intro/planteamiento-1.png>
+<imagenes/Intro/planteamiento-1.png, id=310, 1450.41875pt x 722.7pt>
+File: imagenes/Intro/planteamiento-1.png Graphic file (type png)
+<use imagenes/Intro/planteamiento-1.png>
+Package pdftex.def Info: imagenes/Intro/planteamiento-1.png  used on input line 581.
+(pdftex.def)             Requested size: 159.32524pt x 79.66264pt.
 
-Overfull \vbox (2.52638pt too high) detected at line 581
+Overfull \vbox (2.46797pt too high) detected at line 581
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [20
 
-] (./beamersapienza.toc
+ <./imagenes/Intro/planteamiento-1.png>] (./beamersapienza.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [21
 
 ]
-Overfull \vbox (25.9515pt too high) detected at line 624
+Overfull \vbox (25.87622pt too high) detected at line 624
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2288,20 +1510,14 @@ Overfull \hbox (399.54431pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [23
 
 ]
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2311,26 +1527,17 @@ Overfull \hbox (399.54431pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [25
 
 ]
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
 (Font)              scaled to size 7.0pt on input line 659.
-Requested font "[Carlito-Regular.ttf]/OT:script=latn;language=dflt;+onum;+pnum;
-mapping=tex-text;" at 7.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Regul
-ar.ttf
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2340,10 +1547,7 @@ Overfull \hbox (399.54431pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2353,356 +1557,362 @@ Overfull \hbox (399.54431pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [28
 
 ]
+<imagenes/Resultados/fukui-1.pdf, id=414, 728.64261pt x 539.69893pt>
 File: imagenes/Resultados/fukui-1.pdf Graphic file (type pdf)
 <use imagenes/Resultados/fukui-1.pdf>
+Package pdftex.def Info: imagenes/Resultados/fukui-1.pdf  used on input line 705.
+(pdftex.def)             Requested size: 219.08366pt x 175.26831pt.
 
-Overfull \vbox (30.0719pt too high) detected at line 705
+Overfull \vbox (29.98189pt too high) detected at line 705
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [29
 
-]
+ <./imagenes/Resultados/fukui-1.pdf>]
+<imagenes/Resultados/fukui-2.pdf, id=440, 715.64435pt x 562.68777pt>
 File: imagenes/Resultados/fukui-2.pdf Graphic file (type pdf)
 <use imagenes/Resultados/fukui-2.pdf>
+Package pdftex.def Info: imagenes/Resultados/fukui-2.pdf  used on input line 734.
+(pdftex.def)             Requested size: 199.16695pt x 179.24811pt.
+<imagenes/Resultados/fukui-3.pdf, id=441, 774.78252pt x 676.70773pt>
 File: imagenes/Resultados/fukui-3.pdf Graphic file (type pdf)
 <use imagenes/Resultados/fukui-3.pdf>
+Package pdftex.def Info: imagenes/Resultados/fukui-3.pdf  used on input line 734.
+(pdftex.def)             Requested size: 199.16884pt x 179.24408pt.
 
-Overfull \vbox (37.36124pt too high) detected at line 734
+Overfull \vbox (37.27122pt too high) detected at line 734
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [30
 
-]
-LaTeX Font Info:    Font shape `TU/Carlito(0)/b/it' will be
-(Font)              scaled to size 10.95pt on input line 777.
-Requested font "[Carlito-BoldItalic.ttf]/OT:script=latn;language=dflt;+onum;+pn
-um;mapping=tex-text;" at 10.95pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-BoldI
-talic.ttf
-File: imagenes/Resultados/C60-gli-1-prueba-4.png Graphic file (type bmp)
-<imagenes/Resultados/C60-gli-1-prueba-4.png>
+ <./imagenes/Resultados/fukui-2.pdf> <./imagenes/Resultados/fukui-3.pdf
 
-Overfull \hbox (19.91217pt too wide) in paragraph at lines 777--777
+pdfTeX warning: pdflatex (file ./imagenes/Resultados/fukui-3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/it' will be
+(Font)              scaled to size 10.95pt on input line 777.
+<imagenes/Resultados/C60-gli-1-prueba-4.png, id=484, 2793.6872pt x 2224.56094pt>
+File: imagenes/Resultados/C60-gli-1-prueba-4.png Graphic file (type png)
+<use imagenes/Resultados/C60-gli-1-prueba-4.png>
+Package pdftex.def Info: imagenes/Resultados/C60-gli-1-prueba-4.png  used on input line 777.
+(pdftex.def)             Requested size: 219.06621pt x 199.14958pt.
+
+Overfull \hbox (19.89691pt too wide) in paragraph at lines 777--777
 [][]
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [31
 
-]
+ <./imagenes/Resultados/C60-gli-1-prueba-4.png>]
+<imagenes/Resultados/fukui-3-nuevo.pdf, id=492, 616.56392pt x 547.7451pt>
 File: imagenes/Resultados/fukui-3-nuevo.pdf Graphic file (type pdf)
 <use imagenes/Resultados/fukui-3-nuevo.pdf>
+Package pdftex.def Info: imagenes/Resultados/fukui-3-nuevo.pdf  used on input line 815.
+(pdftex.def)             Requested size: 215.1044pt x 191.20381pt.
 
-Overfull \vbox (31.78107pt too high) detected at line 815
+Overfull \vbox (31.69102pt too high) detected at line 815
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [32
 
-]
+ <./imagenes/Resultados/fukui-3-nuevo.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{tab:gibbs_thermo_conv}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.851 \end{frame}
+                 
+<imagenes/Resultados/fukui-4-nuevo.pdf, id=530, 622.7664pt x 607.54732pt>
 File: imagenes/Resultados/fukui-4-nuevo.pdf Graphic file (type pdf)
 <use imagenes/Resultados/fukui-4-nuevo.pdf>
+Package pdftex.def Info: imagenes/Resultados/fukui-4-nuevo.pdf  used on input line 851.
+(pdftex.def)             Requested size: 215.1017pt x 191.20227pt.
 
-Overfull \vbox (24.66632pt too high) detected at line 851
+Overfull \vbox (24.5763pt too high) detected at line 851
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [33
 
-]
-File: imagenes/Resultados/prueba-final.png Graphic file (type bmp)
-<imagenes/Resultados/prueba-final.png>
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
+ <./imagenes/Resultados/fukui-4-nuevo.pdf>]
+<imagenes/Resultados/prueba-final.png, id=564, 2793.6872pt x 2138.74031pt>
+File: imagenes/Resultados/prueba-final.png Graphic file (type png)
+<use imagenes/Resultados/prueba-final.png>
+Package pdftex.def Info: imagenes/Resultados/prueba-final.png  used on input line 861.
+(pdftex.def)             Requested size: 199.15884pt x 159.32166pt.
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [34
 
-]
+ <./imagenes/Resultados/prueba-final.png>]
+<imagenes/Resultados/radicalaria.pdf, id=570, 1492.84593pt x 457.13036pt>
 File: imagenes/Resultados/radicalaria.pdf Graphic file (type pdf)
 <use imagenes/Resultados/radicalaria.pdf>
+Package pdftex.def Info: imagenes/Resultados/radicalaria.pdf  used on input line 870.
+(pdftex.def)             Requested size: 398.33577pt x 139.42107pt.
 
-Overfull \vbox (9.66216pt too high) detected at line 870
+Overfull \vbox (9.59969pt too high) detected at line 870
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [35
 
-]
-File: imagenes/Resultados/figure_1.png Graphic file (type bmp)
-<imagenes/Resultados/figure_1.png>
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
+ <./imagenes/Resultados/radicalaria.pdf>]
+<imagenes/Resultados/figure_1.png, id=599, 867.24pt x 433.62pt>
+File: imagenes/Resultados/figure_1.png Graphic file (type png)
+<use imagenes/Resultados/figure_1.png>
+Package pdftex.def Info: imagenes/Resultados/figure_1.png  used on input line 914.
+(pdftex.def)             Requested size: 250.9506pt x 139.41626pt.
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [36
 
-]
-File: imagenes/Resultados/c60-4gli.png Graphic file (type bmp)
-<imagenes/Resultados/c60-4gli.png>
+ <./imagenes/Resultados/Figure_1.png>]
+<imagenes/Resultados/c60-4gli.png, id=608, 2793.6872pt x 2165.84157pt>
+File: imagenes/Resultados/c60-4gli.png Graphic file (type png)
+<use imagenes/Resultados/c60-4gli.png>
+Package pdftex.def Info: imagenes/Resultados/c60-4gli.png  used on input line 925.
+(pdftex.def)             Requested size: 238.97357pt x 159.32458pt.
 
-Overfull \vbox (12.44519pt too high) detected at line 925
+Overfull \vbox (12.37666pt too high) detected at line 925
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [37
 
-]
-LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
+ <./imagenes/Resultados/c60-4gli.png>]
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/n' will be
 (Font)              scaled to size 7.0pt on input line 967.
-Requested font "[Carlito-Bold.ttf]/OT:script=latn;language=dflt;+onum;+pnum;map
-ping=tex-text;" at 7.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Bold.
-ttf
-LaTeX Font Info:    Font shape `TU/Carlito(0)/b/it' will be
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/it' will be
 (Font)              scaled to size 10.0pt on input line 967.
-Requested font "[Carlito-BoldItalic.ttf]/OT:script=latn;language=dflt;+onum;+pn
-um;mapping=tex-text;" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-BoldI
-talic.ttf
 
-Overfull \vbox (1.81091pt too high) detected at line 967
+Overfull \vbox (1.73253pt too high) detected at line 967
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [38
 
 ]
+<imagenes/Resultados/box-1.pdf, id=621, 492.88062pt x 501.28677pt>
 File: imagenes/Resultados/box-1.pdf Graphic file (type pdf)
 <use imagenes/Resultados/box-1.pdf>
+Package pdftex.def Info: imagenes/Resultados/box-1.pdf  used on input line 1008.
+(pdftex.def)             Requested size: 195.18584pt x 167.29915pt.
 
-Overfull \vbox (16.45607pt too high) detected at line 1008
+Overfull \vbox (16.41628pt too high) detected at line 1008
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [39
 
-]
-File: imagenes/Resultados/histograma-completo.png Graphic file (type bmp)
-<imagenes/Resultados/histograma-completo.png>
+ <./imagenes/Resultados/box-1.pdf>]
+<imagenes/Resultados/histograma-completo.png, id=638, 1799.523pt x 706.0779pt>
+File: imagenes/Resultados/histograma-completo.png Graphic file (type png)
+<use imagenes/Resultados/histograma-completo.png>
+Package pdftex.def Info: imagenes/Resultados/histograma-completo.png  used on input line 1026.
+(pdftex.def)             Requested size: 358.49785pt x 199.1657pt.
 
-Overfull \vbox (30.04654pt too high) detected at line 1026
+Overfull \vbox (30.00476pt too high) detected at line 1026
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [40
 
-]
+ <./imagenes/Resultados/histograma-completo.png>]pdfTeX warning (ext4): destination with the same identifier (name{tab:parametros_acoplamiento}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1073 \end{frame}
+                  
+<imagenes/Resultados/principal-acoplamiento.pdf, id=645, 918.29016pt x 556.4672pt>
 File: imagenes/Resultados/principal-acoplamiento.pdf Graphic file (type pdf)
 <use imagenes/Resultados/principal-acoplamiento.pdf>
+Package pdftex.def Info: imagenes/Resultados/principal-acoplamiento.pdf  used on input line 1073.
+(pdftex.def)             Requested size: 278.82402pt x 167.30655pt.
 
-Overfull \vbox (21.70392pt too high) detected at line 1073
+Overfull \vbox (21.61572pt too high) detected at line 1073
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [41
 
-]
+ <./imagenes/Resultados/principal-acoplamiento.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{tab:parametros_acoplamiento}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1109 \end{frame}
+                  
+<imagenes/Resultados/box-2.pdf, id=658, 567.0157pt x 579.43202pt>
 File: imagenes/Resultados/box-2.pdf Graphic file (type pdf)
 <use imagenes/Resultados/box-2.pdf>
+Package pdftex.def Info: imagenes/Resultados/box-2.pdf  used on input line 1109.
+(pdftex.def)             Requested size: 195.18802pt x 167.29713pt.
 
-Overfull \vbox (16.45406pt too high) detected at line 1109
+Overfull \vbox (16.41426pt too high) detected at line 1109
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [42
 
-]
-File: imagenes/Resultados/histograma-1.png Graphic file (type bmp)
-<imagenes/Resultados/histograma-1.png>
+ <./imagenes/Resultados/box-2.pdf>]
+<imagenes/Resultados/histograma-1.png, id=674, 1300.86pt x 650.43pt>
+File: imagenes/Resultados/histograma-1.png Graphic file (type png)
+<use imagenes/Resultados/histograma-1.png>
+Package pdftex.def Info: imagenes/Resultados/histograma-1.png  used on input line 1123.
+(pdftex.def)             Requested size: 318.66386pt x 179.2509pt.
 
-Overfull \vbox (25.78079pt too high) detected at line 1123
+Overfull \vbox (25.73906pt too high) detected at line 1123
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [43
 
-]
-File: imagenes/Resultados/primera-pose.png Graphic file (type bmp)
-<imagenes/Resultados/primera-pose.png>
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
+ <./imagenes/Resultados/histograma-1.png>]
+<imagenes/Resultados/primera-pose.png, id=682, 946.53625pt x 881.2925pt>
+File: imagenes/Resultados/primera-pose.png Graphic file (type png)
+<use imagenes/Resultados/primera-pose.png>
+Package pdftex.def Info: imagenes/Resultados/primera-pose.png  used on input line 1165.
+(pdftex.def)             Requested size: 250.94646pt x 139.40942pt.
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [44
 
-]
+ <./imagenes/Resultados/primera-pose.png>]
+<imagenes/Resultados/sitio-1.pdf, id=690, 566.9153pt x 757.91016pt>
 File: imagenes/Resultados/sitio-1.pdf Graphic file (type pdf)
 <use imagenes/Resultados/sitio-1.pdf>
-File: imagenes/Resultados/sitio-articulo.png Graphic file (type bmp)
-<imagenes/Resultados/sitio-articulo.png>
+Package pdftex.def Info: imagenes/Resultados/sitio-1.pdf  used on input line 1195.
+(pdftex.def)             Requested size: 105.16315pt x 118.29596pt.
+<imagenes/Resultados/sitio-articulo.png, id=691, 565.11125pt x 494.84875pt>
+File: imagenes/Resultados/sitio-articulo.png Graphic file (type png)
+<use imagenes/Resultados/sitio-articulo.png>
+Package pdftex.def Info: imagenes/Resultados/sitio-articulo.png  used on input line 1195.
+(pdftex.def)             Requested size: 118.30608pt x 105.15962pt.
 
 Underfull \hbox (badness 1622) in paragraph at lines 1195--1195
-\TU/Carlito(0)/m/n/10.95 estado inactivo extendido a
+\OT1/Carlito-OsF/m/n/10.95 es-ta-do inac-ti-vo ex-ten-di-do a
  []
 
 
 Underfull \hbox (badness 1448) in paragraph at lines 1195--1195
-[]\TU/Carlito(0)/m/n/8 [[]] Chandramouli, S. et al.,\TU/Carlito(0)/m/it/8 Journ
-al of
+[]\OT1/Carlito-OsF/m/n/8 [[]] Chan-dra-mou-li, S. et al.,\OT1/Carlito-OsF/m/it/8 Journal of
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [45
 
-]
-File: imagenes/Resultados/ileu67.png Graphic file (type bmp)
-<imagenes/Resultados/ileu67.png>
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
+ <./imagenes/Resultados/sitio-1.pdf> <./imagenes/Resultados/sitio-articulo.png>]
+<imagenes/Resultados/ileu67.png, id=716, 709.9323pt x 661.7523pt>
+File: imagenes/Resultados/ileu67.png Graphic file (type png)
+<use imagenes/Resultados/ileu67.png>
+Package pdftex.def Info: imagenes/Resultados/ileu67.png  used on input line 1236.
+(pdftex.def)             Requested size: 250.94987pt x 139.41637pt.
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [46
 
-] (./beamersapienza.toc
+ <./imagenes/Resultados/ileu67.png>] (./beamersapienza.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [47
 
 ]
-Underfull \hbox (badness 2617) in paragraph at lines 1254--1254
-[]\TU/Carlito(0)/m/n/10.95 Los cálculos de estructura electrónica confirmaron q
-ue la funcionalización del
+Underfull \hbox (badness 2556) in paragraph at lines 1254--1254
+[]\OT1/Carlito-OsF/m/n/10.95 Los c[]alcu-los de es-truc-tu-ra electr[]oni-ca con-fir-ma-ron que la fun-cio-na-li-za-ci[]on del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1254--1254
-\TU/Carlito(0)/m/n/10.95 complejo C$[]$(\TU/Carlito(0)/m/it/10.95 Gly\TU/Carlit
-o(0)/m/n/10.95 )$[]$ modifica favorablemente sus propiedades físico-químicas,
- []
-
-
-Underfull \hbox (badness 4366) in paragraph at lines 1254--1254
-[]\TU/Carlito(0)/m/n/10.95 El análisis de acoplamiento molecular demostró que e
-l aducto es capaz de
+Underfull \hbox (badness 4316) in paragraph at lines 1254--1254
+[]\OT1/Carlito-OsF/m/n/10.95 El an[]ali-sis de aco-pla-mien-to mo-le-cu-lar de-mostr[]o que el aduc-to es ca-paz de
  []
 
 
 Underfull \hbox (badness 1616) in paragraph at lines 1254--1254
-\TU/Carlito(0)/m/n/10.95 brindan información valiosa sobre las interacciones es
-pecíficas en los sitios de
+\OT1/Carlito-OsF/m/n/10.95 brin-dan in-for-ma-ci[]on va-lio-sa so-bre las in-ter-ac-cio-nes es-pec[]^^Pfi-cas en los si-tios de
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2712,20 +1922,14 @@ Overfull \hbox (399.54431pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [49
 
 ]
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2735,59 +1939,48 @@ Overfull \hbox (399.54431pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [51
 
 ]
-File: imagenes/metodologia/cronograma.png Graphic file (type bmp)
-<imagenes/metodologia/cronograma.png>
+<imagenes/metodologia/cronograma.png, id=784, 770.88pt x 578.16pt>
+File: imagenes/metodologia/cronograma.png Graphic file (type png)
+<use imagenes/metodologia/cronograma.png>
+Package pdftex.def Info: imagenes/metodologia/cronograma.png  used on input line 1279.
+(pdftex.def)             Requested size: 358.50255pt x 199.16547pt.
 
-Overfull \vbox (23.45975pt too high) detected at line 1279
+Overfull \vbox (23.39238pt too high) detected at line 1279
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [52
 
-] (./beamersapienza.toc
+ <./imagenes/metodologia/cronograma.png (PNG copy)>] (./beamersapienza.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [53
 
 ] (./beamersapienza.bbl)
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [54
 
 ]
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2795,10 +1988,7 @@ Overfull \hbox (399.54431pt too wide) has occurred while \output is active
 
 
 ]
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2806,122 +1996,105 @@ Overfull \hbox (399.54431pt too wide) has occurred while \output is active
 
 
 ]
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
+LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
 (Font)              scaled to size 24.88pt on input line 1293.
-Requested font "[Carlito-Regular.ttf]/OT:script=latn;language=dflt;+onum;+pnum;
-mapping=tex-text;" at 24.88pt
- -> /usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Regul
-ar.ttf
 
-
-LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 1293.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 1293.
-
-Requested font "[lmroman12-regular]:mapping=tex-text;" at 14.4pt
- -> /usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf
-
-LaTeX Font Warning: Font shape `TU/ptm/m/sl' undefined
-(Font)              using `TU/ptm/m/it' instead on input line 1293.
-
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [57
 
 ]
-File: ~/Tesis-Template-2/imagenes/Intro/bolsillos.png Graphic file (type bmp)
-<~/Tesis-Template-2/imagenes/Intro/bolsillos.png>
-
+<~/Tesis-Template-2/imagenes/Intro/bolsillos.png, id=834, 503.7219pt x 395.5578pt>
+File: ~/Tesis-Template-2/imagenes/Intro/bolsillos.png Graphic file (type png)
+<use ~/Tesis-Template-2/imagenes/Intro/bolsillos.png>
+Package pdftex.def Info: ~/Tesis-Template-2/imagenes/Intro/bolsillos.png  used on input line 1338.
+(pdftex.def)             Requested size: 143.40082pt x 143.40262pt.
+pdfTeX warning (ext4): destination with the same identifier (name{dete}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1338 \end{frame}
+                  
 Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
-[]|\TU/Carlito(0)/m/n/6 Porción hidrofílica
+[]|\OT1/Carlito-OsF/m/n/6 Porci[]on hi-drof[]^^Pli-ca
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
-\TU/Carlito(0)/m/n/6 esencial; evita la
+\OT1/Carlito-OsF/m/n/6 esen-cial; evi-ta la
  []
 
 
-Underfull \hbox (badness 5832) in paragraph at lines 1338--1338
-\TU/Carlito(0)/m/n/6 agregación de NS3 y
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
-[]|\TU/Carlito(0)/m/n/6 Carga negativa:
+Underfull \hbox (badness 5847) in paragraph at lines 1338--1338
+\OT1/Carlito-OsF/m/n/6 agre-ga-ci[]on de NS3 y
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
-\TU/Carlito(0)/m/n/6 Atrae residuos
+[]|\OT1/Carlito-OsF/m/n/6 Carga ne-ga-ti-va:
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
-\TU/Carlito(0)/m/n/6 positivos (Arg/Lys)
+\OT1/Carlito-OsF/m/n/6 Atrae re-si-duos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
+\OT1/Carlito-OsF/m/n/6 po-si-ti-vos (Arg/Lys)
  []
 
 
 Underfull \hbox (badness 2158) in paragraph at lines 1338--1338
-\TU/Carlito(0)/m/n/6 del sustrato mediante
+\OT1/Carlito-OsF/m/n/6 del sus-tra-to me-dian-te
  []
 
 
 Underfull \hbox (badness 1735) in paragraph at lines 1338--1338
-[]|\TU/Carlito(0)/b/n/6 Tríada Catalítica: \TU/Carlito(0)/m/n/6 Sitio
+[]|\OT1/Carlito-OsF/b/n/6 Tr[]^^Pada Ca-tal[]^^Pti-ca: \OT1/Carlito-OsF/m/n/6 Si-tio
  []
 
 
 Underfull \hbox (badness 7777) in paragraph at lines 1338--1338
-\TU/Carlito(0)/m/n/6 central donde ocurre
+\OT1/Carlito-OsF/m/n/6 cen-tral don-de ocu-rre
  []
 
 
-Overfull \vbox (23.92302pt too high) detected at line 1338
+Overfull \vbox (23.8779pt too high) detected at line 1338
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [58
 
-]
+ </home/fanny/Tesis-Template-2/imagenes/Intro/bolsillos.png>]
+<imagenes/Intro/ciclo-1.pdf, id=847, 1054.38718pt x 843.01527pt>
 File: imagenes/Intro/ciclo-1.pdf Graphic file (type pdf)
 <use imagenes/Intro/ciclo-1.pdf>
+Package pdftex.def Info: imagenes/Intro/ciclo-1.pdf  used on input line 1351.
+(pdftex.def)             Requested size: 298.7498pt x 191.20099pt.
 
-Overfull \vbox (21.08449pt too high) detected at line 1351
+Overfull \vbox (21.0667pt too high) detected at line 1351
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [59
 
-]
-Overfull \hbox (5.09506pt too wide) in paragraph at lines 1381--1381
-[]|\TU/Carlito(0)/m/n/10 Funcional| 
+ <./imagenes/Intro/ciclo-1.pdf>]
+Overfull \hbox (5.09575pt too wide) in paragraph at lines 1381--1381
+[]|\OT1/Carlito-OsF/m/n/10 Funcional| 
  []
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
 
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2932,20 +2105,14 @@ Overfull \hbox (399.54431pt too wide) has occurred while \output is active
 LaTeX Warning: Citation `kohn1965self' on page 61 undefined on input line 1393.
 
 
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
 [61
 
 ]
-File: imagenes/Portada/Logo.png Graphic file (type bmp)
-<imagenes/Portada/Logo.png>
-
-Overfull \hbox (399.54431pt too wide) has occurred while \output is active
+Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2966,9 +2133,6 @@ LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
 LaTeX Warning: There were undefined references.
 
 
@@ -2978,12 +2142,18 @@ Package rerunfilecheck Info: File `beamersapienza.out' has not changed.
 (rerunfilecheck)             Checksum: 2EFBA066A89497118379EC7E9D54BCC5;1351.
  ) 
 Here is how much of TeX's memory you used:
- 31801 strings out of 476191
- 684163 string characters out of 5812072
- 990484 words of memory out of 5000000
- 51729 multiletter control sequences out of 15000+600000
- 483532 words of font info for 139 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 128i,18n,133p,662b,1146s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29925 strings out of 478287
+ 597726 string characters out of 5849289
+ 843120 words of memory out of 5000000
+ 47204 multiletter control sequences out of 15000+600000
+ 575598 words of font info for 139 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,18n,122p,733b,1152s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/caladea/cld_prieif.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/carlito/crlt_ssbojb.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/carlito/crlt_llspvt.enc}</usr/share/texlive/texmf-dist/fonts/type1/huerta/caladea/Caladea-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/huerta/caladea/Caladea-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito-BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on beamersapienza.pdf (62 pages, 40015796 bytes).
+PDF statistics:
+ 1037 PDF objects out of 1200 (max. 8388607)
+ 768 compressed objects within 8 object streams
+ 168 named destinations out of 1000 (max. 500000)
+ 364 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on beamersapienza.pdf (62 pages).

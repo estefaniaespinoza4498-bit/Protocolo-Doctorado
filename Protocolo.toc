@@ -48,25 +48,24 @@
 \contentsline {section}{\numberline {7.11}Identificación de propuestas regioquímicas y funcionalización secuencial de C\textsubscript {60} con glicina}{41}{section.7.11}%
 \contentsline {section}{\numberline {7.12}Análisis de descriptores de reactividad global (PI y AE)}{50}{section.7.12}%
 \contentsline {section}{\numberline {7.13}Potencial electrostático superficial}{51}{section.7.13}%
-\contentsline {subsection}{\numberline {7.13.1}Implicaciones en el reconocimiento molecular con la proteína NS2B-NS3 (DENV2)}{51}{subsection.7.13.1}%
 \contentsline {section}{\numberline {7.14}Estructura de la proteína NS2B-NS3}{54}{section.7.14}%
-\contentsline {subsection}{\numberline {7.14.1}Comportamiento de la estabilidad global y movilidad (RMSD)}{59}{subsection.7.14.1}%
-\contentsline {subsection}{\numberline {7.14.2}Proceso de compactación y exposición hidrofóbica ($R_g$ y SASA)}{60}{subsection.7.14.2}%
-\contentsline {subsection}{\numberline {7.14.3}Dinámica de la red interna de enlaces de hidrógeno}{61}{subsection.7.14.3}%
-\contentsline {subsection}{\numberline {7.14.4}Evaluación del acoplamiento alostérico del derivado C\textsubscript {60}(Gly)\textsubscript {4}}{73}{subsection.7.14.4}%
-\contentsline {subsection}{\numberline {7.14.5}Análisis comparativo entre el derivado de fulereno y el inhibidor alostérico (benzamida/benzofurano)}{74}{subsection.7.14.5}%
-\contentsline {subsection}{\numberline {7.14.6}Contraste comparativo con el inhibidor reportado 246DA}{77}{subsection.7.14.6}%
-\contentsline {subsection}{\numberline {7.14.7}Conclusión}{94}{subsection.7.14.7}%
-\contentsline {chapter}{\numberline {8}Fundamentos de los cálculos de estructura electrónica}{95}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Programas y conceptos generales}{95}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Teoría del Funcional de la Densidad}{95}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Funcional B3LYP y conjunto de bases}{95}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Optimización, frecuencias y comparación energética}{96}{section.8.4}%
-\contentsline {chapter}{\numberline {9}Funciones de Fukui y descriptores de reactividad}{97}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Funciones de Fukui en el espacio}{97}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Ionización y afinidad electrónica}{97}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Potencial químico, electronegatividad y dureza}{98}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Potencial electrostático molecular}{98}{section.9.4}%
-\contentsline {chapter}{Referencias de los apéndices}{99}{section*.22}%
-\contentsline {chapter}{\numberline {10}Cronograma}{100}{chapter.10}%
-\contentsline {chapter}{Bibliografía}{101}{figure.10.1}%
+\contentsline {subsection}{\numberline {7.14.1}Comportamiento de la estabilidad global y movilidad (RMSD)}{58}{subsection.7.14.1}%
+\contentsline {subsection}{\numberline {7.14.2}Proceso de compactación y exposición hidrofóbica ($R_g$ y SASA)}{59}{subsection.7.14.2}%
+\contentsline {subsection}{\numberline {7.14.3}Dinámica de la red interna de enlaces de hidrógeno}{60}{subsection.7.14.3}%
+\contentsline {subsection}{\numberline {7.14.4}Evaluación del acoplamiento alostérico del derivado C\textsubscript {60}(Gly)\textsubscript {4}}{72}{subsection.7.14.4}%
+\contentsline {subsection}{\numberline {7.14.5}Análisis comparativo entre el derivado de fulereno y el inhibidor alostérico (benzamida/benzofurano)}{73}{subsection.7.14.5}%
+\contentsline {subsection}{\numberline {7.14.6}Contraste comparativo con el inhibidor reportado 246DA}{76}{subsection.7.14.6}%
+\contentsline {subsection}{\numberline {7.14.7}Conclusión}{93}{subsection.7.14.7}%
+\contentsline {chapter}{\numberline {8}Fundamentos de los cálculos de estructura electrónica}{94}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Programas y conceptos generales}{94}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Teoría del Funcional de la Densidad}{94}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Funcional B3LYP y conjunto de bases}{94}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Optimización, frecuencias y comparación energética}{95}{section.8.4}%
+\contentsline {chapter}{\numberline {9}Funciones de Fukui y descriptores de reactividad}{96}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Funciones de Fukui en el espacio}{96}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Ionización y afinidad electrónica}{96}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Potencial químico, electronegatividad y dureza}{97}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Potencial electrostático molecular}{97}{section.9.4}%
+\contentsline {chapter}{Referencias de los apéndices}{98}{section*.22}%
+\contentsline {chapter}{\numberline {10}Cronograma}{99}{chapter.10}%
+\contentsline {chapter}{Bibliografía}{100}{figure.10.1}%
