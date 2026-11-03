@@ -47398,7 +47398,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.397   \caption
-                {Representación esquemática del fulereno C\textsubscript{60}}
+                {Representación esquemática del fullereno C\textsubscript{60}}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -54300,7 +54300,7 @@ Overfull \hbox (5.43pt too wide) in paragraph at lines 439--441
 
 ! Undefined control sequence.
 l.442 \subsubsection
-                    {Fulereno con Glicina (C\textsubscript{60}--Gly): Síntes...
+                    {fullereno con Glicina (C\textsubscript{60}--Gly): Síntes...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -57037,9 +57037,9 @@ Missing character: There is no b ("62) in font nullfont!
 Missing character: There is no l ("6C) in font nullfont!
 Missing character: There is no a ("61) in font nullfont!
 ! Undefined control sequence.
-<write> ...plicaciones_fulereno' on page \thepage 
+<write> ...plicaciones_fullereno' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.467 ... la Tabla~\ref{tab:aplicaciones_fulereno}
+l.467 ... la Tabla~\ref{tab:aplicaciones_fullereno}
                                                   . \cite{nakamura2012water,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -57048,7 +57048,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `tab:aplicaciones_fulereno' on page  undefined on inpu
+LaTeX Warning: Reference `tab:aplicaciones_fullereno' on page  undefined on inpu
 t line 467.
 
 Missing character: There is no . ("2E) in font nullfont!
@@ -58502,9 +58502,9 @@ Missing character: There is no b ("62) in font nullfont!
 Missing character: There is no l ("6C) in font nullfont!
 Missing character: There is no a ("61) in font nullfont!
 ! Undefined control sequence.
-<write> ...teracciones_fulereno' on page \thepage 
+<write> ...teracciones_fullereno' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.488 ...la Tabla~\ref{tab:interacciones_fulereno}
+l.488 ...la Tabla~\ref{tab:interacciones_fullereno}
                                                   ) \cite{bolshakova2023faci...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -58513,7 +58513,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `tab:interacciones_fulereno' on page  undefined on inp
+LaTeX Warning: Reference `tab:interacciones_fullereno' on page  undefined on inp
 ut line 488.
 
 Missing character: There is no ) ("29) in font nullfont!
@@ -58522,7 +58522,7 @@ Missing character: There is no [ ("5B) in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.488 ...es_fulereno}) \cite{bolshakova2023facile}
+l.488 ...es_fullereno}) \cite{bolshakova2023facile}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have

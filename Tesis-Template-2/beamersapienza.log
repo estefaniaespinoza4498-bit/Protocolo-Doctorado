@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.30)  30 OCT 2026 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.30)  3 NOV 2026 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -638,8 +638,8 @@ File: tikzlibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (./beamerthemesintef.sty
 Package: beamerthemesintef 2021/11/02
- (/usr/share/texlive/texmf-dist/tex/latex/caladea/caladea.sty
-Package: caladea 2014/08/17 (Bob Tennent) Supports Caladea fonts for LaTeX, pdfLaTeX, luaLaTeX and xeLaTeX.
+ (/usr/share/texlive/texmf-dist/tex/latex/fira/FiraSans.sty
+Package: FiraSans 2019/10/10 (Bob Tennent and autoinst) Style file for Fira Sans fonts.
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 ) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
@@ -654,10 +654,6 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)) (/usr/share/texlive/texmf-dist/tex/latex/carlito/carlito.sty
-Package: carlito 2014/08/20 (Bob Tennent) Supports Carlito fonts for LaTeX, pdfLaTeX, luaLaTeX and xeLaTeX.
- (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
@@ -670,9 +666,7 @@ LaTeX Info: Redefining \ulcshape on input line 41.
 LaTeX Info: Redefining \textsw on input line 47.
 LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
-)
-LaTeX Info: Redefining \textin on input line 153.
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (./sintefcolor.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (./sintefcolor.sty
 Package: sintefcolor 2021/03/04
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
@@ -802,11 +796,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 61.
 
-LaTeX Font Info:    Trying to load font information for OT1+Carlito-OsF on input line 61.
-(/usr/share/texlive/texmf-dist/tex/latex/carlito/OT1Carlito-OsF.fd
-File: OT1Carlito-OsF.fd 2014/08/20 (autoinst) Font definitions for OT1/Carlito-OsF.
+LaTeX Font Info:    Trying to load font information for OT1+FiraSans-OsF on input line 61.
+(/usr/share/texlive/texmf-dist/tex/latex/fira/OT1FiraSans-OsF.fd
+File: OT1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for OT1/FiraSans-OsF.
 )
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <10.95> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 10.95pt on input line 61.
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
@@ -941,44 +937,6 @@ LaTeX Info: Redefining \nameref on input line 61.
 \@outlinefile=\write5
 \openout5 = `beamersapienza.out'.
 
-\symnumbers=\mathgroup7
-\sympureletters=\mathgroup8
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/Caladea-TLF/m/n on input line 61.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/Caladea-TLF/b/n on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/Caladea-TLF/b/n on input line 61.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/Carlito-OsF/m/n on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/Carlito-OsF/m/n on input line 61.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/Caladea-TLF/m/it on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/Caladea-TLF/m/it on input line 61.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 61.
-LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/Caladea-TLF/m/n --> OT1/Caladea-TLF/b/n on input line 61.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/Caladea-TLF/m/it --> OT1/Caladea-TLF/b/it on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/Caladea-TLF/b/n on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/Caladea-TLF/b/n --> OT1/Caladea-TLF/b/n on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/Carlito-OsF/m/n --> OT1/Carlito-OsF/b/n on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/Caladea-TLF/m/it --> OT1/Caladea-TLF/b/it on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 61.
  (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -996,9 +954,9 @@ LaTeX Info: Redefining \. on input line 61.
 LaTeX Info: Redefining \% on input line 61.
 \c@mv@tabular=\count358
 \c@mv@boldtabular=\count359
-\symgns@font=\mathgroup9
+\symgns@font=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/Carlito-OsF/m/n --> TS1/Carlito-OsF/b/n on input line 61.
+(Font)                  TS1/FiraSans-OsF/m/n --> TS1/FiraSans-OsF/b/n on input line 61.
 Package gensymb Info: Math companion symbols declared on input line 61.
 LaTeX Info: Redefining \degree on input line 61.
 LaTeX Info: Redefining \celsius on input line 61.
@@ -1007,15 +965,25 @@ LaTeX Info: Redefining \ohm on input line 61.
 Package gensymb Info: Using \textohm for \ohm on input line 61.
 Package gensymb Info: Using \textmu for \micro on input line 61.
  (./beamersapienza.nav)
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <6> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 6.0pt on input line 61.
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <8> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 8.0pt on input line 61.
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <14.4> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 14.4pt on input line 62.
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/n' in size <14.4> not available
+(Font)              Font shape `OT1/FiraSans-OsF/bold/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 14.4pt on input line 62.
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/n' in size <10> not available
+(Font)              Font shape `OT1/FiraSans-OsF/bold/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 10.0pt on input line 62.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 62.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -1033,39 +1001,37 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 62.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for OT1+Caladea-TLF on input line 62.
- (/usr/share/texlive/texmf-dist/tex/latex/caladea/OT1Caladea-TLF.fd
-File: OT1Caladea-TLF.fd 2014/08/17 (autoinst) Font definitions for OT1/Caladea-TLF.
+LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on input line 62.
+ (/usr/share/texlive/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
+File: TS1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSans-OsF.
 )
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <10> not available
+(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 10.0pt on input line 62.
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <7> not available
+(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 7.0pt on input line 62.
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <5> not available
+(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 5.0pt on input line 62.
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 62.
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 62.
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
-(Font)              scaled to size 5.0pt on input line 62.
-LaTeX Font Info:    Trying to load font information for TS1+Carlito-OsF on input line 62.
- (/usr/share/texlive/texmf-dist/tex/latex/carlito/TS1Carlito-OsF.fd
-File: TS1Carlito-OsF.fd 2014/08/20 (autoinst) Font definitions for TS1/Carlito-OsF.
-)
-LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 62.
-LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 62.
-LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 62.
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/n' in size <9> not available
+(Font)              Font shape `OT1/FiraSans-OsF/bold/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 9.0pt on input line 62.
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <9> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 9.0pt on input line 62.
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/n' in size <8> not available
+(Font)              Font shape `OT1/FiraSans-OsF/bold/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 8.0pt on input line 62.
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <10> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 10.0pt on input line 62.
 <assets/back.png, id=62, 713.064pt x 520.344pt>
 File: assets/back.png Graphic file (type png)
@@ -1077,29 +1043,25 @@ Package pdftex.def Info: assets/back.png  used on input line 62.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/back.png>] (./beamersapienza.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <10.95> not available
+(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 10.95pt on input line 2.
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <8> not available
+(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 8.0pt on input line 2.
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 2.
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 2.
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 2.
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
-(Font)              scaled to size 6.0pt on input line 2.
-LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 2.
-LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2.
-LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <6> not available
+(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 6.0pt on input line 2.
 )
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <4> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 64.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 4.0pt on input line 64.
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1111,10 +1073,19 @@ File: ~/Tesis-Template-2/imagenes/Intro/fullereno.png Graphic file (type png)
 <use ~/Tesis-Template-2/imagenes/Intro/fullereno.png>
 Package pdftex.def Info: ~/Tesis-Template-2/imagenes/Intro/fullereno.png  used on input line 118.
 (pdftex.def)             Requested size: 95.59518pt x 95.59573pt.
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/FiraSans-OsF/bold/n' tried instead on input line 118.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 10.95pt on input line 118.
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/n' in size <6> not available
+(Font)              Font shape `OT1/FiraSans-OsF/bold/n' tried instead on input line 118.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 6.0pt on input line 118.
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]\OT1/FiraSans-OsF/regular/n/8 Figura 1:[] \OT1/FiraSans-OsF/bold/n/8 Re-pre-sen-ta-ci[]on
+ []
+
 <~/Tesis-Template-2/imagenes/Intro/biomedica.png, id=106, 1027.84pt x 561.09625pt>
 File: ~/Tesis-Template-2/imagenes/Intro/biomedica.png Graphic file (type png)
 <use ~/Tesis-Template-2/imagenes/Intro/biomedica.png>
@@ -1125,10 +1096,32 @@ File: ~/Tesis-Template-2/imagenes/Intro/inhibidor-denv2.png Graphic file (type p
 <use ~/Tesis-Template-2/imagenes/Intro/inhibidor-denv2.png>
 Package pdftex.def Info: ~/Tesis-Template-2/imagenes/Intro/inhibidor-denv2.png  used on input line 118.
 (pdftex.def)             Requested size: 119.49898pt x 119.50148pt.
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/it' will be
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]\OT1/FiraSans-OsF/regular/n/8 Figura 3:[] \OT1/FiraSans-OsF/bold/n/8 Es-truc-tu-ra del
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 118--118
+\OT1/FiraSans-OsF/bold/n/8 con-ju-ga-do del []aci-do gli-cirr[]^^Pci-co
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\OT1/FiraSans-OsF/bold/n/8 con el []ester di-met[]^^Pli-co del
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 118--118
+[]\OT1/FiraSans-OsF/bold/n/8 aci-do L-glut[]ami-co co-mo agen-te
+ []
+
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/it' in size <8> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/it' tried instead on input line 118.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/it' will be
 (Font)              scaled to size 8.0pt on input line 118.
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1142,7 +1135,7 @@ l.118 \end{frame}
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1154,15 +1147,17 @@ File: ~/Tesis-Template-2/imagenes/Intro/dengue.png Graphic file (type png)
 <use ~/Tesis-Template-2/imagenes/Intro/dengue.png>
 Package pdftex.def Info: ~/Tesis-Template-2/imagenes/Intro/dengue.png  used on input line 157.
 (pdftex.def)             Requested size: 159.33083pt x 79.66484pt.
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/it' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/it' in size <8> not available
+(Font)              Font shape `OT1/FiraSans-OsF/bold/it' tried instead on input line 157.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/it' will be
 (Font)              scaled to size 8.0pt on input line 157.
 pdfTeX warning (ext4): destination with the same identifier (name{int:1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.157 \end{frame}
                  
-Underfull \hbox (badness 3302) in paragraph at lines 157--157
-[]\OT1/Carlito-OsF/m/n/10.95 El vi-rus del den-gue es un fla-vi-vi-rus que
+Underfull \hbox (badness 1472) in paragraph at lines 157--157
+\OT1/FiraSans-OsF/regular/n/10.95 per-te-ne-ce a la fa-mi-lia Fla-vi-vi-ri-dae, el
  []
 
 <~/Tesis-Template-2/imagenes/Ante/diagrama-1.png, id=142, 313.4109pt x 174.8934pt>
@@ -1170,21 +1165,16 @@ File: ~/Tesis-Template-2/imagenes/Ante/diagrama-1.png Graphic file (type png)
 <use ~/Tesis-Template-2/imagenes/Ante/diagrama-1.png>
 Package pdftex.def Info: ~/Tesis-Template-2/imagenes/Ante/diagrama-1.png  used on input line 157.
 (pdftex.def)             Requested size: 179.24863pt x 119.50237pt.
-
-Underfull \hbox (badness 3128) in paragraph at lines 157--157
-[]\OT1/Carlito-OsF/m/n/8 Figura 5:[] \OT1/Carlito-OsF/b/n/8 Di-fe-ren-cia-ci[]on an-tig[]eni-ca de los se-ro-ti-pos del
- []
-
 pdfTeX warning (ext4): destination with the same identifier (name{bb}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.157 \end{frame}
                  
-Overfull \vbox (12.52646pt too high) detected at line 157
+Overfull \vbox (25.71681pt too high) detected at line 157
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1197,21 +1187,11 @@ File: ~/Tesis-Template-2/imagenes/Ante/casos_confirmados.png Graphic file (type 
 Package pdftex.def Info: ~/Tesis-Template-2/imagenes/Ante/casos_confirmados.png  used on input line 206.
 (pdftex.def)             Requested size: 159.32973pt x 162.52031pt.
 
-Underfull \hbox (badness 2134) in paragraph at lines 206--206
-[]\OT1/Carlito-OsF/m/n/8 Figura 6:[] \OT1/Carlito-OsF/b/n/8 Se-ro-ti-pos iden-ti-fi-ca-dos e in-ci-den-cia
+Overfull \vbox (9.79117pt too high) detected at line 206
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 206--206
-\OT1/Carlito-OsF/b/n/8 de ca-sos con-fir-ma-dos por en-ti-dad fe-de-ra-ti-va;
- []
-
-
-Overfull \vbox (9.88034pt too high) detected at line 206
- []
-
-
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1229,7 +1209,7 @@ Overfull \hbox (23.90314pt too wide) in paragraph at lines 245--245
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1242,11 +1222,11 @@ File: imagenes/Intro/ns2b-ns3-1.png Graphic file (type png)
 Package pdftex.def Info: imagenes/Intro/ns2b-ns3-1.png  used on input line 255.
 (pdftex.def)             Requested size: 318.66779pt x 159.3237pt.
 
-Overfull \vbox (4.82968pt too high) detected at line 255
+Overfull \vbox (4.90329pt too high) detected at line 255
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1259,11 +1239,11 @@ File: imagenes/Intro/serina.png Graphic file (type png)
 Package pdftex.def Info: imagenes/Intro/serina.png  used on input line 281.
 (pdftex.def)             Requested size: 318.66818pt x 159.33174pt.
 
-Overfull \vbox (4.83772pt too high) detected at line 281
+Overfull \vbox (4.91133pt too high) detected at line 281
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1290,11 +1270,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{dete}) has bee
                    \relax 
 l.322 \end{frame}
                  
-Overfull \vbox (20.44316pt too high) detected at line 322
+Overfull \vbox (20.51677pt too high) detected at line 322
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1306,14 +1286,21 @@ File: imagenes/Intro/proteina-sitio-alosterico-1.pdb.png Graphic file (type png)
 <use imagenes/Intro/proteina-sitio-alosterico-1.pdb.png>
 Package pdftex.def Info: imagenes/Intro/proteina-sitio-alosterico-1.pdb.png  used on input line 361.
 (pdftex.def)             Requested size: 191.2036pt x 143.41263pt.
-LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
+
+Underfull \hbox (badness 1565) in paragraph at lines 361--361
+\OT1/FiraSans-OsF/regular/n/10.95 cr[]^^Pti-cos pa-ra la for-ma-ci[]on del
+ []
+
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <9> not available
+(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 361.
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 9.0pt on input line 361.
 
-Overfull \vbox (8.87192pt too high) detected at line 361
+Overfull \vbox (22.48953pt too high) detected at line 361
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1326,31 +1313,43 @@ File: imagenes/Intro/proteina-ortoesterico.png Graphic file (type png)
 Package pdftex.def Info: imagenes/Intro/proteina-ortoesterico.png  used on input line 404.
 (pdftex.def)             Requested size: 250.95059pt x 195.19334pt.
 
-Underfull \hbox (badness 6364) in paragraph at lines 404--404
-[]\OT1/Carlito-OsF/m/n/8 [[]]Jonniya, N. & Kar, P.,\OT1/Carlito-OsF/m/it/8 Journal of Che-mi-cal
+Underfull \hbox (badness 5374) in paragraph at lines 404--404
+[]\OT1/FiraSans-OsF/regular/n/10.95 Las re-gio-nes del si-tio ac-ti-vo
  []
 
 
-Overfull \vbox (18.33176pt too high) detected at line 404
+Overfull \vbox (18.93617pt too high) detected at line 404
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
 [12
 
  <./imagenes/Intro/proteina-ortoesterico.png>]
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/it' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/it' tried instead on input line 427.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/it' will be
 (Font)              scaled to size 10.95pt on input line 427.
+
+Underfull \hbox (badness 1178) in paragraph at lines 427--427
+[]\OT1/FiraSans-OsF/bold/n/10.95 Limitaciones: \OT1/FiraSans-OsF/regular/n/10.95 man-te-ner su se-
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 427--427
+\OT1/FiraSans-OsF/regular/n/10.95 lec-ti-vi-dad \OT1/FiraSans-OsF/regular/it/10.95 in vi-vo \OT1/FiraSans-OsF/regular/n/10.95 fren-te a las
+ []
+
 <imagenes/Intro/inhibidor-b.png, id=233, 587.19376pt x 381.425pt>
 File: imagenes/Intro/inhibidor-b.png Graphic file (type png)
 <use imagenes/Intro/inhibidor-b.png>
 Package pdftex.def Info: imagenes/Intro/inhibidor-b.png  used on input line 427.
 (pdftex.def)             Requested size: 191.20306pt x 143.40068pt.
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1363,15 +1362,15 @@ File: imagenes/Intro/inhibidor-3.png Graphic file (type png)
 Package pdftex.def Info: imagenes/Intro/inhibidor-3.png  used on input line 446.
 (pdftex.def)             Requested size: 99.58327pt x 139.42122pt.
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
 [14
 
  <./imagenes/Intro/inhibidor-3.png>]
-Underfull \hbox (badness 1571) in paragraph at lines 467--467
-\OT1/Carlito-OsF/m/n/10.95 y ha-ce con-tac-tos cla-ve con Lys74
+Underfull \hbox (badness 1990) in paragraph at lines 467--467
+\OT1/FiraSans-OsF/regular/n/10.95 Tyr161 y ha-ce con-tac-tos cla-ve
  []
 
 <imagenes/Intro/inhibidor-c.png, id=252, 252.945pt x 348.30125pt>
@@ -1380,7 +1379,7 @@ File: imagenes/Intro/inhibidor-c.png Graphic file (type png)
 Package pdftex.def Info: imagenes/Intro/inhibidor-c.png  used on input line 467.
 (pdftex.def)             Requested size: 119.50555pt x 143.40498pt.
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1393,7 +1392,17 @@ File: imagenes/Intro/inhibidor-a.png Graphic file (type png)
 Package pdftex.def Info: imagenes/Intro/inhibidor-a.png  used on input line 493.
 (pdftex.def)             Requested size: 167.30402pt x 119.50479pt.
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Underfull \hbox (badness 2050) in paragraph at lines 493--493
+[]\OT1/FiraSans-OsF/bold/n/10.95 Tipo de in-ter-ac-ci[]on: \OT1/FiraSans-OsF/regular/n/10.95 Es-ta-bi-li-za-ci[]on de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
+\OT1/FiraSans-OsF/regular/n/10.95 con-for-ma-ci[]on inac-ti-va. Mo-di-fi-ca la
+ []
+
+
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1405,25 +1414,35 @@ File: imagenes/Intro/sintesis.png Graphic file (type png)
 <use imagenes/Intro/sintesis.png>
 Package pdftex.def Info: imagenes/Intro/sintesis.png  used on input line 522.
 (pdftex.def)             Requested size: 215.1045pt x 47.80031pt.
+
+Underfull \hbox (badness 4132) in paragraph at lines 522--522
+\OT1/FiraSans-OsF/regular/n/10.95 La so-lu-ci[]on re-sul-tan-te se pu-ri-fic[]o me-dian-te
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 522--522
+\OT1/FiraSans-OsF/regular/n/10.95 mem-bra-nas de di[]ali-sis du-ran-te tres d[]^^Pas. El
+ []
+
 <imagenes/Intro/NMR.png, id=271, 949.5475pt x 865.2325pt>
 File: imagenes/Intro/NMR.png Graphic file (type png)
 <use imagenes/Intro/NMR.png>
 Package pdftex.def Info: imagenes/Intro/NMR.png  used on input line 522.
 (pdftex.def)             Requested size: 143.39673pt x 143.39091pt.
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <14.4> not available
+(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 522.
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 14.4pt on input line 522.
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 522.
-LaTeX Font Info:    Font shape `TS1/Carlito-OsF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 522.
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/it' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/it' in size <14.4> not available
+(Font)              Font shape `OT1/FiraSans-OsF/bold/it' tried instead on input line 522.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/it' will be
 (Font)              scaled to size 14.4pt on input line 522.
 
-Overfull \vbox (11.51308pt too high) detected at line 522
+Overfull \vbox (11.88255pt too high) detected at line 522
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1444,7 +1463,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{workin}) has b
                    \relax 
 l.547 \end{frame}
                  
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1454,32 +1473,24 @@ Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
 [19
 
 ]
-Underfull \hbox (badness 3590) in paragraph at lines 581--581
-[]\OT1/Carlito-OsF/m/n/10 ?`C[]omo afec-ta la fun-cio-na-li-za-ci[]on de fu-lle-re-nos con amino[]aci-dos a su es-truc-tu-ra
- []
-
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 581.
-LaTeX Font Info:    Font shape `OT1/Caladea-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 581.
 <imagenes/Intro/planteamiento-1.png, id=310, 1450.41875pt x 722.7pt>
 File: imagenes/Intro/planteamiento-1.png Graphic file (type png)
 <use imagenes/Intro/planteamiento-1.png>
 Package pdftex.def Info: imagenes/Intro/planteamiento-1.png  used on input line 581.
 (pdftex.def)             Requested size: 159.32524pt x 79.66264pt.
 
-Overfull \vbox (2.46797pt too high) detected at line 581
+Overfull \vbox (4.08041pt too high) detected at line 581
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1489,18 +1500,28 @@ Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
 [21
 
 ]
-Overfull \vbox (25.87622pt too high) detected at line 624
+Underfull \hbox (badness 6493) in paragraph at lines 624--624
+[]|\OT1/FiraSans-OsF/regular/n/9 La fun-cio-na-li-za-ci[]on con amino[]aci-dos co-mo la gli-ci-na
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Underfull \hbox (badness 3503) in paragraph at lines 624--624
+[]|\OT1/FiraSans-OsF/regular/n/9 El uso de he-rra-mien-tas de aco-pla-mien-to y mo-de-la-do
+ []
+
+
+Overfull \vbox (27.49315pt too high) detected at line 624
+ []
+
+
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1510,14 +1531,24 @@ Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
 [23
 
 ]
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Underfull \hbox (badness 2653) in paragraph at lines 630--630
+[]\OT1/FiraSans-OsF/regular/n/10.95 La fun-cio-na-li-za-ci[]on de fu-lle-re-nos con amino[]aci-dos mo-di-fi-ca su es-truc-tu-ra
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 630--630
+\OT1/FiraSans-OsF/regular/n/10.95 electr[]oni-ca, au-men-tan-do su so-lu-bi-li-dad y reac-ti-vi-dad, lo que me-jo-ra su
+ []
+
+
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1527,17 +1558,19 @@ Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
 [25
 
 ]
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <7> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 659.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 7.0pt on input line 659.
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1547,7 +1580,7 @@ Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1557,7 +1590,7 @@ Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1570,11 +1603,11 @@ File: imagenes/Resultados/fukui-1.pdf Graphic file (type pdf)
 Package pdftex.def Info: imagenes/Resultados/fukui-1.pdf  used on input line 705.
 (pdftex.def)             Requested size: 219.08366pt x 175.26831pt.
 
-Overfull \vbox (29.98189pt too high) detected at line 705
+Overfull \vbox (30.46732pt too high) detected at line 705
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1592,11 +1625,11 @@ File: imagenes/Resultados/fukui-3.pdf Graphic file (type pdf)
 Package pdftex.def Info: imagenes/Resultados/fukui-3.pdf  used on input line 734.
 (pdftex.def)             Requested size: 199.16884pt x 179.24408pt.
 
-Overfull \vbox (37.27122pt too high) detected at line 734
+Overfull \vbox (37.75665pt too high) detected at line 734
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1606,7 +1639,9 @@ Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 
 pdfTeX warning: pdflatex (file ./imagenes/Resultados/fukui-3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/it' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/it' in size <10.95> not available
+(Font)              Font shape `OT1/FiraSans-OsF/bold/it' tried instead on input line 777.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/it' will be
 (Font)              scaled to size 10.95pt on input line 777.
 <imagenes/Resultados/C60-gli-1-prueba-4.png, id=484, 2793.6872pt x 2224.56094pt>
 File: imagenes/Resultados/C60-gli-1-prueba-4.png Graphic file (type png)
@@ -1619,7 +1654,7 @@ Overfull \hbox (19.89691pt too wide) in paragraph at lines 777--777
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1632,11 +1667,11 @@ File: imagenes/Resultados/fukui-3-nuevo.pdf Graphic file (type pdf)
 Package pdftex.def Info: imagenes/Resultados/fukui-3-nuevo.pdf  used on input line 815.
 (pdftex.def)             Requested size: 215.1044pt x 191.20381pt.
 
-Overfull \vbox (31.69102pt too high) detected at line 815
+Overfull \vbox (32.17645pt too high) detected at line 815
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1653,11 +1688,11 @@ File: imagenes/Resultados/fukui-4-nuevo.pdf Graphic file (type pdf)
 Package pdftex.def Info: imagenes/Resultados/fukui-4-nuevo.pdf  used on input line 851.
 (pdftex.def)             Requested size: 215.1017pt x 191.20227pt.
 
-Overfull \vbox (24.5763pt too high) detected at line 851
+Overfull \vbox (25.06172pt too high) detected at line 851
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1670,7 +1705,7 @@ File: imagenes/Resultados/prueba-final.png Graphic file (type png)
 Package pdftex.def Info: imagenes/Resultados/prueba-final.png  used on input line 861.
 (pdftex.def)             Requested size: 199.15884pt x 159.32166pt.
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1683,11 +1718,11 @@ File: imagenes/Resultados/radicalaria.pdf Graphic file (type pdf)
 Package pdftex.def Info: imagenes/Resultados/radicalaria.pdf  used on input line 870.
 (pdftex.def)             Requested size: 398.33577pt x 139.42107pt.
 
-Overfull \vbox (9.59969pt too high) detected at line 870
+Overfull \vbox (18.07367pt too high) detected at line 870
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1700,7 +1735,7 @@ File: imagenes/Resultados/figure_1.png Graphic file (type png)
 Package pdftex.def Info: imagenes/Resultados/figure_1.png  used on input line 914.
 (pdftex.def)             Requested size: 250.9506pt x 139.41626pt.
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1713,27 +1748,31 @@ File: imagenes/Resultados/c60-4gli.png Graphic file (type png)
 Package pdftex.def Info: imagenes/Resultados/c60-4gli.png  used on input line 925.
 (pdftex.def)             Requested size: 238.97357pt x 159.32458pt.
 
-Overfull \vbox (12.37666pt too high) detected at line 925
+Overfull \vbox (12.5316pt too high) detected at line 925
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
 [37
 
  <./imagenes/Resultados/c60-4gli.png>]
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/n' in size <7> not available
+(Font)              Font shape `OT1/FiraSans-OsF/bold/n' tried instead on input line 967.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 7.0pt on input line 967.
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/b/it' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/it' in size <10> not available
+(Font)              Font shape `OT1/FiraSans-OsF/bold/it' tried instead on input line 967.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/it' will be
 (Font)              scaled to size 10.0pt on input line 967.
 
-Overfull \vbox (1.73253pt too high) detected at line 967
+Overfull \vbox (2.13292pt too high) detected at line 967
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1746,11 +1785,11 @@ File: imagenes/Resultados/box-1.pdf Graphic file (type pdf)
 Package pdftex.def Info: imagenes/Resultados/box-1.pdf  used on input line 1008.
 (pdftex.def)             Requested size: 195.18584pt x 167.29915pt.
 
-Overfull \vbox (16.41628pt too high) detected at line 1008
+Overfull \vbox (22.09575pt too high) detected at line 1008
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1763,11 +1802,11 @@ File: imagenes/Resultados/histograma-completo.png Graphic file (type png)
 Package pdftex.def Info: imagenes/Resultados/histograma-completo.png  used on input line 1026.
 (pdftex.def)             Requested size: 358.49785pt x 199.1657pt.
 
-Overfull \vbox (30.00476pt too high) detected at line 1026
+Overfull \vbox (31.70454pt too high) detected at line 1026
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1784,11 +1823,11 @@ File: imagenes/Resultados/principal-acoplamiento.pdf Graphic file (type pdf)
 Package pdftex.def Info: imagenes/Resultados/principal-acoplamiento.pdf  used on input line 1073.
 (pdftex.def)             Requested size: 278.82402pt x 167.30655pt.
 
-Overfull \vbox (21.61572pt too high) detected at line 1073
+Overfull \vbox (21.72156pt too high) detected at line 1073
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1805,11 +1844,11 @@ File: imagenes/Resultados/box-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: imagenes/Resultados/box-2.pdf  used on input line 1109.
 (pdftex.def)             Requested size: 195.18802pt x 167.29713pt.
 
-Overfull \vbox (16.41426pt too high) detected at line 1109
+Overfull \vbox (22.09373pt too high) detected at line 1109
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1822,11 +1861,11 @@ File: imagenes/Resultados/histograma-1.png Graphic file (type png)
 Package pdftex.def Info: imagenes/Resultados/histograma-1.png  used on input line 1123.
 (pdftex.def)             Requested size: 318.66386pt x 179.2509pt.
 
-Overfull \vbox (25.73906pt too high) detected at line 1123
+Overfull \vbox (27.43884pt too high) detected at line 1123
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1839,7 +1878,11 @@ File: imagenes/Resultados/primera-pose.png Graphic file (type png)
 Package pdftex.def Info: imagenes/Resultados/primera-pose.png  used on input line 1165.
 (pdftex.def)             Requested size: 250.94646pt x 139.40942pt.
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \vbox (11.82443pt too high) detected at line 1165
+ []
+
+
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1857,17 +1900,21 @@ File: imagenes/Resultados/sitio-articulo.png Graphic file (type png)
 Package pdftex.def Info: imagenes/Resultados/sitio-articulo.png  used on input line 1195.
 (pdftex.def)             Requested size: 118.30608pt x 105.15962pt.
 
-Underfull \hbox (badness 1622) in paragraph at lines 1195--1195
-\OT1/Carlito-OsF/m/n/10.95 es-ta-do inac-ti-vo ex-ten-di-do a
+Underfull \hbox (badness 3189) in paragraph at lines 1195--1195
+[]\OT1/FiraSans-OsF/regular/n/10.95 La re-gi[]on en-tre \OT1/FiraSans-OsF/bold/n/10.95 Trp61 \OT1/FiraSans-OsF/regular/n/10.95 y
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 1195--1195
-[]\OT1/Carlito-OsF/m/n/8 [[]] Chan-dra-mou-li, S. et al.,\OT1/Carlito-OsF/m/it/8 Journal of
+Underfull \hbox (badness 5431) in paragraph at lines 1195--1195
+[]\OT1/FiraSans-OsF/regular/n/8 [[]] Yao, Y. et al.,\OT1/FiraSans-OsF/regular/it/8 Journal of the
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \vbox (6.85863pt too high) detected at line 1195
+ []
+
+
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1880,7 +1927,11 @@ File: imagenes/Resultados/ileu67.png Graphic file (type png)
 Package pdftex.def Info: imagenes/Resultados/ileu67.png  used on input line 1236.
 (pdftex.def)             Requested size: 250.94987pt x 139.41637pt.
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \vbox (12.62338pt too high) detected at line 1236
+ []
+
+
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1890,29 +1941,24 @@ Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
 [47
 
 ]
-Underfull \hbox (badness 2556) in paragraph at lines 1254--1254
-[]\OT1/Carlito-OsF/m/n/10.95 Los c[]alcu-los de es-truc-tu-ra electr[]oni-ca con-fir-ma-ron que la fun-cio-na-li-za-ci[]on del
+Underfull \hbox (badness 2922) in paragraph at lines 1254--1254
+[]\OT1/FiraSans-OsF/regular/n/10.95 Los c[]alcu-los de es-truc-tu-ra electr[]oni-ca con-fir-ma-ron que la fun-cio-na-li-
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 1254--1254
-[]\OT1/Carlito-OsF/m/n/10.95 El an[]ali-sis de aco-pla-mien-to mo-le-cu-lar de-mostr[]o que el aduc-to es ca-paz de
+Underfull \hbox (badness 1342) in paragraph at lines 1254--1254
+\OT1/FiraSans-OsF/regular/n/10.95 po-ses []opti-mas. Es-tos re-sul-ta-dos brin-dan in-for-ma-ci[]on va-lio-sa so-bre las
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 1254--1254
-\OT1/Carlito-OsF/m/n/10.95 brin-dan in-for-ma-ci[]on va-lio-sa so-bre las in-ter-ac-cio-nes es-pec[]^^Pfi-cas en los si-tios de
- []
-
-
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1922,14 +1968,19 @@ Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
 [49
 
 ]
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1267
+[]\OT1/FiraSans-OsF/regular/n/10.95 Nuevo aco-pla-mien-to di-ri-gi-do pa-ra la pro-te[]^^Pna en con-for-ma-cion
+ []
+
+
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1939,7 +1990,7 @@ Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1952,11 +2003,11 @@ File: imagenes/metodologia/cronograma.png Graphic file (type png)
 Package pdftex.def Info: imagenes/metodologia/cronograma.png  used on input line 1279.
 (pdftex.def)             Requested size: 358.50255pt x 199.16547pt.
 
-Overfull \vbox (23.39238pt too high) detected at line 1279
+Overfull \vbox (23.33101pt too high) detected at line 1279
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1966,21 +2017,21 @@ Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
 [53
 
 ] (./beamersapienza.bbl)
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
 [54
 
 ]
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1988,7 +2039,7 @@ Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 
 
 ]
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -1996,10 +2047,12 @@ Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 
 
 ]
-LaTeX Font Info:    Font shape `OT1/Carlito-OsF/m/n' will be
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <24.88> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 1293.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 24.88pt on input line 1293.
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2011,61 +2064,76 @@ File: ~/Tesis-Template-2/imagenes/Intro/bolsillos.png Graphic file (type png)
 <use ~/Tesis-Template-2/imagenes/Intro/bolsillos.png>
 Package pdftex.def Info: ~/Tesis-Template-2/imagenes/Intro/bolsillos.png  used on input line 1338.
 (pdftex.def)             Requested size: 143.40082pt x 143.40262pt.
+
+Underfull \hbox (badness 1043) in paragraph at lines 1338--1338
+\OT1/FiraSans-OsF/bold/n/8 su-per-fi-cie ro-sa cla-ro es de NS3 y la vio-le-ta de NS2B; S1 est[]a
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{dete}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1338 \end{frame}
                   
 Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
-[]|\OT1/Carlito-OsF/m/n/6 Porci[]on hi-drof[]^^Pli-ca
+[]|\OT1/FiraSans-OsF/bold/n/6 Funci[]on /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
-\OT1/Carlito-OsF/m/n/6 esen-cial; evi-ta la
- []
-
-
-Underfull \hbox (badness 5847) in paragraph at lines 1338--1338
-\OT1/Carlito-OsF/m/n/6 agre-ga-ci[]on de NS3 y
+[]|\OT1/FiraSans-OsF/regular/n/6 Porci[]on hi-drof[]^^Pli-ca
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
-[]|\OT1/Carlito-OsF/m/n/6 Carga ne-ga-ti-va:
+\OT1/FiraSans-OsF/regular/n/6 esen-cial; evi-ta la
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
-\OT1/Carlito-OsF/m/n/6 Atrae re-si-duos
+[]|\OT1/FiraSans-OsF/regular/n/6 Carga ne-ga-ti-va:
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
-\OT1/Carlito-OsF/m/n/6 po-si-ti-vos (Arg/Lys)
+\OT1/FiraSans-OsF/regular/n/6 Atrae re-si-duos
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 1338--1338
-\OT1/Carlito-OsF/m/n/6 del sus-tra-to me-dian-te
+Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
+\OT1/FiraSans-OsF/regular/n/6 po-si-ti-vos (Arg/Lys)
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 1338--1338
-[]|\OT1/Carlito-OsF/b/n/6 Tr[]^^Pada Ca-tal[]^^Pti-ca: \OT1/Carlito-OsF/m/n/6 Si-tio
+Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
+\OT1/FiraSans-OsF/regular/n/6 P2 del sus-tra-to
  []
 
 
-Underfull \hbox (badness 7777) in paragraph at lines 1338--1338
-\OT1/Carlito-OsF/m/n/6 cen-tral don-de ocu-rre
+Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
+[]|\OT1/FiraSans-OsF/bold/n/6 Tr[]^^Pada Ca-tal[]^^Pti-ca:
  []
 
 
-Overfull \vbox (23.8779pt too high) detected at line 1338
+Underfull \hbox (badness 3746) in paragraph at lines 1338--1338
+\OT1/FiraSans-OsF/regular/n/6 Si-tio cen-tral don-de
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
+\OT1/FiraSans-OsF/regular/n/6 ocu-rre la reac-ci[]on
+ []
+
+
+Overfull \hbox (3.11026pt too wide) in paragraph at lines 1338--1338
+ [] 
+ []
+
+
+Overfull \vbox (24.14471pt too high) detected at line 1338
+ []
+
+
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2078,23 +2146,28 @@ File: imagenes/Intro/ciclo-1.pdf Graphic file (type pdf)
 Package pdftex.def Info: imagenes/Intro/ciclo-1.pdf  used on input line 1351.
 (pdftex.def)             Requested size: 298.7498pt x 191.20099pt.
 
-Overfull \vbox (21.0667pt too high) detected at line 1351
+Overfull \vbox (22.00589pt too high) detected at line 1351
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
 [59
 
  <./imagenes/Intro/ciclo-1.pdf>]
-Overfull \hbox (5.09575pt too wide) in paragraph at lines 1381--1381
-[]|\OT1/Carlito-OsF/m/n/10 Funcional| 
+Overfull \hbox (9.38667pt too wide) in paragraph at lines 1381--1381
+[]|\OT1/FiraSans-OsF/regular/n/10 Funcional| 
  []
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (4.36671pt too wide) in paragraph at lines 1381--1381
+[]|\OT1/FiraSans-OsF/regular/n/10 PBE1PBE
+ []
+
+
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2105,14 +2178,14 @@ Overfull \hbox (399.54417pt too wide) has occurred while \output is active
 LaTeX Warning: Citation `kohn1965self' on page 61 undefined on input line 1393.
 
 
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
 [61
 
 ]
-Overfull \hbox (399.54417pt too wide) has occurred while \output is active
+Overfull \hbox (399.75218pt too wide) has occurred while \output is active
 []  []
  []
 
@@ -2142,18 +2215,18 @@ Package rerunfilecheck Info: File `beamersapienza.out' has not changed.
 (rerunfilecheck)             Checksum: 2EFBA066A89497118379EC7E9D54BCC5;1351.
  ) 
 Here is how much of TeX's memory you used:
- 29925 strings out of 478287
- 597726 string characters out of 5849289
- 843120 words of memory out of 5000000
- 47204 multiletter control sequences out of 15000+600000
- 575598 words of font info for 139 fonts, out of 8000000 for 9000
+ 30019 strings out of 478287
+ 604154 string characters out of 5849289
+ 843518 words of memory out of 5000000
+ 47311 multiletter control sequences out of 15000+600000
+ 585863 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,18n,122p,733b,1152s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/caladea/cld_prieif.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/carlito/crlt_ssbojb.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/carlito/crlt_llspvt.enc}</usr/share/texlive/texmf-dist/fonts/type1/huerta/caladea/Caladea-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/huerta/caladea/Caladea-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito-BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on beamersapienza.pdf (62 pages, 40015796 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_337jzs.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_d67aat.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on beamersapienza.pdf (62 pages, 40083208 bytes).
 PDF statistics:
- 1037 PDF objects out of 1200 (max. 8388607)
- 768 compressed objects within 8 object streams
+ 1031 PDF objects out of 1200 (max. 8388607)
+ 764 compressed objects within 8 object streams
  168 named destinations out of 1000 (max. 500000)
  364 words of extra memory for PDF output out of 10000 (max. 10000000)
 

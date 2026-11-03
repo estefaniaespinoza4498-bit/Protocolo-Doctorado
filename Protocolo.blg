@@ -1,54 +1,53 @@
-This is BibTeX, Version 0.99e
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Protocolo.aux
-Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
-Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: ref.bib
+Warning--I didn't find a database entry for "frimayanti2011design"
 Warning--empty journal in salvadorgenetica
 Warning--empty year in salvadorgenetica
 Warning--empty journal in roquefactores
 Warning--empty year in roquefactores
 Warning--empty journal in andrada2012nanotecnologia
-You've used 60 entries,
+You've used 67 entries,
             1876 wiz_defined-function locations,
-            830 strings with 18994 characters,
-and the built_in function-call counts, 18406 in all, are:
-= -- 1728
-> -- 1025
+            878 strings with 20075 characters,
+and the built_in function-call counts, 20489 in all, are:
+= -- 1955
+> -- 1085
 < -- 0
-+ -- 364
-- -- 304
-* -- 1397
-:= -- 2699
-add.period$ -- 63
-call.type$ -- 60
-change.case$ -- 55
++ -- 387
+- -- 320
+* -- 1538
+:= -- 2973
+add.period$ -- 70
+call.type$ -- 67
+change.case$ -- 62
 chr.to.int$ -- 0
-cite$ -- 65
-duplicate$ -- 930
-empty$ -- 1475
-format.name$ -- 304
-if$ -- 4420
+cite$ -- 72
+duplicate$ -- 1040
+empty$ -- 1665
+format.name$ -- 320
+if$ -- 4943
 int.to.chr$ -- 0
-int.to.str$ -- 60
-missing$ -- 59
-newline$ -- 188
-num.names$ -- 60
-pop$ -- 148
+int.to.str$ -- 67
+missing$ -- 65
+newline$ -- 209
+num.names$ -- 67
+pop$ -- 163
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 710
+skip$ -- 804
 stack$ -- 0
-substring$ -- 996
-swap$ -- 457
+substring$ -- 1162
+swap$ -- 515
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 155
-width$ -- 62
-write$ -- 616
-(There were 5 warnings)
+while$ -- 176
+width$ -- 69
+write$ -- 689
+(There were 6 warnings)

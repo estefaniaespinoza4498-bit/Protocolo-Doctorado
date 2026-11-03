@@ -1,5 +1,5 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Reconocimientos}{\Large \es@scroman {viii}}{chapter*.4}%
+\contentsline {chapter}{Reconocimientos}{\Large \es@scroman {ix}}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}Resumen}{1}{chapter.1}%
 \contentsline {chapter}{Introducción}{2}{section*.6}%
 \contentsline {chapter}{\numberline {2}Antecedentes}{4}{chapter.2}%
@@ -25,7 +25,7 @@
 \contentsline {subsection}{\numberline {2.12.2}Historia y Descubrimiento}{24}{subsection.2.12.2}%
 \contentsline {subsection}{\numberline {2.12.3}Propiedades fisicoquímicas y estructura cristalina del C\textsubscript {60}}{25}{subsection.2.12.3}%
 \contentsline {section}{\numberline {2.13}Estrategias de funcionalización química}{27}{section.2.13}%
-\contentsline {subsubsection}{Fulereno con glicina (C\textsubscript {60}--Gly): síntesis y caracterización estructural}{28}{subsubsection*.8}%
+\contentsline {subsubsection}{fullereno con glicina (C\textsubscript {60}--Gly): síntesis y caracterización estructural}{28}{subsubsection*.8}%
 \contentsline {section}{\numberline {2.14}Química cuántica y Teoría del Funcional de la Densidad (DFT)}{30}{section.2.14}%
 \contentsline {subsection}{\numberline {2.14.1}Acoplamiento molecular, dinámica molecular y evaluación de actividad biomédica}{31}{subsection.2.14.1}%
 \contentsline {chapter}{\numberline {3}Planteamiento del problema}{33}{chapter.3}%
@@ -51,18 +51,23 @@
 \contentsline {section}{\numberline {7.14}Estructura de la proteína NS2B-NS3}{54}{section.7.14}%
 \contentsline {section}{\numberline {7.15}Evaluación del acoplamiento molecular}{61}{section.7.15}%
 \contentsline {section}{\numberline {7.16}Análisis de correlación cruzada dinámica}{76}{section.7.16}%
-\contentsline {section}{\numberline {7.17}Análisis conformacional mediante dinámica molecular}{86}{section.7.17}%
-\contentsline {subsection}{\numberline {7.17.1}Conclusión}{95}{subsection.7.17.1}%
-\contentsline {chapter}{\numberline {8}Fundamentos de los cálculos de estructura electrónica}{96}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Programas y conceptos generales}{96}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Teoría del Funcional de la Densidad}{96}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Funcional B3LYP y conjunto de bases}{96}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Optimización, frecuencias y comparación energética}{97}{section.8.4}%
-\contentsline {chapter}{\numberline {9}Funciones de Fukui y descriptores de reactividad}{98}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Funciones de Fukui en el espacio}{98}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Ionización y afinidad electrónica}{98}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Potencial químico, electronegatividad y dureza}{99}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Potencial electrostático molecular}{99}{section.9.4}%
-\contentsline {chapter}{Referencias de los apéndices}{100}{section*.22}%
-\contentsline {chapter}{\numberline {10}Cronograma}{101}{chapter.10}%
-\contentsline {chapter}{Bibliografía}{102}{figure.10.1}%
+\contentsline {section}{\numberline {7.17}Análisis conformacional mediante dinámica molecular}{87}{section.7.17}%
+\contentsline {chapter}{\numberline {8}Conclusiones}{96}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Conclusiones de la funcionalización del fullereno C$_{60}$ con glicina}{96}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Conclusiones de las propiedades electrónicas y electrostáticas}{96}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Conclusiones del acoplamiento molecular con la proteasa NS2B--NS3}{97}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Conclusiones de la dinámica molecular}{97}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Conclusiones generales}{98}{section.8.5}%
+\contentsline {chapter}{\numberline {9}Perspectivas}{100}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Base teórica}{101}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Fundamentos de los cálculos de estructura electrónica}{101}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Teoría del Funcional de la Densidad}{101}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Funcional B3LYP y conjunto de bases}{101}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Optimización, frecuencias y comparación energética}{102}{section.10.4}%
+\contentsline {chapter}{\numberline {11}Funciones de Fukui y descriptores de reactividad}{103}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Funciones de Fukui en el espacio}{103}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Ionización y afinidad electrónica}{103}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Potencial químico, electronegatividad y dureza}{104}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Potencial electrostático molecular}{104}{section.11.4}%
+\contentsline {chapter}{\numberline {12}Cronograma}{105}{chapter.12}%
+\contentsline {chapter}{Bibliografía}{106}{figure.12.1}%
