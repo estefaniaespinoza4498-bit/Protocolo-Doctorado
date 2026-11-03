@@ -49,23 +49,20 @@
 \contentsline {section}{\numberline {7.12}Análisis de descriptores de reactividad global (PI y AE)}{50}{section.7.12}%
 \contentsline {section}{\numberline {7.13}Potencial electrostático superficial}{51}{section.7.13}%
 \contentsline {section}{\numberline {7.14}Estructura de la proteína NS2B-NS3}{54}{section.7.14}%
-\contentsline {subsection}{\numberline {7.14.1}Comportamiento de la estabilidad global y movilidad (RMSD)}{58}{subsection.7.14.1}%
-\contentsline {subsection}{\numberline {7.14.2}Proceso de compactación y exposición hidrofóbica ($R_g$ y SASA)}{59}{subsection.7.14.2}%
-\contentsline {subsection}{\numberline {7.14.3}Dinámica de la red interna de enlaces de hidrógeno}{60}{subsection.7.14.3}%
-\contentsline {subsection}{\numberline {7.14.4}Evaluación del acoplamiento alostérico del derivado C\textsubscript {60}(Gly)\textsubscript {4}}{72}{subsection.7.14.4}%
-\contentsline {subsection}{\numberline {7.14.5}Análisis comparativo entre el derivado de fulereno y el inhibidor alostérico (benzamida/benzofurano)}{73}{subsection.7.14.5}%
-\contentsline {subsection}{\numberline {7.14.6}Contraste comparativo con el inhibidor reportado 246DA}{76}{subsection.7.14.6}%
-\contentsline {subsection}{\numberline {7.14.7}Conclusión}{93}{subsection.7.14.7}%
-\contentsline {chapter}{\numberline {8}Fundamentos de los cálculos de estructura electrónica}{94}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Programas y conceptos generales}{94}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Teoría del Funcional de la Densidad}{94}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Funcional B3LYP y conjunto de bases}{94}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Optimización, frecuencias y comparación energética}{95}{section.8.4}%
-\contentsline {chapter}{\numberline {9}Funciones de Fukui y descriptores de reactividad}{96}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Funciones de Fukui en el espacio}{96}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Ionización y afinidad electrónica}{96}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Potencial químico, electronegatividad y dureza}{97}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Potencial electrostático molecular}{97}{section.9.4}%
-\contentsline {chapter}{Referencias de los apéndices}{98}{section*.22}%
-\contentsline {chapter}{\numberline {10}Cronograma}{99}{chapter.10}%
-\contentsline {chapter}{Bibliografía}{100}{figure.10.1}%
+\contentsline {section}{\numberline {7.15}Evaluación del acoplamiento molecular}{61}{section.7.15}%
+\contentsline {section}{\numberline {7.16}Análisis de correlación cruzada dinámica}{76}{section.7.16}%
+\contentsline {section}{\numberline {7.17}Análisis conformacional mediante dinámica molecular}{86}{section.7.17}%
+\contentsline {subsection}{\numberline {7.17.1}Conclusión}{95}{subsection.7.17.1}%
+\contentsline {chapter}{\numberline {8}Fundamentos de los cálculos de estructura electrónica}{96}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Programas y conceptos generales}{96}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Teoría del Funcional de la Densidad}{96}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Funcional B3LYP y conjunto de bases}{96}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Optimización, frecuencias y comparación energética}{97}{section.8.4}%
+\contentsline {chapter}{\numberline {9}Funciones de Fukui y descriptores de reactividad}{98}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Funciones de Fukui en el espacio}{98}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Ionización y afinidad electrónica}{98}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Potencial químico, electronegatividad y dureza}{99}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Potencial electrostático molecular}{99}{section.9.4}%
+\contentsline {chapter}{Referencias de los apéndices}{100}{section*.22}%
+\contentsline {chapter}{\numberline {10}Cronograma}{101}{chapter.10}%
+\contentsline {chapter}{Bibliografía}{102}{figure.10.1}%

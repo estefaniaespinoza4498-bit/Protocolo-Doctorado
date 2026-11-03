@@ -224,549 +224,621 @@ La presencia simultánea de regiones positivas, negativas y cercanas a cero resu
 En relación con la posible interacción del sistema C\textsubscript{60}(Gly)\textsubscript{4} con proteínas del virus del dengue, estos resultados proporcionan información sobre las características electrostáticas del ligando que podrían intervenir en el reconocimiento molecular. No obstante, la distribución de potencial observada no permite establecer por sí sola la afinidad, la estabilidad ni la especificidad de una interacción con la proteína NS2B-NS3. Para determinar estas características es necesario considerar también la distribución electrostática de la proteína, la geometría del sitio de unión y los resultados de los estudios de acoplamiento molecular.
 
 En conjunto, los resultados muestran que la funcionalización secuencial con glicina modifica tanto las propiedades electrónicas globales como la distribución electrostática superficial del fulereno. La disminución del potencial de ionización y de la afinidad electrónica, junto con la aparición de regiones electrostáticas diferenciadas, indica que la incorporación de los sustituyentes modifica las posibilidades de interacción del sistema. Estas características constituyen una base para analizar posteriormente su comportamiento frente a la diana biológica seleccionada.
-\section{Estructura de la proteína NS2B-NS3}  
-La proteasa NS2B/NS3 del serotipo 2 del virus del dengue (DENV-2), con una masa molecular de $26.57\ \text{kDa}$, representa un blanco terapéutico primordial por su papel clave en la replicación viral. Al evaluar el modelo en conformación abierta e inactiva reconstruido en sus regiones desordenadas mediante AlphaFold, se observa que la estructura presenta una alta fidelidad conformacional.
+\section{Estructura de la proteína NS2B-NS3}
+\label{sec:estructura_ns2b_ns3}
 
-En el mapa de Ramachandran se aprecia una distribución óptima de los ángulos diedros ($\phi, \psi$), donde la gran mayoría de los residuos se ubican en zonas energéticamente favorecidas. A partir de esta base estructural, los $100\ \text{ns}$ de dinámica molecular (MD) bajo el campo de fuerzas CHARMM36 reflejan la respuesta conformacional y la estabilidad del sistema en solución acuosa.
+La proteasa NS2B-NS3 del virus del dengue serotipo 2 (DENV-2)
+participa en el procesamiento de la poliproteína viral, por lo
+que constituye una diana de interés para el estudio de posibles
+inhibidores. En este trabajo se utilizó un modelo de la proteasa
+en su conformación abierta e inactiva, cuyas regiones no resueltas
+se reconstruyeron mediante AlphaFold. Posteriormente, se
+realizaron las etapas de minimización de energía y equilibrio
+molecular, seguidas de una simulación de dinámica molecular de
+100 ns utilizando el campo de fuerza CHARMM36, con el propósito
+de examinar el comportamiento conformacional del sistema.
 
-
-
-%
-%\begin{table}[htbp]
-%\centering
-%\caption{Cuadrantes del Diagrama de Ramachandran}
-%\vspace{0.3cm}
-%\begin{tabularx}{\textwidth}{p{3cm} p{3.2cm} X}
-%\toprule
-%\textbf{Cuadrante} & \textbf{Rango de Ángulos} & \textbf{Significado y Estructuras Comunes} \\
-%\midrule
-%\textbf{Superior izquierdo (NW)} & $\phi$ negativo, $\psi$ positivo & \textbf{La zona más poblada.} Aquí se encuentran las \textbf{láminas beta} ($\beta$-sheets) y las estructuras extendidas. Los aminoácidos están cómodos porque sus cadenas laterales apuntan en direcciones opuestas al esqueleto. \\
-%\addlinespace
-%\textbf{Inferior izquierdo (SW)} & $\phi$ negativo, $\psi$ negativo & \textbf{Zona de las hélices alfa derechas ($\alpha$-helices).} Es una región altamente favorecida donde la cadena se enrolla de forma natural y compacta. \\
-%\addlinespace
-%\textbf{Superior derecho (NE)} & $\phi$ positivo, $\psi$ positivo & \textbf{Zona de las hélices alfa izquierdas.} Es una estructura muy rara en proteínas naturales; casi ningún aminoácido del "caso general" puede entrar aquí debido a choques atómicos. \\
-%\addlinespace
-%\textbf{Inferior derecho (SE)} & $\phi$ positivo, $\psi$ blanco/negativo & \textbf{Zona prohibida casi por completo.} Es energéticamente imposible para casi todos los aminoácidos debido a colisiones frontales extremas entre sus átomos. \\
-%\bottomrule
-%\end{tabularx}
-%\end{table}
-%\clearpage
+La calidad estereoquímica del modelo inicial se examinó mediante
+diagramas de Ramachandran obtenidos con MolProbity, los cuales
+permiten evaluar la distribución de los ángulos diedros $\phi$
+y $\psi$ del esqueleto peptídico e identificar residuos con
+conformaciones poco habituales. Los resultados correspondientes
+al modelo antes de la minimización de energía se presentan en
+la Figura~\ref{fig:ramachandra}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.95\textwidth]{imagenes/Resu/2FOM_original-rama.pdf}
-    \caption{Diagramas de Ramachandran (MolProbity) para la estructura proteica inicial. Evaluación de la calidad estereoquímica del modelo nativo antes de los procesos de minimización de energía.} 
+    \includegraphics[width=0.95\textwidth]
+    {imagenes/Resu/2FOM_original-rama.pdf}
+    \caption{Diagramas de Ramachandran del modelo inicial de
+    la proteasa NS2B-NS3, antes de la minimización de energía,
+    obtenidos mediante MolProbity.}
     \label{fig:ramachandra}
 \end{figure}
-\newpage
-El gráfico de Ramachandran constituye una herramienta fundamental para evaluar la calidad estereoquímica de las estructuras proteicas. Mediante la representación de las combinaciones posibles de los ángulos diédricos $\phi$ (phi) y $\psi$ (psi) del esqueleto peptídico, es posible determinar a priori las conformaciones secundarias adoptadas (principalmente $\alpha$-hélices y láminas $\beta$), así como validar la fiabilidad física de la estructura tridimensional.
 
-En la Figura~\ref{fig:ramachandra} se presenta el análisis estereoquímico obtenido con MolProbity para el estado inicial sin la dinamica de la NS2B-NS3. De manera global, el 92.0\% de los residuos (218/237) se ubicaron en regiones favorecidas y el 97.9\% (232/237) en regiones permitidas. Aunque la estructura presenta una calidad geométrica general adecuada, se identificaron 5 residuos atípicos fuera de las regiones conformacionales permitidas (2.1\% de atípicos), representados por sus ángulos de torsión ($\phi$, $\psi$): Trp5 ($-43.9^\circ, -5.4^\circ$), Lys15 ($-80.0^\circ, -114.4^\circ$) y Leu18 ($127.6^\circ, 135.3^\circ$) en el panel general, así como Pro10 ($1.9^\circ, 147.6^\circ$) y Pro12 ($-143.4^\circ, -100.0^\circ$) en la categoría de \textit{trans}-prolina. La presencia de estos residuos fuera de los límites geométricos aceptables evidencia la existencia de impedimentos estéricos o tensiones conformacionales locales en el estado cristalográfico o de partida, las cuales se espera que se relajen durante la fase de minimización y simulación de dinámica molecular.
+% ==========================================================
+% PENDIENTE: DISCUSIÓN DEL RAMACHANDRAN INICIAL
+%
+% Resultados originales:
+% 237 residuos evaluados.
+% 92.0 % en regiones favorecidas (218/237).
+% 97.9 % en regiones permitidas (232/237).
+% Cinco residuos atípicos.
+%
+% Verificar la diferencia en el número de residuos evaluados
+% entre el modelo inicial y el modelo posterior a NPT.
+%
+% Una vez aclarada, incorporar aquí la discusión.
+% ==========================================================
 
-La diferenciación en los paneles del análisis responde a las particularidades fisicoquímicas y estructurales de los distintos aminoácidos:
-
-\begin{itemize}
-    \item \textbf{Caso general y glicina:} El gráfico general contempla los aminoácidos con cadenas laterales estándar. Por el contrario, la glicina se analiza en una parcela independiente debido a que carece de cadena lateral (posee solo un átomo de hidrógeno como radical), lo que le otorga una flexibilidad conformacional significativamente mayor y le permite adoptar combinaciones de ángulos $\phi$ y $\psi$ en regiones que serían prohibidas para el resto de los residuos por impedimento estérico.
-    \item \textbf{Isoleucina y valina:} Presentan un espacio conformacional más restringido debido a la ramificación en el carbono beta ($\text{C}_\beta$), situada muy próxima al esqueleto peptídico, lo que limita los grados de libertad rotacionales. En el modelo analizado, la totalidad de los residuos de Isoleucina y Valina se ubicaron dentro de las regiones permitidas.
-    \item \textbf{Prolina y pre-prolina:} La prolina posee un anillo de pirrolidina rígido que conecta la cadena lateral con el nitrógeno del enlace amida, fijando fuertemente el ángulo $\phi$ en valores cercanos a $-60^\circ$. Por su parte, las regiones de pre-prolina (residuos inmediatamente anteriores a una prolina) también se ven restringidos por su espacio conformacional por el volumen estérico del anillo subsiguiente. En nuestro sistema, mientras que el grupo de pre-prolina y \textit{cis}-prolina no mostró anomalías, el subgrupo de \textit{trans}-prolina concentró dos de los desfases geométricos identificados (Pro10 y Pro12).
-\end{itemize}
-
+Después de las etapas de minimización y equilibrio molecular,
+se examinó nuevamente la distribución de los ángulos diedros
+del esqueleto peptídico. Los diagramas correspondientes a la
+estructura obtenida al finalizar el equilibrio isotérmico-
+isobárico (NPT) se presentan en la Figura~\ref{fig:ramachandra-2}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{imagenes/Resu/2FOM_post_npt1-rama.pdf}
-    \caption{Diagramas de Ramachandran (MolProbity) tras el equilibrio NPT. Evaluación de la calidad estereoquímica de la estructura proteica al finalizar la etapa de equilibrio isotérmico-isobárico (NPT), previa a la fase de producción de dinámica molecular.} 
+    \includegraphics[width=0.85\textwidth]
+    {imagenes/Resu/2FOM_post_npt1-rama.pdf}
+    \caption{Diagramas de Ramachandran de la proteasa NS2B-NS3
+    después de la etapa de equilibrio NPT, obtenidos mediante
+    MolProbity.}
     \label{fig:ramachandra-2}
 \end{figure}
-El análisis de Ramachandran posterior a la etapa de equilibrio en el ensamble isotérmico-isobárico, refleja una clara \textbf{recuperación y relajación estereoquímica} de la estructura proteica tras el impacto inicial de la minimización (Figura~\ref{fig:ramachandra-2}). La proporción de residuos en regiones favorecidas se incrementó del 84.3\% al \textbf{86.8\%} (105/121 residuos), mientras que los residuos en regiones permitidas ascendieron del 92.6\% al \textbf{96.7\%} (117/121 residuos). De forma consistente, el número total de residuos atípicos fuera de los límites geométricos se redujo notablemente de 9 a solo **4 residuos** (3.3\% del total de la estructura recortada).
 
-Esta mejora cuantitativa demuestra que la introducción de la temperatura y la presión durante la fase NPT otorgó la energía térmica suficiente al sistema para superar las trampas cinéticas locales generadas en la minimización, permitiendo que el esqueleto peptídico rotara hacia mínimos de energía conformacional más favorables.
+% ==========================================================
+% PENDIENTE: DISCUSIÓN COMPARATIVA DE RAMACHANDRAN
+%
+% Resultados posteriores a NPT:
+% 121 residuos evaluados.
+% 86.8 % en regiones favorecidas (105/121).
+% 96.7 % en regiones permitidas (117/121).
+% Cuatro residuos atípicos.
+%
+% No concluir todavía que la calidad estereoquímica mejoró
+% o empeoró, debido a la diferencia entre los conjuntos
+% de residuos evaluados.
+% ==========================================================
 
-El detalle de los 4 residuos atípicos ($\phi, \psi$) identificados en los distintos cuadrantes es el siguiente:
+Una vez completadas las etapas de preparación y equilibrio,
+se analizó la evolución estructural de la proteasa durante
+los 100 ns de dinámica molecular. Para ello, se consideraron
+la desviación cuadrática media (RMSD), el radio de giro ($R_g$),
+el área superficial accesible al solvente (SASA) y el número
+de enlaces de hidrógeno intramoleculares. El análisis conjunto
+de estos parámetros permitió examinar los cambios
+conformacionales del sistema y su relación con la compactación
+y la organización interna de la proteína.
 
-\begin{itemize}
-    \item \textbf{Caso general:} Se registró a \textbf{4 Leu} ($145.6^\circ, 49.6^\circ$) fuera del área permitida, ubicándose en el cuadrante superior derecho (zona de hélices izquierdas no nativas).
-    \item \textbf{Isoleucina y valina:} Se identificó a \textbf{3 Val} ($129.6^\circ, 85.2^\circ$) desplazado hacia la región superior derecha fuera del mapa permitido para residuos $\beta$-ramificados.
-    \item \textbf{Pre-prolina:} El residuo \textbf{7 Val} ($80.9^\circ, 42.4^\circ$) se mantiene fuera de los límites aceptados, reflejando una restricción torsional impuesta por la cercanía al segmento rico en prolinas.
-    \item \textbf{Trans-prolina:} A diferencia de la minimización previa donde se acumulaban cuatro prolinas distorsionadas (Pro8, Pro10, Pro11 y Pro12), tras el equilibrio NPT solo se conserva a \textbf{10 Pro} ($60.1^\circ, 59.1^\circ$) fuera del intervalo permitido. Las demás prolinas relajaron sus ángulos diédricos y retornaron exitosamente a las regiones estereoquímicamente permitidas.
-\end{itemize}
-
-Un aspecto estructural relevante es que los 4 residuos fuera de la conformación idónea (Val3, Leu4, Val7 y Pro10) se encuentran agrupados secuencialmente en el extremo N-terminal del fragmento. Esto sugiere que el núcleo de la proteína ha alcanzado una conformación estable y bien empaquetada, quedando la tensión residual concentrada exclusivamente en un bucle o segmento flexible N-terminal. En conclusión, la equilibración NPT1 cumplió de forma efectiva con la reordenación del esqueleto peptídico, preparando un punto de partida físicamente estable para la dinámica de producción.
-\subsection{Comportamiento de la estabilidad global y movilidad (RMSD)}
-
-Al analizar la evolución de la raíz de la desviación cuadrática media (RMSD) de los átomos $C\alpha$ Figura~\ref{fig:rmsd-2fom}, se observa un incremento inicial rápido durante los primeros $5\ \text{ns}$ hasta alcanzar $\sim 0.40\ \text{nm}$, lo cual se atribuye a la acomodación y relajación inicial del sistema en el entorno de solvatación.
-
-Entre los $10$ y $40\ \text{ns}$, la trayectoria exhibe un régimen de equilibrio relativo en torno a $0.40 - 0.45\ \text{nm}$. Sin embargo, entre los $45 - 55\ \text{ns}$ y $75 - 85\ \text{ns}$, se detectan fluctuaciones más marcadas que alcanzan picos de hasta $0.65\ \text{nm}$. Estas variaciones no responden a un proceso de desnaturalización, sino a la notable movilidad intrínseca de la proteína en su estado abierto e inactivo, asociada a los reordenamientos del bucle cofactórico de NS2B y del dominio catalítico. La posterior estabilización del RMSD en la franja de $0.40 - 0.45\ \text{nm}$ durante los últimos $15\ \text{ns}$ confirma que el sistema de estabilizo en una región de energía potencial mínima. 
-
-                
+La desviación cuadrática media (RMSD) de los átomos C$\alpha$
+permite evaluar los cambios conformacionales de la proteína
+respecto a una estructura de referencia, después del
+correspondiente alineamiento estructural. La evolución de este
+parámetro durante los 100 ns de simulación se presenta en la
+Figura~\ref{fig:rmsd-2fom}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.82\textwidth]{imagenes/Resu/rmsd-2.pdf}
-    \caption{Evolución del RMSD de los átomos C$\alpha$ de la proteína, durante 100 ns de dinámica molecular.}
+    \includegraphics[width=0.85\textwidth]
+    {imagenes/Resu/rmsd-2.pdf}
+    \caption{Evolución temporal de la desviación cuadrática
+    media (RMSD) de los átomos C$\alpha$ de la proteasa
+    NS2B-NS3 durante 100 ns de dinámica molecular.}
     \label{fig:rmsd-2fom}
 \end{figure}
 
+Durante los primeros nanosegundos se observa un incremento
+rápido del RMSD hasta alcanzar valores cercanos a 0.40 nm,
+lo que indica un alejamiento inicial de la conformación de
+referencia. Este comportamiento es compatible con un proceso
+de reorganización estructural durante las primeras etapas
+de la simulación, en el cual la proteína ajusta su
+conformación a las condiciones del entorno molecular.
 
-\subsection{Proceso de compactación y exposición hidrofóbica ($R_g$ y SASA)}
+Posteriormente, entre los 10 y 40 ns, el RMSD presenta
+fluctuaciones principalmente alrededor de 0.40--0.45 nm,
+aunque sin establecer una meseta completamente uniforme.
+A partir de aproximadamente 45 ns se identifican variaciones
+de mayor amplitud, con valores cercanos a 0.65 nm alrededor
+de los 45--50 ns y nuevos incrementos entre los 75 y 85 ns.
+Estas fluctuaciones indican que la proteína experimenta
+cambios conformacionales apreciables durante la trayectoria,
+posiblemente relacionados con la movilidad de regiones
+flexibles o con reordenamientos entre sus segmentos
+estructurales.
 
-Los perfiles del Radio de Giro ($R_g$) y del Área Superficial Accesible al Solvente (SASA) (Figura~\ref{fig:rg-sasa-2fom}) respaldan esta interpretación y aportan información sobre el comportamiento macroestructural:
+Hacia los últimos 15 ns, el RMSD disminuye nuevamente y
+presenta valores próximos a 0.40--0.45 nm. Este comportamiento
+indica que, después de las fluctuaciones observadas, la
+proteína adopta conformaciones con una desviación menor
+respecto a la estructura de referencia. Sin embargo, la
+presencia de diferentes intervalos de variación durante
+la trayectoria no permite establecer un equilibrio
+conformacional definitivo únicamente a partir de este
+parámetro.
 
-\begin{itemize}
-    \item \textbf{Radio de giro ($R_g$):} A partir del valor inicial de $1.90\ \text{nm}$, se aprecia una expansión transitoria hasta $1.97\ \text{nm}$ en los primeros $15\ \text{ns}$, producto de la apertura de bucles flexibles. No obstante, a partir del nanosegundo $20$ se identifica una tendencia continua hacia la compactación que alcanza un mínimo de $1.82\ \text{nm}$ hacia los $50\ \text{ns}$, para posteriormente mantenerse constante entre $1.84$ y $1.88\ \text{nm}$. Este comportamiento demuestra que la proteína tiende hacia un empaquetamiento más globular con el paso del tiempo.
-    
-    \item \textbf{Área accesible al solvente (SASA):} En concordancia con la contracción del $R_g$, se observa una disminución clara en el SASA total desde $\sim 155\ \text{nm}^2$ hasta fluctuar en la franja de $145 - 150\ \text{nm}^2$. Esta reducción refleja la ocurrencia de un colapso hidrofóbico interno que minimiza la exposición de los residuos apolares al solvente.
-\end{itemize}
-        
+Las variaciones observadas en el RMSD reflejan que la
+proteína mantiene movilidad conformacional durante la
+simulación. No obstante, este parámetro describe cambios
+estructurales globales y no permite identificar por sí
+solo las regiones responsables de las fluctuaciones.
+Por esta razón, se complementó su análisis con el radio
+de giro y el área superficial accesible al solvente,
+con el propósito de examinar si los cambios
+conformacionales estuvieron acompañados de modificaciones
+en la compactación de la estructura.
+
+El radio de giro ($R_g$) describe la distribución espacial
+de la masa molecular respecto al centro de masa, mientras
+que el área superficial accesible al solvente (SASA)
+permite evaluar la superficie de la proteína expuesta
+al medio acuoso. La evolución de ambos parámetros durante
+los 100 ns de dinámica molecular se presenta en la
+Figura~\ref{fig:rg-sasa-2fom}.
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.95\textwidth]{imagenes/Resu/radio.pdf}
-    \caption{Evolución temporal del radio de giro ($R_g$) y del área superficial accesible al solvente (SASA) durante los 100 ns de trayectoria de dinámica molecular.}
+    \includegraphics[width=0.95\textwidth]
+    {imagenes/Resu/radio.pdf}
+    \caption{Evolución temporal del radio de giro ($R_g$)
+    y del área superficial accesible al solvente (SASA)
+    de la proteasa NS2B-NS3 durante 100 ns de dinámica
+    molecular.}
     \label{fig:rg-sasa-2fom}
-\end{figure} 
+\end{figure}
 
-\subsection{Dinámica de la red interna de enlaces de hidrógeno}
+El radio de giro presenta inicialmente valores cercanos
+a 1.90 nm, con fluctuaciones que alcanzan aproximadamente
+1.97 nm durante los primeros 15 ns. Posteriormente, se
+observa una disminución gradual, con valores mínimos
+próximos a 1.82 nm alrededor de los 50 ns. Durante la
+segunda mitad de la trayectoria, el parámetro fluctúa
+principalmente entre 1.84 y 1.88 nm, lo que sugiere
+que la proteína adopta una distribución espacial
+ligeramente más compacta respecto a los primeros
+instantes de la simulación.
 
-Al examinar la red de enlaces de hidrógeno intramoleculares (Figura~\ref{fig:hbond-2fom}), se encuentra la explicación molecular a la compactación observada. Se evidencia que la proteasa mantiene de forma constante entre $130$ y $150$ enlaces de hidrógeno internos a lo largo de toda la trayectoria. Destaca un incremento notable en la densidad de estas interacciones entre los $40$ y $60\ \text{ns}$ (con picos de hasta $\sim 165$ contactos), coincidiendo de manera exacta con el mínimo observado en el Radio de Giro ($R_g \approx 1.82\ \text{nm}$).
+Por su parte, el SASA muestra una disminución desde
+valores iniciales cercanos a 155 nm$^2$ hacia una región
+de fluctuación situada aproximadamente entre 145 y
+150 nm$^2$. Esta reducción es consistente con la
+tendencia observada en el radio de giro, ya que una
+reorganización hacia conformaciones más compactas
+puede disminuir la superficie molecular accesible
+al solvente. Sin embargo, la disminución del SASA
+total no permite determinar qué grupos químicos
+redujeron su exposición ni demostrar específicamente
+un proceso de colapso hidrofóbico. Para establecerlo
+sería necesario distinguir las contribuciones polares
+y apolares a la superficie accesible.
 
-Este comportamiento demuestra que el fortalecimiento de la red electrostática interna actuó como la fuerza impulsora que consolidó la estructura terciaria frente a la movilidad de los bucles.
+La correspondencia general entre ambos parámetros
+indica que, durante la simulación, la proteína
+experimenta una reorganización de su estructura global.
+Aunque esta tendencia resulta compatible con una
+compactación moderada, las fluctuaciones del RMSD
+muestran que dicha reorganización no implica
+necesariamente una disminución uniforme de la
+movilidad conformacional. En este contexto, se
+examinó la evolución de los enlaces de hidrógeno
+intramoleculares, con el propósito de evaluar el
+comportamiento de una de las interacciones que
+contribuyen al mantenimiento de la estructura proteica.
 
-En conclusión, la consistencia observada entre la estabilización del RMSD ($\sim 0.42\ \text{nm}$), la reducción del $R_g$ ($1.85\ \text{nm}$), la disminución del SASA ($146\ \text{nm}^2$) y la preservación continua de la red de enlaces de hidrógeno intramoleculares permite concluir que la proteasa DENV-2 en conformación abierta e inactiva alcanza una marcada estabilidad estructural bajo las condiciones simuladas.
+La Figura~\ref{fig:hbond-2fom} presenta la evolución
+temporal del número de enlaces de hidrógeno
+intramoleculares durante los 100 ns de dinámica
+molecular.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.70\textwidth]{imagenes/Resu/hidrogeno.pdf}
-    \caption{Evolución temporal del número de enlaces de hidrógeno intramoleculares formados en la proteína a lo largo de 100 ns.}
+    \includegraphics[width=0.75\textwidth]
+    {imagenes/Resu/hidrogeno.pdf}
+    \caption{Evolución temporal del número de enlaces
+    de hidrógeno intramoleculares de la proteasa
+    NS2B-NS3 durante 100 ns de dinámica molecular.}
     \label{fig:hbond-2fom}
-\end{figure}  
+\end{figure}
+
+A lo largo de la trayectoria se observa una población
+variable de enlaces de hidrógeno, con valores que se
+concentran principalmente alrededor de 130--160
+interacciones. Entre aproximadamente 40 y 60 ns
+se aprecia un incremento temporal en el número
+de estas interacciones, alcanzando valores cercanos
+a 165--170 enlaces, seguido de fluctuaciones y una
+disminución hacia el final de la simulación.
+
+Este comportamiento indica que la red de enlaces
+de hidrógeno intramoleculares se reorganiza
+continuamente durante la evolución conformacional
+de la proteína. El incremento observado en la
+región intermedia de la trayectoria coincide
+temporalmente con la disminución del radio de
+giro, lo que resulta compatible con cambios en
+los contactos internos asociados con la
+reorganización estructural. No obstante, esta
+coincidencia no demuestra una relación causal
+directa entre el aumento de enlaces de hidrógeno
+y la compactación del sistema, debido a que ambas
+propiedades pueden responder simultáneamente
+a otros movimientos conformacionales.
+
+En conjunto, los resultados del RMSD, el radio de
+giro, el SASA y los enlaces de hidrógeno muestran
+que la proteasa NS2B-NS3 experimenta fluctuaciones
+y reordenamientos conformacionales apreciables
+durante la simulación. La disminución moderada
+del radio de giro y de la superficie accesible
+al solvente sugiere una tendencia hacia
+conformaciones relativamente más compactas,
+mientras que la persistencia de enlaces de
+hidrógeno indica que las interacciones
+intramoleculares continúan presentes a lo
+largo de la trayectoria.
+
+Estos resultados permiten caracterizar el
+comportamiento del modelo proteico bajo las
+condiciones simuladas y proporcionan una
+referencia estructural para los estudios
+posteriores de interacción con los derivados
+de fulereno funcionalizados con glicina.
+Sin embargo, la identificación de una
+conformación representativa para el
+acoplamiento molecular debe considerar la
+variabilidad observada durante la trayectoria,
+especialmente si se pretende evaluar regiones
+de unión sensibles a los movimientos
+de la proteína.
 
 
-Con el propósito de evaluar la afinidad de unión y el comportamiento conformacional de distintos sistemas de ligandos frente a diferentes regiones de la proteína —incluyendo tanto el sitio ortostérico como posibles sitios alostéricos—, se llevaron a cabo ensayos de acoplamiento molecular (docking) mediante el programa AutoDock Vina. Como ejemplo de estas evaluaciones, en la (Figura~\ref{fig:benzamida-3d}) se muestra la pose conformacional de menor energía obtenida para uno de los sistemas, destacando la red de interacciones no covalentes (como puentes de hidrógeno y contactos de tipo $\pi$) en el sitio de unión. 
+
+\section{Evaluación del acoplamiento molecular}
+\label{sec:acoplamiento_molecular}
+
+Con el propósito de explorar el reconocimiento molecular de la proteasa NS2B-NS3 del virus del dengue serotipo 2 (DENV-2), se realizaron estudios de acoplamiento molecular mediante AutoDock Vina. Se consideraron tanto la región ortostérica, asociada con el sitio catalítico de la enzima, como una región propuesta de unión alostérica. Inicialmente, se evaluaron dos compuestos de referencia, un derivado de benzamida y el inhibidor 246DA, con la finalidad de examinar los patrones de interacción característicos de ambas regiones. Posteriormente, se estudió el comportamiento del derivado de fulereno funcionalizado con cuatro unidades de glicina, C$_{60}$(Gly)$_4$, mediante acoplamiento ciego y acoplamientos dirigidos hacia las cavidades seleccionadas.
+
+Los cálculos se realizaron con una exhaustividad de 80 y se analizaron 100 poses para cada sistema. Las puntuaciones obtenidas mediante AutoDock Vina se utilizaron como un criterio aproximado para comparar las conformaciones propuestas dentro de las condiciones de cálculo empleadas. Asimismo, las poses seleccionadas se examinaron mediante PyMOL y Discovery Studio Visualizer para identificar los residuos próximos al ligando y caracterizar los contactos no covalentes. Es importante señalar que las puntuaciones de acoplamiento constituyen estimaciones computacionales y no equivalen directamente a valores experimentales de energía libre de unión o afinidad.
+
+El primer sistema evaluado correspondió al derivado de benzamida, cuyo acoplamiento se dirigió hacia la región propuesta como alostérica de la proteasa. La representación tridimensional de una de las conformaciones obtenidas se presenta en la Figura~\ref{fig:benzamida-3d}, donde se observa la disposición del ligando dentro de la cavidad y su proximidad con diferentes residuos aminoacídicos.
 
 \begin{figure}[H]
-      \centering
-      \includegraphics[width=1.0\textwidth]{imagenes/Resu/benza.pdf}
-      \caption{Representación del acoplamiento molecular del derivado benzamida en la cavidad alostérica de la proteasa NS2B-NS3.
-      Se presentan las distancias de enlace expresadas en (\AA).}
-      \label{fig:benzamida-3d}
-        \end{figure}
-
-\begin{figure}[H]
-      \centering
-      \includegraphics[width=1.0\textwidth]{imagenes/Resu/benza-3.png}
-      \caption{Diagrama de contactos del derivado de benzamida con la proteasa NS2B-NS3.}
-      \label{fig:benzamida-contactos}
-        \end{figure}
-        
- \begin{table}[H]
     \centering
-    \footnotesize % Tamaño de letra más pequeño para que entre holgadamente
-    \setlength{\tabcolsep}{5pt} % Otorga espacio entre columnas para que no se peguen
-    \renewcommand{\arraystretch}{1.2}
-    \caption{Interacciones no covalentes y distancias de contacto para el acoplamiento del inhibidor alostérico derivado de benzamida en la proteasa de DENV-2.}
-    \label{tab:interacciones-2fom}
-    \begin{tabular}{llcll}
-        \toprule
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Tipo de\\interacción}}} & 
-        \multicolumn{1}{c}{\textbf{Residuo}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Distancia\\(\AA)}}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Motivo\\estructural}}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Tipo de\\aminoácido}}} \\
-        \midrule
-        Puente de hidrógeno & Ala164 & 2.07 & Sitio de unión & Apolar / Hidrofóbico \\
-                            & Asn152 & 2.52 & Sitio de unión & Polar no cargado \\
-                            & Asp75  & 2.12 & Tríada catalítica & Polar, cargado negativo \\
-        \midrule
-        $\pi$-Catión        & Lys74  & 2.62 & Bolsillo S1 / Sitio activo & Polar, cargado positivo \\
-                            & Lys74  & 4.27 & Bolsillo S1 / Sitio activo & Polar, cargado positivo \\
-        \midrule
-        Interacción hidrofóbica & Val154 & 4.91 & Bolsillo hidrofóbico & Apolar / Hidrofóbico \\
-                                & Val154 & 5.16 & Bolsillo hidrofóbico & Apolar / Hidrofóbico \\
-                                & Val154 & 5.40 & Bolsillo hidrofóbico & Apolar / Hidrofóbico \\
-        \bottomrule
-    \end{tabular}
-\end{table}
-      Se seleccionó la conformación de menor energía ($-6.00 \text{ kcal/mol}$) por presentar el anclaje mediante puente de hidrógeno con el residuo Gly133 del hueco oxianiónico, permitiendo evaluar mediante dinámica molecular la estabilidad temporal de esta interacción. 
+    \includegraphics[width=0.95\textwidth]{imagenes/Resu/benza.pdf}
+    \caption{Representación tridimensional del acoplamiento molecular del derivado de benzamida en la región propuesta como alostérica de la proteasa NS2B-NS3. Se muestran los contactos no covalentes identificados y sus distancias expresadas en \AA.}
+    \label{fig:benzamida-3d}
+\end{figure}
 
-Con un límite de 5.0 y una exhaustividad de 80, se obtuvieron tres grupos: 74 modelos con -6.70 kcal/mol, 3 modelos con -5.80 kcal/mol y 23 modelos con -6.00 kcal/mol. 
+El análisis de las puntuaciones de acoplamiento mostró tres grupos de resultados, correspondientes a 74 poses con un valor de $-6.70$ kcal/mol, 23 poses con $-6.00$ kcal/mol y tres poses con $-5.80$ kcal/mol, como se presenta en la Figura~\ref{fig:benzamida-contactos}. El valor más negativo correspondió a $-6.70$ kcal/mol y fue también el más frecuente entre las poses analizadas. Esta distribución indica que, bajo las condiciones de búsqueda utilizadas, AutoDock Vina identificó repetidamente soluciones con puntuaciones similares. Sin embargo, la frecuencia de una puntuación no demuestra por sí sola que las poses correspondan a un mismo agrupamiento estructural ni permite establecer su población en equilibrio.
 
-Como se observa en el perfil energético de la Figura~\ref{fig:benzamida-contactos}, el acoplamiento molecular exhibió una marcada convergencia conformacional. La conformación de menor energía libre de unión alcanzó un valor de $-6.70\ \text{kcal/mol}$, concentrando un 74\% del total de las poses generadas. Esta distribución sugiere que el modo de unión es una pose termodinámicamente favorable en el bolsillo alostérico.
-Al contrastar los contactos atómicos obtenidos (Tabla~\ref{tab:potencial-electrostatico} y Figura~\ref{fig:benzamida-3d}) con los hallazgos reportados en la literatura para inhibidores alostéricos de estructura similar (como el derivado de benzofurano 34e, $\text{IC}_{50} = 0.69\ \mu\text{M}$), se identifican importantes coincidencias estructurales y mecanísticas:
-
-\begin{itemize}
-    \item \textbf{Red de puentes de hidrógeno y el ``interruptor molecular'' (\textbf{Asn152}):} En nuestros resultados, el oxígeno del anillo de benzofurano establece un puente de hidrógeno convencional con la cadena lateral de \textbf{Asn152} a una distancia de $2.52\ \text{\AA}$. Este hallazgo es de vital relevancia, ya que la literatura señala a \textbf{Asn152} como un ``interruptor molecular'' clave responsable de mantener a la enzima en su conformación inactiva. Adicionalmente, el grupo hidroxilo del anillo aromático forma un puente de hidrógeno fuerte de $2.12\ \text{\AA}$ con \textbf{Asp75} (perteneciente a la tríada catalítica), mientras que el grupo N--H de la amida interactúa mediante un enlace de hidrógeno de $2.07\ \text{\AA}$ con el esqueleto de \textbf{Ala164}. Esta red tripartita de puentes de hidrógeno ancla firmemente el ligando al sitio de unión.
-    
-    \item \textbf{Interacciones electrostáticas y $\pi$-catiónicas con \textbf{Lys74}:} La literatura reporta que en derivados como el 34e, la orientación inclinada del núcleo aromático y el carbonilo amídico permite una interacción crítica con \textbf{Lys74}. En nuestros cálculos de \textit{docking}, se confirmó la participación activa de este residuo mediante dos interacciones de tipo $\pi$-catión con el sistema aromático del compuesto a distancias de $2.62\ \text{\AA}$ y $4.27\ \text{\AA}$. Esta atracción electrostática refuerza la fijación del andamio en la entrada del bolsillo S1/alostérico.
-    
-    \item \textbf{Complementariedad en el subbolsillo hidrofóbico:} El análisis de contactos no polares reveló interacciones de tipo $\pi$-sigma y $\pi$-alquil entre el sistema aromático y el residuo \textbf{Val154} ($4.91\ \text{\AA}$, $5.16\ \text{\AA}$ y $5.40\ \text{\AA}$). Aunque los estudios reportados previamente destacan la inserción lipofílica hacia residuos como \textbf{Leu76}, \textbf{Gly148} e \textbf{Ile165}, el contacto hallado con \textbf{Val154} demuestra una acomodación hidrofóbica equivalente que estabiliza el núcleo aromático dentro de la cavidad no polar.
-\end{itemize}
-
-Los datos \textit{in silico} obtenidos respaldan el mecanismo de inhibición alostérica no competitiva previamente sustentado por estudios cinéticos  y de mutagénesis dirigida (T122C). Al alojarse en la cavidad posterior cerca del residuo \textbf{Thr122} e interactuar directamente con la tríada catalítica (\textbf{Asp75}) y los residuos de control conformacional (\textbf{Asn152} y \textbf{Lys74}), el ligando bloquea la flexibilidad funcional requerida para el procesamiento del sustrato poliproteico.
-
-En conjunto, la consistencia entre los valores de energía observados, la baja distancia de los puentes de hidrógeno ($\le 2.52\ \text{\AA}$) y la concordancia con los residuos clave descritos en la literatura confirman la efectividad del núcleo molecular evaluado como un candidato prometedor para el desarrollo de fármacos antivirales selectivos contra DENV-2.
- 
- \begin{figure}[H]
-      \centering
-      \includegraphics[width=1.0\textwidth]{imagenes/Resu/246.pdf}
-      \caption{Representación del acoplamiento molecular del derivado 246DA en la cavidad ortostérica de la proteasa NS2B-NS3. Se presentan las distancias de enlace expresadas en (\AA).}
-      \label{fig:246-3d}
-        \end{figure}
-       
 \begin{figure}[H]
-      \centering
-      \includegraphics[width=1.0\textwidth]{imagenes/Resu/246-1.png}
-      \caption{Diagrama de contactos del compuesto de referencia identificado como 246DA en el archivo de imagen.}
-      \label{fig:246-contactos}
-        \end{figure}
-
-  \begin{table}[H]
     \centering
-    \footnotesize
-    \setlength{\tabcolsep}{5pt}
-    \renewcommand{\arraystretch}{1.2}
-    \caption{Interacciones no covalentes y distancias de contacto para el acoplamiento del inhibidor ortostérico 264DA en la proteína NS2B-NS3.}
-    \label{tab:interacciones-pose83}
-    \begin{tabular}{llcll}
-        \toprule
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Tipo de\\interacción}}} & 
-        \multicolumn{1}{c}{\textbf{Residuo}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Distancia\\(\AA)}}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Motivo\\estructural}}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Tipo de\\aminoácido}}} \\
-        \midrule
-        Enlace de H de carbono & Asn152 & 3.76 & Sitio de unión & Polar no cargado \\
-        \midrule
-        $\pi$-Anión            & Asp75  & 3.28 & Tríada catalítica & Polar, cargado negativo \\
-                               & Asp75  & 3.88 & Tríada catalítica & Polar, cargado negativo \\
-        \midrule
-        $\pi$-Sigma            & Val154 & 3.07 & Bolsillo hidrofóbico & Apolar / Hidrofóbico \\
-                               & Hsd51  & 3.85 & Tríada catalítica & Polar, cargado positivo \\
-        \midrule
-        Interacción hidrofóbica & Trp50  & 4.03 & Bolsillo hidrofóbico & Apolar / Aromático \\
-        (Alquil / $\pi$-Alquil) & Lys74  & 4.42 & Bolsillo S1 / Sitio activo & Polar, cargado positivo \\
-                               & Val154 & 4.72 & Bolsillo hidrofóbico & Apolar / Hidrofóbico \\
-                               & Val154 & 5.32 & Bolsillo hidrofóbico & Apolar / Hidrofóbico \\
-        \bottomrule
-    \end{tabular}
-\end{table}
+    \includegraphics[width=0.85\textwidth]{imagenes/Resu/benza-3.png}
+    \caption{Distribución de las 100 poses del derivado de benzamida según las puntuaciones de acoplamiento obtenidas mediante AutoDock Vina.}
+    \label{fig:benzamida-contactos}
+\end{figure}
 
-
-
-
-El análisis del acoplamiento molecular realizado mediante el programa AutoDock Vina (configurado con una exhaustividad de 80) permitió evaluar la afinidad y el modo de unión del ligando en el sitio catalítico del receptor. A partir de una muestra de 100 poses generadas, el perfil energético reveló la presencia de dos conformaciones principales: un primer grupo de 23 poses con una energía libre de unión de $-6.00\ \text{kcal/mol}$ y un segundo conglomerado (\textit{cluster}) predominante correspondiente a 77 poses con una energía de $-5.80\ \text{kcal/mol}$ (Figura~\ref{fig:246-contactos}).
-
-A pesar de que el primer grupo presentó el valor de energía mínimo absoluto, la selección final del modo de acoplamiento recayó en una de las conformaciones del ligando ortosterico reportado en la literatura como 246DA (perteneciente al \textit{cluster} de $-5.80\ \text{kcal/mol}$). Esta decisión se fundamenta en un criterio estadístico y termodinámico: la representación poblacional del 77\% sugiere una mayor probabilidad de ocurrencia del estado conformacional en equilibrio. Además, la diferencia energética de apenas $\Delta E = 0.2\ \text{kcal/mol}$ entre ambos mínimos se encuentra bien dentro del margen del ruido térmico (a temperatura ambiente), lo que demuestra que ambas poses son energéticamente equivalentes pero la conformación ganadora del inhibidor  es representativa de la microconformación más probable.
-
-La inspección visual y la caracterización de los contactos no covalentes  (Tabla~\ref{tab:interacciones-pose83} y Figura~\ref{fig:246-3d}) permitieron identificar el patrón de interacciones que estabiliza dicho complejo:
-
-\begin{itemize}
-    \item \textbf{Enlaces de Carbono-Hidrógeno y contactos polares:} Se observaron interacciones fuertemente estabilizadoras mediadas por enlaces de carbono-hidrógeno, destacando el papel del residuo polar no cargado \textbf{Asn152}. Este residuo actúa como un ancla clave en la cavidad al interaccionar directamente con los átomos de carbono-hidrógeno del ligando a distancias cortas de contacto.
-    \item \textbf{Interacciones electrostáticas y relativas a electrones $\pi$:} Se identificaron interacciones del tipo $\pi$-anión y $\pi$-sigma con los residuos de la tríada catalítica y del contorno del sitio activo (\textbf{His51}, \textbf{Asp75} y \textbf{Lys74}), así como contactos hidrofóbicos ($\pi$-alquilo / alquilo) con residuos como \textbf{Val154} y \textbf{Trp50}.
-\end{itemize}
-
-Al contrastar nuestros resultados con el estudio de referencia reportado por literatura para el inhibidor sintético 246DA  acoplado en la proteasa NS2B/NS3 del serotipo 2 del virus del dengue, se observa una coincidencia estructural y funcional sobresaliente. En la literatura se reporta que la potencia del compuesto 246DA radica en su capacidad para interaccionar mediante puentes de hidrógeno directos con la tríada catalítica (\textbf{His51}, \textbf{Asp75} y \textbf{Ser135}), a la vez que ocupa el bolsillo hidrofóbico coordinándose con residuos como \textbf{Leu76}, \textbf{Trp83}, \textbf{Ile165} e \textbf{Ile166}. 
-
-Nuestras observaciones reafirman que esta conformación adopta una orientación tridimensional coherente con dicho modelo bioactivo. Aunque nuestro acoplamiento con AutoDock Vina prioriza las fuerzas de van der Waals, electrostáticas y enlaces C--H con residuos como \textbf{Asn152}, \textbf{His51} y \textbf{Asp75}, la conservación del anclaje en los residuos de la tríada catalítica confirma la validez biológica del acoplamiento. Esto sugiere que el complejo obtenido reproduce los requerimientos farmacofóricos necesarios para la inhibición competitiva de la proteasa viral DENV2.
-    
-\begin{figure}[H]
-      \centering
-      \includegraphics[width=1.0\textwidth]{imagenes/Resu/ciego.pdf}
-      \caption{Resultados gráficos del acoplamiento ciego del aducto de fullereno con glicina.}
-      \label{fig:ciego-perfil}
-        \end{figure}
-        
-\begin{figure}[H]
-      \centering
-      \includegraphics[width=1.0\textwidth]{imagenes/Resu/ciego.png}
-      \caption{Diagrama de contactos del acoplamiento ciego del aducto dC\textsubscript{60}(Gly)\textsubscript{4}.}
-      \label{fig:ciego-contactos}
-        \end{figure}
-        
-   \begin{table}[H]
-    \centering
-    \footnotesize
-    \setlength{\tabcolsep}{5pt}
-    \renewcommand{\arraystretch}{1.2}
-    \caption{Interacciones no covalentes y distancias de contacto para el acoplamiento ciego del derivado de fulereno C\textsubscript{60}(Gly)\textsubscript{4} en la proteasa NS2B-NS3.}
-    \label{tab:interacciones-pose72}
-    \begin{tabular}{llcll}
-        \toprule
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Tipo de\\interacción}}} & 
-        \multicolumn{1}{c}{\textbf{Residuo}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Distancia\\(\AA)}}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Motivo\\estructural}}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Tipo de\\aminoácido}}} \\
-        \midrule
-        Puente de hidrógeno & Lys74  & 2.92 & Bolsillo S1 / Sitio activo & Polar, cargado positivo \\
-        \midrule
-        Enlace de H de carbono & Asp174 & 3.26 & Sitio de unión & Polar, cargado negativo \\
-                            & Asn167 & 3.40 & Sitio de unión & Polar no cargado \\
-                            & Gly48 & 3.78 & Sitio de unión & Apolar / Neutro \\
-        \midrule
-        Interacción hidrofóbica & Trp83  & 5.24 & Bolsillo hidrofóbico & Apolar / Aromático \\
-        ($\pi$-Alquil) & & & & \\
-        \bottomrule
-    \end{tabular}
-\end{table}
-     El análisis del acoplamiento ciego realizado mediante el programa AutoDock Vina permitió evaluar la capacidad de interacción, la afinidad termodinámica y el modo de unión del derivado de fulereno tetraaducto de glicina (C\textsubscript{60}(Gly)\textsubscript{4}) sobre la estructura tridimensional de la proteasa NS2B/NS3 del serotipo 2 del virus del dengue. A partir de un muestreo de 100 poses generadas, el perfil energético reveló una distribución conformacional dividida en tres conglomerados (\textit{clusters}) principales: un primer grupo mayoritario de 61 poses con una energía libre de unión de $-8.60\ \text{kcal/mol}$, seguido de un segundo grupo de 22 poses con $-8.20\ \text{kcal/mol}$ y un tercer grupo de 17 poses con $-8.10\ \text{kcal/mol}$ (Figura~\ref{fig:ciego-contactos}).
-
-La selección del modo de acoplamiento óptimo del C\textsubscript{60}(Gly)\textsubscript{4} recayó en el \textit{cluster} perteneciente al mínimo energético absoluto de $-8.60\ \text{kcal/mol}$. A diferencia de sistemas donde el mínimo energético y la densidad conformacional divergen, en este caso coinciden ambos criterios: la amplia representación poblacional (61\%) demuestra que esta conformación no solo es la más estable termodinómicamente, sino también  en equilibrio más probable durante el proceso de reconocimiento molecular. Asimismo, el valor atrayente de $-8.60\ \text{kcal/mol}$ refleja una afinidad sustancialmente elevada, favorecida por la naturaleza anfifílica del aducto, el cual combina el núcleo hidrofóbico del fulereno C\textsubscript{60} con las cadenas polares de glicina.
-
-La caracterización detallada de los contactos no covalentes efectuada mediante PyMOL y Discovery Studio Visualizer (Tabla~\ref{tab:interacciones-pose72} y Figura~\ref{fig:ciego-perfil}) permitió dilucidar el patrón de interacciones responsables de la estabilización del complejo nanoestructura-proteína:
-
-\begin{itemize}
-    \item \textbf{Puentes de hidrógeno convencionales:} Se identificó un puente de hidrógeno fuerte entre el grupo carboxilo/amino de las cadenas de glicina del ligando y el residuo \textbf{Lys74} a una distancia de $2.92\ \text{\AA}$. Este contacto en el subsitio S1 / entorno del sitio activo actúa como un ancla electrostática y polar determinante para la orientación del aducto.
-    \item \textbf{Enlaces de hidrógeno no convencionales (C--H):} Se detectaron interacciones estabilizadoras débiles tipo $\text{C--H}\cdots\text{O/N}$ con los residuos \textbf{Asp174} ($3.26\ \text{\AA}$), \textbf{Asn167} ($3.40\ \text{\AA}$) y \textbf{Gly48} ($3.78\ \text{\AA}$), las cuales contribuyen a fijar los sustituyentes de glicina a lo largo del contorno de la cavidad de unión.
-    \item \textbf{Interacciones hidrofóbicas ($\pi$-Alquil):} El núcleo aromático de la esfera de fulereno establece contactos lipofílicos de tipo $\pi$-alquilo con el residuo aromático \textbf{Trp83} a una distancia de $5.24\ \text{\AA}$, acomodándose adecuadamente dentro del bolsillo hidrofóbico de la proteasa.
-\end{itemize}
-
-Al contrastar estos resultados con la literatura reportada para aductos de fulereno-glicina (C\textsubscript{60}(Gly)), se constata una consistencia notable con las propiedades fisicoquímicas y de unión a proteínas descritas experimentalmente. En estudios previos se ha demostrado mediante calorimetría de titulación isotérmica (ITC) que los aductos de C\textsubscript{60}(Gly) presentan una elevada constante de asociación con proteínas séricas humanas, impulsada principalmente por fuerzas hidrofóbicas y solvatación favorable, sin generar efectos citotóxicos ni genotóxicos significativos. De manera análoga, nuestros resultados \textit{in silico} confirman que el C\textsubscript{60}(Gly)\textsubscript{4} posee la versatilidad estructural para insertarse en la cavidad catalítica de la proteasa DENV2, acoplándose simultáneamente al subsitio S1 (\textbf{Lys74}) y al bolsillo hidrofóbico (\textbf{Trp83}).
-
-En conjunto, la conservación de estos anclajes clave y la alta afinidad calculada sugerirían que el acoplamiento ciego logra ocluir estéricamente el sitio activo de la proteasa NS2B/NS3, validando la hipótesis de que el derivado C\textsubscript{60}(Gly)\textsubscript{4} se comporta como un potencial inhibidor competitivo o nano-plataforma bioactiva contra el virus del dengue serotipo 2.
-        
-\begin{figure}[H]
-      \centering
-      \includegraphics[width=1.0\textwidth]{imagenes/Resu/repor-c60.pdf}
-      \caption{Resultados gráficos del acoplamiento dirigido del C\textsubscript{60}(Gly)\textsubscript{4} a la región alostérica.}
-      \label{fig:alosterico-perfil}
-        \end{figure}
-
-\begin{figure}[H]
-      \centering
-      \includegraphics[width=1.0\textwidth]{imagenes/Resu/alo-resu-c60.png}
-      \caption{Diagrama de contactos del aducto en la región alostérica.}
-      \label{fig:alosterico-contactos}
-        \end{figure}
-        
- \begin{table}[H]
-    \centering
-    \footnotesize
-    \setlength{\tabcolsep}{5pt}
-    \renewcommand{\arraystretch}{1.2}
-    \caption{Interacciones no covalentes y distancias de contacto para el acoplamiento del derivado de fulereno C\textsubscript{60}(Gly)\textsubscript{4} en la proteasa NS2B-NS3.}
-    \label{tab:interacciones-pose61}
-    \begin{tabular}{llcll}
-        \toprule
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Tipo de\\interacción}}} & 
-        \multicolumn{1}{c}{\textbf{Residuo}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Distancia\\(\AA)}}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Motivo\\estructural}}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Tipo de\\aminoácido}}} \\
-        \midrule
-        Puente de hidrógeno & Asn167 & 2.34 & Sitio de unión & Polar no cargado \\
-                            & Trp83  & 2.32 & Bolsillo hidrofóbico & Apolar / Aromático \\
-        \midrule
-        Enlace de H de carbono & Gly87  & 3.67 & Sitio de unión & Apolar / Neutro \\
-        \midrule
-        Interacción hidrofóbica & Leu76  & 4.78 & Bolsillo hidrofóbico & Apolar / Hidrofóbico \\
-        (Alquil / $\pi$-Alquil) & Trp69  & 5.22 & Bolsillo hidrofóbico & Apolar / Aromático \\
-                                & Lys74  & 6.12 & Bolsillo S1 / Sitio activo & Polar, cargado positivo \\
-        \bottomrule
-    \end{tabular}
-\end{table}       
-\subsection{Evaluación del acoplamiento alostérico del derivado C\textsubscript{60}(Gly)\textsubscript{4}}
-
-El análisis del acoplamiento molecular dirigido hacia el bolsillo alostérico de la proteasa NS2B/NS3 se llevó a cabo bajo los mismos parámetros de exhaustividad 80 para evaluar la capacidad del aducto C\textsubscript{60}(Gly)\textsubscript{4} de actuar como un inhibidor alostérico en el sitio reportado para moléculas pequeñas como las benzamidas. A partir del muestreo de 100 poses generadas, el perfil energético Figura~\ref{fig:alosterico-perfil} mostró una distribución conformacional altamente homogénea pero con valores de afinidad moderados: un grupo de 14 poses con una energía libre de unión de $-3.80\ \text{kcal/mol}$ y un conglomerado predominantemente mayoritario correspondiente a 86 poses con una energía de $-3.60\ \text{kcal/mol}$.
-
-La selección del modo de acoplamiento al sitio alostérico reportado recayó en el \textit{cluster} perteneciente al grupo de mínima energía de $-3.80\ \text{kcal/mol}$. La diferencia energética entre ambos mínimos ($\Delta G = 0.20\ \text{kcal/mol}$) se encuentra holgadamente contenida dentro del margen del ruido térmico ($k_B T \approx 0.60\ \text{kcal/mol}$ a temperatura ambiente, lo que demuestra que ambas poblaciones representan microconformaciones equivalentes en rápido equilibrio termodinámico a lo largo de la entrada de la cavidad alostérica.
-
-La caracterización visual y atómica de las interacciones no covalentes Tabla~\ref{tab:interacciones-pose61} y Figura~\ref{fig:alosterico-perfil}) permitió identificar el patrón de estabilización de la:
-
-\begin{itemize}
-    \item \textbf{Puentes de hidrógeno convencionales:} Se observaron dos puentes de hidrógeno fuertes mediados por los sustituyentes de glicina del aducto con la cadena lateral de \textbf{Asn167} ($2.34\ \text{\AA}$, polar no cargado) y con el residuo aromático \textbf{Trp83} ($2.32\ \text{\AA}$), fijando las cadenas polares externas en el contorno del sitio alostérico.
-    \item \textbf{Enlaces de hidrógeno de carbono (C--H):} Se identificó un contacto débil tipo $\text{C--H}\cdots\text{O/N}$ entre el esqueleto del ligando y el residuo \textbf{Gly87} a una distancia de $3.67\ \text{\AA}$.
-    \item \textbf{Interacciones hidrofóbicas (Alquil / $\pi$-Alquil):} La esfera carbonosa del fulereno interacciona mediante contactos lipofílicos con los residuos \textbf{Leu76} ($4.78\ \text{\AA}$) y \textbf{Trp69} ($5.22\ \text{\AA}$) en el subbolsillo hidrofóbico, además de mantener un contacto de tipo alquilo/electrostático extendido con \textbf{Lys74} ($6.12\ \text{\AA}$).
-\end{itemize}
-
-\subsection{Análisis comparativo entre el derivado de fulereno y el inhibidor alostérico (benzamida/benzofurano)}
-\begin{enumerate}
-    \item \textbf{Superioridad energética e incremento de afinidad:}
-    El derivado de benzamida presenta una estabilidad y afinidad termodinámica superior al alcanzar una energía libre de unión de $-6.70\text{ kcal/mol}$ (con poses de hasta $-5.80\text{ kcal/mol}$), superando notoriamente la afinidad moderada de $-3.60\text{ kcal/mol}$ (con un límite de $-3.80\text{ kcal/mol}$) registrada por el aducto C\textsubscript{60}(Gly)\textsubscript{4}, lo que evidencia un acoplamiento significativamente menos favorable en la cavidad alostérica por parte del fulereno.
-
-    \item \textbf{Conservación y ampliación del farmacóforo catalítico:}
-    Mientras que el derivado de benzamida logra un anclaje directo con el residuo de la tríada catalítica Asp75 mediante un puente de hidrógeno corto ($2.12\text{ \AA}$) e interacciones clave con Ala164 ($2.07\text{ \AA}$), Asn152 ($2.52\text{ \AA}$) y Lys74 ($\pi$-catión a $2.62\text{ \AA}$), el C\textsubscript{60}(Gly)\textsubscript{4} no establece contacto directo con la tríada catalítica, limitando su red de puentes de hidrógeno a interacciones externas mediante sus brazos de glicina con Asn167 ($2.34\text{ \AA}$) y Trp83 ($2.32\text{ \AA}$).
-
-    \item \textbf{Acomodación en el bolsillo lipofílico:}
-    Al ser una molécula pequeña y compacta, la benzamida se acomoda profundamente dentro de la cavidad alostérica, logrando un empaquetamiento optimizado con Val154 ($4.91\text{ -- }5.40\text{ \AA}$). En contraste, el núcleo esférico y voluminoso del C\textsubscript{60}(Gly)\textsubscript{4} le impide penetrar al fondo del bolsillo, manteniéndose en una disposición más periférica donde su estabilidad depende de interacciones hidrofóbicas dispersas ($\pi$-alquilo) con Leu76 ($4.78\text{ \AA}$), Trp69 ($5.22\text{ \AA}$) y Lys74 ($6.12\text{ \AA}$).
-\end{enumerate}
-
-
-\begin{figure}[H]
-      \centering
-      \includegraphics[width=1.0\textwidth]{imagenes/Resu/orto-1.pdf}
-      \caption{Resultados gráficos del acoplamiento dirigido a la región ortostérica del  C\textsubscript{60}(Gly)\textsubscript{4}.}
-      \label{fig:ortosterico-perfil-2}
-        \end{figure}
-
-\begin{figure}[H]
-      \centering
-      \includegraphics[width=1.0\textwidth]{imagenes/Resu/orto-c60.png}
-      \caption{Diagrama de contactos del aducto en la región ortostérica.}
-      \label{fig:ortosterico-contactos}
-        \end{figure}
-
+La caracterización de los contactos no covalentes de la conformación representada en la Figura~\ref{fig:benzamida-3d} permitió identificar interacciones con Ala164, Asn152, Asp75, Lys74 y Val154, cuyas distancias se presentan en la Tabla~\ref{tab:interacciones-2fom}. Entre los contactos polares destacan los puentes de hidrógeno asignados a Ala164, Asn152 y Asp75, con distancias de 2.07, 2.52 y 2.12 \AA, respectivamente. La presencia de estas interacciones sugiere que diferentes grupos funcionales del ligando participan en su orientación dentro de la cavidad mediante contactos con regiones polares de la proteína.
 
 \begin{table}[H]
     \centering
+    \caption{Interacciones no covalentes y distancias de contacto identificadas para el derivado de benzamida en la proteasa NS2B-NS3.}
+    \label{tab:interacciones-2fom}
     \footnotesize
-    \setlength{\tabcolsep}{5pt}
-    \renewcommand{\arraystretch}{1.2}
-    \caption{Interacciones no covalentes y distancias de contacto para el acoplamiento del derivado de fulereno C\textsubscript{60}(Gly)\textsubscript{4} ortostérico en la proteasa NS2B-NS3.}
-    \label{tab:interacciones-pose1}
-    \begin{tabular}{llcll}
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{llcl}
         \toprule
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Tipo de\\interacción}}} & 
-        \multicolumn{1}{c}{\textbf{Residuo}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Distancia\\(\AA)}}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Motivo\\estructural}}} & 
-        \multicolumn{1}{c}{\textbf{\shortstack[c]{Tipo de\\aminoácido}}} \\
+        Interacción & Residuo & Distancia (\AA) & Región asociada \\
         \midrule
-        Puente de hidrógeno & Hsd51  & 2.05 & Tríada catalítica & Polar, cargado positivo \\
-                            & Asp75  & 2.83 & Tríada catalítica & Polar, cargado negativo \\
-                            & Gly133 & 2.07 & Hueco oxianiónico & Apolar / Neutro \\
-                            & Thr134 & 2.63 & Sitio de unión & Polar no cargado \\
-                            & Gly153 & 2.15 & Sitio de unión & Apolar / Neutro \\
+        Puente de hidrógeno & Ala164 & 2.07 & Sitio de unión \\
+                            & Asn152 & 2.52 & Sitio de unión \\
+                            & Asp75  & 2.12 & Tríada catalítica \\
         \midrule
-        Interacción hidrofóbica & Val155 & 4.02 & Bolsillo hidrofóbico & Apolar / Hidrofóbico \\
-        (Alquil / $\pi$-Alquil) & Tyr161 & 4.72 & Bolsillo hidrofóbico & Polar neutro / Aromático \\
-                                & Tyr161 & 5.24 & Bolsillo hidrofóbico & Polar neutro / Aromático \\
+        $\pi$-catión & Lys74 & 2.62 & Entorno del sitio activo \\
+                     & Lys74 & 4.27 & Entorno del sitio activo \\
+        \midrule
+        Contacto hidrofóbico & Val154 & 4.91 & Región hidrofóbica \\
+                            & Val154 & 5.16 & Región hidrofóbica \\
+                            & Val154 & 5.40 & Región hidrofóbica \\
         \bottomrule
     \end{tabular}
 \end{table}
-El análisis del acoplamiento molecular dirigido al sitio activo ortostérico de la proteasa NS2B/NS3 del serotipo 2 del virus del dengue  demostró una afinidad termodinámica excepcional y un patrón de reconocimiento molecular altamente específico para el aducto C\textsubscript{60}(Gly)\textsubscript{4}. A partir de una muestra de 100 poses generadas mediante AutoDock Vina exhaustividad de 80, el perfil energético Figura~\ref{fig:ortosterico-contactos} exhibió un comportamiento conformacional extraordinario: el 100\% de las poses generadas convergieron en un único conglomerado energéticamente homogéneo con una energía libre de unión  de $-7.90\ \text{kcal/mol}$.
 
-Esta convergencia poblacional del 100\% representa un pozo de energía potencial único y profundamente estable dentro del sitio catalítico, eliminando cualquier ambigüedad conformacional. La selección del modo de unión óptimo recayó en un único \textit{cluster}, el cual ejemplifica el estado en equilibrio dominante y termodinómicamente favorecido en la cavidad ortostérica.
+La interacción con Asn152 resulta particularmente interesante debido a la participación propuesta de este residuo en la organización conformacional de la proteasa y en el reconocimiento de determinados inhibidores alostéricos. Asimismo, el contacto con Asp75, integrante de la tríada catalítica, indica que la conformación obtenida se aproxima a una región funcionalmente relevante de la enzima. No obstante, la presencia de estos contactos no demuestra que el ligando modifique la conformación de la proteasa o altere su actividad catalítica.
+
+Adicionalmente, se identificaron dos contactos clasificados como interacciones $\pi$-catión con Lys74, a distancias de 2.62 y 4.27 \AA. Estas interacciones son compatibles con la proximidad entre el sistema aromático del ligando y la cadena lateral cargada positivamente de dicho residuo. Por otra parte, Val154 presentó tres contactos hidrofóbicos entre 4.91 y 5.40 \AA, lo que sugiere una contribución adicional de las regiones no polares al reconocimiento molecular.
+
+En conjunto, la conformación analizada presenta una combinación de interacciones polares y contactos hidrofóbicos que permite describir un modo de acomodación del derivado de benzamida en la cavidad estudiada. Aunque algunos de los residuos identificados coinciden con regiones funcionales descritas para la proteasa NS2B-NS3, estos resultados deben interpretarse como una propuesta estructural de unión y no como una demostración de inhibición alostérica.
+
+Como segundo sistema de referencia se evaluó el compuesto 246DA mediante acoplamiento dirigido hacia la región ortostérica. Su disposición tridimensional dentro del entorno catalítico se presenta en la Figura~\ref{fig:246-3d}. A diferencia del sistema anterior, este cálculo se centró en la región asociada con el reconocimiento del sustrato y la actividad proteolítica de la enzima.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resu/246.pdf}
+    \caption{Representación tridimensional del acoplamiento molecular del compuesto de referencia 246DA en la región ortostérica de la proteasa NS2B-NS3. Se muestran los contactos identificados y sus distancias expresadas en \AA.}
+    \label{fig:246-3d}
+\end{figure}
+
+El análisis de las 100 poses mostró dos valores principales de puntuación: 23 poses con $-6.00$ kcal/mol y 77 poses con $-5.80$ kcal/mol, como se observa en la Figura~\ref{fig:246-contactos}. Aunque el valor más negativo correspondió al primer grupo, la mayor frecuencia se registró para $-5.80$ kcal/mol. La diferencia entre ambas puntuaciones fue de 0.20 kcal/mol, por lo que resulta conveniente considerar que la función de puntuación utilizada presenta una capacidad limitada para discriminar diferencias energéticas tan pequeñas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{imagenes/Resu/246-1.png}
+    \caption{Distribución de las 100 poses del compuesto 246DA según las puntuaciones de acoplamiento obtenidas mediante AutoDock Vina.}
+    \label{fig:246-contactos}
+\end{figure}
+
+Para la caracterización estructural se consideró una pose perteneciente al grupo con puntuación de $-5.80$ kcal/mol, con el propósito de examinar su orientación y los contactos establecidos dentro de la región ortostérica. Esta selección permitió identificar interacciones con residuos próximos al entorno catalítico, sin asumir que la mayor frecuencia de la puntuación corresponde necesariamente a una mayor probabilidad termodinámica de dicha conformación.
+
+Los contactos identificados se presentan en la Tabla~\ref{tab:interacciones-pose83}. Se observó una interacción clasificada como enlace de hidrógeno de carbono con Asn152 a 3.76 \AA, así como dos contactos de tipo $\pi$-anión con Asp75, a distancias de 3.28 y 3.88 \AA. Adicionalmente, se identificaron interacciones $\pi$-sigma con Val154 e His51, junto con contactos hidrofóbicos que involucraron Trp50, Lys74 y Val154.
+
+\begin{table}[H]
+    \centering
+    \caption{Interacciones no covalentes y distancias de contacto identificadas para el compuesto 246DA en la región ortostérica de la proteasa NS2B-NS3.}
+    \label{tab:interacciones-pose83}
+    \footnotesize
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{llcl}
+        \toprule
+        Interacción & Residuo & Distancia (\AA) & Región asociada \\
+        \midrule
+        Enlace C--H & Asn152 & 3.76 & Sitio de unión \\
+        \midrule
+        $\pi$-anión & Asp75 & 3.28 & Tríada catalítica \\
+                    & Asp75 & 3.88 & Tríada catalítica \\
+        \midrule
+        $\pi$-sigma & Val154 & 3.07 & Región hidrofóbica \\
+                    & His51  & 3.85 & Tríada catalítica \\
+        \midrule
+        Contacto hidrofóbico & Trp50  & 4.03 & Región hidrofóbica \\
+                            & Lys74  & 4.42 & Entorno del sitio activo \\
+                            & Val154 & 4.72 & Región hidrofóbica \\
+                            & Val154 & 5.32 & Región hidrofóbica \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+La proximidad del compuesto 246DA con His51 y Asp75 resulta relevante debido a que ambos residuos forman parte de la tríada catalítica de la proteasa. Sin embargo, las interacciones identificadas en esta pose corresponden principalmente a contactos de tipo $\pi$ y a interacciones hidrofóbicas, por lo que no deben interpretarse como equivalentes a puentes de hidrógeno directos con los residuos catalíticos. Esta distinción es importante al comparar los resultados con los modos de reconocimiento descritos para inhibidores de referencia.
+
+Por otra parte, la presencia de contactos con Val154 y Trp50 sugiere que las regiones hidrofóbicas también participan en la acomodación del ligando. En conjunto, los resultados muestran que el compuesto 246DA puede adoptar una orientación próxima a residuos funcionalmente relevantes del sitio activo bajo las condiciones del cálculo. No obstante, el patrón observado corresponde a la conformación seleccionada y no permite establecer por sí solo la persistencia de estas interacciones ni confirmar un mecanismo de inhibición competitiva.
+
+Una vez caracterizados los compuestos de referencia, se evaluó el derivado C$_{60}$(Gly)$_4$ mediante acoplamiento ciego, con la finalidad de explorar posibles regiones de interacción sin restringir inicialmente la búsqueda a una cavidad específica. La Figura~\ref{fig:ciego-perfil} muestra la disposición tridimensional de una de las poses obtenidas y los contactos identificados con residuos de la proteína.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resu/ciego.pdf}
+    \caption{Representación tridimensional de una pose obtenida mediante acoplamiento ciego del derivado C$_{60}$(Gly)$_4$ con la proteasa NS2B-NS3.}
+    \label{fig:ciego-perfil}
+\end{figure}
+
+El análisis de las 100 poses generadas mostró tres grupos de puntuaciones, correspondientes a 61 poses con $-8.60$ kcal/mol, 22 poses con $-8.20$ kcal/mol y 17 poses con $-8.10$ kcal/mol, como se presenta en la Figura~\ref{fig:ciego-contactos}. El valor más negativo, de $-8.60$ kcal/mol, también fue el de mayor frecuencia. Este resultado indica que, dentro del espacio de búsqueda considerado, el programa identificó repetidamente soluciones con puntuaciones más favorables que las registradas para los otros grupos del mismo cálculo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{imagenes/Resu/ciego.png}
+    \caption{Distribución de las 100 poses obtenidas mediante acoplamiento ciego del derivado C$_{60}$(Gly)$_4$, agrupadas según su puntuación de AutoDock Vina.}
+    \label{fig:ciego-contactos}
+\end{figure}
+
+La conformación seleccionada para el análisis de contactos presentó interacciones con Lys74, Asp174, Asn167, Gly48 y Trp83, cuyos valores se resumen en la Tabla~\ref{tab:interacciones-pose72}. Se identificó un puente de hidrógeno con Lys74 a 2.92 \AA, así como contactos clasificados como enlaces de hidrógeno de carbono con Asp174, Asn167 y Gly48, a distancias de 3.26, 3.40 y 3.78 \AA, respectivamente.
+
+\begin{table}[H]
+    \centering
+    \caption{Interacciones no covalentes y distancias de contacto identificadas en el acoplamiento ciego del derivado C$_{60}$(Gly)$_4$ con la proteasa NS2B-NS3.}
+    \label{tab:interacciones-pose72}
+    \footnotesize
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{llcl}
+        \toprule
+        Interacción & Residuo & Distancia (\AA) & Región asociada \\
+        \midrule
+        Puente de hidrógeno & Lys74 & 2.92 & Entorno del sitio activo \\
+        \midrule
+        Enlace C--H & Asp174 & 3.26 & Sitio de unión \\
+                    & Asn167 & 3.40 & Sitio de unión \\
+                    & Gly48  & 3.78 & Sitio de unión \\
+        \midrule
+        Contacto $\pi$-alquilo & Trp83 & 5.24 & Región hidrofóbica \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+La interacción con Lys74 sugiere que los sustituyentes de glicina pueden contribuir al reconocimiento de regiones polares próximas al entorno del sitio activo. Por su parte, los contactos con Asp174, Asn167 y Gly48 muestran la participación de otros segmentos de la proteína en la orientación del aducto. Estas interacciones son compatibles con la presencia de grupos funcionales polares en la superficie del derivado, aunque su contribución individual a la estabilidad del complejo no puede cuantificarse únicamente a partir de las distancias observadas.
+
+Adicionalmente, se identificó un contacto de tipo $\pi$-alquilo con Trp83 a una distancia de 5.24 \AA, lo que indica proximidad entre una región del sistema carbonoso y el entorno de este residuo aromático. La combinación de contactos polares y no polares resulta coherente con la estructura del C$_{60}$(Gly)$_4$, en la cual el núcleo de fulereno y los sustituyentes de glicina presentan características químicas diferentes.
+
+En conjunto, el acoplamiento ciego permitió identificar una conformación del derivado próxima a residuos asociados con el entorno funcional de la proteasa, con una puntuación mínima de $-8.60$ kcal/mol. Aunque este valor resulta favorable dentro de la función de puntuación utilizada, no demuestra por sí solo una elevada afinidad experimental ni permite establecer que el compuesto bloquee el acceso del sustrato. Por ello, se realizaron cálculos dirigidos hacia las regiones alostérica y ortostérica para examinar de manera más específica el comportamiento del aducto en ambas cavidades.
+
+En primer lugar, el C$_{60}$(Gly)$_4$ se evaluó mediante acoplamiento dirigido hacia la región propuesta como alostérica, utilizando las mismas condiciones generales de búsqueda. La Figura~\ref{fig:alosterico-perfil} presenta la disposición tridimensional de la conformación seleccionada dentro de esta región.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resu/repor-c60.pdf}
+    \caption{Representación tridimensional del acoplamiento dirigido del derivado C$_{60}$(Gly)$_4$ hacia la región propuesta como alostérica de la proteasa NS2B-NS3.}
+    \label{fig:alosterico-perfil}
+\end{figure}
+
+El perfil de puntuaciones mostró dos grupos principales: 14 poses con $-3.80$ kcal/mol y 86 poses con $-3.60$ kcal/mol, como se observa en la Figura~\ref{fig:alosterico-contactos}. Aunque la diferencia entre ambos valores fue de solamente 0.20 kcal/mol, las puntuaciones obtenidas fueron considerablemente menos negativas que las registradas durante el acoplamiento ciego del mismo derivado. Este resultado indica que la región alostérica examinada ofreció un ajuste menos favorable según la función de puntuación de AutoDock Vina, bajo las condiciones específicas del cálculo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{imagenes/Resu/alo-resu-c60.png}
+    \caption{Distribución de las 100 poses del derivado C$_{60}$(Gly)$_4$ obtenidas mediante acoplamiento dirigido hacia la región alostérica.}
+    \label{fig:alosterico-contactos}
+\end{figure}
+
+Para la caracterización de los contactos se consideró una pose con puntuación de $-3.80$ kcal/mol. El análisis permitió identificar dos puentes de hidrógeno con Asn167 y Trp83, a distancias de 2.34 y 2.32 \AA, respectivamente, así como un contacto de hidrógeno de carbono con Gly87 a 3.67 \AA. Adicionalmente, se observaron contactos hidrofóbicos con Leu76, Trp69 y Lys74, cuyos valores se presentan en la Tabla~\ref{tab:interacciones-pose61}.
+
+\begin{table}[H]
+    \centering
+    \caption{Interacciones no covalentes y distancias de contacto identificadas para el derivado C$_{60}$(Gly)$_4$ en la región alostérica de la proteasa NS2B-NS3.}
+    \label{tab:interacciones-pose61}
+    \footnotesize
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{llcl}
+        \toprule
+        Interacción & Residuo & Distancia (\AA) & Región asociada \\
+        \midrule
+        Puente de hidrógeno & Asn167 & 2.34 & Sitio de unión \\
+                            & Trp83  & 2.32 & Región hidrofóbica \\
+        \midrule
+        Enlace C--H & Gly87 & 3.67 & Sitio de unión \\
+        \midrule
+        Contacto hidrofóbico & Leu76 & 4.78 & Región hidrofóbica \\
+                            & Trp69 & 5.22 & Región hidrofóbica \\
+                            & Lys74 & 6.12 & Entorno del sitio activo \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Los puentes de hidrógeno identificados sugieren que los grupos funcionales de los sustituyentes de glicina pueden participar en el reconocimiento de residuos próximos a la cavidad. Por otra parte, los contactos con Leu76 y Trp69 muestran que el sistema carbonoso también establece proximidad con regiones de carácter hidrofóbico. Sin embargo, la presencia de estas interacciones no implica necesariamente una acomodación óptima del ligando, debido a que la geometría y el volumen del derivado pueden condicionar su orientación dentro del espacio disponible.
+
+Al comparar estos resultados con los obtenidos para el derivado de benzamida en la región alostérica, se observa una diferencia importante en las puntuaciones de acoplamiento. Mientras que la benzamida alcanzó un valor mínimo de $-6.70$ kcal/mol, el C$_{60}$(Gly)$_4$ presentó un mínimo de $-3.80$ kcal/mol. Esta diferencia de 2.90 kcal/mol en las puntuaciones favorece al compuesto de referencia dentro del modelo de cálculo utilizado, aunque no debe interpretarse directamente como una diferencia cuantitativa de afinidad experimental entre ambos ligandos.
+
+También se observaron diferencias en los patrones de contacto. La benzamida presentó interacciones con Asn152, Asp75, Ala164 y Lys74, mientras que el derivado de fulereno mostró contactos principalmente con Asn167, Trp83, Gly87, Leu76 y Trp69. Esta distribución sugiere que ambos compuestos adoptan orientaciones diferentes dentro de la región estudiada y reconocen entornos locales distintos.
+
+La diferencia puede relacionarse con las características estructurales de los ligandos, particularmente con el mayor volumen del núcleo de fulereno y la disposición espacial de sus cuatro sustituyentes de glicina. Sin embargo, para determinar si existe una limitación estérica específica sería necesario examinar de manera cuantitativa el volumen de la cavidad, el grado de enterramiento del ligando y los contactos desfavorables. Por lo tanto, los resultados permiten proponer una menor compatibilidad del C$_{60}$(Gly)$_4$ con la región alostérica evaluada, sin establecer de manera definitiva el origen de esta diferencia.
+
+Posteriormente, se examinó el acoplamiento dirigido del C$_{60}$(Gly)$_4$ hacia la región ortostérica de la proteasa. La conformación seleccionada se presenta en la Figura~\ref{fig:ortosterico-perfil-2}, donde se observa la proximidad del derivado con residuos pertenecientes al entorno catalítico y con otras regiones que delimitan el sitio de unión.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resu/orto-1.pdf}
+    \caption{Representación tridimensional del acoplamiento dirigido del derivado C$_{60}$(Gly)$_4$ hacia la región ortostérica de la proteasa NS2B-NS3.}
+    \label{fig:ortosterico-perfil-2}
+\end{figure}
+
+El análisis de las 100 poses mostró una puntuación de $-7.90$ kcal/mol para la totalidad de las soluciones consideradas, como se presenta en la Figura~\ref{fig:ortosterico-contactos}. Esta coincidencia indica que el procedimiento de búsqueda produjo soluciones con valores de puntuación iguales al nivel de precisión reportado. No obstante, para establecer si todas las poses corresponden a una misma orientación sería necesario realizar un análisis de agrupamiento estructural basado en sus desviaciones conformacionales.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{imagenes/Resu/orto-c60.png}
+    \caption{Distribución de las 100 poses del derivado C$_{60}$(Gly)$_4$ obtenidas mediante acoplamiento dirigido hacia la región ortostérica de la proteasa NS2B-NS3.}
+    \label{fig:ortosterico-contactos}
+\end{figure}
+
+La caracterización de los contactos no covalentes de la pose seleccionada mostró una red de interacciones polares con His51, Asp75, Gly133, Thr134 y Gly153. Las distancias correspondientes fueron de 2.05, 2.83, 2.07, 2.63 y 2.15 \AA, respectivamente, como se presenta en la Tabla~\ref{tab:interacciones-pose1}.
+
+\begin{table}[H]
+    \centering
+    \caption{Interacciones no covalentes y distancias de contacto identificadas para el derivado C$_{60}$(Gly)$_4$ en la región ortostérica de la proteasa NS2B-NS3.}
+    \label{tab:interacciones-pose1}
+    \footnotesize
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{llcl}
+        \toprule
+        Interacción & Residuo & Distancia (\AA) & Región asociada \\
+        \midrule
+        Puente de hidrógeno & His51  & 2.05 & Tríada catalítica \\
+                            & Asp75  & 2.83 & Tríada catalítica \\
+                            & Gly133 & 2.07 & Hueco oxianiónico \\
+                            & Thr134 & 2.63 & Sitio de unión \\
+                            & Gly153 & 2.15 & Sitio de unión \\
+        \midrule
+        Contacto hidrofóbico & Val155 & 4.02 & Región hidrofóbica \\
+                            & Tyr161 & 4.72 & Región hidrofóbica \\
+                            & Tyr161 & 5.24 & Región hidrofóbica \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+La proximidad del derivado con His51 y Asp75 resulta especialmente relevante, debido a que ambos residuos forman parte de la tríada catalítica de la proteasa. Asimismo, el contacto identificado con Gly133, perteneciente al entorno del hueco oxianiónico, indica que la conformación obtenida se extiende hacia una región relacionada con el reconocimiento y la estabilización de intermediarios durante la catálisis proteolítica.
+
+Los contactos adicionales con Thr134 y Gly153 sugieren que los sustituyentes de glicina participan en el reconocimiento de diferentes segmentos que delimitan la cavidad ortostérica. La presencia de varias interacciones polares de corta distancia es compatible con una orientación del aducto que aproxima sus grupos funcionales al entorno catalítico. Sin embargo, para determinar la contribución real de estos contactos sería necesario evaluar su geometría completa y su persistencia durante una simulación de dinámica molecular del complejo.
+
+Por otra parte, se identificaron contactos hidrofóbicos con Val155 y Tyr161, a distancias de 4.02, 4.72 y 5.24 \AA. Estas interacciones muestran la participación de regiones no polares en la acomodación del núcleo carbonoso del fulereno. De esta manera, la conformación seleccionada combina contactos polares asociados con los sustituyentes de glicina y contactos hidrofóbicos relacionados con el sistema de carbono, lo que resulta coherente con la composición estructural del derivado.
+
+Al comparar el comportamiento del C$_{60}$(Gly)$_4$ con el compuesto de referencia 246DA en la región ortostérica, se observa que el derivado de fulereno alcanzó una puntuación más negativa, de $-7.90$ kcal/mol, frente a los valores de $-6.00$ y $-5.80$ kcal/mol registrados para el inhibidor de referencia. Esta diferencia indica que la función de puntuación utilizada favoreció las soluciones obtenidas para el C$_{60}$(Gly)$_4$ dentro de las condiciones de cálculo empleadas. No obstante, las diferencias de tamaño, flexibilidad, solvatación y composición química entre ambos ligandos pueden influir en las puntuaciones, por lo que no es adecuado interpretar directamente este resultado como una mayor potencia inhibitoria.
+
+La comparación de los contactos también mostró diferencias en el reconocimiento del entorno catalítico. En la pose analizada del compuesto 246DA se identificaron contactos de tipo $\pi$ con His51 y Asp75, mientras que el C$_{60}$(Gly)$_4$ presentó interacciones clasificadas como puentes de hidrógeno con ambos residuos y con Gly133. Esta distribución sugiere que el derivado de fulereno puede adoptar una orientación que aproxima sus sustituyentes polares a diferentes componentes funcionales del sitio activo.
+
+Asimismo, mientras que el compuesto 246DA presentó contactos hidrofóbicos con Trp50 y Val154, el derivado de fulereno mostró interacciones con Val155 y Tyr161. Estas diferencias indican que ambos ligandos reconocen regiones parcialmente distintas del entorno ortostérico, lo que puede estar relacionado con sus características geométricas y químicas. Sin embargo, los resultados no permiten establecer que alguno de los dos compuestos presente un mecanismo de inhibición más eficaz sin contar con evidencia experimental complementaria.
+
+La comparación de los tres procedimientos aplicados al C$_{60}$(Gly)$_4$ muestra que el acoplamiento ciego produjo la puntuación más negativa, de $-8.60$ kcal/mol, seguido del acoplamiento dirigido hacia la región ortostérica, con $-7.90$ kcal/mol, mientras que la región alostérica presentó un mínimo de $-3.80$ kcal/mol. Esta tendencia sugiere que, dentro de las regiones y condiciones de búsqueda consideradas, el derivado presenta soluciones computacionalmente más favorables en el entorno identificado durante el acoplamiento ciego y en la región ortostérica que en la cavidad alostérica evaluada.
+
+No obstante, las diferencias entre los espacios de búsqueda y las limitaciones de la función de puntuación deben considerarse antes de establecer una jerarquía definitiva de afinidades. Asimismo, las puntuaciones más negativas no garantizan una mayor estabilidad del complejo en solución ni demuestran que las conformaciones obtenidas sean las predominantes en condiciones fisiológicas.
+
+En conjunto, los estudios de acoplamiento molecular muestran que la funcionalización del fulereno con cuatro unidades de glicina permite generar conformaciones con contactos tanto polares como hidrofóbicos en diferentes regiones de la proteasa NS2B-NS3. Particularmente, el acoplamiento dirigido hacia la región ortostérica identificó una pose con interacciones próximas a His51, Asp75 y Gly133, residuos asociados con el funcionamiento del sitio catalítico. Estos resultados proporcionan una base estructural para considerar al C$_{60}$(Gly)$_4$ como un sistema de interés para estudios posteriores de reconocimiento molecular.
+
+Sin embargo, la identificación de contactos con residuos catalíticos y las puntuaciones favorables de acoplamiento no son suficientes para confirmar actividad inhibitoria o establecer un mecanismo competitivo. Para avanzar en esta interpretación sería necesario evaluar la estabilidad temporal de las poses mediante dinámica molecular del complejo proteína--ligando y, posteriormente, contrastar las predicciones con ensayos experimentales de inhibición enzimática.
 
 
-La caracterización tridimensional de las interacciones no covalentes efectuada en PyMOL y Discovery Studio Visualizer (Tabla~\ref{tab:interacciones-pose1} y Figura~\ref{fig:ortosterico-perfil-2}) permitió dilucidar la red de contactos que estabilizan el complejo nanoestructura-proteína:
+\section{Análisis de correlación cruzada dinámica}
+\label{sec:dccm}
 
-\begin{itemize}
-    \item \textbf{Puentes de hidrógeno convencionales y anclaje catalítico:} Se identificó una densa red de puentes de hidrógeno de corta distancia ($\le 2.83\ \text{\AA}$) coordinados por las cadenas laterales del tetraaducto de glicina:
-    \begin{itemize}
-        \item Interacción directa con los residuos de la tríada catalítica \textbf{Hsd51} ($2.05\ \text{\AA}$) y \textbf{Asp75} ($2.83\ \text{\AA}$), bloqueando los centros nucleofílico y de transferencia protónica de la enzima.
-        \item Formación de un puente de hidrógeno fuerte con el residuo \textbf{Gly133} ($2.07\ \text{\AA}$), perteneciente al \textit{hueco oxianiónico}, un elemento estructural crítico involucrado en la estabilización del estado de transición durante la catálisis peptídica.
-        \item Contactos polares adicionales con \textbf{Gly153} ($2.15\ \text{\AA}$) y \textbf{Thr134} ($2.63\ \text{\AA}$), reforzando el posicionamiento del ligando en el contorno del sitio activo.
-    \end{itemize}
-    
-    \item \textbf{Interacciones hidrofóbicas en el bolsillo ortostérico ($\text{Alquil} / \pi\text{-Alquil}$):} La esfera de fulereno se acomoda holgadamente en la cavidad apolar mediante interacciones de tipo $\pi$-alquilo con el residuo hidrofóbico \textbf{Val155} ($4.02\ \text{\AA}$) y contactos aromáticos dobles con la cadena lateral de \textbf{Tyr161} a distancias de $4.72\ \text{\AA}$ y $5.24\ \text{\AA}$.
-\end{itemize}
+Con la finalidad de examinar el comportamiento de los movimientos colectivos de la proteasa NS2B-NS3 y determinar las posibles modificaciones asociadas con la presencia de los ligandos, se realizó un análisis de correlación cruzada dinámica (\textit{Dynamic Cross-Correlation Matrix}, DCCM) a partir de las trayectorias de dinámica molecular de 100 ns. Este análisis permite identificar la relación entre las fluctuaciones de diferentes residuos de la proteína, distinguiendo movimientos correlacionados, representados mediante valores positivos, y movimientos anticorrelacionados, asociados con valores negativos. Los valores próximos a cero indican una correlación lineal reducida entre las fluctuaciones consideradas.
 
-\subsection{Contraste comparativo con el inhibidor reportado 246DA}
-
-Al comparar el desempeño del C\textsubscript{60}(Gly)\textsubscript{4} en este sitio ortostérico con el inhibidor sintético de referencia reportado en la literatura, el compuesto 246DA, se identifican ventajas estructurales y bioenergéticas de gran relevancia:
-
-\begin{enumerate}
-    \item \textbf{Superioridad energética e incremento de afinidad:} El aducto C\textsubscript{60}(Gly)\textsubscript{4} alcanza una energía de unión de $-7.90\ \text{kcal/mol}$, superando notoriamente la afinidad calculada para el compuesto 246DA ($-5.80\ \text{a}\ -6.00\ \text{kcal/mol}$). Esto representa una ganancia termodinámica de $\Delta G \approx -1.90\ \text{kcal/mol}$ a favor del derivado de fulereno, atribuible a la capacidad del núcleo de C\textsubscript{60}(Gly) de maximizar la superficie de contacto hidrofóbica en combinación con los cuatro brazos polares de glicina.
-    
-    \item \textbf{Conservación y ampliación del farmacóforo catalítico:} Mientras que el inhibidor 246DA interactúa convencionalmente con la tríada catalítica (\textbf{His51}, \textbf{Asp75} y \textbf{Ser135}), el C\textsubscript{60}(Gly)\textsubscript{4} no solo preserva el anclaje directo con \textbf{Hsd51} ($2.05\ \text{\AA}$) y \textbf{Asp75} ($2.83\ \text{\AA}$), sino que además se ancla directamente al hueco oxianiónico (\textbf{Gly133}, $2.07\ \text{\AA}$). La oclusión simultánea de la tríada catalítica y del hueco oxianiónico sugiere un mecanismo de inhibición competitiva sumamente efectivo que previene el acceso de cualquier sustrato proteico.
-    
-    \item \textbf{Acomodación en el bolsillo lipofílico:} En lugar de la coordinación periférica observada en 246DA con residuos como \textbf{Leu76} o \textbf{Ile165}, el C\textsubscript{60}(Gly)\textsubscript{4} establece un empaquetamiento hidrofóbico optimizado mediante interacciones $\pi$-alquilo con \textbf{Val155} y \textbf{Tyr161}, validando la complementariedad volumétrica entre la cavidad y la nanoestructura esférica.
-\end{enumerate}
-
-La convergencia absoluta de las 100 poses en $-7.90\ \text{kcal/mol}$, sumada al bloqueo simultáneo de la tríada catalítica (\textbf{Hsd51}/\textbf{Asp75}) y del \emph{hueco oxianiónico} (\textbf{Gly133}) a distancias $\le 2.07\ \text{\AA}$, demuestra que el derivado C\textsubscript{60}(Gly)\textsubscript{4}  actúa como un candidato inhibidor competitivo ortostérico de alta potencia, superando los parámetros termodinámicos del fármaco de referencia 246DA contra la proteasa del dengue serotipo 2.
-
+Las matrices correspondientes a la proteína libre y a los cinco sistemas proteína--ligando se presentan en la Figura~\ref{fig:DDCM}. Su comparación permite examinar tanto la conservación de los patrones de movimiento presentes en la estructura de referencia como las diferencias que aparecen en los sistemas con los compuestos de benzamida, 246DA y C$_{60}$(Gly)$_4$.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.90\textwidth]{imagenes/Resu/dccm.pdf}
-    \caption{Evolución temporal del número de enlaces de hidrógeno intramoleculares formados en la proteína a lo largo de 100 ns.\textbf{a)} Sitio alostérico con el ligando C$_{60}$(Gly)$_{4}$; 
-\textbf{b)} sitio alostérico con el ligando benzamida; 
-\textbf{c)} sitio ortostérico con el ligando C$_{60}$(Gly)$_{4}$; 
-\textbf{d)} sitio ortostérico con el ligando 246DA; 
-\textbf{e)} acoplamiento ciego
-\textbf{f)} proteína en su conformación nativa (estado inactivo abierto).}
+    \caption{Matrices de correlación cruzada dinámica (DCCM) obtenidas a partir de las trayectorias de 100 ns de la proteasa NS2B-NS3. \textbf{a)} C$_{60}$(Gly)$_4$ en la región alostérica; \textbf{b)} derivado de benzamida en la región alostérica; \textbf{c)} C$_{60}$(Gly)$_4$ en la región ortostérica; \textbf{d)} compuesto 246DA en la región ortostérica; \textbf{e)} C$_{60}$(Gly)$_4$ en la conformación obtenida mediante acoplamiento ciego; y \textbf{f)} proteína libre (Apo). Los tonos rojos representan correlaciones positivas, mientras que los azules corresponden a movimientos anticorrelacionados.}
     \label{fig:DDCM}
-\end{figure}   
+\end{figure}
 
-\newpage
+La matriz correspondiente a la proteína libre (Figura~\ref{fig:DDCM}f) constituye el punto de referencia para interpretar los cambios observados en los sistemas con ligando. En ella se distinguen regiones de correlación positiva próximas a la diagonal principal, particularmente en los intervalos de residuos 1--50, 50--100 y 150--240. Este comportamiento indica que los residuos pertenecientes a dichos segmentos presentan fluctuaciones con componentes direccionales semejantes durante la trayectoria analizada.
 
+Asimismo, se observan regiones de anticorrelación entre segmentos separados de la secuencia, especialmente entre la región N-terminal y determinados residuos del extremo C-terminal. La presencia de estos valores negativos sugiere movimientos relativos en direcciones opuestas, lo que resulta relevante para describir el comportamiento colectivo de una proteína cuya actividad depende de la organización espacial de diferentes regiones estructurales. No obstante, la identificación de anticorrelaciones no permite establecer por sí sola un mecanismo específico de apertura y cierre, ya que para ello sería necesario analizar directamente los desplazamientos conformacionales de los dominios involucrados.
 
-\subsection*{Análisis de correlación cruzada dinámica:  alostérico C\textsubscript{60}(Gly)\textsubscript{4} vs. NS2B-NS3}
+Al considerar los compuestos de referencia, se observan diferencias en la distribución e intensidad de las correlaciones respecto al estado Apo. En el sistema con el derivado de benzamida, dirigido hacia la región alostérica (Figura~\ref{fig:DDCM}b), destacan bloques de correlación positiva relativamente definidos en los segmentos 1--50, 50--100 y 150--240. Estas regiones presentan valores predominantemente positivos, mientras que entre determinados segmentos N-terminales y C-terminales se identifican bandas de anticorrelación más extensas e intensas que las observadas en la proteína libre.
 
-Al comparar la matriz de correlación cruzada dinámica (DCCM) de la alostérico C\textsubscript{60}(Gly)\textsubscript{4} frente al \textbf{NS2B-NS3}, se observa una elevada conservación de la topología dinámica global de la proteína. Ambas matrices exhiben tres dominios principales de movimiento coordinado (correlación positiva, a lo largo de la diagonal principal:
+Particularmente, el segmento comprendido entre los residuos 1 y 50 presenta una región de correlación positiva que indica movimientos coordinados dentro de este intervalo. Al mismo tiempo, se distinguen valores negativos respecto a residuos del segmento 150--240, lo que sugiere una relación de movimiento opuesto entre ambas regiones. Una distribución semejante se observa para el intervalo 50--100, donde las correlaciones positivas próximas a la diagonal se encuentran delimitadas por regiones de anticorrelación con otros segmentos de la estructura.
 
-\begin{itemize}
-    \item \textbf{Región 1 a 50:} Presenta un bloque de correlación positiva bien definido. En Alostérico C\textsubscript{60}(Gly)\textsubscript{4}, esta región mantiene la misma coherencia de movimiento que en el estado Apo, mostrando una marcada anticorrelación con el bloque C-terminal (residuos $150$--$220$). Este patrón contrapuesto refleja un movimiento colectivo de tipo ``bisagra'' o apertura/cierre entre ambos dominios.
-    
-    \item \textbf{Región 50 a 100:} En el estado Apo de NS2B-NS3 se aprecia una fuerte correlación intra-dominio ($0.50$ a $1.00$). En Alostérico C\textsubscript{60}(Gly)\textsubscript{4}, este bloque rojo se mantiene, aunque con una ligera redistribución de la intensidad de las correlaciones secundarias. Esta sutil variación sugiere una modulación local de la flexibilidad inducida por la presencia del ligando en la cavidad.
-    
-    \item \textbf{Región 150 a 240:} Constituye el dominio correlacionado más extenso y rígido de la estructura. En alostérico C\textsubscript{60}(Gly)\textsubscript{4} se conserva la integridad de este bloque concertado, observándose únicamente ligeras reducciones en las bandas de anticorrelación periféricas con respecto al segmento $50$--$100$ en comparación con el estado Apo.
-\end{itemize}
+En el extremo C-terminal, la matriz del sistema con benzamida muestra un bloque amplio de correlación positiva, acompañado de bandas de anticorrelación con regiones alejadas en la secuencia. En comparación con la proteína libre, este patrón sugiere una mayor definición de determinadas relaciones de movimiento entre residuos durante la trayectoria analizada. Sin embargo, una correlación más intensa no implica necesariamente una disminución de la flexibilidad, debido a que la DCCM describe la relación direccional entre fluctuaciones y no su amplitud.
 
-\textbf{Interpretación:} La preservación del patrón de correlación en Alostérico C\textsubscript{60}(Gly)\textsubscript{4}indica que la unión del ligando en este modo de acoplamiento no altera ni desestabiliza los movimientos esenciales ni la comunicación alostérica nativa del receptor. Las pequeñas fluctuaciones observadas corresponden a la acomodación conformacional local del bolsillo catalítico/de unión ante el ligando, manteniendo la estabilidad macroestructural observada en el estado libre.
+La conservación de los bloques principales de correlación, junto con las diferencias observadas en las regiones de anticorrelación, indica que la presencia de benzamida se asocia con modificaciones en el patrón de movimientos colectivos de la proteasa. Estas variaciones podrían relacionarse con la interacción del ligando en la cavidad propuesta como alostérica, aunque no constituyen por sí solas evidencia de una alteración funcional de la comunicación alostérica o de la actividad catalítica.
 
-\subsection*{Análisis de correlación cruzada dinámica: acoplamiento ciego vs estado de la proteína NS2B-NS3}
+Por otra parte, el sistema con el compuesto 246DA, acoplado en la región ortostérica (Figura~\ref{fig:DDCM}d), presenta una distribución de correlaciones que conserva varias características del estado Apo. Se identifican bloques positivos en los segmentos 1--50, 50--100 y 150--240, así como regiones de anticorrelación entre residuos pertenecientes a diferentes segmentos de la proteína.
 
-A diferencia de lo observado en la Pose 61, la comparación de la \textbf{Pose 72} frente al \textbf{estado Apo pareado} revela una alteración drástica en el patrón global de correlación. La matriz de la Pose 72 exhibe una pérdida generalizada de intensidad en los bloques correlacionados y anticorrelacionados, pasando a estar dominada por regiones neutras de color blanco y tonos claros, lo cual evidencia un desacoplamiento dinámico significativo:
+En el intervalo 1--50 se observa una correlación positiva definida, acompañada de bandas de anticorrelación respecto a la región C-terminal. De manera semejante, el segmento 50--100 presenta una distribución compacta de valores positivos próximos a la diagonal, mientras que las regiones externas muestran correlaciones de menor intensidad y valores negativos. Este comportamiento indica que los movimientos relativos entre diferentes segmentos se mantienen durante la simulación, aunque con variaciones en la intensidad de sus correlaciones.
 
-\begin{itemize}
-    \item \textbf{Región 1 a 50:} Muestra una marcada atenuación del bloque de correlación positiva en comparación con el estado Apo, reduciéndose a valores débiles ($0.00$ a $0.50$). Asimismo, las bandas de anticorrelación hacia el extremo C-terminal pierden su definición nativa.
-    
-    \item \textbf{Región 50 a 100:} En lugar del bloque fuertemente coordinado característico de la proteína libre, la Pose 72 presenta parches muy dispersos de baja correlación ($0.00$ a $0.50$) mezclados con amplias zonas neutras, lo que señala la interrupción de la movilidad coordinada en este segmento.
-    
-    \item \textbf{Región 100 a 150:} Se observan únicamente focos aislados de correlación ($0.00$ a $0.75$) restringidos a la diagonal. Prevalecen las zonas de anticorrelación neutra o débil ($0.00$ a $-0.25$), indicando que la fluctuación de estos aminoácidos se vuelve predominantemente independientes.
-    
-    \item \textbf{Región 150 a 240:} Aunque conserva cierta coherencia local muy cerca de la diagonal principal ($0.00$ a $0.50$), la Pose 72 carece de los bloques continuos intensos y de las bandas de anticorrelación globales característicos del estado Apo libre.
-\end{itemize}
+El intervalo 150--240 presenta un bloque amplio de correlación positiva, con regiones de anticorrelación respecto a los segmentos N-terminales. En comparación con la proteína libre, algunas de estas bandas aparecen más definidas, lo que sugiere diferencias en la coordinación relativa de las fluctuaciones. No obstante, estas observaciones no permiten concluir que el ligando incremente la rigidez estructural o estabilice energéticamente la proteína, puesto que ambos fenómenos requieren indicadores adicionales.
 
-\textbf{Interpretación:} El modo de unión en el acoplamiento ciego (genera un impacto profundo en la dinámica interna del receptor. La sustitución de los bloques coordinados por regiones de correlación nula ($0.00$) demuestra que la presencia del ligando en esta postura desacopla los movimientos colectivos esenciales de la proteína. En consecuencia, los residuos adquieren una movilidad estocástica e independiente, interrumpiendo la comunicación alostérica nativa observada en el estado Apo.
+En conjunto, las matrices correspondientes a los compuestos de referencia muestran que la proteasa conserva regiones reconocibles de movimiento correlacionado durante las simulaciones, aunque con diferencias en la distribución de las correlaciones entre segmentos. La benzamida presenta bandas de correlación y anticorrelación particularmente definidas, mientras que el compuesto 246DA mantiene un patrón de movimientos colectivos con características semejantes a las observadas en la proteína libre. Estas diferencias proporcionan una referencia para examinar el comportamiento dinámico del derivado C$_{60}$(Gly)$_4$ en las regiones ortostérica y alostérica.
 
-\subsection*{Análisis de correlación cruzada dinámica: ortostérico con el ligando C$_{60}$(Gly)$_{4}$  vs. estado de la proteína NS2B-NS3}
+Al analizar el sistema formado por la proteasa NS2B-NS3 y el derivado C$_{60}$(Gly)$_4$ en la región alostérica (Figura~\ref{fig:DDCM}a), se observa una distribución de correlaciones que conserva varios de los patrones identificados en la proteína libre. En particular, se distinguen regiones de correlación positiva en los intervalos 1--50, 50--100 y 150--240, así como bandas de anticorrelación entre segmentos separados de la secuencia.
 
-Al analizar la matriz de correlación cruzada dinámica (DCCM) del ligando C$_{60}$(Gly)$_{4}$;  en comparación con el \textbf{estado Apo de la proteína NS2B-NS3}, se aprecia una notable conservación de la arquitectura dinámica nativa, caracterizada por la presencia de dominios fuertemente consolidados tanto en correlación positiva  como en anticorrelación:
+En el intervalo 1--50 se mantiene un bloque de correlación positiva, acompañado de valores negativos respecto a determinados residuos del extremo C-terminal. Este comportamiento indica que las fluctuaciones dentro del segmento conservan una relación direccional semejante a la observada en el estado Apo. Asimismo, en la región 50--100 se identifica un bloque de correlación positiva próximo a la diagonal principal, aunque con variaciones locales en la intensidad y distribución de las correlaciones secundarias.
 
-\begin{itemize}
-    \item \textbf{Región 1 a 50:} Muestra una sólida correlación positiva intra-dominio ($0.50$ a $1.00$), prácticamente idéntica al estado Apo. Destaca una intensa banda de anticorrelación en azul oscuro  con respecto al bloque C-terminal (residuos $150$--$220$), confirmando un movimiento coordinado opuesto (mecanismo de ``bisagra'') que se mantiene fuertemente acoplado en esta pose.
-    
-    \item \textbf{Región 50 a 100:} Exhibe un bloque compacto de correlación positiva muy definido ($0.50$ a $1.00$) a lo largo de la diagonal principal. A diferencia del desacoplamiento visto en la conformación del C$_{60}$(Gly)$_{4}$-ciego , en el ligando C$_{60}$(Gly)$_{4}$ la comunicación interna de este dominio se preserva íntegramente, conservando sus fronteras de correlación bien delimitadas.
-    
-    \item \textbf{Región 150 a 240:} Constituye el dominio más rígido y concertado de la proteína, alcanzando valores de correlación cercanos a $1.00$ (rojo intenso). Además, muestra zonas de anticorrelación cruzada muy nítidas con respecto a los dominios N-terminales, lo que evidencia una respuesta estructural rígida y altamente coordinada ante la dinámica del sistema.
-\end{itemize}
+Por su parte, el segmento 150--240 presenta una región extensa de correlación positiva, mientras que las bandas de anticorrelación con otros segmentos muestran diferencias de intensidad respecto a la proteína libre. La conservación de estas características sugiere que la presencia del C$_{60}$(Gly)$_4$ en la cavidad alostérica no se acompaña de una reorganización generalizada del patrón de correlaciones durante el intervalo de simulación considerado. Sin embargo, las diferencias locales observadas indican que las relaciones de movimiento entre determinados residuos no son completamente equivalentes a las del sistema sin ligando.
 
-\textbf{Interpretación:} El complejo ligando C$_{60}$(Gly)$_{4}$ demuestra conservar la red de comunicación y los modos de vibración esenciales característicos del estado libre (Apo). La nitidez y ligera acentuación de las bandas de anticorrelación sugieren que este modo de acoplamiento del ligando no solo respeta la dinámica global del receptor, sino que promueve una mayor estabilización de los movimientos concertados de cierre y apertura entre dominios.
+La comparación con el derivado de benzamida permite identificar semejanzas y diferencias entre ambos sistemas alostéricos. En los dos casos se conservan regiones principales de correlación positiva y anticorrelación, aunque el sistema con benzamida presenta bandas de mayor definición en determinadas zonas de la matriz. Esta diferencia sugiere que ambos ligandos se asocian con patrones de movimiento colectivo parcialmente distintos, aun cuando ocupan una región de unión propuesta como semejante.
 
-\subsection*{Análisis de correlación cruzada dinámica: ortostérico con el ligando 246DA  vs. estado de la proteína NS2B-NS3}
+En este sentido, los resultados del acoplamiento molecular mostraron que el C$_{60}$(Gly)$_4$ presentó una puntuación menos favorable en la región alostérica que el compuesto de benzamida. La DCCM complementa esta observación al mostrar que, pese a las diferencias en las puntuaciones y en los contactos identificados, el sistema con el derivado de fulereno conserva varias características del patrón de correlaciones de la proteína libre. No obstante, esta conservación no demuestra por sí misma una unión estable ni permite establecer un mecanismo de inhibición alostérica.
 
-Al analizar la matriz de correlación cruzada dinámica (DCCM) del ligando 246DA en comparación con el \textbf{estado Apo pareado}, se observa un patrón altamente estructurado con una distribución de correlaciones muy similar a la del estado libre, conservando los modos de movimiento esenciales de la proteína. Sin embargo, la Pose 03 se distingue por presentar un mayor contraste y nitidez en las bandas de correlación y anticorrelación con respecto al estado Apo libre:
+En el caso del acoplamiento dirigido hacia la región ortostérica, la matriz del sistema NS2B-NS3--C$_{60}$(Gly)$_4$ (Figura~\ref{fig:DDCM}c) presenta bloques de correlación positiva bien definidos en diferentes segmentos de la proteína. Particularmente, el intervalo 1--50 muestra valores positivos próximos a la diagonal y regiones de anticorrelación respecto al extremo C-terminal, mientras que el segmento 50--100 conserva una distribución compacta de correlaciones positivas.
 
-\begin{itemize}
-    \item \textbf{Región 1 a 50:} Muestra una sólida correlación positiva intra-dominio. En comparación con el estado Apo, esta Pose exhibe una definición más nítida y acentuada en las regiones de anticorrelación  hacia los residuos C-terminales, confirmando una clara sincronización en dirección opuesta (mecanismo de tipo ``bisagra'').
-    
-    \item \textbf{Región 50 a 100:} Presenta un bloque compacto de correlación positiva bien delimitado a lo largo de la diagonal principal. Este segmento se encuentra delimitado por franjas de anticorrelación ($0.00$ a $-0.50$), lo que evidencia que la interacción con el ligando en la Pose 03 confiere una mayor definición estructural y confinamiento dinámico a este dominio con respecto a la proteína libre.
-    
-    \item \textbf{Región 150 a 240:} Constituye el dominio más rígido y fuertemente coordinado de la estructura, alcanzando intensidades de correlación positiva muy elevadas (rojo oscuro). La Pose 03 resalta por consolidar este bloque C-terminal con mayor fuerza que el estado Apo, mostrando además bandas de anticorrelación extremadamente marcadas en relación con los dominios N-terminales.
-\end{itemize}
+En la región 150--240 se observa un bloque extenso de correlación positiva, acompañado de bandas de anticorrelación con determinados segmentos N-terminales. Esta distribución mantiene semejanzas con la matriz correspondiente a la proteína libre y con la obtenida para el compuesto de referencia 246DA. La presencia de estos patrones indica que, durante la simulación del complejo ortostérico, persisten relaciones de movimiento correlacionado y anticorrelacionado entre diferentes regiones de la proteasa.
 
-\textbf{Interpretación:} El ligando 246DA induce una estabilización acentuada en la proteína, promoviendo una respuesta dinámica caracterizada por una mayor rigidez en el dominio C-terminal y un acoplamiento más fuerte en los movimientos colectivos de apertura y cierre. Aunque se aprecian ligeras zonas de difuminación neutra  en la periferia de la diagonal principal correspondientes a fluctuaciones locales independientes, la firma dinámica global demuestra que el ligando 246DA optimiza y consolida la red de comunicación alostérica nativa de la macromolécula.
+Al comparar directamente los sistemas ortostéricos, se observa que tanto el derivado C$_{60}$(Gly)$_4$ como el compuesto 246DA conservan bloques principales de correlación positiva y regiones de anticorrelación entre segmentos alejados de la secuencia. Sin embargo, existen diferencias locales en la intensidad y extensión de estas regiones, lo que indica que la presencia de cada ligando se asocia con una distribución particular de los movimientos relativos de los residuos.
 
-\subsection*{Análisis de correlación cruzada dinámica: alostérico con el ligando de benzamida;  vs. estado de la proteína NS2B-NS3}
+Estas observaciones adquieren interés al considerar los resultados del acoplamiento molecular, donde el C$_{60}$(Gly)$_4$ presentó contactos con His51, Asp75 y Gly133, residuos relacionados con el entorno catalítico de la proteasa. La conservación de los patrones principales de correlación durante la simulación sugiere que la conformación del complejo mantiene relaciones de movimiento colectivo reconocibles respecto al estado Apo. Sin embargo, no permite determinar si los contactos identificados inicialmente persisten durante toda la trayectoria ni si afectan directamente el reconocimiento del sustrato.
 
-El ligando benzamida destaca por presentar el mayor grado de acoplamiento y sincronización colectiva entre todas las posturas evaluadas. En comparación con el estado de la proteína apo-NS2B-NS3, la matriz del ligando benzamida exhibe un drástico incremento en la intensidad y extensión tanto de las correlaciones positivas  como de las anticorrelaciones , reduciendo significativamente las regiones neutras o independientes:
+Por lo tanto, aunque el acoplamiento molecular y la DCCM proporcionan información complementaria sobre el reconocimiento estructural y el comportamiento dinámico del sistema, no es posible establecer únicamente a partir de estos resultados que el C$_{60}$(Gly)$_4$ actúe como un inhibidor competitivo. Para sustentar esta interpretación sería necesario examinar la persistencia de los contactos con el sitio catalítico, las variaciones conformacionales de la cavidad y, de manera fundamental, la actividad enzimática en presencia del compuesto.
 
-\begin{itemize}
-    \item \textbf{Región 1 a 50:} Muestra un bloque intra-dominio fuertemente correlacionado en rojo intenso ($0.50$ a $1.00$). Presenta bandas de anticorrelación cruzada extremadamente marcadas en azul oscuro  con respecto a la región C-terminal ($150$--$240$), lo que evidencia un movimiento concertado opuesto sumamente acoplado y definido.
-    
-    \item \textbf{Región 50 a 100:} Exhibe un bloque de correlación positiva muy compacto y saturado a lo largo de la diagonal principal ($0.50$ a $1.00$). A diferencia del estado apo-NS2B-NS3, las franjas de anticorrelación que delimitan este segmento se vuelven más gruesas y continuas, reflejando una interacción rígida y coordinada con el resto del entramado proteico.
-    
-    \item \textbf{Región 150 a 240:} Constituye el bloque rígido más extenso y consolidado de la estructura, alcanzando valores de correlación cercanos a $1.00$ de manera prácticamente uniforme. Este dominio actúa como un bloque macroestructural altamente cohesivo que se desplaza en dirección opuesta a los dominios N-terminales con la máxima coherencia del sistema.
-\end{itemize}
+Un comportamiento diferente se observa en el sistema obtenido a partir del acoplamiento ciego del C$_{60}$(Gly)$_4$ (Figura~\ref{fig:DDCM}e). En comparación con la proteína libre y con los sistemas de acoplamiento dirigido, esta matriz presenta una disminución general de la intensidad y continuidad de diferentes regiones de correlación y anticorrelación. En particular, se distinguen áreas más extensas con valores próximos a cero, así como bloques de correlación positiva menos definidos.
 
-\textbf{Interpretación:} Maximiza la red de comunicación alostérica y la correlación de movimientos a larga distancia dentro del receptor. Este modo de acoplamiento del ligando promueve un hiper-acoplamiento dinámico que rigidiza los dominios principales y acentúa con gran claridad los modos colectivos nativos de apertura y cierre (mecanismo de bisagra), funcionando como un potente estabilizador de la dinámica global de la proteína.
+En el intervalo 1--50, las correlaciones positivas aparecen atenuadas respecto al estado Apo, mientras que las bandas de anticorrelación con el extremo C-terminal presentan menor continuidad. Una tendencia semejante se observa en la región 50--100, donde los valores positivos se distribuyen en zonas más fragmentadas y se identifican regiones de correlación reducida entre residuos.
 
-\subsection*{Inhibición del $C_{60}\text{-(Gly)}_4$}
+Por otra parte, el segmento 100--150 muestra correlaciones positivas localizadas principalmente en las proximidades de la diagonal, acompañadas de áreas con valores cercanos a cero. En la región 150--240 se conservan correlaciones locales, aunque las bandas que relacionan este segmento con otras regiones de la proteína presentan una menor definición respecto a las matrices de los sistemas dirigidos.
 
-El análisis comparativo de las matrices de correlación cruzada dinámica (DCCM) entre los controles de referencia y los modos de acoplamiento del derivado $C_{60}\text{-(Gly)}_4$ permite deducir el comportamiento mecanístico de la macromolécula frente a la inhibición ortostérica y alostérica:
+La distribución observada indica que, durante la trayectoria del sistema procedente del acoplamiento ciego, las fluctuaciones de diferentes segmentos de la proteína presentan una menor correlación lineal que en los demás sistemas analizados. Este comportamiento puede interpretarse como una modificación del patrón de movimientos colectivos asociada con la conformación inicial de unión considerada. Sin embargo, los valores próximos a cero no demuestran que los residuos se desplacen de manera completamente independiente ni permiten afirmar que se haya interrumpido una vía específica de comunicación alostérica.
 
-\begin{enumerate}
-    \item \textbf{Inhibición alostérica (compuesto benzamida):} La interacción del $C_{60}\text{-(Gly)}_4$ en la cavidad alostérica reportada para la benzamida (Pose 61) exhibe una topología dinámica análoga a la del inhibidor alostérico de referencia (Pose 01) y a la del estado Apo pareado. La preservación de los bloques de correlación y de las bandas de anticorrelación inter-dominio confirma que el ligando se acomoda eficazmente en el sitio alostérico sin perturbar los modos colectivos nativos ni la estabilidad global del receptor.
+Resulta interesante que el sistema obtenido mediante acoplamiento ciego presentara la puntuación más negativa para el C$_{60}$(Gly)$_4$, de $-8.60$ kcal/mol, mientras que su matriz DCCM mostró las diferencias más evidentes respecto al patrón de correlaciones de la proteína libre. Esta observación pone de manifiesto que una puntuación favorable de acoplamiento no implica necesariamente la conservación de las relaciones de movimiento colectivo de la proteína durante una simulación posterior.
 
-    \item \textbf{Inhibición ortostérica (compuesto 246DA):} El acoplamiento en el sitio activo ortostérico induce una acentuación en la nitidez de las correlaciones y anticorrelaciones cruzadas, comportamiento que mimetiza la respuesta generada por el inhibidor ortostérico de referencia en la estructura de la proteína. Este perfil evidencia un empaquetamiento rígido del dominio C-terminal y la consolidación del mecanismo de apertura/cierre (bisagra), respaldando la capacidad del $C_{60}\text{-(Gly)}_4$ para actuar como un inhibidor ortostérico altamente efectivo.
+Asimismo, las diferencias entre el acoplamiento ciego y los acoplamientos dirigidos sugieren que la orientación inicial del ligando y su entorno de interacción pueden influir en el comportamiento dinámico del sistema. No obstante, para atribuir estas variaciones exclusivamente a la localización del ligando sería necesario comprobar la estabilidad de cada pose durante la trayectoria y considerar posibles diferencias en el muestreo conformacional.
 
-    \item \textbf{Especificidad del acoplamiento ciego:}
- La pérdida generalizada de coherencia dinámica caracterizada por la atenuación de las bandas de correlación y la prevalencia de regiones neutras demuestra que la unión inespecífica del $C_{60}\text{-(Gly)}_4$ desacopla la comunicación alostérica nativa. Este contraste resalta la relevancia topológica de los sitios ortostérico y alostérico específicos, los cuales son indispensables para inducir una respuesta conformacional funcionalmente relevante.
-\end{enumerate}
+La comparación global de las matrices permite distinguir dos comportamientos principales. Por una parte, los sistemas correspondientes a los compuestos de referencia y a los acoplamientos dirigidos del C$_{60}$(Gly)$_4$ conservan regiones de correlación positiva y anticorrelación semejantes a las identificadas en la proteína libre, aunque con diferencias locales en su intensidad y distribución. Por otra parte, el sistema procedente del acoplamiento ciego presenta una reducción más evidente de la continuidad de estos patrones, particularmente en las correlaciones entre segmentos alejados de la secuencia.
 
-\textbf{Conclusión General:} El derivado $C_{60}\text{-(Gly)}_4$ demuestra una notable dualidad inhibitoria, siendo capaz de estabilizar la dinámica macroestructural de la proteína tanto en la cavidad ortostérica como en la alostérica mediante firmas de correlación equiparables a los fármacos/controles de referencia (246DA y benzamida, respectivamente).
+Estas diferencias sugieren que el comportamiento dinámico de la proteasa depende, al menos parcialmente, de las condiciones estructurales de cada complejo. En el caso del C$_{60}$(Gly)$_4$, las matrices correspondientes a las regiones ortostérica y alostérica muestran una conservación relativa de los patrones principales de correlación, mientras que la conformación obtenida mediante acoplamiento ciego se asocia con una redistribución más amplia de las relaciones de movimiento entre residuos.
+
+No obstante, es importante distinguir entre correlación dinámica, estabilidad estructural y actividad inhibitoria. La DCCM permite describir cómo se relacionan las fluctuaciones de diferentes residuos, pero no cuantifica directamente la rigidez de los dominios, la estabilidad termodinámica del complejo ni la eficiencia de la inhibición enzimática. Por ello, las diferencias observadas deben interpretarse conjuntamente con parámetros como la desviación cuadrática media, las fluctuaciones por residuo, los contactos proteína--ligando y la evolución conformacional de la cavidad de unión.
+
+En conjunto, el análisis de correlación cruzada dinámica muestra que el derivado C$_{60}$(Gly)$_4$ se asocia con patrones de movimiento colectivo diferentes según la conformación de unión evaluada. Los sistemas dirigidos hacia las regiones ortostérica y alostérica conservan características generales de la matriz de la proteína libre, mientras que el sistema obtenido mediante acoplamiento ciego presenta una disminución más pronunciada de las correlaciones entre diferentes segmentos. Estos resultados complementan el análisis de acoplamiento molecular y permiten identificar diferencias en la respuesta dinámica de la proteasa ante las distintas configuraciones del derivado de fulereno.
+
+Sin embargo, la conservación o modificación de los patrones de correlación no constituye evidencia suficiente para confirmar un mecanismo de inhibición ortostérica o alostérica. En consecuencia, los resultados obtenidos deben considerarse como una aproximación computacional al comportamiento dinámico de los complejos, que proporciona elementos para orientar análisis estructurales adicionales y futuras evaluaciones experimentales de la actividad inhibitoria del C$_{60}$(Gly)$_4$ frente a la proteasa NS2B-NS3.
 
 \begin{figure}[H]
     \centering
@@ -806,46 +878,67 @@ Al comparar la influencia de los compuestos frente al estado apoproteico (\textb
     \label{fig:pca-fel}
 \end{figure} 
 
-En la Figura~\ref{fig:pca-fel} se muestra el paisaje de energía libre (FEL, por sus siglas en inglés) proyectado sobre el plano cartesiano PC1 vs. PC2 para los seis sistemas estudiados (paneles a--f). A diferencia de la representación temporal, el mapa de FEL evalúa la estabilidad termodinámica y la probabilidad poblacional de las conformaciones exploradas durante la simulación. La barra de color representa la energía libre relativa ($\Delta G$), medida en $\text{kJ/mol}$, calculada mediante la relación de Boltzmann. Las zonas azul oscuro corresponden a los valles o pozos de mínima energía ($\Delta G = 0.0\text{ kJ/mol}$), representando los estados conformacionales más estables y termodinámicamente favorecidos. Por su parte, las regiones cian, verdes y amarillas representan pendientes de mayor costo energético ($\Delta G \approx 4.0\text{ a }12.0\text{ kJ/mol}$), delimitadas por un límite superior de $16.0\text{ kJ/mol}$.
 
-El estado apoproteico de referencia (\textbf{f}, NS2B-NS3) presenta un paisaje energético multimodal de amplia extensión, caracterizado por dos pozos principales de mínima energía: uno ubicado en el cuadrante superior izquierdo ($\text{PC1} \approx -4.0\text{ nm}$, $\text{PC2} \approx 0.8\text{ nm}$) y otro en la región inferior ($\text{PC1} \approx -1.0\text{ nm}$, $\text{PC2} \approx -2.8\text{ nm}$), acompañados por una cuenca secundaria accesible en el extremo derecho ($\text{PC1} \approx 5.5\text{ nm}$, $\text{PC2} \approx 1.5\text{ nm}$). Este perfil refleja la plasticidad estructural intrínseca de la proteína libre en su estado abierto inactivo (2FOM), la cual transita entre múltiples mínimos de energía separados por barreras energéticas moderadas.
+\section{Análisis conformacional mediante dinámica molecular}
+\label{sec:analisis_conformacional}
 
-En contraposición, el sistema de control (\textbf{e}, Ciego) exhibe un pozo de energía altamente concentrado y delimitado alrededor de $\text{PC1} \approx 6.0\text{ nm}$ y $\text{PC2} \approx 0.0\text{ nm}$, junto con pequeñas poblaciones discretas transitorias a valores menores de PC1 ($\text{PC1} \approx 1.0\text{--}3.5\text{ nm}$). Esto confirma que la restricción conformacional responde a un atrapamiento termodinámico en un pozo de elevada estabilidad local.
+Con el propósito de evaluar el comportamiento estructural de la proteasa NS2B-NS3 durante las simulaciones de dinámica molecular, se analizaron la desviación cuadrática media (RMSD), el espacio conformacional mediante análisis de componentes principales (PCA) y los paisajes de energía libre (FEL). Estos parámetros permiten examinar diferentes aspectos de la evolución de los sistemas, desde los cambios estructurales globales respecto a una conformación de referencia hasta la distribución de las configuraciones exploradas durante los 100 ns de simulación.
 
-La incorporación de los distintos compuestos modula substancialmente la topografía del paisaje energético:
-
-\begin{itemize}
-    \item \textbf{Alostérico $\text{C}_{60}(\text{Gly})_4$ (a):} Muestra un pozo de mínima energía bien focalizado en $\text{PC1} \approx 6.0\text{ nm}$ y $\text{PC2} \approx 0.0\text{ nm}$, acompañado de pequeños microestados poblados de forma discontinua en la región de menor PC1 ($\text{PC1} \approx 1.0\text{--}3.5\text{ nm}$, $\text{PC2} \approx -1.5\text{ nm}$). Esta topografía indica un estado de equilibrio fuertemente desplazado hacia un único mínimo dominante.
-    
-    \item \textbf{Alostérico benzamida (b):} Es el sistema que despliega una reorganización del paisaje en forma de canal continuo en, conectando dos cuencas energéticas principales: un valle vertical alargado en la región izquierda ($\text{PC1} \approx -5.0\text{ nm}$) con múltiples mínimos locales ($\text{PC2} \approx 0.5\text{ nm}$, $2.5\text{ nm}$ y $4.0\text{ nm}$), y una cuenca secundaria en el extremo derecho ($\text{PC1} \approx 5.0\text{ nm}$, $\text{PC2} \approx 1.5\text{ nm}$). La existencia de este canal accesible demuestra que el ligando induce y estabiliza el equilibrio entre conformaciones funcionales discretas.
-    
-    \item \textbf{Ortostérico $\text{C}_{60}(\text{Gly})_4$ (c):} Provoca un desplazamiento drástico del pozo de mínima energía hacia coordenadas de PC2 elevadas ($\text{PC1} \approx -2.5\text{ a }-4.0\text{ nm}$, $\text{PC2} \approx 3.5\text{ a }6.0\text{ nm}$), con expansiones que alcanzan hasta $\text{PC2} \approx 10.0\text{ nm}$. La dispersión del pozo sugiere que la voluminosa estructura del fullereno en el sitio activo desestabiliza la conformación nativa y fuerza al complejo a explorar un espacio conformacional de mayor entropía.
-    
-    \item \textbf{Ortostérico 246DA (d):} Presenta una concentración dominante de la densidad poblacional en la región de PC1 negativo ($\text{PC1} \approx -5.5\text{ a }-3.5\text{ nm}$, $\text{PC2} \approx -0.5\text{ a }-3.5\text{ nm}$). Este pozo profundo y delimitado evidencia que el compuesto ortostérico estabiliza prioritariamente una conformación específica compacta, restringiendo la exploración conformacional hacia valores positivos de PC1.
-\end{itemize}
-
-
-
+Inicialmente, se calculó el RMSD de los átomos C$\alpha$ para la proteína libre y los cinco sistemas proteína--ligando. Este parámetro permite cuantificar las diferencias estructurales respecto a una conformación de referencia a lo largo de la trayectoria, por lo que resulta útil para identificar periodos de ajuste conformacional, cambios sostenidos en la estructura y posibles intervalos de comportamiento relativamente estacionario. Los resultados se presentan en la Figura~\ref{fig:RMSD}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{imagenes/Resu/rmsd_ca.pdf}
-    \caption{Evolución temporal de la desviación cuadrática media (RMSD) de los átomos C$\alpha$ del complejo enzimático NS2B-NS3 en estado libre (\textit{Apo}) y acoplado a los distintos inhibidores durante 100 ns de simulación.}
+    \caption{Evolución temporal de la desviación cuadrática media (RMSD) de los átomos C$\alpha$ de la proteasa NS2B-NS3 en estado libre (\textit{Apo}) y en los sistemas con el derivado C$_{60}$(Gly)$_4$ y los compuestos de referencia, durante 100 ns de simulación.}
     \label{fig:RMSD}
-\end{figure}   
-Se evaluó la estabilidad estructural global del complejo enzimático NS2B-NS3 y sus respectivos complejos proteína-ligando mediante el cálculo de la desviación cuadrática media (RMSD) de los átomos C$\alpha$ a lo largo de 100 ns de simulación. (Figura~\ref{fig:RMSD}).
+\end{figure}
 
-Durante los primeros 10 ns, todos los sistemas mostraron una fase inicial de relajación estructural en medio acuoso. A partir de los 15 ns, se observó una divergencia marcada en los perfiles de RMSD, lo que refleja respuestas conformacionales específicas dependientes del sitio de unión y del tipo de ligando acoplado. En general, los valores relativamente elevados de RMSD observados en todos los sistemas ($\ge 0.55\text{ nm}$) se justifican por el estado abierto e inactivo inicial del molde 2FOM, en el cual la región C-terminal del cofactor NS2B posee una alta flexibilidad intrínseca al no estar empaquetada sobre el centro activo.
+Durante los primeros 10--15 ns, los sistemas presentaron incrementos en sus valores de RMSD, compatibles con un periodo inicial de ajuste estructural respecto a las conformaciones utilizadas al comienzo de las simulaciones. Posteriormente, las trayectorias mostraron comportamientos diferenciados, tanto en la magnitud de las desviaciones como en su evolución temporal. Estas variaciones sugieren que los sistemas exploraron regiones conformacionales distintas durante el intervalo analizado.
 
-La forma libre (\textit{Apo}-NS2B-NS3) mantuvo valores fluctuantes moderados ($0.35\text{--}0.45\text{ nm}$) hasta los 50 ns, momento en el cual experimentó un incremento progresivo hasta estabilizarse cerca de los $0.60\text{ nm}$. Este comportamiento refleja la transición conformacional y exploración del espacio de fases de la región flexible de NS2B, la cual busca estados estables en ausencia de un ligando que promueva el cierre del sitio activo.
+La proteína libre presentó valores de RMSD predominantemente comprendidos entre 0.35 y 0.45 nm durante aproximadamente los primeros 50 ns, seguidos de un incremento gradual hasta alcanzar valores cercanos a 0.60 nm hacia la parte final de la simulación. Este comportamiento indica que la estructura experimentó cambios respecto a su conformación inicial y continuó explorando configuraciones diferentes durante la trayectoria. Considerando que la estructura de partida corresponde a una conformación abierta de la proteasa NS2B-NS3, estas variaciones podrían estar relacionadas con la movilidad de regiones flexibles del sistema, incluido el cofactor NS2B. Sin embargo, para atribuir el incremento del RMSD a un movimiento específico de dicho cofactor sería necesario analizar sus desplazamientos por separado.
 
-En cuanto a los complejos evaluados:
-\begin{itemize}
-    \item El sistema \textbf{Ortostérico $C_{60}(\text{Gly})_4$} presentó los valores de RMSD más elevados ($\sim 0.75\text{--}0.85\text{ nm}$), lo que sugiere una reorganización severa del bolsillo catalítico y de las regiones adyacentes para dar cabida a la voluminosa estructura del ligando.
-    \item Los complejos \textbf{alostérico benzamida} y \textbf{ortostérico 246DA} exhibieron fluctuaciones intermedias-altas, alcanzando un régimen estable entre $0.60$ y $0.75\text{ nm}$.
-    \item El complejo acoplado en el sitio \textbf{Ciego} mostró un rápido ajuste inicial en los primeros 15 ns, manteniendo posteriormente una meseta notablemente estable alrededor de los $0.55\text{--}0.60\text{ nm}$.
-    \item El complejo \textbf{Alostérico $C_{60}(\text{Gly})_4$} mostró un comportamiento singular con una contracción conformacional entre los 20 y 50 ns (descendiendo hasta $\sim 0.35\text{ nm}$), consistente con un proceso de empaquetamiento y ajuste inducido hacia un estado más compacto antes de alcanzar su equilibrio final ($\sim 0.60\text{ nm}$).
-\end{itemize}
+Los sistemas con los compuestos de referencia también mostraron incrementos iniciales del RMSD, seguidos de fluctuaciones en intervalos relativamente delimitados. En el caso del derivado de benzamida, acoplado en la región alostérica, se observaron valores que oscilaron principalmente entre 0.60 y 0.75 nm durante la segunda mitad de la simulación. Por su parte, el compuesto 246DA, ubicado en la región ortostérica, presentó un comportamiento semejante, aunque con diferencias en la amplitud y distribución temporal de sus fluctuaciones.
+
+La presencia de valores superiores a los registrados inicialmente para la proteína libre indica que ambos sistemas experimentaron cambios estructurales respecto a sus respectivas conformaciones de referencia. No obstante, estos resultados no permiten establecer directamente que los ligandos hayan incrementado o disminuido la estabilidad de la proteasa, debido a que el RMSD describe una desviación estructural y no una magnitud termodinámica.
+
+En cuanto al derivado C$_{60}$(Gly)$_4$, el sistema correspondiente al acoplamiento dirigido hacia la región alostérica presentó un comportamiento particular. Después del incremento inicial, el RMSD mostró una disminución entre aproximadamente 20 y 50 ns, alcanzando valores cercanos a 0.35 nm, seguida de un nuevo incremento hacia valores próximos a 0.60 nm. Esta evolución indica que el sistema atravesó diferentes periodos de ajuste conformacional durante la simulación, sin mantener una desviación constante respecto a la estructura de referencia.
+
+Aunque la disminución temporal del RMSD podría ser compatible con un acercamiento a una conformación más semejante a la inicial, no es suficiente para concluir que ocurrió una compactación de la proteína. Para determinarlo sería necesario considerar parámetros adicionales, como el radio de giro y las distancias entre regiones estructurales.
+
+El sistema correspondiente al acoplamiento ciego del C$_{60}$(Gly)$_4$ mostró un incremento relativamente rápido durante los primeros 15 ns, seguido de fluctuaciones principalmente alrededor de 0.55--0.60 nm. En comparación con los demás sistemas, este perfil presentó variaciones relativamente acotadas durante una parte importante de la trayectoria. Sin embargo, la presencia de una meseta en el RMSD no implica necesariamente que el complejo haya alcanzado un equilibrio conformacional completo, sino que la desviación respecto a la estructura de referencia permaneció dentro de un intervalo limitado.
+
+Por otra parte, el sistema con C$_{60}$(Gly)$_4$ en la región ortostérica alcanzó algunos de los valores más elevados, aproximadamente entre 0.75 y 0.85 nm durante la etapa final de la simulación. Este comportamiento indica una mayor diferencia estructural respecto a su conformación inicial en comparación con los valores observados para otros sistemas. Dado que el derivado presenta un núcleo de fulereno voluminoso y varios sustituyentes polares, resulta pertinente considerar que su presencia en el entorno catalítico podría estar asociada con ajustes conformacionales de la proteína. No obstante, el RMSD global no permite localizar dichos cambios ni atribuirlos exclusivamente al bolsillo de unión.
+
+En conjunto, los perfiles de RMSD muestran que los seis sistemas experimentaron cambios estructurales durante los 100 ns de simulación, con diferencias en la magnitud y evolución temporal de sus desviaciones. Mientras que los sistemas correspondientes al acoplamiento ciego y al derivado alostérico presentaron periodos de fluctuación relativamente delimitados, el sistema ortostérico con C$_{60}$(Gly)$_4$ alcanzó desviaciones más elevadas respecto a su estructura inicial. Estas observaciones permiten identificar comportamientos conformacionales diferenciados, cuya interpretación puede complementarse mediante el análisis de componentes principales.
+
+Con la finalidad de examinar los movimientos colectivos de mayor contribución a las fluctuaciones estructurales, se realizó un análisis de componentes principales en un espacio conformacional común para los seis sistemas. Este procedimiento permite proyectar las configuraciones obtenidas durante las simulaciones sobre los componentes principales PC1 y PC2, que representan combinaciones de movimientos atómicos asociadas con las mayores variaciones estructurales del conjunto analizado.
+
+La Figura~\ref{fig:pca-comun} muestra la distribución de las conformaciones de cada sistema en el plano PC1--PC2, utilizando una escala de color para representar su evolución temporal. De esta manera, es posible examinar tanto la extensión del espacio conformacional explorado como la distribución de las configuraciones a lo largo de los 100 ns de simulación.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.90\textwidth]{imagenes/Resu/pca-common.pdf}
+    \caption{Proyección de las trayectorias de dinámica molecular sobre los dos primeros componentes principales (PCA común) durante 100 ns de simulación. \textbf{a)} C$_{60}$(Gly)$_4$ en la región alostérica; \textbf{b)} derivado de benzamida en la región alostérica; \textbf{c)} C$_{60}$(Gly)$_4$ en la región ortostérica; \textbf{d)} compuesto 246DA en la región ortostérica; \textbf{e)} C$_{60}$(Gly)$_4$ en la conformación obtenida mediante acoplamiento ciego; y \textbf{f)} proteína libre (\textit{Apo}). La escala de color representa la evolución temporal de las conformaciones durante la simulación.}
+    \label{fig:pca-comun}
+\end{figure}
+
+La proteína libre (Figura~\ref{fig:pca-comun}f) presentó una distribución relativamente amplia en el espacio conformacional, con configuraciones localizadas tanto en regiones negativas como positivas de PC1. Asimismo, se observó una variación considerable sobre PC2, lo que indica que el sistema exploró diferentes combinaciones de los movimientos colectivos representados por ambos componentes. La distribución temporal muestra que las configuraciones no permanecieron concentradas en una sola región durante toda la trayectoria, sino que se desplazaron entre distintas zonas del espacio proyectado.
+
+En comparación con la proteína libre, el sistema con el derivado de benzamida en la región alostérica (Figura~\ref{fig:pca-comun}b) presentó una distribución diferenciada, caracterizada por configuraciones que se extienden desde valores negativos de PC1 hacia regiones positivas, con variaciones simultáneas en PC2. La progresión temporal indica que el sistema recorrió diferentes regiones del espacio conformacional durante la simulación. Este comportamiento es compatible con la exploración de configuraciones estructurales distintas, aunque la representación bidimensional no permite establecer por sí sola la existencia de transiciones entre estados funcionales específicos.
+
+El sistema con el compuesto 246DA en la región ortostérica (Figura~\ref{fig:pca-comun}d) mostró una distribución más concentrada en valores negativos de PC1 y relativamente reducidos de PC2, en comparación con otros sistemas. Aunque se identificaron desplazamientos durante la trayectoria, una parte importante de las configuraciones permaneció dentro de una región relativamente delimitada del plano. Esto sugiere una exploración más restringida de los movimientos descritos por los dos primeros componentes principales, sin que necesariamente implique una menor flexibilidad global de la proteína.
+
+Al analizar el derivado C$_{60}$(Gly)$_4$ en la región alostérica (Figura~\ref{fig:pca-comun}a), se observa una distribución que se extiende principalmente desde valores positivos de PC1 hacia regiones más próximas al origen, acompañada de variaciones en PC2. La evolución temporal indica que el sistema modificó progresivamente su posición en el espacio conformacional durante la simulación. Esta tendencia sugiere la exploración de configuraciones diferenciadas, aunque no permite determinar si dichas variaciones corresponden a movimientos específicos de apertura, cierre o reorganización de la cavidad alostérica.
+
+Por otra parte, el sistema con C$_{60}$(Gly)$_4$ en la región ortostérica (Figura~\ref{fig:pca-comun}c) presentó una distribución particularmente extensa sobre PC2, con configuraciones que alcanzaron valores positivos elevados y una dispersión considerable sobre PC1. Este comportamiento indica que el sistema exploró una región amplia del espacio definido por los dos componentes principales, lo cual resulta consistente con las mayores desviaciones estructurales observadas en su perfil de RMSD.
+
+La amplitud de esta distribución sugiere que la presencia del derivado en la región ortostérica podría estar asociada con una mayor diversidad de configuraciones a lo largo de los movimientos colectivos representados. Sin embargo, no permite concluir directamente que el sistema presente una mayor entropía conformacional o que el ligando provoque una desestabilización estructural, debido a que dichas propiedades no pueden determinarse únicamente a partir de la dispersión de las proyecciones PCA.
+
+En contraste, el sistema obtenido mediante acoplamiento ciego (Figura~\ref{fig:pca-comun}e) mostró una distribución notablemente concentrada en una región positiva de PC1 y próxima a valores reducidos de PC2, con algunas configuraciones aisladas fuera de la zona principal. Este comportamiento indica que una parte importante de la trayectoria permaneció localizada dentro de una región relativamente limitada del espacio proyectado. No obstante, esta concentración no demuestra que la proteína haya perdido su flexibilidad ni que se encuentre restringida a una única conformación.
+
+La comparación global de los seis sistemas muestra diferencias en la amplitud y localización de las configuraciones exploradas. El sistema ortostérico con C$_{60}$(Gly)$_4$ presentó una de las distribuciones más extensas, mientras que el sistema procedente del acoplamiento ciego mostró una concentración más marcada de configuraciones. Por su parte, los compuestos de referencia y el derivado de fulereno en la región alostérica ocuparon regiones intermedias o diferenciadas del espacio conformacional.
+
+Estos resultados complementan las observaciones obtenidas mediante RMSD, al mostrar que las diferencias estructurales entre sistemas también se reflejan en la distribución de sus movimientos colectivos. Sin embargo, para interpretar la importancia relativa de las configuraciones exploradas resulta conveniente examinar su distribución poblacional mediante los paisajes de energía libre proyectados sobre los mismos componentes principales.
 
 A pesar de las diferencias en la magnitud de la desviación, todos los perfiles alcanzaron un estado de meseta fluctuante a partir de los 60 ns hasta el final de la simulación, confirmando la convergencia estructural de los sistemas hacia nuevos mínimos de energía metaestables partiendo de la conformación abierta de la proteina NS2B-NS3.
 
