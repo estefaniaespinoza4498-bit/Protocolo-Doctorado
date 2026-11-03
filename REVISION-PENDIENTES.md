@@ -9,7 +9,7 @@ Se modificaron Protocolo.tex y los capítulos que incluye. Protocolo-revision.te
 - Corrección del caption de DCCM y explicación de sus paneles; corrección de la posición del sistema ciego en el PCA.
 - Adición de caption, etiqueta y referencia al esquema del planteamiento. Corrección del caption del mapa epidemiológico y de la figura de estructura del C60.
 - Revisión de ortografía, concordancia y explicaciones; separación entre puntuaciones de acoplamiento y actividad experimental.
-- Corrección del signo de 0.074 kcal/mol para el primer conjunto de isómeros, de la identificación del fulereno sin glicina en la tabla de potencial electrostático y de la descripción de RMSF de acuerdo con la gráfica.
+- Corrección del signo de 0.074 kcal/mol para el primer conjunto de isómeros, de la identificación del fullereno sin glicina en la tabla de potencial electrostático y de la descripción de RMSF de acuerdo con la gráfica.
 - Organización de los antecedentes dentro de un mismo capítulo, inclusión de la introducción en el índice y colocación del cronograma antes de los apéndices, ahora identificados como A y B. La numeración de figuras se recalcula automáticamente por capítulo.
 - Incorporación de la referencia bibliográfica faltante de Frimayanti y de fuentes verificadas para las correcciones sobre vacunas, fase crítica y puntuaciones de Vina.
 - Ajuste de tamaño de DCCM, PCA y FEL y de la tabla epidemiológica para evitar desbordamientos.

@@ -172,12 +172,6 @@ J.~Zephyr, D.~N. Rao, C.~Johnson, A.~M. Shaqra, E.~A. Nalivaika, A.~Jordan,
   inhibitors of the flavivirus ns2b/ns3 protease,'' {\em Bioorganic chemistry},
   vol.~131, p.~106269, 2023.
 
-\bibitem{frimayanti2011design}
-N.~Frimayanti, C.~F. Chee, S.~M. Zain, and N.~Abd~Rahman, ``Design of new
-  competitive dengue ns2b/ns3 protease inhibitors---a computational approach,''
-  {\em International Journal of Molecular Sciences}, vol.~12, no.~2,
-  pp.~1089--1100, 2011.
-
 \bibitem{cdc2024dengueclinical}
 {Centers for Disease Control and Prevention}, ``Clinical features of dengue.''
   \url{https://www.cdc.gov/dengue/hcp/clinical-signs/index.html}, 2024.
@@ -339,5 +333,43 @@ C.~A. Celaya, D.~G. Araiza, and M.~Reina, ``Administraci{\'o}n y detecci{\'o}n
 R.~Partha and J.~L. Conyers, ``Biomedical applications of functionalized
   fullerene-based nanomaterials,'' {\em International journal of nanomedicine},
   pp.~261--275, 2009.
+
+\bibitem{frisch2016gaussian}
+M.~Frisch, ``Gaussian 16/gaussian,'' 2016.
+
+\bibitem{becke1993density}
+A.~D. Becke, ``Density-functional thermochemistry. iii. the role of exact
+  exchange,'' {\em The Journal of chemical physics}, vol.~98, no.~7,
+  pp.~5648--5652, 1993.
+
+\bibitem{lee1988development}
+C.~Lee, W.~Yang, and R.~G. Parr, ``Development of the colle-salvetti
+  correlation-energy formula into a functional of the electron density,'' {\em
+  Physical review B}, vol.~37, no.~2, p.~785, 1988.
+
+\bibitem{krishnan1980self}
+R.~Krishnan, J.~S. Binkley, R.~Seeger, and J.~A. Pople, ``Self-consistent
+  molecular orbital methods. xx. a basis set for correlated wave functions,''
+  {\em The Journal of chemical physics}, vol.~72, no.~1, pp.~650--654, 1980.
+
+\bibitem{parr1984density}
+R.~G. Parr and W.~Yang, ``Density functional approach to the frontier-electron
+  theory of chemical reactivity,'' {\em Journal of the American Chemical
+  Society}, vol.~106, no.~14, pp.~4049--4050, 1984.
+
+\bibitem{yang1986use}
+W.~Yang and W.~J. Mortier, ``The use of global and local molecular parameters
+  for the analysis of the gas-phase basicity of amines,'' {\em Journal of the
+  American Chemical Society}, vol.~108, no.~19, pp.~5708--5711, 1986.
+
+\bibitem{perdew1982density}
+J.~P. Perdew, R.~G. Parr, M.~Levy, and J.~L. Balduz~Jr, ``Density-functional
+  theory for fractional particle number: Derivative discontinuities of the
+  energy,'' {\em Physical Review Letters}, vol.~49, no.~23, p.~1691, 1982.
+
+\bibitem{parr1999electrophilicity}
+R.~G. Parr, L.~v. Szentp{\'a}ly, and S.~Liu, ``Electrophilicity index,'' {\em
+  Journal of the American Chemical Society}, vol.~121, no.~9, pp.~1922--1924,
+  1999.
 
 \end{thebibliography}
