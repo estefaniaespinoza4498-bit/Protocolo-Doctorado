@@ -33,11 +33,12 @@
   \ProcessOptionsBeamer
 }{}
 
+
 % Force 16:9 aspect ratio
 \RequirePackage{geometry}
 \geometry{paperwidth=16cm,paperheight=9cm}
-
-\RequirePackage[sfdefault]{FiraSans}
+\RequirePackage{nunito}
+\renewcommand{\sfdefault}{Nunito-TLF}
 \usefonttheme[onlymath]{serif}
 \RequirePackage{graphicx,sintefcolor}
 
@@ -78,6 +79,7 @@
 \pgfdeclareimage[height=0\paperwidth, width=0\paperwidth]{logo}{imagenes/Portada/Logo.png}
 %\pgfdeclareimage[width=0.09\paperwidth]{whitelogo}{assets/logo_RGB_negative}
 \newcommand{\@logo}{logo}
+
 
 % Set colours
 % NOTE! Beamer colors should be set in the preamble. It often works fine in the 
