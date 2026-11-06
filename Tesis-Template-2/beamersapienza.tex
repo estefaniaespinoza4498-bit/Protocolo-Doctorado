@@ -1019,21 +1019,23 @@ Isoleucina/Valina-32 residuos-1 valor atipico
 \end{columns}
 \end{frame}
 %-----------------------------------------------------------------------------------------------------
-\begin{frame}{Dinámica de la proteína NS2B-NS3}
+\begin{frame}{Mapa de Ramachandra}
+    \vspace{-2cm}
 \begin{columns}
-\begin{column}{0.3\textwidth}
-\justifying
-Glicina-35 residuos-1valor atipico
-Prolina trans-12 residuos-1 valor atipico 
-Prolina cis-sin residuos
-pre prolina-10 residuos-1 valor atipico
-Isoleucina/Valina-32 residuos-1 valor atipico 
+\vspace{-3cm}
+\begin{column}{0.2\textwidth}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth,height=0.7\textwidth]{imagenes/Resultados/puentes_hidrogeno.png}
+      \caption{\textbf{Visualización de la rejilla para el acoplamiento de C\textsubscript{60}(\textit{Gly})\textsubscript{4}-NS2B-NS3.}}
+\end{figure}
+
    
 \end{column}
 \begin{column}{0.8\textwidth}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.9\textwidth,height=0.75\textwidth]{imagenes/Resultados/rmsd-2.pdf}
+    \includegraphics[width=0.8\textwidth,height=0.6\textwidth]{imagenes/Resultados/rmsd-2.pdf}
       \caption{\textbf{Evolución temporal de la desviación cuadrática
     media (RMSD) de los átomos C$\alpha$ de la proteasa
     NS2B-NS3 durante 100 ns de dinámica molecular.}}
@@ -1042,30 +1044,289 @@ Isoleucina/Valina-32 residuos-1 valor atipico
 \end{column}
 \end{columns}
 \end{frame}
+
 %-----------------------------------------------------------------------------------------------------
 \begin{frame}{Dinámica de la proteína NS2B-NS3}
 
-\begin{column}{0.8\textwidth}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.9\textwidth,height=0.75\textwidth]{imagenes/Resultados/rmsd-2.pdf}
-      \caption{\textbf{Visualización de la rejilla para el acoplamiento de C\textsubscript{60}(\textit{Gly})\textsubscript{4}-NS2B-NS3.}}
+    \includegraphics[
+        width=1.0\textwidth,
+        height=0.9\textheight,
+        keepaspectratio
+    ]{imagenes/Resultados/radio.pdf}
+
+    \caption{\textbf{Visualización de la rejilla para el acoplamiento de C\textsubscript{60}(\textit{Gly})\textsubscript{4}-NS2B-NS3.}}
+\end{figure}
+
+\end{frame}
+%----------------------------------------------------------------------------------------------------------
+\begin{frame}{Dinámica de la proteína NS2B-NS3}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[
+        width=1.0\textwidth,
+        height=0.9\textheight,
+        keepaspectratio
+    ]{imagenes/Resultados/hidrogeno.pdf}
+
+    \caption{\textbf{Visualización de la rejilla para el acoplamiento de C\textsubscript{60}(\textit{Gly})\textsubscript{4}-NS2B-NS3.}}
 \end{figure}
 
 \end{frame}
 %--------------------------------------------------------------------------------------------------
-\begin{frame}{Análisis de clusters y distribución de energías de unión}
+\begin{frame}{PCA}
+\begin{figure}[h]
+\vspace*{-0.20cm}
+    \centering
+    \includegraphics[width=1.0\textwidth,height=0.35\textwidth]{imagenes/Resultados/pca_fel-1.pdf}
+      \caption{\textbf{{Paisaje de energía libre (FEL) en el espacio conformacional.} 
+\textbf{a)} sitio alostérico con el ligando C$_{60}$(Gly)$_{4}$; 
+\textbf{b)} sitio alostérico con el ligando de benzamida; 
+\textbf{c)} sitio ortostérico con el ligando C$_{60}$(Gly)$_{4}$;}}
+\end{figure}
+
+\end{frame}
+
+
+
+%-------------------------------------------------------------------------------------------------------
+\begin{frame}{PCA}
 \begin{figure}[h]
 \vspace*{-0.30cm}
     \centering
-    \includegraphics[width=0.9\textwidth,height=0.5\textwidth]{imagenes/Resultados/histograma-completo.png}
-      \vspace*{-0.45cm}
-      \caption{\textbf{ Histograma de agrupamiento conformacional de las poses del ligando C\textsubscript{60}(\textit{Gly})\textsubscript{4} en el sitio alostérico de la proteína 2FOM. El análisis se realizó empleando una tolerancia de 8 \AA.}}
+    \includegraphics[width=1.0\textwidth,height=0.35\textwidth]{imagenes/Resultados/pca_fel-2.pdf}
+      \vspace*{-0.20cm}
+      \caption{\textbf{ {Paisaje de energía libre (FEL) en el espacio conformacional.} 
+\textbf{d)} sitio ortostérico con el ligando 246DA; 
+\textbf{e)} acoplamiento ciego
+\textbf{f)} proteína en su conformación nativa (estado inactivo abierto).}}
 \end{figure}
 
 \end{frame}
 %_____________-----------------------------------------------------------------
+\begin{frame}{DCCM}
+\begin{figure}[h]
+\vspace*{-0.15cm}
+    \centering
+    \includegraphics[width=1.05\textwidth,height=0.40\textwidth]{imagenes/Resultados/dccm-1.pdf}
+      \vspace*{-0.30cm}
+      \caption{\textbf{Matrices de correlación cruzada dinámica (DCCM) obtenidas a partir de las trayectorias de 100 ns de la proteasa NS2B-NS3. \textbf{a)} C$_{60}$(Gly)$_4$ en la región alostérica; \textbf{b)} derivado de benzamida en la región alostérica; \textbf{c)} C$_{60}$(Gly)$_4$ en la región ortostérica.}}
+\end{figure}
 
+\end{frame}
+%------------------------------------------------------------------------------------------------------------
+\begin{frame}{DCCM}
+\begin{figure}[h]
+\vspace*{-0.15cm}
+    \centering
+    \includegraphics[width=1.05\textwidth,height=0.40\textwidth]{imagenes/Resultados/dccm-2.pdf}
+      \vspace*{-0.30cm}
+         \caption{\textbf{Matrices de correlación cruzada dinámica (DCCM) obtenidas a partir de las trayectorias de 100 ns de la proteasa NS2B-NS3. \textbf{d)} compuesto 246DA en la región ortostérica; \textbf{e)} C$_{60}$(Gly)$_4$ en la conformación obtenida mediante acoplamiento ciego; y \textbf{f)} proteína libre (Apo). Los tonos rojos representan correlaciones positivas, mientras que los azules corresponden a movimientos anticorrelacionados.}}
+\end{figure}
+
+\end{frame}
+%------------------------------------------------------------------------------------------------------------------
+
+\begin{frame}{DCCM}
+\begin{figure}[h]
+\vspace*{-0.15cm}
+    \centering
+    \includegraphics[width=0.9\textwidth,height=0.50\textwidth]{imagenes/Resultados/dccm-3.pdf}
+      \vspace*{-0.30cm}
+      \caption{\textbf{ Histograma de agrupamiento conformacional de las poses del ligando C\textsubscript{60}(\textit{Gly})\textsubscript{4} en el sitio alostérico de la proteína 2FOM. El análisis se realizó empleando una tolerancia de 8 \AA.}}
+\end{figure}
+
+\end{frame}
+%------------------------------------------------------------------------------------------------------------------------
+
+\begin{frame}{Common PCA}
+\begin{figure}[h]
+\vspace*{-0.15cm}
+    \centering
+    \includegraphics[width=1.05\textwidth,height=0.40\textwidth]{imagenes/Resultados/pca-common-1.pdf}
+      \vspace*{-0.30cm}
+      \caption{\textbf{ {Evolución temporal del espacio conformacional (PCA común).} 
+\textbf{a)} sitio alostérico con el ligando C$_{60}$(Gly)$_{4}$; 
+\textbf{b)} sitio alostérico con un derivado de benzamida; 
+\textbf{c)} sitio ortostérico con el ligando C$_{60}$(Gly)$_{4}$; }}
+\end{figure}
+
+\end{frame}
+%--------------------------------------------------------------------------------------------------------------------------
+
+\begin{frame}{Common PCA}
+\begin{figure}[h]
+\vspace*{-0.15cm}
+    \centering
+    \includegraphics[width=1.05\textwidth,height=0.40\textwidth]{imagenes/Resultados/pca-common-2.pdf}
+      \vspace*{-0.30cm}
+      \caption{\textbf{ {Evolución temporal del espacio conformacional (PCA común).} 
+\textbf{d)} sitio ortostérico con el ligando 246DA; 
+\textbf{e)} acoplamiento ciego
+\textbf{f)} proteína en su conformación nativa (estado inactivo abierto).}}
+\end{figure}
+
+\end{frame}
+%----------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{frame}{Acoplamiento molecular}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\vspace*{-1.5cm}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resultados/benza.pdf}
+    \caption{Representación tridimensional del acoplamiento molecular del derivado de benzamida en la región propuesta como alostérica de la proteasa NS2B-NS3. Se muestran los contactos no covalentes identificados y sus distancias expresadas en \AA.}
+    \label{fig:benzamida-3d}
+\end{figure}
+\end{column}
+
+
+\begin{column}{0.5\textwidth}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resultados/benza-3.png}
+    \caption{Distribución de las 100 poses del derivado de benzamida según las puntuaciones de acoplamiento obtenidas mediante AutoDock Vina.}
+    \label{fig:benzamida-3d}
+\end{figure}
+
+\end{column}
+\end{columns}
+\end{frame}
+%-----------------------------------------------------------------------------------------------------------------------
+\begin{frame}{Acoplamiento molecular}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\vspace*{-1.5cm}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resultados/benza.pdf}
+    \caption{Representación tridimensional del acoplamiento molecular del derivado de benzamida en la región propuesta como alostérica de la proteasa NS2B-NS3. Se muestran los contactos no covalentes identificados y sus distancias expresadas en \AA.}
+    \label{fig:benzamida-3d}
+\end{figure}
+\end{column}
+
+
+\begin{column}{0.5\textwidth}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resultados/benza-3.png}
+    \caption{Distribución de las 100 poses del derivado de benzamida según las puntuaciones de acoplamiento obtenidas mediante AutoDock Vina.}
+    \label{fig:benzamida-3d}
+\end{figure}
+
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+%-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+\begin{frame}{Acoplamiento molecular}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\vspace*{-1.5cm}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resultados/benza.pdf}
+    \caption{Representación tridimensional del acoplamiento molecular del derivado de benzamida en la región propuesta como alostérica de la proteasa NS2B-NS3. Se muestran los contactos no covalentes identificados y sus distancias expresadas en \AA.}
+    \label{fig:benzamida-3d}
+\end{figure}
+\end{column}
+
+
+\begin{column}{0.5\textwidth}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resultados/benza-3.png}
+    \caption{Distribución de las 100 poses del derivado de benzamida según las puntuaciones de acoplamiento obtenidas mediante AutoDock Vina.}
+    \label{fig:benzamida-3d}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\begin{frame}{Acoplamiento molecular}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\vspace*{-1.5cm} 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resultados/benza.pdf}
+    \caption{Representación tridimensional del acoplamiento molecular del derivado de benzamida en la región propuesta como alostérica de la proteasa NS2B-NS3. Se muestran los contactos no covalentes identificados y sus distancias expresadas en \AA.}
+    \label{fig:benzamida-3d}
+\end{figure}
+\end{column}
+
+
+\begin{column}{0.5\textwidth}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resultados/benza.pdf}
+    \caption{Representación tridimensional del acoplamiento molecular del derivado de benzamida en la región propuesta como alostérica de la proteasa NS2B-NS3. Se muestran los contactos no covalentes identificados y sus distancias expresadas en \AA.}
+    \label{fig:benzamida-3d}
+\end{figure}
+
+\end{column}
+\end{columns}
+\end{frame}
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\begin{frame}{Acoplamiento molecular}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\vspace*{-1.5cm}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resultados/benza.pdf}
+    \caption{Representación tridimensional del acoplamiento molecular del derivado de benzamida en la región propuesta como alostérica de la proteasa NS2B-NS3. Se muestran los contactos no covalentes identificados y sus distancias expresadas en \AA.}
+    \label{fig:benzamida-3d}
+\end{figure}
+\end{column}
+
+
+\begin{column}{0.5\textwidth}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resultados/benza.pdf}
+    \caption{Representación tridimensional del acoplamiento molecular del derivado de benzamida en la región propuesta como alostérica de la proteasa NS2B-NS3. Se muestran los contactos no covalentes identificados y sus distancias expresadas en \AA.}
+    \label{fig:benzamida-3d}
+\end{figure}
+
+\end{column}
+\end{columns}
+\end{frame}
+%------------------------------------------------------------------------------------------------------------------------------------------------------
+\begin{frame}{Acoplamiento molecular}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\vspace*{-1.5cm}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resultados/benza.pdf}
+    \caption{Representación tridimensional del acoplamiento molecular del derivado de benzamida en la región propuesta como alostérica de la proteasa NS2B-NS3. Se muestran los contactos no covalentes identificados y sus distancias expresadas en \AA.}
+    \label{fig:benzamida-3d}
+\end{figure}
+\end{column}
+
+
+\begin{column}{0.5\textwidth}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imagenes/Resultados/benza.pdf}
+    \caption{Representación tridimensional del acoplamiento molecular del derivado de benzamida en la región propuesta como alostérica de la proteasa NS2B-NS3. Se muestran los contactos no covalentes identificados y sus distancias expresadas en \AA.}
+    \label{fig:benzamida-3d}
+\end{figure}
+
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+%----------------------------------------------------------------------------------------------------------
 \begin{frame}{Acoplamiento del C\textsubscript{60}(\textit{Gly})\textsubscript{4} con la proteína NS2B-NS3}
 \begin{columns}
 \begin{column}{0.3\textwidth}

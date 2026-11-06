@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.30)  5 NOV 2026 16:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.30)  6 NOV 2026 16:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -833,6 +833,39 @@ LaTeX Warning: Label `workin' multiply defined.
 
 
 LaTeX Warning: Label `tab:gibbs_thermo_conv' multiply defined.
+
+
+LaTeX Warning: Label `fig:benzamida-3d' multiply defined.
+
+
+LaTeX Warning: Label `fig:benzamida-3d' multiply defined.
+
+
+LaTeX Warning: Label `fig:benzamida-3d' multiply defined.
+
+
+LaTeX Warning: Label `fig:benzamida-3d' multiply defined.
+
+
+LaTeX Warning: Label `fig:benzamida-3d' multiply defined.
+
+
+LaTeX Warning: Label `fig:benzamida-3d' multiply defined.
+
+
+LaTeX Warning: Label `fig:benzamida-3d' multiply defined.
+
+
+LaTeX Warning: Label `fig:benzamida-3d' multiply defined.
+
+
+LaTeX Warning: Label `fig:benzamida-3d' multiply defined.
+
+
+LaTeX Warning: Label `fig:benzamida-3d' multiply defined.
+
+
+LaTeX Warning: Label `fig:benzamida-3d' multiply defined.
 
 
 LaTeX Warning: Label `tab:parametros_acoplamiento' multiply defined.
@@ -1798,10 +1831,31 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 <imagenes/Resultados/NPT.pdf, id=622, 1264.17178pt x 1267.48752pt>
 File: imagenes/Resultados/NPT.pdf Graphic file (type pdf)
 <use imagenes/Resultados/NPT.pdf>
-Package pdftex.def Info: imagenes/Resultados/NPT.pdf  used on input line 983.
-(pdftex.def)             Requested size: 288.57365pt x 289.33055pt.
+Package pdftex.def Info: imagenes/Resultados/NPT.pdf  used on input line 997.
+(pdftex.def)             Requested size: 99.57333pt x 119.48422pt.
 
-Overfull \vbox (100.43175pt too high) detected at line 983
+Underfull \hbox (badness 10000) in paragraph at lines 997--997
+[]\OT1/Nunito-TLF/m/n/10.95 Glicina-35 residuos-1valor ati-pi-co
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 997--997
+\OT1/Nunito-TLF/m/n/10.95 Pro-li-na trans-12 residuos-1 va-lor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 997--997
+\OT1/Nunito-TLF/m/n/10.95 ati-pi-co Pro-li-na cis-sin re-si-duos pre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 997--997
+\OT1/Nunito-TLF/m/n/10.95 prolina-10 residuos-1 va-lor ati-pi-co
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 997--997
+\OT1/Nunito-TLF/m/n/10.95 Isoleucina/Valina-32 residuos-1 va-lor
  []
 
 
@@ -1812,15 +1866,35 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 [39
 
  <./imagenes/Resultados/NPT.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1020
+[]\OT1/Nunito-TLF/m/n/10.95 Glicina-35 residuos-1valor ati-pi-co
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1020
+\OT1/Nunito-TLF/m/n/10.95 Pro-li-na trans-12 residuos-1 va-lor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1020
+\OT1/Nunito-TLF/m/n/10.95 ati-pi-co Pro-li-na cis-sin re-si-duos pre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1020
+\OT1/Nunito-TLF/m/n/10.95 prolina-10 residuos-1 va-lor ati-pi-co
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1020
+\OT1/Nunito-TLF/m/n/10.95 Isoleucina/Valina-32 residuos-1 va-lor
+ []
+
 <imagenes/Resultados/corregida.pdf, id=635, 1228.88896pt x 1519.08765pt>
 File: imagenes/Resultados/corregida.pdf Graphic file (type pdf)
 <use imagenes/Resultados/corregida.pdf>
-Package pdftex.def Info: imagenes/Resultados/corregida.pdf  used on input line 997.
-(pdftex.def)             Requested size: 234.05386pt x 289.32503pt.
-
-Overfull \vbox (100.42622pt too high) detected at line 997
- []
-
+Package pdftex.def Info: imagenes/Resultados/corregida.pdf  used on input line 1020.
+(pdftex.def)             Requested size: 159.3299pt x 139.40079pt.
 
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []  []
@@ -1829,15 +1903,21 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 [40
 
  <./imagenes/Resultados/corregida.pdf>]
-<imagenes/Resultados/histograma-completo.png, id=648, 1799.523pt x 706.0779pt>
-File: imagenes/Resultados/histograma-completo.png Graphic file (type png)
-<use imagenes/Resultados/histograma-completo.png>
-Package pdftex.def Info: imagenes/Resultados/histograma-completo.png  used on input line 1009.
-(pdftex.def)             Requested size: 358.49785pt x 199.1657pt.
+<imagenes/Resultados/puentes_hidrogeno.png, id=648, 578.16pt x 433.62pt>
+File: imagenes/Resultados/puentes_hidrogeno.png Graphic file (type png)
+<use imagenes/Resultados/puentes_hidrogeno.png>
+Package pdftex.def Info: imagenes/Resultados/puentes_hidrogeno.png  used on input line 1046.
+(pdftex.def)             Requested size: 63.73012pt x 55.76385pt.
 
-Overfull \vbox (31.42813pt too high) detected at line 1009
+Overfull \hbox (2.05983pt too wide) in paragraph at lines 1046--1046
+\OT1/Nunito-TLF/b/n/8 C$[]$(\OT1/Nunito-TLF/b/it/8 Gly\OT1/Nunito-TLF/b/n/8 )$[]$-NS2B-NS3.  
  []
 
+<imagenes/Resultados/rmsd-2.pdf, id=649, 770.94359pt x 610.8217pt>
+File: imagenes/Resultados/rmsd-2.pdf Graphic file (type pdf)
+<use imagenes/Resultados/rmsd-2.pdf>
+Package pdftex.def Info: imagenes/Resultados/rmsd-2.pdf  used on input line 1046.
+(pdftex.def)             Requested size: 254.92976pt x 191.20752pt.
 
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []  []
@@ -1845,14 +1925,14 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 
 [41
 
- <./imagenes/Resultados/histograma-completo.png>]
-<imagenes/Resultados/principal-acoplamiento.pdf, id=655, 918.29016pt x 556.4672pt>
-File: imagenes/Resultados/principal-acoplamiento.pdf Graphic file (type pdf)
-<use imagenes/Resultados/principal-acoplamiento.pdf>
-Package pdftex.def Info: imagenes/Resultados/principal-acoplamiento.pdf  used on input line 1056.
-(pdftex.def)             Requested size: 278.82402pt x 167.30655pt.
+ <./imagenes/Resultados/puentes_hidrogeno.png> <./imagenes/Resultados/rmsd-2.pdf>]
+<imagenes/Resultados/radio.pdf, id=678, 1126.11082pt x 686.2305pt>
+File: imagenes/Resultados/radio.pdf Graphic file (type pdf)
+<use imagenes/Resultados/radio.pdf>
+Package pdftex.def Info: imagenes/Resultados/radio.pdf  used on input line 1062.
+(pdftex.def)             Requested size: 284.8777pt x 173.59904pt.
 
-Overfull \vbox (22.97517pt too high) detected at line 1056
+Overfull \vbox (21.86768pt too high) detected at line 1062
  []
 
 
@@ -1862,18 +1942,14 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 
 [42
 
- <./imagenes/Resultados/principal-acoplamiento.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{tab:parametros_acoplamiento}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1092 \end{frame}
-                  
-<imagenes/Resultados/box-2.pdf, id=669, 567.0157pt x 579.43202pt>
-File: imagenes/Resultados/box-2.pdf Graphic file (type pdf)
-<use imagenes/Resultados/box-2.pdf>
-Package pdftex.def Info: imagenes/Resultados/box-2.pdf  used on input line 1092.
-(pdftex.def)             Requested size: 195.18802pt x 167.29713pt.
+ <./imagenes/Resultados/radio.pdf>]
+<imagenes/Resultados/hidrogeno.pdf, id=710, 740.82944pt x 621.25294pt>
+File: imagenes/Resultados/hidrogeno.pdf Graphic file (type pdf)
+<use imagenes/Resultados/hidrogeno.pdf>
+Package pdftex.def Info: imagenes/Resultados/hidrogeno.pdf  used on input line 1077.
+(pdftex.def)             Requested size: 207.01257pt x 173.59889pt.
 
-Overfull \vbox (22.96576pt too high) detected at line 1092
+Overfull \vbox (21.86752pt too high) detected at line 1077
  []
 
 
@@ -1883,16 +1959,12 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 
 [43
 
- <./imagenes/Resultados/box-2.pdf>]
-<imagenes/Resultados/histograma-1.png, id=686, 1300.86pt x 650.43pt>
-File: imagenes/Resultados/histograma-1.png Graphic file (type png)
-<use imagenes/Resultados/histograma-1.png>
-Package pdftex.def Info: imagenes/Resultados/histograma-1.png  used on input line 1106.
-(pdftex.def)             Requested size: 318.66386pt x 179.2509pt.
-
-Overfull \vbox (27.16243pt too high) detected at line 1106
- []
-
+ <./imagenes/Resultados/hidrogeno.pdf>]
+<imagenes/Resultados/pca_fel-1.pdf, id=732, 1142.72183pt x 307.79956pt>
+File: imagenes/Resultados/pca_fel-1.pdf Graphic file (type pdf)
+<use imagenes/Resultados/pca_fel-1.pdf>
+Package pdftex.def Info: imagenes/Resultados/pca_fel-1.pdf  used on input line 1090.
+(pdftex.def)             Requested size: 398.33704pt x 139.41966pt.
 
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []  []
@@ -1900,16 +1972,12 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 
 [44
 
- <./imagenes/Resultados/histograma-1.png>]
-<imagenes/Resultados/primera-pose.png, id=693, 946.53625pt x 881.2925pt>
-File: imagenes/Resultados/primera-pose.png Graphic file (type png)
-<use imagenes/Resultados/primera-pose.png>
-Package pdftex.def Info: imagenes/Resultados/primera-pose.png  used on input line 1148.
-(pdftex.def)             Requested size: 250.94646pt x 139.40942pt.
-
-Overfull \vbox (13.07805pt too high) detected at line 1148
- []
-
+ <./imagenes/Resultados/pca_fel-1.pdf>]
+<imagenes/Resultados/pca_fel-2.pdf, id=4059, 1166.71602pt x 311.09343pt>
+File: imagenes/Resultados/pca_fel-2.pdf Graphic file (type pdf)
+<use imagenes/Resultados/pca_fel-2.pdf>
+Package pdftex.def Info: imagenes/Resultados/pca_fel-2.pdf  used on input line 1107.
+(pdftex.def)             Requested size: 398.33385pt x 139.42586pt.
 
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []  []
@@ -1917,34 +1985,19 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 
 [45
 
- <./imagenes/Resultados/primera-pose.png>]
-<imagenes/Resultados/sitio-1.pdf, id=701, 566.9153pt x 757.91016pt>
-File: imagenes/Resultados/sitio-1.pdf Graphic file (type pdf)
-<use imagenes/Resultados/sitio-1.pdf>
-Package pdftex.def Info: imagenes/Resultados/sitio-1.pdf  used on input line 1178.
-(pdftex.def)             Requested size: 105.16315pt x 118.29596pt.
-<imagenes/Resultados/sitio-articulo.png, id=702, 565.11125pt x 494.84875pt>
-File: imagenes/Resultados/sitio-articulo.png Graphic file (type png)
-<use imagenes/Resultados/sitio-articulo.png>
-Package pdftex.def Info: imagenes/Resultados/sitio-articulo.png  used on input line 1178.
-(pdftex.def)             Requested size: 118.30608pt x 105.15962pt.
+ <./imagenes/Resultados/pca_fel-2.pdf>]
+<imagenes/Resultados/dccm-1.pdf, id=8054, 1375.71411pt x 370.33047pt>
+File: imagenes/Resultados/dccm-1.pdf Graphic file (type pdf)
+<use imagenes/Resultados/dccm-1.pdf>
+Package pdftex.def Info: imagenes/Resultados/dccm-1.pdf  used on input line 1118.
+(pdftex.def)             Requested size: 418.25923pt x 159.3294pt.
 
-Underfull \hbox (badness 2409) in paragraph at lines 1178--1178
-[]\OT1/Nunito-TLF/m/n/10.95 La re-gi[]on en-tre \OT1/Nunito-TLF/b/n/10.95 Trp61 \OT1/Nunito-TLF/m/n/10.95 y
+Overfull \hbox (19.92064pt too wide) in paragraph at lines 1118--1118
+ [] 
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 1178--1178
-\OT1/Nunito-TLF/m/n/10.95 vo ex-ten-di-do a aco-plar-se
- []
-
-
-Underfull \hbox (badness 4595) in paragraph at lines 1178--1178
-[]\OT1/Nunito-TLF/m/n/8 [[]] Yao, Y. et al.,\OT1/Nunito-TLF/m/it/8 Journal of the
- []
-
-
-Overfull \vbox (15.34082pt too high) detected at line 1178
+Overfull \vbox (36.45483pt too high) detected at line 1118
  []
 
 
@@ -1954,14 +2007,19 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 
 [46
 
- <./imagenes/Resultados/sitio-1.pdf> <./imagenes/Resultados/sitio-articulo.png>]
-<imagenes/Resultados/ileu67.png, id=727, 709.9323pt x 661.7523pt>
-File: imagenes/Resultados/ileu67.png Graphic file (type png)
-<use imagenes/Resultados/ileu67.png>
-Package pdftex.def Info: imagenes/Resultados/ileu67.png  used on input line 1219.
-(pdftex.def)             Requested size: 250.94987pt x 139.41637pt.
+ <./imagenes/Resultados/dccm-1.pdf>]
+<imagenes/Resultados/dccm-2.pdf, id=8072, 1350.79999pt x 356.59552pt>
+File: imagenes/Resultados/dccm-2.pdf Graphic file (type pdf)
+<use imagenes/Resultados/dccm-2.pdf>
+Package pdftex.def Info: imagenes/Resultados/dccm-2.pdf  used on input line 1129.
+(pdftex.def)             Requested size: 418.249pt x 159.32928pt.
 
-Overfull \vbox (13.08499pt too high) detected at line 1219
+Overfull \hbox (19.9104pt too wide) in paragraph at lines 1129--1129
+ [] 
+ []
+
+
+Overfull \vbox (45.33621pt too high) detected at line 1129
  []
 
 
@@ -1971,36 +2029,80 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 
 [47
 
- <./imagenes/Resultados/ileu67.png>] (./beamersapienza.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
+ <./imagenes/Resultados/dccm-2.pdf>]
+<imagenes/Resultados/dccm-3.pdf, id=8090, 891.9465pt x 713.88821pt>
+File: imagenes/Resultados/dccm-3.pdf Graphic file (type pdf)
+<use imagenes/Resultados/dccm-3.pdf>
+Package pdftex.def Info: imagenes/Resultados/dccm-3.pdf  used on input line 1141.
+(pdftex.def)             Requested size: 358.50075pt x 199.1684pt.
+
+Overfull \vbox (38.97531pt too high) detected at line 1141
+ []
+
+
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []  []
  []
 
 [48
 
-]
+ <./imagenes/Resultados/dccm-3.pdf>]
+<imagenes/Resultados/pca-common-1.pdf, id=8108, 756.4193pt x 232.84529pt>
+File: imagenes/Resultados/pca-common-1.pdf Graphic file (type pdf)
+<use imagenes/Resultados/pca-common-1.pdf>
+Package pdftex.def Info: imagenes/Resultados/pca-common-1.pdf  used on input line 1156.
+(pdftex.def)             Requested size: 418.2595pt x 159.33107pt.
+
+Overfull \hbox (19.92091pt too wide) in paragraph at lines 1156--1156
+ [] 
+ []
+
+
+Overfull \vbox (26.9565pt too high) detected at line 1156
+ []
+
+
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []  []
  []
 
 [49
 
-] (./beamersapienza.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
+ <./imagenes/Resultados/pca-common-1.pdf>]
+<imagenes/Resultados/pca-common-2.pdf, id=8139, 757.76227pt x 232.80765pt>
+File: imagenes/Resultados/pca-common-2.pdf Graphic file (type pdf)
+<use imagenes/Resultados/pca-common-2.pdf>
+Package pdftex.def Info: imagenes/Resultados/pca-common-2.pdf  used on input line 1171.
+(pdftex.def)             Requested size: 418.2621pt x 159.33728pt.
+
+Overfull \hbox (19.92351pt too wide) in paragraph at lines 1171--1171
+ [] 
+ []
+
+
+Overfull \vbox (26.36061pt too high) detected at line 1171
+ []
+
+
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []  []
  []
 
 [50
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 1250--1250
-[]\OT1/Nunito-TLF/m/n/10.95 Nuevo aco-pla-mien-to di-ri-gi-do pa-ra la pro-te[]^^Pna en con-for-ma-cion
+ <./imagenes/Resultados/pca-common-2.pdf>]
+<imagenes/Resultados/benza.pdf, id=8170, 674.98756pt x 734.116pt>
+File: imagenes/Resultados/benza.pdf Graphic file (type pdf)
+<use imagenes/Resultados/benza.pdf>
+Package pdftex.def Info: imagenes/Resultados/benza.pdf  used on input line 1198.
+(pdftex.def)             Requested size: 189.21022pt x 205.7751pt.
+<imagenes/Resultados/benza-3.png, id=8171, 722.7pt x 361.35pt>
+File: imagenes/Resultados/benza-3.png Graphic file (type png)
+<use imagenes/Resultados/benza-3.png>
+Package pdftex.def Info: imagenes/Resultados/benza-3.png  used on input line 1198.
+(pdftex.def)             Requested size: 189.21022pt x 94.60492pt.
+
+Overfull \vbox (46.34502pt too high) detected at line 1198
  []
 
 
@@ -2010,10 +2112,33 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 
 [51
 
-] (./beamersapienza.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
+pdfTeX warning (ext4): destination with the same identifier (name{fig:benzamida-3d}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1198 \end{frame}
+                   <./imagenes/Resultados/benza.pdf> <./imagenes/Resultados/benza-3.png>]
+File: imagenes/Resultados/benza.pdf Graphic file (type pdf)
+<use imagenes/Resultados/benza.pdf>
+Package pdftex.def Info: imagenes/Resultados/benza.pdf  used on input line 1223.
+(pdftex.def)             Requested size: 189.21022pt x 205.7751pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:benzamida-3d}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1223 \end{frame}
+                  
+File: imagenes/Resultados/benza-3.png Graphic file (type png)
+<use imagenes/Resultados/benza-3.png>
+Package pdftex.def Info: imagenes/Resultados/benza-3.png  used on input line 1223.
+(pdftex.def)             Requested size: 189.21022pt x 94.60492pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:benzamida-3d}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1223 \end{frame}
+                  
+Overfull \vbox (46.34502pt too high) detected at line 1223
+ []
+
+
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []  []
  []
@@ -2021,13 +2146,25 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 [52
 
 ]
-<imagenes/metodologia/cronograma.png, id=795, 770.88pt x 578.16pt>
-File: imagenes/metodologia/cronograma.png Graphic file (type png)
-<use imagenes/metodologia/cronograma.png>
-Package pdftex.def Info: imagenes/metodologia/cronograma.png  used on input line 1262.
-(pdftex.def)             Requested size: 358.50255pt x 199.16547pt.
-
-Overfull \vbox (23.79909pt too high) detected at line 1262
+File: imagenes/Resultados/benza.pdf Graphic file (type pdf)
+<use imagenes/Resultados/benza.pdf>
+Package pdftex.def Info: imagenes/Resultados/benza.pdf  used on input line 1250.
+(pdftex.def)             Requested size: 189.21022pt x 205.7751pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:benzamida-3d}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1250 \end{frame}
+                  
+File: imagenes/Resultados/benza-3.png Graphic file (type png)
+<use imagenes/Resultados/benza-3.png>
+Package pdftex.def Info: imagenes/Resultados/benza-3.png  used on input line 1250.
+(pdftex.def)             Requested size: 189.21022pt x 94.60492pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:benzamida-3d}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1250 \end{frame}
+                  
+Overfull \vbox (46.34502pt too high) detected at line 1250
  []
 
 
@@ -2037,17 +2174,58 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 
 [53
 
- <./imagenes/metodologia/cronograma.png (PNG copy)>] (./beamersapienza.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
+]
+File: imagenes/Resultados/benza.pdf Graphic file (type pdf)
+<use imagenes/Resultados/benza.pdf>
+Package pdftex.def Info: imagenes/Resultados/benza.pdf  used on input line 1275.
+(pdftex.def)             Requested size: 189.21022pt x 205.7751pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:benzamida-3d}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1275 \end{frame}
+                  
+File: imagenes/Resultados/benza.pdf Graphic file (type pdf)
+<use imagenes/Resultados/benza.pdf>
+Package pdftex.def Info: imagenes/Resultados/benza.pdf  used on input line 1275.
+(pdftex.def)             Requested size: 189.21022pt x 205.7751pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:benzamida-3d}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1275 \end{frame}
+                  
+Overfull \vbox (89.02414pt too high) detected at line 1275
+ []
+
+
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []  []
  []
 
 [54
 
-] (./beamersapienza.bbl)
+]
+File: imagenes/Resultados/benza.pdf Graphic file (type pdf)
+<use imagenes/Resultados/benza.pdf>
+Package pdftex.def Info: imagenes/Resultados/benza.pdf  used on input line 1300.
+(pdftex.def)             Requested size: 189.21022pt x 205.7751pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:benzamida-3d}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1300 \end{frame}
+                  
+File: imagenes/Resultados/benza.pdf Graphic file (type pdf)
+<use imagenes/Resultados/benza.pdf>
+Package pdftex.def Info: imagenes/Resultados/benza.pdf  used on input line 1300.
+(pdftex.def)             Requested size: 189.21022pt x 205.7751pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:benzamida-3d}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1300 \end{frame}
+                  
+Overfull \vbox (89.02414pt too high) detected at line 1300
+ []
+
+
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []  []
  []
@@ -2055,24 +2233,65 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 [55
 
 ]
+File: imagenes/Resultados/benza.pdf Graphic file (type pdf)
+<use imagenes/Resultados/benza.pdf>
+Package pdftex.def Info: imagenes/Resultados/benza.pdf  used on input line 1325.
+(pdftex.def)             Requested size: 189.21022pt x 205.7751pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:benzamida-3d}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1325 \end{frame}
+                  
+File: imagenes/Resultados/benza.pdf Graphic file (type pdf)
+<use imagenes/Resultados/benza.pdf>
+Package pdftex.def Info: imagenes/Resultados/benza.pdf  used on input line 1325.
+(pdftex.def)             Requested size: 189.21022pt x 205.7751pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:benzamida-3d}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1325 \end{frame}
+                  
+Overfull \vbox (89.02414pt too high) detected at line 1325
+ []
+
+
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []  []
  []
 
 [56
 
-
 ]
+<imagenes/Resultados/principal-acoplamiento.pdf, id=8222, 918.29016pt x 556.4672pt>
+File: imagenes/Resultados/principal-acoplamiento.pdf Graphic file (type pdf)
+<use imagenes/Resultados/principal-acoplamiento.pdf>
+Package pdftex.def Info: imagenes/Resultados/principal-acoplamiento.pdf  used on input line 1374.
+(pdftex.def)             Requested size: 278.82402pt x 167.30655pt.
+
+Overfull \vbox (22.97517pt too high) detected at line 1374
+ []
+
+
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []  []
  []
 
 [57
 
+ <./imagenes/Resultados/principal-acoplamiento.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{tab:parametros_acoplamiento}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1410 \end{frame}
+                  
+<imagenes/Resultados/box-2.pdf, id=8236, 567.0157pt x 579.43202pt>
+File: imagenes/Resultados/box-2.pdf Graphic file (type pdf)
+<use imagenes/Resultados/box-2.pdf>
+Package pdftex.def Info: imagenes/Resultados/box-2.pdf  used on input line 1410.
+(pdftex.def)             Requested size: 195.18802pt x 167.29713pt.
 
-]
-LaTeX Font Info:    Font shape `OT1/Nunito-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 1276.
+Overfull \vbox (22.96576pt too high) detected at line 1410
+ []
+
 
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []  []
@@ -2080,78 +2299,14 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 
 [58
 
-]
-<imagenes/Intro/bolsillos.png, id=845, 503.7219pt x 395.5578pt>
-File: imagenes/Intro/bolsillos.png Graphic file (type png)
-<use imagenes/Intro/bolsillos.png>
-Package pdftex.def Info: imagenes/Intro/bolsillos.png  used on input line 1322.
-(pdftex.def)             Requested size: 143.40082pt x 143.40262pt.
-pdfTeX warning (ext4): destination with the same identifier (name{dete}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1322 \end{frame}
-                  
-Underfull \hbox (badness 10000) in paragraph at lines 1322--1322
-[]|\OT1/Nunito-TLF/b/n/6 Funci[]on /
- []
+ <./imagenes/Resultados/box-2.pdf>]
+<imagenes/Resultados/histograma-1.png, id=8252, 1300.86pt x 650.43pt>
+File: imagenes/Resultados/histograma-1.png Graphic file (type png)
+<use imagenes/Resultados/histograma-1.png>
+Package pdftex.def Info: imagenes/Resultados/histograma-1.png  used on input line 1424.
+(pdftex.def)             Requested size: 318.66386pt x 179.2509pt.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1322--1322
-[]|\OT1/Nunito-TLF/m/n/6 Porci[]on hi-drof[]^^Pli-ca
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1322--1322
-\OT1/Nunito-TLF/m/n/6 esen-cial; evi-ta la
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1322--1322
-[]|\OT1/Nunito-TLF/m/n/6 Carga ne-ga-ti-va:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1322--1322
-\OT1/Nunito-TLF/m/n/6 Atrae re-si-duos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1322--1322
-\OT1/Nunito-TLF/m/n/6 po-si-ti-vos (Arg/Lys)
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 1322--1322
-[]|\OT1/Nunito-TLF/m/n/6 Estabiliza al re-si-duo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1322--1322
-\OT1/Nunito-TLF/m/n/6 P2 del sus-tra-to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1322--1322
-[]|\OT1/Nunito-TLF/b/n/6 Tr[]^^Pada Ca-tal[]^^Pti-ca:
- []
-
-
-Underfull \hbox (badness 7186) in paragraph at lines 1322--1322
-\OT1/Nunito-TLF/m/n/6 Si-tio cen-tral don-de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1322--1322
-\OT1/Nunito-TLF/m/n/6 ocu-rre la reac-ci[]on
- []
-
-
-Overfull \hbox (8.8643pt too wide) in paragraph at lines 1322--1322
- [] 
- []
-
-
-Overfull \vbox (25.18558pt too high) detected at line 1322
+Overfull \vbox (27.16243pt too high) detected at line 1424
  []
 
 
@@ -2161,14 +2316,14 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 
 [59
 
- <./imagenes/Intro/bolsillos.png>]
-<imagenes/Intro/ciclo-1.pdf, id=859, 1054.38718pt x 843.01527pt>
-File: imagenes/Intro/ciclo-1.pdf Graphic file (type pdf)
-<use imagenes/Intro/ciclo-1.pdf>
-Package pdftex.def Info: imagenes/Intro/ciclo-1.pdf  used on input line 1335.
-(pdftex.def)             Requested size: 298.7498pt x 191.20099pt.
+ <./imagenes/Resultados/histograma-1.png>]
+<imagenes/Resultados/primera-pose.png, id=8259, 946.53625pt x 881.2925pt>
+File: imagenes/Resultados/primera-pose.png Graphic file (type png)
+<use imagenes/Resultados/primera-pose.png>
+Package pdftex.def Info: imagenes/Resultados/primera-pose.png  used on input line 1466.
+(pdftex.def)             Requested size: 250.94646pt x 139.40942pt.
 
-Overfull \vbox (22.60556pt too high) detected at line 1335
+Overfull \vbox (13.07805pt too high) detected at line 1466
  []
 
 
@@ -2178,24 +2333,34 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 
 [60
 
- <./imagenes/Intro/ciclo-1.pdf>]
-Overfull \hbox (8.9667pt too wide) in paragraph at lines 1365--1365
-[]|\OT1/Nunito-TLF/m/n/10 Funcional| 
+ <./imagenes/Resultados/primera-pose.png>]
+<imagenes/Resultados/sitio-1.pdf, id=8267, 566.9153pt x 757.91016pt>
+File: imagenes/Resultados/sitio-1.pdf Graphic file (type pdf)
+<use imagenes/Resultados/sitio-1.pdf>
+Package pdftex.def Info: imagenes/Resultados/sitio-1.pdf  used on input line 1496.
+(pdftex.def)             Requested size: 105.16315pt x 118.29596pt.
+<imagenes/Resultados/sitio-articulo.png, id=8268, 565.11125pt x 494.84875pt>
+File: imagenes/Resultados/sitio-articulo.png Graphic file (type png)
+<use imagenes/Resultados/sitio-articulo.png>
+Package pdftex.def Info: imagenes/Resultados/sitio-articulo.png  used on input line 1496.
+(pdftex.def)             Requested size: 118.30608pt x 105.15962pt.
+
+Underfull \hbox (badness 2409) in paragraph at lines 1496--1496
+[]\OT1/Nunito-TLF/m/n/10.95 La re-gi[]on en-tre \OT1/Nunito-TLF/b/n/10.95 Trp61 \OT1/Nunito-TLF/m/n/10.95 y
  []
 
 
-Overfull \hbox (3.14674pt too wide) in paragraph at lines 1365--1365
-[]|\OT1/Nunito-TLF/m/n/10 M06-2X| 
+Underfull \hbox (badness 1137) in paragraph at lines 1496--1496
+\OT1/Nunito-TLF/m/n/10.95 vo ex-ten-di-do a aco-plar-se
  []
 
 
-Overfull \hbox (3.69678pt too wide) in paragraph at lines 1365--1365
-[]|\OT1/Nunito-TLF/m/n/10 PBEPBE| 
+Underfull \hbox (badness 4595) in paragraph at lines 1496--1496
+[]\OT1/Nunito-TLF/m/n/8 [[]] Yao, Y. et al.,\OT1/Nunito-TLF/m/it/8 Journal of the
  []
 
 
-Overfull \hbox (9.69678pt too wide) in paragraph at lines 1365--1365
-[]|\OT1/Nunito-TLF/m/n/10 PBE1PBE
+Overfull \vbox (15.34082pt too high) detected at line 1496
  []
 
 
@@ -2205,9 +2370,15 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 
 [61
 
-]
+ <./imagenes/Resultados/sitio-1.pdf> <./imagenes/Resultados/sitio-articulo.png>]
+<imagenes/Resultados/ileu67.png, id=8294, 709.9323pt x 661.7523pt>
+File: imagenes/Resultados/ileu67.png Graphic file (type png)
+<use imagenes/Resultados/ileu67.png>
+Package pdftex.def Info: imagenes/Resultados/ileu67.png  used on input line 1537.
+(pdftex.def)             Requested size: 250.94987pt x 139.41637pt.
 
-LaTeX Warning: Citation `kohn1965self' on page 62 undefined on input line 1377.
+Overfull \vbox (13.08499pt too high) detected at line 1537
+ []
 
 
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
@@ -2216,8 +2387,253 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 
 [62
 
+ <./imagenes/Resultados/ileu67.png>] (./beamersapienza.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[63
+
 ]
-Underfull \hbox (badness 1436) in paragraph at lines 1391--1391
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[64
+
+] (./beamersapienza.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[65
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1568--1568
+[]\OT1/Nunito-TLF/m/n/10.95 Nuevo aco-pla-mien-to di-ri-gi-do pa-ra la pro-te[]^^Pna en con-for-ma-cion
+ []
+
+
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[66
+
+] (./beamersapienza.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[67
+
+]
+<imagenes/metodologia/cronograma.png, id=8362, 770.88pt x 578.16pt>
+File: imagenes/metodologia/cronograma.png Graphic file (type png)
+<use imagenes/metodologia/cronograma.png>
+Package pdftex.def Info: imagenes/metodologia/cronograma.png  used on input line 1580.
+(pdftex.def)             Requested size: 358.50255pt x 199.16547pt.
+
+Overfull \vbox (23.79909pt too high) detected at line 1580
+ []
+
+
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[68
+
+ <./imagenes/metodologia/cronograma.png (PNG copy)>] (./beamersapienza.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[69
+
+] (./beamersapienza.bbl)
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[70
+
+]
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[71
+
+
+]
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[72
+
+
+]
+LaTeX Font Info:    Font shape `OT1/Nunito-TLF/m/n' will be
+(Font)              scaled to size 24.88pt on input line 1594.
+
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[73
+
+]
+<imagenes/Intro/bolsillos.png, id=8413, 503.7219pt x 395.5578pt>
+File: imagenes/Intro/bolsillos.png Graphic file (type png)
+<use imagenes/Intro/bolsillos.png>
+Package pdftex.def Info: imagenes/Intro/bolsillos.png  used on input line 1640.
+(pdftex.def)             Requested size: 143.40082pt x 143.40262pt.
+pdfTeX warning (ext4): destination with the same identifier (name{dete}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1640 \end{frame}
+                  
+Underfull \hbox (badness 10000) in paragraph at lines 1640--1640
+[]|\OT1/Nunito-TLF/b/n/6 Funci[]on /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1640--1640
+[]|\OT1/Nunito-TLF/m/n/6 Porci[]on hi-drof[]^^Pli-ca
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1640--1640
+\OT1/Nunito-TLF/m/n/6 esen-cial; evi-ta la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1640--1640
+[]|\OT1/Nunito-TLF/m/n/6 Carga ne-ga-ti-va:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1640--1640
+\OT1/Nunito-TLF/m/n/6 Atrae re-si-duos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1640--1640
+\OT1/Nunito-TLF/m/n/6 po-si-ti-vos (Arg/Lys)
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 1640--1640
+[]|\OT1/Nunito-TLF/m/n/6 Estabiliza al re-si-duo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1640--1640
+\OT1/Nunito-TLF/m/n/6 P2 del sus-tra-to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1640--1640
+[]|\OT1/Nunito-TLF/b/n/6 Tr[]^^Pada Ca-tal[]^^Pti-ca:
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 1640--1640
+\OT1/Nunito-TLF/m/n/6 Si-tio cen-tral don-de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1640--1640
+\OT1/Nunito-TLF/m/n/6 ocu-rre la reac-ci[]on
+ []
+
+
+Overfull \hbox (8.8643pt too wide) in paragraph at lines 1640--1640
+ [] 
+ []
+
+
+Overfull \vbox (25.18558pt too high) detected at line 1640
+ []
+
+
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[74
+
+ <./imagenes/Intro/bolsillos.png>]
+<imagenes/Intro/ciclo-1.pdf, id=8426, 1054.38718pt x 843.01527pt>
+File: imagenes/Intro/ciclo-1.pdf Graphic file (type pdf)
+<use imagenes/Intro/ciclo-1.pdf>
+Package pdftex.def Info: imagenes/Intro/ciclo-1.pdf  used on input line 1653.
+(pdftex.def)             Requested size: 298.7498pt x 191.20099pt.
+
+Overfull \vbox (22.60556pt too high) detected at line 1653
+ []
+
+
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[75
+
+ <./imagenes/Intro/ciclo-1.pdf>]
+Overfull \hbox (8.9667pt too wide) in paragraph at lines 1683--1683
+[]|\OT1/Nunito-TLF/m/n/10 Funcional| 
+ []
+
+
+Overfull \hbox (3.14674pt too wide) in paragraph at lines 1683--1683
+[]|\OT1/Nunito-TLF/m/n/10 M06-2X| 
+ []
+
+
+Overfull \hbox (3.69678pt too wide) in paragraph at lines 1683--1683
+[]|\OT1/Nunito-TLF/m/n/10 PBEPBE| 
+ []
+
+
+Overfull \hbox (9.69678pt too wide) in paragraph at lines 1683--1683
+[]|\OT1/Nunito-TLF/m/n/10 PBE1PBE
+ []
+
+
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[76
+
+]
+
+LaTeX Warning: Citation `kohn1965self' on page 77 undefined on input line 1695.
+
+
+Overfull \hbox (399.71457pt too wide) has occurred while \output is active
+[]  []
+ []
+
+[77
+
+]
+Underfull \hbox (badness 1436) in paragraph at lines 1709--1709
 \OT1/Nunito-TLF/m/it/8 in-ter-cam-bio \OT1/Nunito-TLF/m/n/8 y \OT1/Nunito-TLF/m/it/8 co-rre-la-ci[]on \OT1/Nunito-TLF/m/n/8 que apro-xi-ma la re-pul-si[]on
  []
 
@@ -2226,7 +2642,7 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []  []
  []
 
-[63
+[78
 
 ]
 \tf@nav=\write6
@@ -2252,18 +2668,18 @@ Package rerunfilecheck Info: File `beamersapienza.out' has not changed.
 (rerunfilecheck)             Checksum: 2EFBA066A89497118379EC7E9D54BCC5;1351.
  ) 
 Here is how much of TeX's memory you used:
- 30095 strings out of 478287
- 600251 string characters out of 5849289
- 843899 words of memory out of 5000000
- 47377 multiletter control sequences out of 15000+600000
+ 30241 strings out of 478287
+ 603882 string characters out of 5849289
+ 844488 words of memory out of 5000000
+ 47480 multiletter control sequences out of 15000+600000
  608296 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,18n,122p,733b,1152s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/nunito/a_wslvgt.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/nunito/a_hxzdi6.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/nunito/a_xzgqel.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/nunito/Nunito-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nunito/Nunito-BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nunito/Nunito-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nunito/Nunito-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on beamersapienza.pdf (63 pages, 71716571 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/nunito/a_wslvgt.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/nunito/a_hxzdi6.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/nunito/a_xzgqel.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/nunito/Nunito-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nunito/Nunito-BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nunito/Nunito-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nunito/Nunito-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on beamersapienza.pdf (78 pages, 79618361 bytes).
 PDF statistics:
- 1045 PDF objects out of 1200 (max. 8388607)
- 774 compressed objects within 8 object streams
- 170 named destinations out of 1000 (max. 500000)
- 369 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8620 PDF objects out of 8907 (max. 8388607)
+ 5802 compressed objects within 59 object streams
+ 201 named destinations out of 1000 (max. 500000)
+ 429 words of extra memory for PDF output out of 10000 (max. 10000000)
 
