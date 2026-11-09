@@ -1,50 +1,48 @@
-This is BibTeX, Version 0.99e
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: beamersapienza.aux
-Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
-Reallocating 'name_of_file' (item size: 1) to 8 items.
 Database file #1: ref.bib
 Warning--I didn't find a database entry for "kohn1965self"
-You've used 15 entries,
+You've used 13 entries,
             1876 wiz_defined-function locations,
-            589 strings with 7873 characters,
-and the built_in function-call counts, 5357 in all, are:
-= -- 508
-> -- 305
+            574 strings with 7197 characters,
+and the built_in function-call counts, 4449 in all, are:
+= -- 422
+> -- 250
 < -- 0
-+ -- 107
-- -- 92
-* -- 420
-:= -- 784
-add.period$ -- 16
-call.type$ -- 15
-change.case$ -- 15
++ -- 88
+- -- 75
+* -- 343
+:= -- 653
+add.period$ -- 14
+call.type$ -- 13
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 254
-empty$ -- 408
-format.name$ -- 92
-if$ -- 1277
+cite$ -- 13
+duplicate$ -- 216
+empty$ -- 342
+format.name$ -- 75
+if$ -- 1065
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 14
-newline$ -- 49
-num.names$ -- 15
-pop$ -- 29
+int.to.str$ -- 13
+missing$ -- 12
+newline$ -- 43
+num.names$ -- 13
+pop$ -- 27
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 213
+skip$ -- 179
 stack$ -- 0
-substring$ -- 349
-swap$ -- 138
+substring$ -- 269
+swap$ -- 116
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 47
-width$ -- 17
-write$ -- 162
+while$ -- 39
+width$ -- 15
+write$ -- 140
 (There was 1 warning)
