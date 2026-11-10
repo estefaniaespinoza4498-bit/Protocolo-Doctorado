@@ -51,7 +51,10 @@
 \contentsline {section}{\numberline {7.14}Estructura de la proteína NS2B-NS3}{54}{section.7.14}%
 \contentsline {section}{\numberline {7.15}Evaluación del acoplamiento molecular}{60}{section.7.15}%
 \contentsline {section}{\numberline {7.16}Análisis de correlación cruzada dinámica}{75}{section.7.16}%
-\contentsline {section}{\numberline {7.17}Análisis conformacional mediante dinámica molecular}{86}{section.7.17}%
+\contentsline {section}{\numberline {7.17}Análisis de componentes principales y paisajes de energía libre}{81}{section.7.17}%
+\contentsline {subsection}{\numberline {7.17.1}PCA en una base común}{81}{subsection.7.17.1}%
+\contentsline {subsection}{\numberline {7.17.2}Paisajes de energía libre (FEL)}{86}{subsection.7.17.2}%
+\contentsline {section}{\numberline {7.18}Análisis conformacional mediante dinámica molecular}{88}{section.7.18}%
 \contentsline {chapter}{\numberline {8}Conclusiones}{95}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Conclusiones de la funcionalización del fullereno C$_{60}$ con glicina}{95}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Conclusiones de las propiedades electrónicas y electrostáticas}{95}{section.8.2}%

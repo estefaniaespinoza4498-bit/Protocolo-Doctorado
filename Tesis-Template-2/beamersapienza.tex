@@ -3,11 +3,16 @@
 \usepackage{colortbl}
 %Tablas
 \usepackage[flushleft]{threeparttable}
+\usepackage[most]{tcolorbox}
 \usepackage{makecell,booktabs}
 \usepackage{booktabs}
 \usepackage{array}
 %%% Colores
 \usepackage{xcolor}
+\definecolor{proteincyan}{RGB}{30, 160, 180}
+\definecolor{proteinorange}{RGB}{230, 110, 30}
+\definecolor{bgcyan}{RGB}{238, 248, 250}
+\definecolor{bgorange}{RGB}{255, 244, 235}
 \definecolor{AzulOscuro}{RGB}{45, 62, 80}
 \definecolor{GrisClaro}{RGB}{240, 240, 240}
 \definecolor{AzulGris}{RGB}{119, 136, 153}
@@ -157,67 +162,197 @@ El virus del dengue es un flavivirus que pertenece a la familia Flaviviridae, el
 \end{frame}
 %--------------------------------------------------------------------------------------
 
+\begin{frame}{Regiones de cambio conformacional en NS2B-NS3}
+\begin{columns}[c]
+% Columna izquierda: Diagrama más compacto (42% del ancho)
+\begin{column}{0.40\textwidth}
+\centering
+\begin{tikzpicture}[
+  node distance=0.18cm,
+  node text/.style={text width=0.92\linewidth, align=left, font=\tiny},
+  box1/.style={rectangle, draw=cyan!75!black, fill=cyan!10, thick, rounded corners=3pt, inner sep=3.5pt, node text},
+  box2/.style={rectangle, draw=yellow!75!black, fill=yellow!12, thick, rounded corners=3pt, inner sep=3.5pt, node text},
+  box3/.style={rectangle, draw=orange!80!black, fill=orange!10, thick, rounded corners=3pt, inner sep=3.5pt, node text},
+  arrow/.style={-{Stealth[scale=0.75]}, thick, draw=gray!70}
+]
 
-\begin{frame}{Inhibidor alostérico}
-\begin{columns}
-\begin{column}{0.5\textwidth}
-\justifying
-Los residuos C-terminales del cofactor (Glu66–Leu95) son indispensables para estructurar el sitio activo. En esta zona, los aminoácidos Glu67–Asp76 forman las hebras $\beta_2$ y $\beta_3$. Por su parte, los residuos Arg78–Leu87 constituyen un bucle $\beta$ que abraza el barril C-terminal de NS3. Esta disposición posiciona aminoácidos clave (Gly151, Gly153 y Tyr161) para el reconocimiento del sustrato e interviene directamente en la conformación de los bolsillos S2 y S3.
+  % Bloque 1 (Cian, como el dominio NS3)
+  \node (n1) [box1] {
+    \textbf{\scriptsize Región C-terminal (Glu66--Leu95)}\\
+    Indispensable para estructurar el sitio activo.
+  };
+
+  % Bloque 2 (Amarillo, como la hebra/cofactor NS2B)
+  \node (n2) [box2, below=of n1] {
+    \textbf{\scriptsize Organización Estructural:}\\[1pt]
+    $\bullet$ \textbf{Glu67--Asp76:} Hebras $\beta_2$ y $\beta_3$\\
+    $\bullet$ \textbf{Arg78--Leu87:} Bucle $\beta$ (abraza a NS3)
+  };
+
+  % Bloque 3 (Naranja)
+  \node (n3) [box3, below=of n2] {
+    \textbf{\scriptsize Impacto Catalítico:}\\[1pt]
+    $\bullet$ Posiciona \textbf{Gly151, Gly153 y Tyr161}\\
+    $\bullet$ Conforma bolsillos \textbf{S2 y S3}
+  };
+
+  % Flechas
+  \draw [arrow] (n1) -- (n2);
+  \draw [arrow] (n2) -- (n3);
+
+\end{tikzpicture}
 \end{column}
-\begin{column}{0.5\textwidth}
+
+% Columna derecha: Imagen más grande (58% del ancho)
+\begin{column}{0.60\textwidth}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.7\textwidth,height=0.8\textwidth]{imagenes/Resultados/2FOM-bucles.png}
-  \caption{Estructura cristalina de la proteasa NS2B-NS3 en conformación abierta. Se destacan los dos barriles $\beta$ (N-terminal y C-terminal) que forman el núcleo catalítico de NS3}
-  \scriptsize{\cite{cavina2024orthoflaviviral}Cavina, L. et al.,\emph{Molecules}, 2024.}
-
+    \includegraphics[width=1.0\textwidth,height=0.80\textheight,keepaspectratio]{imagenes/Resultados/2FOM-bucles.png}
+    \caption{Estructura cristalina de la proteasa NS2B-NS3 en conformación abierta, mostrando los barriles $\beta$ (N y C-terminal) del núcleo catalítico de NS3.}
+    \scriptsize{\cite{cavina2024orthoflaviviral}Cavina, L. et al., \emph{Molecules}, 2024.}
 \end{figure}
 \end{column}
 \end{columns}
 \end{frame}
 %-----------------------------------------------------------------------------------------
-\begin{frame}{Inhibidor alostérico}
-\begin{columns}
-\begin{column}{0.2\textwidth}
-\justifying
-sin 
+\begin{frame}{Transición conformacional de la proteasa NS2B-NS3}
+\begin{columns}[c]
+
+% Columna izquierda: Texto en tamaño normal de Beamer (\scriptsize)
+\begin{column}{0.30\textwidth}
+
+% Viñetas en color naranja/amarillo
+\setbeamercolor{item}{fg=orange!90!black} 
+
+\begin{itemize}\setlength\itemsep{6pt}\scriptsize
+  \item \textbf{Transición:} \\
+    \textit{Apo} abierta (inactiva) $\rightarrow$ Cerrada (activa).
+
+  \item \textbf{Mecanismo:} \\
+    Plegamiento C-terminal de NS2B sobre NS3.
+
+  \item \textbf{Efecto catalítico:} \\
+    Conforma subsitios \textbf{S2 a S4}.
+
+  \item \textbf{Dinámica (RMN):} \\
+    Equilibrio rápido en solución.
+
+  \item \textbf{Función:} \\
+    Regulador alostérico.
+\end{itemize}
 \end{column}
-\begin{column}{0.8\textwidth}
-    \vspace{-3cm}
+
+% Columna derecha: Imagen equilibrada (65% del ancho)
+\begin{column}{0.7\textwidth}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1.0\textwidth,height=0.6\textwidth]{imagenes/Resultados/2FOM-conformaciones.png}
-  \caption{Comparación conformacional del complejo proteasa NS2B-NS3 \textbf{Izquierda:} Conformación abierta e inactiva en estado \textit{apo}. En esta forma, la región C-terminal del cofactor NS2B (amarillo) permanece desacoplada del dominio catalítico NS3 (cian). \textbf{Derecha:} Conformación cerrada y activa, la cual muestra el reordenamiento del bucle C-terminal de NS2B alrededor de NS3 para estructurar el sitio activo.}
-  \scriptsize{\cite{cavina2024orthoflaviviral}Cavina, L. et al.,\emph{Molecules}, 2024.}
-
+    \includegraphics[width=1.0\textwidth,height=0.8\textheight,keepaspectratio]{imagenes/Resultados/2FOM-conformaciones.png}
+    \caption{\scriptsize \textbf{Izquierda:} Estado \textit{apo} abierto (2FOM). \textbf{Derecha:} Conformación cerrada (2M9P). Tríada catalítica en bastones.}
+    \scriptsize{\cite{cavina2024orthoflaviviral}Cavina, L. et al., \emph{Molecules}, 2024.}
 \end{figure}
 \end{column}
+
 \end{columns}
 \end{frame}
-
 %-------------------------------------------------------------------------------------
 %--------------------------------------------------------------------------------------
-\begin{frame}{Regiones estructurales de la proteasa NS2B-NS3}
-\begin{columns}
-\begin{column}{0.5\textwidth}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=13cm]{imagenes/Resultados/2FOM-bucles.png}
-  \caption{Estructura cristalina de la proteasa NS2B-NS3 del DENV-2 en conformación abierta (PDB ID: 2FOM). Representación tridimensional en cinta del complejo en ausencia de ligando. Se destacan los dos barriles $\beta$ (N-terminal y C-terminal) que forman el núcleo catalítico de NS3, la hebra chaperona N-terminal del cofactor NS2B anclada a NS3 y el bucle $\beta$ C-terminal proyectado hacia el exterior, característico del estado inactivo o desacoplado \cite{li2020insights,de2011binding,maus2021sar}.}
-  \label{fig:ns2b_ns3_abierta}
-\end{figure}
-    \end{column}
+\begin{frame}{Regiones funcionales y regulación alostérica}
+\begin{columns}[c] % Alineación vertical al centro
 
+  % --- COLUMNA IZQUIERDA: IMAGEN CON ENTORNO FIGURE Y CAPTION ---
+  \begin{column}{0.55\textwidth}
+    \begin{figure}
+      \centering
+      \includegraphics[width=\linewidth]{imagenes/Resultados/alosterico-imagen.png}
+      \caption{Estructura cristalina de NS2B-NS3 en conformación abierta \cite{li2020insights}.}
+      \label{fig:ns2b_ns3_alosterico}
+    \end{figure}
+  \end{column}
 
-\begin{column}{0.4\textwidth}
-\justifying
-\textbf{Tipo de interacción:} Competitiva no covalente
+  % --- COLUMNA DERECHA: TEXTO Y FLECHAS ---
+  \begin{column}{0.43\textwidth}
+    
+    % Recuadro Cian
+    \begin{tcolorbox}[
+      colback=bgcyan, 
+      colframe=proteincyan, 
+      arc=3.5mm, 
+      boxrule=1pt, 
+      left=6pt, right=6pt, top=6pt, bottom=6pt
+    ]
+      \small \textbf{\textcolor{proteincyan}{Regulación Alostérica}} \\[2pt]
+      \scriptsize La interacción de un ligando en regiones alejadas del sitio activo modifica las interacciones intramoleculares y los movimientos colectivos.
+    \end{tcolorbox}
 
-\end{column}
+    \vspace{0.3cm}
+
+    % Lista de residuos con flechitas azules
+    \small \textbf{Red de puentes de hidrógeno:}
+
+    \begin{itemize}
+      \item Lys74 \ \textcolor{blue}{$\longrightarrow$} \ \scriptsize polar básico positivo
+      \item Gly148 \ \textcolor{blue}{$\longrightarrow$} \ \scriptsize no polar alifático
+      \item Asn152 \ \textcolor{blue}{$\longrightarrow$} \ \scriptsize polar no cargado
+    \end{itemize}
+
+  \end{column}
+
 \end{columns}
 \end{frame}
 
 %............................................................................
+\begin{frame}{Regiones funcionales y regulación ortostérica}
+  \centering
+  
+  % --- 1. PARTE SUPERIOR: IMAGEN CON CAPTION AUTOMÁTICO Y LABEL ---
+  \vspace{-1cm}
+  \begin{figure}
+    \centering
+    \includegraphics[height=4.5cm, keepaspectratio]{imagenes/Resultados/ortosterico-imagen.png}
+    \caption{Sitio activo y región ortostérica de la proteasa NS2B-NS3 \cite{li2020insights}.}
+    \label{fig:ns2b_ns3_ortosterico}
+  \end{figure}
+
+  \vspace{0.1cm}
+
+  % --- 2. PARTE INFERIOR: DOS COLUMNAS ---
+  \begin{columns}[c]
+
+    % Lado izquierdo: Recuadro naranja compacto
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[
+        colback=bgorange, 
+        colframe=proteinorange!70, 
+        arc=2mm, 
+        boxrule=0.7pt, 
+        left=5pt, right=5pt, top=3pt, bottom=4pt
+      ]
+        \scriptsize \textbf{\textcolor{proteinorange}{Sitio Ortostérico (Sitio Activo)}} \\[1.5pt]
+        \tiny Corresponde a la cavidad catalítica donde ocurre la unión directa del sustrato e inhibidores competitivos.
+      \end{tcolorbox}
+    \end{column}
+
+    % Lado derecho: Agujero oxianiónico con flechas
+    \begin{column}{0.48\textwidth}
+      \small \textbf{Agujero oxianiónico:}
+      
+      \begin{itemize}
+        \item Ser135 \ \textcolor{blue}{$\longrightarrow$} \ \scriptsize polar no cargado
+        \item Gly133 \ \textcolor{blue}{$\longrightarrow$} \ \scriptsize no polar alifático
+      \end{itemize}
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+
+
+
+
+
+%---------------------------------------------------------------------------------------------------
+
 
 \begin{frame}{ Actividad de la proteína NS2B-NS3}
 \begin{figure}[h]
@@ -942,17 +1077,6 @@ Isoleucina / Valina   & 32  & 1 \\
 
 \end{frame}
 %------------------------------------------------------------------------------------------------------------------
-
-\begin{frame}{DCCM}
-\begin{figure}[h]
-\vspace*{-0.15cm}
-    \centering
-    \includegraphics[width=0.9\textwidth,height=0.50\textwidth]{imagenes/Resultados/dccm-3.pdf}
-      \vspace*{-0.30cm}
-      \caption{\textbf{ Histograma de agrupamiento conformacional de las poses del ligando C\textsubscript{60}(\textit{Gly})\textsubscript{4} en el sitio alostérico de la proteína 2FOM. El análisis se realizó empleando una tolerancia de 8 \AA.}}
-\end{figure}
-
-\end{frame}
 %------------------------------------------------------------------------------------------------------------------------
 
 \begin{frame}{Common PCA}

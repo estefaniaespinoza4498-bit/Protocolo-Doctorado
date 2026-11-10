@@ -1,15 +1,12 @@
-This is BibTeX, Version 0.99e
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: beamersapienza.aux
-Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
-Reallocating 'name_of_file' (item size: 1) to 8 items.
 Database file #1: ref.bib
-Warning--I didn't find a database entry for "de2011binding"
 Warning--I didn't find a database entry for "kohn1965self"
 You've used 10 entries,
             1876 wiz_defined-function locations,
-            556 strings with 6595 characters,
+            555 strings with 6582 characters,
 and the built_in function-call counts, 3606 in all, are:
 = -- 339
 > -- 209
@@ -48,4 +45,4 @@ warning$ -- 0
 while$ -- 32
 width$ -- 12
 write$ -- 110
-(There were 2 warnings)
+(There was 1 warning)

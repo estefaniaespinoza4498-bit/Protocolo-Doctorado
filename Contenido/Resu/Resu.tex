@@ -840,29 +840,44 @@ En conjunto, el análisis de correlación cruzada dinámica muestra que el deriv
 
 Sin embargo, la conservación o modificación de los patrones de correlación no constituye evidencia suficiente para confirmar un mecanismo de inhibición ortostérica o alostérica. En consecuencia, los resultados obtenidos deben considerarse como una aproximación computacional al comportamiento dinámico de los complejos, que proporciona elementos para orientar análisis estructurales adicionales y futuras evaluaciones experimentales de la actividad inhibitoria del C$_{60}$(Gly)$_4$ frente a la proteasa NS2B-NS3.
 
+\section{Análisis de componentes principales y paisajes de energía libre}
+\label{sec:pca_fel}
+
+\subsection{PCA en una base común}
+
+Con la finalidad de examinar los movimientos colectivos de mayor contribución a las fluctuaciones estructurales, se realizó un análisis de componentes principales en un espacio conformacional común para los seis sistemas. Este procedimiento permite proyectar las configuraciones obtenidas durante las simulaciones sobre los componentes principales PC1 y PC2, que representan combinaciones de movimientos atómicos asociadas con las mayores variaciones estructurales del conjunto analizado.
+
+La Figura~\ref{fig:pca-comun} muestra la distribución de las conformaciones de cada sistema en el plano PC1--PC2, utilizando una escala de color para representar su evolución temporal. De esta manera, es posible examinar tanto la extensión del espacio conformacional explorado como la distribución de las configuraciones a lo largo de los 100 ns de simulación.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.80\textwidth]{imagenes/Resu/pca-common.pdf}
-   \caption{{Evolución temporal del espacio conformacional (PCA común).} 
-\textbf{a)} sitio alostérico con el ligando C$_{60}$(Gly)$_{4}$; 
-\textbf{b)} sitio alostérico con un derivado de benzamida; 
-\textbf{c)} sitio ortostérico con el ligando C$_{60}$(Gly)$_{4}$; 
-\textbf{d)} sitio ortostérico con el ligando 246DA; 
-\textbf{e)} acoplamiento ciego
-\textbf{f)} proteína en su conformación nativa (estado inactivo abierto).}
-    \label{fig:PCA-common}
-\end{figure}   
+    \caption{Proyección de las trayectorias de dinámica molecular sobre las dos primeras componentes principales de una base común de PCA durante 100~ns de simulación. \textbf{a)} C$_{60}$(Gly)$_4$ en la región alostérica; \textbf{b)} derivado de benzamida en la región alostérica; \textbf{c)} C$_{60}$(Gly)$_4$ en la región ortostérica; \textbf{d)} compuesto 246DA en la región ortostérica; \textbf{e)} C$_{60}$(Gly)$_4$ en la conformación obtenida mediante acoplamiento ciego; y \textbf{f)} proteína libre (\textit{apo}). La escala de color indica el tiempo de simulación.}
+    \label{fig:pca-comun}
+\end{figure}
 
-En la Figura~\ref{fig:PCA-common} se presenta el análisis de componentes principales compartidos (PCA Common) proyectado a lo largo de 100~ns de simulación para los seis sistemas evaluados (paneles a--f). El eje $X$ representa el primer componente principal ($PC1$), el cual describe el modo colectivo de movimiento de mayor amplitud estructural (como transiciones globales de apertura o cierre). Por su parte, el eje $Y$ corresponde al segundo componente principal ($PC2$), que captura el segundo modo de movimiento colectivo ortogonal e independiente a $PC1$. La escala cromática representa la evolución temporal de la trayectoria, transitando desde el tiempo inicial (0~ns, morado/azul) hasta el tiempo final (100~ns, amarillo).
+El análisis de componentes principales permite examinar cómo se distribuyen las conformaciones de NS2B--NS3 a lo largo de los movimientos colectivos representados por PC1 y PC2 (Figura~\ref{fig:pca-comun}). Las seis trayectorias se proyectaron sobre una base común, calculada utilizando 247 átomos C$\alpha$ y un procedimiento de alineamiento compartido. Por ello, las diferencias de posición y dispersión entre los paneles corresponden a distribuciones expresadas en un mismo espacio de proyección.
+
+La proteína libre (Figura~\ref{fig:pca-comun}, panel~f) presenta una distribución extendida, con una separación apreciable entre las regiones ocupadas al inicio y al final de la trayectoria. La progresión de los colores indica un desplazamiento desde valores positivos hacia valores negativos de PC1, acompañado de variaciones en PC2. El sistema con benzamida en la región alostérica (panel~b) muestra una organización temporal semejante en términos generales, aunque ocupa una distribución diferente. En ambos casos, la trayectoria explora sucesivamente distintas regiones del plano, en lugar de permanecer concentrada en una misma zona durante todo el intervalo.
+
+Para C$_{60}$(Gly)$_4$ en la región alostérica (panel~a), las configuraciones iniciales se localizan principalmente hacia valores positivos de PC1, mientras que las posteriores se distribuyen hacia valores menores, con un solapamiento parcial entre diferentes tiempos. En la región ortostérica (panel~c), el mismo derivado presenta una dispersión particularmente amplia sobre PC2. Esta diferencia muestra que los dos sistemas muestrean distribuciones distintas de los movimientos representados, aunque la proyección no identifica por sí sola los desplazamientos de residuos o dominios responsables.
+
+El complejo con 246DA (panel~d) concentra una parte importante de sus configuraciones en la zona inferior izquierda del plano, conservando una separación parcial entre las estructuras iniciales y finales. Por su parte, el sistema obtenido mediante acoplamiento ciego (panel~e) presenta la distribución visualmente más concentrada del conjunto, con un mayor solapamiento temporal. Este resultado describe una exploración más limitada en PC1 y PC2 durante la trayectoria analizada; no implica que todas las estructuras sean equivalentes ni que los movimientos en otras componentes estén igualmente restringidos.
+
+Estas diferencias complementan los paisajes de energía libre, construidos sobre los mismos ejes. Mientras que la proyección coloreada permite reconocer la evolución temporal de las configuraciones, el FEL describe su distribución relativa de población después del procesamiento aplicado. La interpretación conjunta permite distinguir entre regiones exploradas en diferentes momentos y zonas de mayor ocupación, sin asumir que la concentración de puntos o la presencia de mínimos relativos demuestren por sí solas convergencia o estabilidad termodinámica.
+
+En la Figura~\ref{fig:pca-comun} se presenta el análisis de componentes principales compartidos (PCA Common) proyectado a lo largo de 100~ns de simulación para los seis sistemas evaluados (paneles a--f). El eje $X$ representa el primer componente principal ($PC1$), el cual describe el modo colectivo de movimiento de mayor amplitud estructural (como transiciones globales de apertura o cierre). Por su parte, el eje $Y$ corresponde al segundo componente principal ($PC2$), que captura el segundo modo de movimiento colectivo ortogonal e independiente a $PC1$. La escala cromática representa la evolución temporal de la trayectoria, transitando desde el tiempo inicial (0~ns, morado/azul) hasta el tiempo final (100~ns, amarillo).
 
 El sistema alostérico $\text{C}_{60}(\text{Gly})_4$ (\textbf{a}) muestra una amplia dispersión conformacional, iniciando en valores positivos de $PC1$ ($\approx 60\text{ \AA}$) y desplazándose hacia regiones de $PC2 \approx 30\text{ \AA}$ en los tiempos finales de simulación. Aunque el sistema muestra cierta estabilidad al final de la trayectoria, la presencia del compuesto promueve un comportamiento dinámico y fluctuante. En contraste, el sistema alostérico benzamida (\textbf{b}) exhibe una transición conformacional altamente direccionada en forma de arco, la cual inicia en $PC1 \approx 50\text{ \AA}$ y evoluciona de manera continua hasta alcanzar valores de $PC2 \approx 40\text{ \AA}$. Esta trayectoria sugiere que, si bien la estructura mantiene un comportamiento dinámico, transita hacia un estado final bien definido y estable.
 
 Por otro lado, el sistema otostérico $\text{C}_{60}(\text{Gly})_4$ (\textbf{c}) presenta una variación conformacional sustancial en ambos componentes, alcanzando valores de $PC2$ inusualmente elevados ($\approx 40\text{ a }80\text{ \AA}$) entre los 50 y 100~ns. Esto indica que el ligando acoplado al sitio otostérico induce perturbaciones estructurales severas y modos de movimiento no explorados por los demás sistemas. En contraste, el ligando ortostérico 246DA (\textbf{d}) evoluciona progresivamente desde $PC1$ positivo hacia regiones de $PC1$ negativo y $PC2$ entre $-20$ y $-40\text{ \AA}$, evidenciando una dinámica estructural coordinada y con menor amplitud de fluctuación.
 
-El sistema de restricción (\textbf{e}, Ciego) se mantiene confinado en una región sumamente acotada del espacio vectorial ($PC1 \approx 0\text{ \AA}$, $PC2 \approx 0\text{ \AA}$) durante los 100~ns, lo que confirma una drástica pérdida de flexibilidad y la incapacidad de explorar el espacio conformacional. Finalmente, la proteína libre (\textbf{f}, Apo 2FOM) despliega una transición amplia e intrínseca desde $PC1 \approx 50\text{ \AA}$ hasta $PC1 \approx -40\text{ \AA}$, representando el patrón de movilidad natural del sistema en ausencia de ligandos.
+El sistema de restricción (\textbf{e}, Ciego) se mantiene confinado en una región sumamente acotada del espacio vectorial ($PC1 \approx 0\text{ \AA}$, $PC2 \approx 0\text{ \AA}$) durante los 100~ns, lo que confirma una drástica pérdida de flexibilidad y la incapacidad de explorar el espacio conformacional. Finalmente, la proteína libre (\textbf{f}, NS2B-NS3 libre, estado apo) despliega una transición amplia e intrínseca desde $PC1 \approx 50\text{ \AA}$ hasta $PC1 \approx -40\text{ \AA}$, representando el patrón de movilidad natural del sistema en ausencia de ligandos.
 
 Al comparar la influencia de los compuestos frente al estado apoproteico (\textbf{f}), se observa que el sistema alostérico benzamida (\textbf{b}) y el ortostérico 246DA (\textbf{d}) son los que mejor conservan una dinámica ordenada y estable. Por el contrario, los derivados de $\text{C}_{60}(\text{Gly})_4$ (\textbf{a} y \textbf{c}) introducen fluctuaciones atípicas o dispersiones mayoritarias, demostrando que la naturaleza química y la ubicación del sitio de unión (alostérico vs. otostérico/ortostérico) modulan de forma diferenciada el paisaje dinámico de la macromolécula.
 
+
+\subsection{Paisajes de energía libre (FEL)}
 
 \begin{figure}[H]
     \centering
@@ -872,8 +887,8 @@ Al comparar la influencia de los compuestos frente al estado apoproteico (\textb
 \textbf{b)} sitio alostérico con el ligando de benzamida; 
 \textbf{c)} sitio ortostérico con el ligando C$_{60}$(Gly)$_{4}$; 
 \textbf{d)} sitio ortostérico con el ligando 246DA; 
-\textbf{e)} acoplamiento ciego
-\textbf{f)} proteína en su conformación nativa (estado inactivo abierto).}
+\textbf{e)} acoplamiento ciego;
+\textbf{f)} proteasa NS2B-NS3 libre (estado \textit{apo}), simulada a partir de la conformación abierta.}
    
     \label{fig:pca-fel}
 \end{figure} 
@@ -893,10 +908,11 @@ El sistema con 246DA en la región ortostérica (panel~d) presenta una superfici
 El sistema obtenido mediante acoplamiento ciego (panel~e) se distingue por concentrar su región principal en un intervalo positivo y relativamente reducido de PC1. Dentro de esta región, las zonas de menor energía se agrupan hacia la parte central e inferior derecha, mientras que las pequeñas regiones aisladas presentan energías relativas mayores. En comparación con los sistemas alostérico y ortostérico de C$_{60}$(Gly)$_4$, este paisaje muestra una ocupación más localizada del espacio proyectado. La diferencia es particularmente clara frente al sistema ortostérico, cuya distribución se extiende ampliamente sobre PC2. No obstante, la concentración observada no implica que el sistema permanezca en una única conformación ni permite descartar movimientos relevantes en otras componentes.
 
 La comparación de los seis paisajes muestra que las diferencias no se limitan a la amplitud de las superficies, sino que también involucran la localización y distribución de sus regiones más pobladas. La proteína libre y el sistema con benzamida presentan superficies curvadas, aunque con distinta organización de sus mínimos; los sistemas con C$_{60}$(Gly)$_4$ en las regiones alostérica y ortostérica muestran distribuciones amplias con preferencias poblacionales diferentes; y los sistemas con 246DA y de acoplamiento ciego concentran sus zonas favorecidas en sectores más delimitados. Estas observaciones complementan el PCA al describir la ocupación relativa del espacio conformacional, pero requieren relacionarse con estructuras representativas para identificar los movimientos asociados. Asimismo, la presencia de varias regiones de baja energía no demuestra por sí sola estados metaestables, barreras cinéticas o convergencia del muestreo.
+
 \section{Análisis conformacional mediante dinámica molecular}
 \label{sec:analisis_conformacional}
 
-Con el propósito de evaluar el comportamiento estructural de la proteasa NS2B-NS3 durante las simulaciones de dinámica molecular, se analizaron la desviación cuadrática media (RMSD), el espacio conformacional mediante análisis de componentes principales (PCA) y los paisajes de energía libre (FEL). Estos parámetros permiten examinar diferentes aspectos de la evolución de los sistemas, desde los cambios estructurales globales respecto a una conformación de referencia hasta la distribución de las configuraciones exploradas durante los 100 ns de simulación.
+Con el propósito de evaluar el comportamiento estructural de la proteasa NS2B-NS3 durante las simulaciones de dinámica molecular, se analizaron la desviación cuadrática media (RMSD), la fluctuación cuadrática media (RMSF), el área superficial accesible al solvente (SASA) y el radio de giro. Estos parámetros permiten examinar los cambios estructurales globales, la movilidad local, la exposición al solvente y la compactación de los sistemas durante los 100 ns de simulación.
 
 Inicialmente, se calculó el RMSD de los átomos C$\alpha$ para la proteína libre y los cinco sistemas proteína--ligando. Este parámetro permite cuantificar las diferencias estructurales respecto a una conformación de referencia a lo largo de la trayectoria, por lo que resulta útil para identificar periodos de ajuste conformacional, cambios sostenidos en la estructura y posibles intervalos de comportamiento relativamente estacionario. Los resultados se presentan en la Figura~\ref{fig:RMSD}.
 
@@ -924,27 +940,6 @@ El sistema correspondiente al acoplamiento ciego del C$_{60}$(Gly)$_4$ mostró u
 Por otra parte, el sistema con C$_{60}$(Gly)$_4$ en la región ortostérica alcanzó algunos de los valores más elevados, aproximadamente entre 0.75 y 0.85 nm durante la etapa final de la simulación. Este comportamiento indica una mayor diferencia estructural respecto a su conformación inicial en comparación con los valores observados para otros sistemas. Dado que el derivado presenta un núcleo de fullereno voluminoso y varios sustituyentes polares, resulta pertinente considerar que su presencia en el entorno catalítico podría estar asociada con ajustes conformacionales de la proteína. No obstante, el RMSD global no permite localizar dichos cambios ni atribuirlos exclusivamente al bolsillo de unión.
 
 En conjunto, los perfiles de RMSD muestran que los seis sistemas experimentaron cambios estructurales durante los 100 ns de simulación, con diferencias en la magnitud y evolución temporal de sus desviaciones. Mientras que los sistemas correspondientes al acoplamiento ciego y al derivado alostérico presentaron periodos de fluctuación relativamente delimitados, el sistema ortostérico con C$_{60}$(Gly)$_4$ alcanzó desviaciones más elevadas respecto a su estructura inicial. Estas observaciones permiten identificar comportamientos conformacionales diferenciados, cuya interpretación puede complementarse mediante el análisis de componentes principales.
-
-Con la finalidad de examinar los movimientos colectivos de mayor contribución a las fluctuaciones estructurales, se realizó un análisis de componentes principales en un espacio conformacional común para los seis sistemas. Este procedimiento permite proyectar las configuraciones obtenidas durante las simulaciones sobre los componentes principales PC1 y PC2, que representan combinaciones de movimientos atómicos asociadas con las mayores variaciones estructurales del conjunto analizado.
-
-La Figura~\ref{fig:pca-comun} muestra la distribución de las conformaciones de cada sistema en el plano PC1--PC2, utilizando una escala de color para representar su evolución temporal. De esta manera, es posible examinar tanto la extensión del espacio conformacional explorado como la distribución de las configuraciones a lo largo de los 100 ns de simulación.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.80\textwidth]{imagenes/Resu/pca-common.pdf}
-    \caption{Proyección de las trayectorias de dinámica molecular sobre las dos primeras componentes principales de una base común de PCA durante 100~ns de simulación. \textbf{a)} C$_{60}$(Gly)$_4$ en la región alostérica; \textbf{b)} derivado de benzamida en la región alostérica; \textbf{c)} C$_{60}$(Gly)$_4$ en la región ortostérica; \textbf{d)} compuesto 246DA en la región ortostérica; \textbf{e)} C$_{60}$(Gly)$_4$ en la conformación obtenida mediante acoplamiento ciego; y \textbf{f)} proteína libre (\textit{apo}). La escala de color indica el tiempo de simulación.}
-    \label{fig:pca-comun}
-\end{figure}
-
-El análisis de componentes principales permite examinar cómo se distribuyen las conformaciones de NS2B--NS3 a lo largo de los movimientos colectivos representados por PC1 y PC2 (Figura~\ref{fig:pca-comun}). Las seis trayectorias se proyectaron sobre una base común, calculada utilizando 247 átomos C$\alpha$ y un procedimiento de alineamiento compartido. Por ello, las diferencias de posición y dispersión entre los paneles corresponden a distribuciones expresadas en un mismo espacio de proyección.
-
-La proteína libre (Figura~\ref{fig:pca-comun}, panel~f) presenta una distribución extendida, con una separación apreciable entre las regiones ocupadas al inicio y al final de la trayectoria. La progresión de los colores indica un desplazamiento desde valores positivos hacia valores negativos de PC1, acompañado de variaciones en PC2. El sistema con benzamida en la región alostérica (panel~b) muestra una organización temporal semejante en términos generales, aunque ocupa una distribución diferente. En ambos casos, la trayectoria explora sucesivamente distintas regiones del plano, en lugar de permanecer concentrada en una misma zona durante todo el intervalo.
-
-Para C$_{60}$(Gly)$_4$ en la región alostérica (panel~a), las configuraciones iniciales se localizan principalmente hacia valores positivos de PC1, mientras que las posteriores se distribuyen hacia valores menores, con un solapamiento parcial entre diferentes tiempos. En la región ortostérica (panel~c), el mismo derivado presenta una dispersión particularmente amplia sobre PC2. Esta diferencia muestra que los dos sistemas muestrean distribuciones distintas de los movimientos representados, aunque la proyección no identifica por sí sola los desplazamientos de residuos o dominios responsables.
-
-El complejo con 246DA (panel~d) concentra una parte importante de sus configuraciones en la zona inferior izquierda del plano, conservando una separación parcial entre las estructuras iniciales y finales. Por su parte, el sistema obtenido mediante acoplamiento ciego (panel~e) presenta la distribución visualmente más concentrada del conjunto, con un mayor solapamiento temporal. Este resultado describe una exploración más limitada en PC1 y PC2 durante la trayectoria analizada; no implica que todas las estructuras sean equivalentes ni que los movimientos en otras componentes estén igualmente restringidos.
-
-Estas diferencias complementan los paisajes de energía libre, construidos sobre los mismos ejes. Mientras que la proyección coloreada permite reconocer la evolución temporal de las configuraciones, el FEL describe su distribución relativa de población después del procesamiento aplicado. La interpretación conjunta permite distinguir entre regiones exploradas en diferentes momentos y zonas de mayor ocupación, sin asumir que la concentración de puntos o la presencia de mínimos relativos demuestren por sí solas convergencia o estabilidad termodinámica.
 
 \begin{figure}[H]
     \centering
