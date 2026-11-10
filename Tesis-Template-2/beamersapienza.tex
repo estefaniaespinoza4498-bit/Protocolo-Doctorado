@@ -158,92 +158,66 @@ El virus del dengue es un flavivirus que pertenece a la familia Flaviviridae, el
 %--------------------------------------------------------------------------------------
 
 
-\begin{frame}{Panorama Epidemiológico en México}
+\begin{frame}{Inhibidor alostérico}
 \begin{columns}
-\begin{column}{0.6\textwidth}
-\begin{table} % <--- Este es el que faltaba abrir
-    \centering
-    \scriptsize 
-    \renewcommand{\arraystretch}{1.3} 
-    \setlength{\tabcolsep}{3pt} 
-    
-    \caption{Casos y Defunciones al corte de la Semana 14; México, 2025 - 2026.}
-    \resizebox{\linewidth}{!}{
-    \begin{tabular}{l  c  c  c  c  c}
-        \rowcolor[HTML]{800000} 
-        \color{white}\textbf{Indicador} & 
-        \color{white}\textbf{\shortstack{Casos \\ nuevos}} & 
-        \color{white}\textbf{\shortstack{Casos \\ acumulados \\ 2026}} & 
-        \color{white}\textbf{Incidencia} &
-        \color{white}\textbf{\shortstack{Casos \\ acumulados \\ 2025}} & 
-        \color{white}\textbf{Incidencia} \\
-        \hline
-        
-        \rowcolor[HTML]{F2F2F2} Probables & 704 & 14,440 & 10.74 & 26,246 & 19.68 \\
-        \textbf{Confirmados} & & & & & \\
-        \rowcolor[HTML]{F2F2F2} \hspace{0.2cm} Dengue no grave & 36 & 607 & 0.45 & 1,117 & 0.84 \\
-        \hspace{0.2cm}  Dengue con signos de alarma / grave & 41 & 801 & 0.60 & 1,456 & 1.09 \\
-        \rowcolor[HTML]{F2F2F2} \hspace{0.2cm} Total de casos & 78 & 1,408 & 1.05 & 2,573 & 1.93 \\
-        Defunciones & 0 & 3 & 0.00 & 12 & 0.82 \\
-        \rowcolor[HTML]{F2F2F2} Estimados & 141 & 2,779 & 2.07 & 6,722 & 5.04 \\
-        \hline
-    \end{tabular}
-    }
-\end{table} 
-\vspace{1cm}
-\scriptsize{\cite{DGE2026} Secretaría de Salud, DGE (2026). Informe sobre la situación del dengue.}
+\begin{column}{0.5\textwidth}
+\justifying
+Los residuos C-terminales del cofactor (Glu66–Leu95) son indispensables para estructurar el sitio activo. En esta zona, los aminoácidos Glu67–Asp76 forman las hebras $\beta_2$ y $\beta_3$. Por su parte, los residuos Arg78–Leu87 constituyen un bucle $\beta$ que abraza el barril C-terminal de NS3. Esta disposición posiciona aminoácidos clave (Gly151, Gly153 y Tyr161) para el reconocimiento del sustrato e interviene directamente en la conformación de los bolsillos S2 y S3.
 \end{column}
-\begin{column}{0.4\textwidth}
-\vspace*{-1cm}
-\begin{figure}
+\begin{column}{0.5\textwidth}
+\begin{figure}[h]
     \centering
-    \includegraphics[width=1\textwidth, height=1.02\textwidth]{imagenes/Ante/casos_confirmados.png} 
-   \textbf{ \caption{\justifying Serotipos identificados e incidencia de casos confirmados por entidad federativa; México, 2026 \cite{DGE2026}.}}
-    \label{sun} %Esto genera un numero a mi etiqueta
+    \includegraphics[width=0.7\textwidth,height=0.8\textwidth]{imagenes/Resultados/2FOM-bucles.png}
+  \caption{Estructura cristalina de la proteasa NS2B-NS3 en conformación abierta. Se destacan los dos barriles $\beta$ (N-terminal y C-terminal) que forman el núcleo catalítico de NS3}
+  \scriptsize{\cite{cavina2024orthoflaviviral}Cavina, L. et al.,\emph{Molecules}, 2024.}
+
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+%-----------------------------------------------------------------------------------------
+\begin{frame}{Inhibidor alostérico}
+\begin{columns}
+\begin{column}{0.2\textwidth}
+\justifying
+sin 
+\end{column}
+\begin{column}{0.8\textwidth}
+    \vspace{-3cm}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1.0\textwidth,height=0.6\textwidth]{imagenes/Resultados/2FOM-conformaciones.png}
+  \caption{Comparación conformacional del complejo proteasa NS2B-NS3 \textbf{Izquierda:} Conformación abierta e inactiva en estado \textit{apo}. En esta forma, la región C-terminal del cofactor NS2B (amarillo) permanece desacoplada del dominio catalítico NS3 (cian). \textbf{Derecha:} Conformación cerrada y activa, la cual muestra el reordenamiento del bucle C-terminal de NS2B alrededor de NS3 para estructurar el sitio activo.}
+  \scriptsize{\cite{cavina2024orthoflaviviral}Cavina, L. et al.,\emph{Molecules}, 2024.}
+
 \end{figure}
 \end{column}
 \end{columns}
 \end{frame}
 
-
-
-
-
-
-\begin{frame}{Estructura del genoma del virus del dengue}
-
+%-------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------
+\begin{frame}{Regiones estructurales de la proteasa NS2B-NS3}
 \begin{columns}
-\justifying
-\begin{column}{0.6\textwidth}
-
-\vspace*{-0.5cm}
-\begin{figure}
-    \centering
-    \includegraphics[width=1.1\textwidth, height=0.6\textwidth]{imagenes/Ante/proteinas-conformación.pdf} 
-  \caption{\justifying\textbf{ El genoma del virus del dengue  \cite{dhole2024host}.}}
-    \label{dete} %Esto genera un numero a mi etiqueta
-
-\end{figure} 
+\begin{column}{0.5\textwidth}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=13cm]{imagenes/Resultados/2FOM-bucles.png}
+  \caption{Estructura cristalina de la proteasa NS2B-NS3 del DENV-2 en conformación abierta (PDB ID: 2FOM). Representación tridimensional en cinta del complejo en ausencia de ligando. Se destacan los dos barriles $\beta$ (N-terminal y C-terminal) que forman el núcleo catalítico de NS3, la hebra chaperona N-terminal del cofactor NS2B anclada a NS3 y el bucle $\beta$ C-terminal proyectado hacia el exterior, característico del estado inactivo o desacoplado \cite{li2020insights,de2011binding,maus2021sar}.}
+  \label{fig:ns2b_ns3_abierta}
+\end{figure}
+    \end{column}
 
 
-\end{column}
 \begin{column}{0.4\textwidth}
 \justifying
-El DENV es un virus envuelto, con tamaño de virión de 50 nm, y contiene un ARN monocatenario de sentido positivo, de aproximadamente 11 kb de tamaño\cite{pourzangiabadi2025dengue}.\\
-\vspace{2.5cm}
-
-
-%\scriptsize{\cite{pourzangiabadi2025dengue} Pourzangiabadi et al., infection, Genetics and Evolution,2025.}
-%\scriptsize{\cite{dhole2024host} Dhole et al., Inmmuno,2024}
-\scriptsize{\cite{pourzangiabadi2025dengue} Pourzangiabadi et al., \textit{Infection, Genetics and Evolution}, 2025.}\\
-\scriptsize{\cite{dhole2024host} Dhole et al., \textit{Immuno}, 2024.}
-
+\textbf{Tipo de interacción:} Competitiva no covalente
 
 \end{column}
 \end{columns}
-
 \end{frame}
 
+%............................................................................
 
 \begin{frame}{ Actividad de la proteína NS2B-NS3}
 \begin{figure}[h]
