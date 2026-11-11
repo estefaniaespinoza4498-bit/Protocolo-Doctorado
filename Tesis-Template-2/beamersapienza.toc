@@ -1,13 +1,13 @@
 \babel@toc {spanish}{}\relax 
 \beamer@sectionintoc {1}{Introducción}{2}{0}{1}
 \beamer@sectionintoc {2}{Antecedentes}{4}{0}{2}
-\beamer@sectionintoc {3}{Planteamiento del problema}{22}{0}{3}
-\beamer@sectionintoc {4}{Justificación}{24}{0}{4}
-\beamer@sectionintoc {5}{Hipótesis}{26}{0}{5}
-\beamer@sectionintoc {6}{Objetivos}{28}{0}{6}
-\beamer@sectionintoc {7}{Metodología}{30}{0}{7}
-\beamer@sectionintoc {8}{Resultados y Discusiones}{31}{0}{8}
-\beamer@sectionintoc {9}{Conclusiones}{55}{0}{9}
-\beamer@sectionintoc {10}{Perspectivas}{57}{0}{10}
-\beamer@sectionintoc {11}{Cronograma}{59}{0}{11}
-\beamer@sectionintoc {12}{Referencias}{61}{0}{12}
+\beamer@sectionintoc {3}{Planteamiento del problema}{20}{0}{3}
+\beamer@sectionintoc {4}{Justificación}{22}{0}{4}
+\beamer@sectionintoc {5}{Hipótesis}{24}{0}{5}
+\beamer@sectionintoc {6}{Objetivos}{26}{0}{6}
+\beamer@sectionintoc {7}{Metodología}{28}{0}{7}
+\beamer@sectionintoc {8}{Resultados y Discusiones}{30}{0}{8}
+\beamer@sectionintoc {9}{Conclusiones}{54}{0}{9}
+\beamer@sectionintoc {10}{Perspectivas}{56}{0}{10}
+\beamer@sectionintoc {11}{Cronograma}{58}{0}{11}
+\beamer@sectionintoc {12}{Referencias}{60}{0}{12}
