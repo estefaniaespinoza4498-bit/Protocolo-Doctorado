@@ -45,11 +45,11 @@
 \newcommand{\hrefcol}[2]{\textcolor{cyan}{\href{#1}{#2}}}
 \vspace{-1cm}
 \title{\small \centering \fontfamily{ptm}\selectfont Estudio \textit{in silico} del C\textsubscript{60} funcionalizado con glicina: propiedades relacionadas con la estructura electrónica, acoplamiento con la proteína NS2B-NS3 del virus del \textit{Dengue} y dinámica molecular}
-\subtitle{Seminario de tesis I \\ Maestría en Ciencia y Tecnología}
+\subtitle{Seminario de tesis II \\ Maestría en Ciencia y Tecnología}
 \course{\textbf{Director de Tesis:} \\ Dr. Zuriel Natanael Cisneros García\\ \textbf{Codirector de Tesis:} \\ Dr. Carlos Iván Mendez Barrientos}
 \author{Estefanía Espinoza Carmona}
 \IDnumber{213449821}
-\date{\small Lagos de Moreno, Jal., Mex. a 29 de mayo del 2026}
+\date{\small Lagos de Moreno, Jal., Mex. a 19 de noviembre del 2026}
 \usepackage{gensymb}
 \usepackage{multirow} 
 \usepackage{geometry}
@@ -67,97 +67,108 @@
 \maketitle
 
 \section{Introducción}
+
 \begin{frame}{Introducción}
-\begin{columns}[t]
-\begin{column}{0.3\textwidth}
+
+\begin{columns}[T,onlytextwidth]
+
+% PRIMERA COLUMNA: POTENCIAL BIOMÉDICO
+\begin{column}{0.6\textwidth}
+
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth, height=0.8\textwidth]{imagenes/Intro/fullereno.png} 
-  \textbf{  \caption{\justifying Representación geométrica del fullereno C\textsubscript{60}.}}
-    \label{int:1} %Esto genera un numero a mi etiqueta
+    \includegraphics[
+        width=\textwidth,
+        height=0.58\textheight,
+        keepaspectratio
+    ]{imagenes/Resultados/Potential.png}
+
+    \caption{\justifying
+    Potencial biomédico del fulereno
+    C\textsubscript{60}: actividad antiviral,
+    antibacteriana, antioxidante e
+    inducción de apoptosis.
+    }
+    \label{fig:potencial}
 \end{figure}
+
 \end{column}
 
-\begin{column}{0.3\textwidth}
-\vspace*{-1cm}
-   \begin{figure}
-    \centering
-    \includegraphics[width=0.9\textwidth, height=0.5\textwidth]{imagenes/Intro/biomedica.png} 
-    \textbf{\caption{\justifying Estructura y actividad del aducto C\textsubscript{60} con aminoácidos. }}
-    \label{bb} %Esto genera un numero a mi etiqueta
-\end{figure}
+\hfill
 
-\vspace*{-0.5cm}
+% SEGUNDA COLUMNA: ACTIVIDAD ANTIVIRAL
+\begin{column}{0.4\textwidth}
 
-
-\center
-Propiedades biomédicas
-\begin{itemize}
-        \footnotesize
-        
-        % He usado el color 'blue' que es estándar, pero puedes cambiarlo por 'cyan'
-        \item[{\color{blue}\tiny\textbullet}] Inducir la apoptosis
-        \item[{\color{blue}\tiny\textbullet}] Acción antiviral
-        \item[{\color{blue}\tiny\textbullet}] Propiedades antibacterianas
-        \item[{\color{blue}\tiny\textbullet}] Antioxidantes
-    \end{itemize}
-    
- 
-\end{column}
-
-\begin{column}{0.3\textwidth}
-\vspace*{-1cm}
 \begin{figure}
     \centering
-    \includegraphics[width=1.0\textwidth, height=1.0\textwidth]{imagenes/Intro/inhibidor-denv2.png} 
-    \textbf{\caption{\justifying Estructura del conjugado del ácido glicirrícico con el éster dimetílico del ácido L-glutámico como agente antiviral del DENV2.}}
-    
-    \label{bb} %Esto genera un numero a mi etiqueta
+    \includegraphics[
+        width=\textwidth,
+        height=0.58\textheight,
+        keepaspectratio
+    ]{imagenes/Intro/Inhibidor-denv2.png}
+
+    \caption{\justifying
+    Estructura y actividad biológica
+    de derivados del fulereno
+    C\textsubscript{60} funcionalizados
+    con aminoácidos.
+    }
+    \label{fig:biomedica}
 \end{figure}
-\vspace*{-0.1cm}
-\scriptsize{\cite{contreras2021aspectos}Lin et al., \textit{Viruses}, 2024.}
+
 \end{column}
-% There could be more!
+
 \end{columns}
 
 \end{frame}
-
-
 %----------------------------------------------------------
 
 
 
 %-------------------------------------------------------------------------------------------------
 
+
 \section{Antecedentes}
+
 \begin{frame}{Virus del Dengue}
-\begin{columns}[t]
-\begin{column}{0.4\textwidth}
+\vspace{-0.2cm}
 \begin{figure}
     \centering
-    \includegraphics[width=1.0\textwidth, height=0.5\textwidth]{imagenes/Resultados/dengue-1.png} 
-  \textbf{  \caption{\justifying Representación del mosquito hembra \emph{Aedes aegypti}.}}
-    \label{int:1} %Esto genera un numero a mi etiqueta
+    \includegraphics[
+        width=0.95\textwidth,
+        height=0.65\textheight,
+        keepaspectratio
+    ]{imagenes/Resultados/Denguens2b-ns3.png}
+
+    \caption{\justifying
+    \textbf{Representación esquemática del procesamiento de la
+    poliproteína del DENV por la proteasa NS2B--NS3.
+    }}
+    \label{int:1}
 \end{figure}
-\scriptsize{\cite{contreras2021aspectos} Contreras et al., \textit{QhaliKay. Revista de Ciencias de la Salud}, 2021.}
-\\
-\scriptsize{\cite{arora2020two} Arora et al., \textit{Journal of Virology}, 2020.}\\
 
-\end{column}
+\vspace{-0.15cm}
 
-\begin{column}{0.5\textwidth}
-\justifying \vspace{-1cm} \\
-El virus del dengue es un flavivirus que pertenece a la familia Flaviviridae, el cual se puede clasificar por el complejo antigénico de reconocimiento en cuatro serotipos \cite{contreras2021aspectos, arora2020two}. 
+\begin{minipage}{0.95\textwidth}
+\small
+\justifying
 
-\begin{figure}
-    \centering
-    \includegraphics[width=0.9\textwidth, height=0.6\textwidth]{imagenes/Ante/diagrama-1.png} 
-    \textbf{\caption{\justifying Diferenciación antigénica de los serotipos del DENV\cite{contreras2021aspectos}.}}
-    \label{bb} %Esto genera un numero a mi etiqueta
-\end{figure}
-\end{column}
-% There could be more!
-\end{columns}
+El ARN del DENV codifica una poliproteína de aproximadamente
+3,400 aminoácidos. El complejo NS2B--NS3 participa en su
+procesamiento proteolítico, liberando proteínas virales
+funcionales necesarias para la replicación viral.
+
+\end{minipage}
+
+\vspace{0.2 cm}
+
+{\footnotesize
+\cite{contreras2021aspectos}
+Contreras et al., \textit{QhaliKay}, 2021.
+\quad
+\cite{arora2020two}
+Arora et al., \textit{Journal of Virology}, 2020.
+}
 
 \end{frame}
 %--------------------------------------------------------------------------------------
@@ -354,163 +365,15 @@ El virus del dengue es un flavivirus que pertenece a la familia Flaviviridae, el
 %---------------------------------------------------------------------------------------------------
 
 
-\begin{frame}{ Actividad de la proteína NS2B-NS3}
-\begin{figure}[h]
 
-    \centering
-    \includegraphics[width=0.8\textwidth,height=0.4\textwidth]{imagenes/Intro/ns2b-ns3-1.png}
-\caption{\justifying \textbf{Activación crítica de la Serina Proteasa NS3 por el cofactor NS2B.}}
-\end{figure}
-\end{frame}
-%Figura 1 | Ciclo de vida del virus del dengue. El virus del dengue existe en diversas formas virales, dependiendo del grado de escisión de la proteína precursora de membrana (prM). Las partículas virales inmaduras del dengue contienen un conjunto completo de proteínas prM y no son infecciosas, mientras que en las partículas virales maduras, todas las proteínas prM están escindidas.
-%Existen varias formas intermedias, parcialmente maduras, en las que algunas proteínas prM se han escindido y otras permanecen intactas. Las partículas virales maduras y algunas parcialmente maduras son infecciosas (paso 1). El proceso de replicación del virus del dengue comienza cuando un virión se une directamente a diversos receptores de la célula huésped o cuando la porción Fc de un complejo inmune que contiene el virus del dengue se une a un receptor Fc en las células diana (paso 2) y posteriormente ingresa a la célula mediante endocitosis mediada por receptores (paso 3). La acidificación de las vesículas endosomales desencadena
-%cambios conformacionales en el virión, lo que resulta en una
-%trimerización irreversible de la proteína de la envoltura viral (E) (no se muestra). Esto expone
-%el péptido de fusión y media la fusión entre las membranas viral y endosomal, permitiendo la liberación de la nucleocápside en
-%el citoplasma. El ARN viral se libera en el citoplasma y se presenta
-%al retículo endoplasmático rugoso (RE) (paso 4). En el RE, el ARN viral se
-%traduce en una única poliproteína que es procesada por proteasas virales y del huésped (paso 5). Una vez sintetizado el complejo de replicación viral, la traducción del ARN viral se
-%desactiva y comienza la síntesis de ARN mediante la
-%transcripción de un ARN viral antisentido, seguida de la amplificación del ARN viral (paso 6). El ARN recién sintetizado es posteriormente empaquetado
-%por la proteína de la cápside (C), formando una nucleocápside (paso 7). El ensamblaje del virus ocurre en la superficie del RE cuando la nucleocápside brota hacia el lumen del RE,
-%dando como resultado partículas virales inmaduras no infecciosas (paso 8).
-%Las partículas virales inmaduras se transportan a través del aparato de Golgi hacia la
-%red trans-Golgi, donde la acidificación induce cambios conformacionales
-%del virión y expone los sitios de escisión de la furina. La proteasa del huésped, la furina,
-%escinde entre la proteína pr y la proteína M, permaneciendo la proteína pr
-%asociada hasta que el virión se libera en el pH neutro del medio extracelular (paso %9). DC-SIGN, proteína no integrina específica de células dendríticas que se une a ICAM3; proteínas NS, proteínas no estructurales.
-
-\begin{frame}{ Actividad de la proteína NS2B-NS3}
-\begin{figure}[h]
-
-    \centering
-    \includegraphics[width=0.8\textwidth,height=0.4\textwidth]{imagenes/Intro/serina.png}
-\caption{\justifying \textbf{Representación de la proteolisis de un péptido por una serina proteasa.}}
-\end{figure}
-\end{frame}
 %------------------------------------------------------------------------------
-\begin{frame}{Estructura de la proteína NS2B-NS3}
-\justifying
-%Los 170 aa del extremo N-terminal de NS3 presentan actividad proteasa, y un núcleo hidrofóbico de aproximadamente 40 aa dentro de NS2B proporciona una función de cofactor esencial\cite{brecher2013flavivirus}.\\
 
-\begin{columns}
-\begin{column}{0.20\textwidth}
-\vspace*{-1cm}
-\begin{itemize}
-    \item \textbf{Serina proteasa}
-    \item \textbf{Geometría} 
-    \item \textbf{Estabilizar} 
-    \item \textbf{Activa} 
-\end{itemize}
-\end{column}
-
-
-\justifying
-\begin{column}{0.40\textwidth}
-\begin{figure}
-    \centering
-    \includegraphics[width=1.0\textwidth, height=1.0\textwidth]{imagenes/Intro/proteina-2FOM.png} 
-   \textbf{ \caption{\justifying Estructura de la proteína 2FOM.}}
-    \label{dete} %Esto genera un numero a mi etiqueta
-\end{figure} 
-\end{column}
-
-
-\justifying
-\begin{column}{0.40\textwidth}
-\vspace*{-1cm}
-\begin{figure}
-    \centering
-    \includegraphics[width=1.0\textwidth, height=1.0\textwidth]{imagenes/Intro/proteina-2FP7.png} 
-  \textbf{  \caption{\justifying Estructura de la proteína 2FP7.}}
-    \label{dete} %Esto genera un numero a mi etiqueta
-\end{figure} 
-\end{column}
-\justifying
-\end{columns}
-\end{frame}
 %%---------------------------------------------------------
-\begin{frame}{Residuos clave en la inhibición de DENV2}
-\begin{columns}
-\begin{column}{0.6\textwidth}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\textwidth,height=0.6\textwidth]{imagenes/Intro/proteina-sitio-alosterico-1.pdb.png}
-     \textbf{\caption{Residuos identificados en la inhibición alostérica de la proteína NS2B-NS3 en conformación abierta. }}
-\end{figure}
- 
-\end{column}
-\begin{column}{0.4\textwidth}
 
-\justifying
- Se identificaron como residuos críticos para la formación del complejo. 
-
-
-\vspace{0.25cm}
-\centering
-\textcolor{gold}{NS2B}
-\begin{itemize}
-\footnotesize
-\item \textcolor{black}{Ala56\begin{tikzpicture} \draw[-{Stealth[scale=1.0]}, thick, blue] (0,0) -- (1,0); \end{tikzpicture} no polar alifático}
-\item \textcolor{black}{Ile67 \begin{tikzpicture} \draw[-{Stealth[scale=1.0]}, thick, blue] (0,0) -- (1,0); \end{tikzpicture} no polar alifático}
-\item \textcolor{black}{Gln93\begin{tikzpicture} \draw[-{Stealth[scale=1.0]}, thick, blue] (0,0) -- (1,0); \end{tikzpicture} polar no cargado} 
-\end{itemize} 
-\centering
-\textcolor{green}{NS3}
-\begin{itemize}
-\footnotesize
-\item \textcolor{black}{Leu98\begin{tikzpicture} \draw[-{Stealth[scale=1.0]}, thick, blue] (0,0) -- (1,0); \end{tikzpicture} no polar alifático}
-\item \textcolor{black}{Ala108 \begin{tikzpicture} \draw[-{Stealth[scale=1.0]}, thick, blue] (0,0) -- (1,0); \end{tikzpicture} no polar alifático}
-\item \textcolor{black}{Pro138\begin{tikzpicture} \draw[-{Stealth[scale=1.0]}, thick, blue] (0,0) -- (1,0); \end{tikzpicture} no polar alifático} 
-\end{itemize} 
-\vspace*{1cm}
-\scriptsize{\cite{jonniya2022functional}Jonniya, N. \& Kar, P.,\emph{Journal of Chemical Information and Modeling, 2022.}}
-\end{column}
-\end{columns}
-\end{frame}
 %-------------------------------------------------
 
 
 %--------------------------------------------------------------------------------------------------------------------
-\begin{frame}{Residuos clave en la inhibición de DENV2}
-\vspace*{-2cm}
-\begin{columns}
-\begin{column}{0.7\textwidth}
-\vspace*{1cm}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.9\textwidth,height=0.7\textwidth]{imagenes/Intro/proteina-ortoesterico.png}
-     \textbf{\caption{Residuos identificados en la inhibición ortostérica de la proteína NS2B-NS3 en conformación abierta. }}
-\end{figure}
-\end{column}
-\begin{column}{0.4\textwidth}
-
-\justifying
-\vspace*{1.5cm}
-Las regiones del sitio activo corresponden a los aminoácidos en color rojo de la Figura 13. 
-\vspace{1.5cm}
-\begin{itemize}
-\footnotesize
-\item \textcolor{black}{His51\begin{tikzpicture} \draw[-{Stealth[scale=1.0]}, thick, blue] (0,0) -- (1,0); \end{tikzpicture} polar básico positivo}
-\item \textcolor{black}{Asp75 \begin{tikzpicture} \draw[-{Stealth[scale=1.0]}, thick, blue] (0,0) -- (1,0); \end{tikzpicture} ácido negativo}
-\item \textcolor{black}{Ser135 \begin{tikzpicture} \draw[-{Stealth[scale=1.0]}, thick, blue] (0,0) -- (1,0); \end{tikzpicture} polar no cargado} 
-\end{itemize} 
-%\begin{tikzpicture}
-    % Flecha básica
-   % \draw[->] (0,1) -- (2,1);
-    
-    % Flecha con estilo personalizado (gruesa, color azul, punta stealth)
-    %\draw[-{Stealth[scale=1.5]}, thick, blue] (0,0) -- (0.5,0);
-    
-    % Flecha doble curva
-    %\draw[<->, >=latex, thick, red] (0,-0.5) to[out=30, in=150] (2,-0.5);
-%\end{tikzpicture}
-\vspace*{2cm}
-\scriptsize{\cite{jonniya2022functional}Jonniya, N. \& Kar, P.,\emph{Journal of Chemical Information and Modeling}, 2022.}
-\end{column}
-\end{columns}
-
-\end{frame}
 %---------------------------------------------------------------------
 
 \begin{frame}{Fullereno funcionalizado}
@@ -518,8 +381,9 @@ Las regiones del sitio activo corresponden a los aminoácidos en color rojo de l
 \begin{column}{0.5\textwidth}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1.1\textwidth,height=0.6\textwidth]{imagenes/Resultados/c60.pdf}
-\caption{\justifying Estructura geométrica y parámetros de enlace del fullereno $\text{C}_{60}$ pristino.}    
+    \includegraphics[width=0.9\textwidth,height=0.6\textwidth]{imagenes/Resultados/c60.pdf}
+    \textbf{ \caption{Inhibidor ortostérico compuesto 71 (derivados pequeños de benzamida/fenilglicina).}}
+    
   \scriptsize{\cite{zephyr2023allosteric} Zephyr, J. et al.,\emph{Bioorganic Chemistry}, 2023.}
 
 \end{figure}
@@ -528,9 +392,9 @@ Las regiones del sitio activo corresponden a los aminoácidos en color rojo de l
 \vspace*{-1cm}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1.1\textwidth,height=0.8\textwidth]{imagenes/Resultados/prueba-final.png}
-    \vspace{-0.5cm}
-\caption{\justifying Modelo tridimensional del fullereno $\text{C}_{60}$ funcionalizado con aminoácidos \cite{sharoyko2024modification}.}    
+    \includegraphics[width=1.0\textwidth,height=0.9\textwidth]{imagenes/Resultados/prueba-final.png}
+    \textbf{ \caption{Inhibidor ortostérico compuesto 71 (derivados pequeños de benzamida/fenilglicina).}}
+    
   \scriptsize{\cite{zephyr2023allosteric} Zephyr, J. et al.,\emph{Bioorganic Chemistry}, 2023.}
 
 \end{figure}
@@ -560,46 +424,50 @@ Las regiones del sitio activo corresponden a los aminoácidos en color rojo de l
 %------------------------------------------------------------
 
 %_------------------------------------------------------
-\begin{frame}{Inhibidor ortostérico}
-\begin{columns}[c]
+\begin{frame}{Inhibidor alostérico}
+\begin{columns}
+\begin{column}{0.4\textwidth}
+\justifying
+\textbf{Tipo de interacción: }Interactúa mediante apilamiento $\pi$-$\pi$ con Tyr161 y hace contactos clave con Lys74 y Leu149, bloqueando el cierre de NS2B. 
+\end{column}
+\begin{column}{0.6\textwidth}
+\vspace*{-1cm}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth,height=0.6\textwidth]{imagenes/Intro/inhibidor-c.png}
+    \textbf{ \caption{Inhibidor alostérico: compuesto 32 (núcleo de quinoxalina-2(H)-ona).}}
+  \scriptsize{\cite{cavina2024orthoflaviviral}Cavina, L. et al.,\emph{Molecules}, 2024.}
 
-  % --- COLUMNA IZQUIERDA: LISTA DE INTERACCIONES ---
-  \begin{column}{0.50\textwidth}
-    \small
-    \begin{itemize}
-      \item \textbf{Tríada catalítica (puentes de H):} 
-      forma puentes de hidrógeno directos con los tres residuos fundamentales \cite{li2020insights}:
-      \begin{itemize}
-        \item \textbf{His51}
-        \item \textbf{Asp75}
-        \item \textbf{Ser135} \scriptsize (\textit{logró formar puentes de H más cortos y estables}).
-      \end{itemize}
-
-      \vspace{0.15cm}
-
-      \item \textbf{Bolsillo hidrofóbico:} 
-      \scriptsize Interacciona mediante fuerzas de Van der Waals y electrostáticas con:
-      \begin{itemize}
-        \scriptsize
-        \item \textbf{Leu76}, \textbf{Trp83}, \textbf{Ile165} e \textbf{Ile166}
-      \end{itemize}
-    \end{itemize}
-  \end{column}
-
-  % --- COLUMNA DERECHA: ESTRUCTURA DEL INHIBIDOR ---
-  \begin{column}{0.5\textwidth}
-    \begin{figure}
-      \centering
-      \includegraphics[height=4.2cm, keepaspectratio]{imagenes/Resultados/246DA.png}
-      \caption{ \justifying Inhibidor ortostérico: compuesto 246DA (derivado sintético de la panduratin A, perteneciente a la familia de los derivados de ciclohexenil calcona \textit{(cyclohexenyl chalcone derivatives)}) \cite{cavina2024orthoflaviviral}.}
-      \label{fig:inhibidor_ortosterico_compuesto32}
-    \end{figure}
-  \end{column}
-
+\end{figure}
+\end{column}
 \end{columns}
 \end{frame}
 
+
 %---------------------------------------------------------------
+\begin{frame}{Inhibidor alostérico }
+\begin{columns}
+\begin{column}{0.6\textwidth}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth,height=0.5\textwidth]{imagenes/Intro/inhibidor-a.png}
+     \textbf{\caption{Inhibidor alostérico del compuesto JVJ derivado de pirazina.}}
+\end{figure}
+\end{column}
+\begin{column}{0.5\textwidth}
+\justifying
+\textbf{Tipo de interacción:} Estabilización de conformación inactiva. Modifica la dinámica de los lazos, induciendo una forma \textquotedblleft abierta\textquotedblright\ e inactiva de la enzima.  
+\begin{itemize}
+    \item \textbf{PDB:} 6MO0
+    \item \textbf{Cavidad alostérica:} Bucle 120s y 150s
+\end{itemize}
+
+
+\vspace*{2cm}
+ \scriptsize{\cite{jonniya2022functional}Jonniya, N. \& Kar, P.,\emph{Journal of Chemical Information and Modeling}, 2022.}
+\end{column}
+\end{columns}
+\end{frame}
 %--------------------------------------------------------------------
 \begin{frame}{Síntesis y caracterización del sistema C\textsubscript{60}(\textit{Gly})\textsubscript{4}}
 \begin{columns}
@@ -767,14 +635,10 @@ La funcionalización de fullerenos con aminoácidos modifica su estructura elect
 
 \end{frame}
 \section{Metodología}
-
-\begin{frame}{Metodología}
-    \begin{center}
-        \includegraphics[width=1.0\textwidth]{imagenes/Resultados/metodologia.pdf}\\[0.4em]
-        \textbf{Diagrama de la metodología.}
-    \end{center}
-\end{frame}
-
+%\begin{center}
+%    \includegraphics[width=0.5\textwidth]{imagenes/metodologia/metodologiatesis-3.pdf}\\[0.4em]
+%    \textbf{Diagrama de la metodología.}
+%\end{center}
 %----------------------------------------------------------------------------------------------
 \section{Resultados y Discusiones}
 
@@ -1299,10 +1163,10 @@ Isoleucina / Valina   & 32  & 1 \\
 \begin{frame}[allowframebreaks]{Conclusiones}
 \begin{itemize}
 \justifying
-\item Los cálculos de estructura electrónica confirmaron que la funcionalización del complejo C\textsubscript{60}(\textit{Gly})\textsubscript{4} modifica favorablemente sus propiedades físico-químicas, confiriéndole las características necesarias para interactuar en las regiones de interés, y manteniendo a su vez la capacidad del fullereno como aceptor de electrones.
-
-\item El análisis de acoplamiento molecular demostró que el aducto  es capaz de interactuar con el complejo proteico NS2B-NS3 del virus del Dengue (DENV2). La evaluación mediante un acoplamiento dirigido arrojó una energía de unión favorable, identificándose un clúster con más del 50\% de sus poses óptimas. Estos resultados brindan información valiosa sobre las interacciones específicas en los sitios de interés, demostrando que el sistema puede unirse de manera estable en las regiones reportadas.
-
+\item Comportamiento estructural: Los análisis de RMSD, RMSF, radio de giro y SASA permitieron caracterizar las diferencias en la evolución estructural, flexibilidad y exposición al solvente de NS2B-NS3 entre los sistemas simulados durante 100 ns.
+\item Interacciones moleculares: El análisis de los puentes de hidrógeno permitió estudiar la evolución de las interacciones presentes en los sistemas y complementar la interpretación de su comportamiento conformacional.
+\item Dinámica conformacional. Los análisis de PCA y los paisajes de energía libre (FEL) evidenciaron diferencias en los movimientos colectivos y en las regiones conformacionales exploradas por la proteasa, dependiendo del sistema estudiado.
+\item Movimientos correlacionados. Los mapas DCCM permitieron identificar patrones de correlación y anticorrelación entre los movimientos de residuos, aportando información sobre posibles cambios en la comunicación dinámica de NS2B-NS3.
 \end{itemize}
 \end{frame}
 
