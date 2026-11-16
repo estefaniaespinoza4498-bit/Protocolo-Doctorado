@@ -23,12 +23,6 @@ Q.~Li and C.~Kang, ``Insights into structures and dynamics of flavivirus
   proteases from nmr studies,'' {\em International journal of molecular
   sciences}, vol.~21, no.~7, p.~2527, 2020.
 
-\bibitem{zephyr2023allosteric}
-J.~Zephyr, D.~N. Rao, C.~Johnson, A.~M. Shaqra, E.~A. Nalivaika, A.~Jordan,
-  N.~K. Yilmaz, A.~Ali, and C.~A. Schiffer, ``Allosteric quinoxaline-based
-  inhibitors of the flavivirus ns2b/ns3 protease,'' {\em Bioorganic chemistry},
-  vol.~131, p.~106269, 2023.
-
 \bibitem{maus2021sar}
 H.~Maus, F.~Barthels, S.~J. Hammerschmidt, K.~Kopp, B.~Millies, A.~Gellert,
   A.~Ruggieri, and T.~Schirmeister, ``Sar of novel benzothiazoles targeting an
@@ -40,6 +34,12 @@ N.~A. Jonniya and P.~Kar, ``Functional loop dynamics and characterization of
   the inactive state of the ns2b-ns3 dengue protease due to allosteric
   inhibitor binding,'' {\em Journal of Chemical Information and Modeling},
   vol.~62, no.~16, pp.~3800--3813, 2022.
+
+\bibitem{zephyr2023allosteric}
+J.~Zephyr, D.~N. Rao, C.~Johnson, A.~M. Shaqra, E.~A. Nalivaika, A.~Jordan,
+  N.~K. Yilmaz, A.~Ali, and C.~A. Schiffer, ``Allosteric quinoxaline-based
+  inhibitors of the flavivirus ns2b/ns3 protease,'' {\em Bioorganic chemistry},
+  vol.~131, p.~106269, 2023.
 
 \bibitem{sharoyko2024modification}
 V.~V. Sharoyko, O.~S. Shemchuk, A.~A. Meshcheriakov, P.~A. Andoskin, A.~V.
