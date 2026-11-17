@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.29)  15 NOV 2026 21:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.29)  17 NOV 2026 08:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1689,11 +1689,7 @@ Package pdftex.def Info: imagenes/Resultados/246-1.png  used on input line 750.
 File: imagenes/Resultados/246.pdf Graphic file (type pdf)
 <use imagenes/Resultados/246.pdf>
 Package pdftex.def Info: imagenes/Resultados/246.pdf  used on input line 750.
-(pdftex.def)             Requested size: 186.42406pt x 212.45825pt.
-
-Overfull \vbox (43.52817pt too high) detected at line 750
- []
-
+(pdftex.def)             Requested size: 143.4048pt x 163.42943pt.
 
 Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 []    []
@@ -1750,9 +1746,9 @@ Overfull \hbox (399.71457pt too wide) has occurred while \output is active
 File: imagenes/Resultados/orto-1.pdf Graphic file (type pdf)
 <use imagenes/Resultados/orto-1.pdf>
 Package pdftex.def Info: imagenes/Resultados/orto-1.pdf  used on input line 814.
-(pdftex.def)             Requested size: 239.00558pt x 194.79904pt.
+(pdftex.def)             Requested size: 199.1693pt x 162.3263pt.
 
-Overfull \vbox (47.54808pt too high) detected at line 814
+Overfull \vbox (15.07533pt too high) detected at line 814
  []
 
 
@@ -2252,7 +2248,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  128i,18n,123p,577b,1152s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/nunito/Nunito-Bold.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/nunito/Nunito-BoldItalic.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/nunito/Nunito-Italic.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/nunito/Nunito-Regular.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Estefania/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on beamersapienza.pdf (57 pages, 36088236 bytes).
+Output written on beamersapienza.pdf (57 pages, 36088224 bytes).
 PDF statistics:
  8310 PDF objects out of 8907 (max. 8388607)
  158 named destinations out of 1000 (max. 500000)

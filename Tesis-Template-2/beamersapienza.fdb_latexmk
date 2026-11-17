@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex beamersapienza"] 1794798097.25265 "beamersapienza.aux" "beamersapienza.bbl" "beamersapienza" 1794798369.98807 0
+["bibtex beamersapienza"] 1794798097.25265 "beamersapienza.aux" "beamersapienza.bbl" "beamersapienza" 1794926380.80283 0
   "./ref.bib" 1793747216 7856 f8d5779da3a3c9c1e4cf07c39b8b35b3 ""
   "C:/Users/Estefania/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "beamersapienza.aux" 1794798361 15934 ff2f3dfbdf7a29703223f0d08819b533 "pdflatex"
+  "beamersapienza.aux" 1794926374 15934 ff2f3dfbdf7a29703223f0d08819b533 "pdflatex"
   (generated)
   "beamersapienza.bbl"
   "beamersapienza.blg"
   (rewritten before read)
-["pdflatex"] 1794798316.2762 "c:/Users/Estefania/Documents/TESIS MAESTRIA/Protocolo-Doctorado/Tesis-Template-2/beamersapienza.tex" "beamersapienza.pdf" "beamersapienza" 1794798369.99192 0
+["pdflatex"] 1794926324.52781 "c:/Users/Estefania/Documents/TESIS MAESTRIA/Protocolo-Doctorado/Tesis-Template-2/beamersapienza.tex" "beamersapienza.pdf" "beamersapienza" 1794926380.80595 0
   "C:/Users/Estefania/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1794364491 103711 627c93a69218fa23b23fe155fe32fd5a ""
   "C:/Users/Estefania/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1793749780 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Estefania/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1793749785 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -331,14 +331,14 @@
   "C:/Users/Estefania/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Estefania/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "assets/back.png" 1793548950 225854 e1ed0f0fb11c8f93bfea519a7fd4526f ""
-  "beamersapienza.aux" 1794798361 15934 ff2f3dfbdf7a29703223f0d08819b533 "pdflatex"
+  "beamersapienza.aux" 1794926374 15934 ff2f3dfbdf7a29703223f0d08819b533 "pdflatex"
   "beamersapienza.bbl" 1794798098 3153 a11ed17bb8c4735aad3943d1b1f0d380 "bibtex beamersapienza"
-  "beamersapienza.nav" 1794798361 7329 77d50beaaedd7288efe246893259d8a0 "pdflatex"
-  "beamersapienza.out" 1794798361 1351 2efba066a89497118379ec7e9d54bcc5 "pdflatex"
-  "beamersapienza.tex" 1794798221 44476 911b673d72a535a889d2d3e4a1f2e78f ""
-  "beamersapienza.toc" 1794798361 643 d21b27557a2765f67401b16067676ade "pdflatex"
+  "beamersapienza.nav" 1794926374 7329 77d50beaaedd7288efe246893259d8a0 "pdflatex"
+  "beamersapienza.out" 1794926374 1351 2efba066a89497118379ec7e9d54bcc5 "pdflatex"
+  "beamersapienza.tex" 1794926307 44476 9f95bc61134852511738391146110281 ""
+  "beamersapienza.toc" 1794926374 643 d21b27557a2765f67401b16067676ade "pdflatex"
   "beamerthemesintef.sty" 1793802370 10792 4b029cc6f0fd5868fbcfe278a94d920d ""
-  "c:/Users/Estefania/Documents/TESIS MAESTRIA/Protocolo-Doctorado/Tesis-Template-2/beamersapienza.tex" 1794798221 44476 911b673d72a535a889d2d3e4a1f2e78f ""
+  "c:/Users/Estefania/Documents/TESIS MAESTRIA/Protocolo-Doctorado/Tesis-Template-2/beamersapienza.tex" 1794926307 44476 9f95bc61134852511738391146110281 ""
   "imagenes/Intro/Fullereno-glicina.png" 1793548951 54585 ddba95f3506161cc9eb0f43cf095b577 ""
   "imagenes/Intro/Inhibidor-denv2.png" 1793548951 208483 2784488d216c0c14c6bea135eb2f62e0 ""
   "imagenes/Intro/NMR.png" 1793548951 208019 c23690f7a8572f7f15e3156e4fe778e1 ""
