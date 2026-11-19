@@ -85,7 +85,9 @@
 
     \caption{\justifying
     Potencial biomédico del fulereno
-    C\textsubscript{60}: actividad antiviral,
+    C\textsubscript{60}: actividad
+    
+    antiviral,
     antibacteriana, antioxidante e
     inducción de apoptosis.
     }
@@ -216,7 +218,7 @@ Arora et al., \textit{Journal of Virology}, 2020.
 
 % Columna derecha: Imagen más grande (58% del ancho)
 \begin{column}{0.60\textwidth}
-\vspace{0.5 cm}
+\vspace{-0.5 cm}
     \begin{figure}[h]
     \centering
     \includegraphics[width=1.0\textwidth,height=0.80\textheight,keepaspectratio]{imagenes/Resultados/2FOM-bucles.png}
@@ -269,11 +271,13 @@ Arora et al., \textit{Journal of Virology}, 2020.
 
   % --- COLUMNA IZQUIERDA: IMAGEN CON ENTORNO FIGURE Y CAPTION ---
   \begin{column}{0.55\textwidth}
+    \vspace{-1cm}
     \begin{figure}
       \centering
       \includegraphics[width=\linewidth]{imagenes/Resultados/alosterico-imagen.png}
-      \caption{Estructura cristalina de NS2B-NS3 en conformación abierta \cite{li2020insights}.}
+      \caption{Estructura cristalina de NS2B-NS3 en conformación abierta.}
       \label{fig:ns2b_ns3_alosterico}
+     \scriptsize{\cite{li2020insights}Li, Q. \& Kang, C., \emph{International Journal of Molecular Sciences}, 2020.}
     \end{figure}
   \end{column}
 
@@ -317,11 +321,9 @@ Arora et al., \textit{Journal of Virology}, 2020.
   \begin{figure}
     \centering
     \includegraphics[height=4.5cm, keepaspectratio]{imagenes/Resultados/ortosterico-imagen.png}
-    \caption{Sitio activo y región ortostérica de la proteasa NS2B-NS3 \cite{li2020insights}.}
+    \caption{Sitio activo y región ortostérica de la proteasa NS2B-NS3.}
     \label{fig:ns2b_ns3_ortosterico}
   \end{figure}
-
-  \vspace{0.1cm}
 
   % --- 2. PARTE INFERIOR: DOS COLUMNAS ---
   \begin{columns}[c]
@@ -335,7 +337,7 @@ Arora et al., \textit{Journal of Virology}, 2020.
         boxrule=0.7pt, 
         left=5pt, right=5pt, top=3pt, bottom=4pt
       ]
-        \scriptsize \textbf{\textcolor{proteinorange}{Sitio ortostérico (Sitio Activo)}} \\[1.5pt]
+        \scriptsize \textbf{\textcolor{proteinorange}{Sitio ortostérico (Sitio activo)}} \\[1.5pt]
         \tiny Corresponde a la cavidad catalítica donde ocurre la unión directa del sustrato e inhibidores competitivos.
       \end{tcolorbox}
     \end{column}
@@ -349,15 +351,12 @@ Arora et al., \textit{Journal of Virology}, 2020.
         \item Gly133 \ \textcolor{blue}{$\longrightarrow$} \ \scriptsize no polar alifático
       \end{itemize}
     \end{column}
-
+  
   \end{columns}
+  \vspace{0.5cm}
+  \scriptsize{\cite{luo2015flavivirus}Luo, D. et al., \emph{Antiviral Research}, 2015.}
 
 \end{frame}
-
-
-
-
-
 
 %---------------------------------------------------------------------------------------------------
 
@@ -397,26 +396,41 @@ Arora et al., \textit{Journal of Virology}, 2020.
 %_------------------------------------------------------
 
 %---------------------------------------------------------------
-\begin{frame}{Inhibidor alostérico }
-\begin{columns}
-\begin{column}{0.6\textwidth}
-\begin{figure}[h]
+\begin{frame}{Inhibidor ortostérico}
+\begin{columns}[c]
+\begin{column}{0.44\textwidth}
+\begin{figure}
     \centering
-    \includegraphics[width=0.7\textwidth,height=0.5\textwidth]{imagenes/Intro/inhibidor-a.png}
-     \textbf{\caption{Inhibidor alostérico del compuesto JVJ derivado de pirazina.}}
+    \includegraphics[width=\textwidth,height=0.58\textheight,keepaspectratio]{imagenes/Resultados/246DA.png}
+    \caption{\textbf{Inhibidor ortostérico} (derivado sintético de la panduratina A).}
 \end{figure}
 \end{column}
-\begin{column}{0.5\textwidth}
+
+\begin{column}{0.56\textwidth}
 \justifying
-\textbf{Tipo de interacción:} Estabilización de conformación inactiva. Modifica la dinámica de los lazos, induciendo una forma \textquotedblleft abierta\textquotedblright\ e inactiva de la enzima.  
+\textbf{Tipo de interacción:}
+\vspace{0.15cm}
+
+\footnotesize
 \begin{itemize}
-    \item \textbf{PDB:} 6MO0
-    \item \textbf{Cavidad alostérica:} Bucle 120s y 150s
+     \item[]\textbf{Tríada catalítica} \textit{(puentes de hidrógeno):}
+    \begin{itemize}
+        \scriptsize
+        \item[$\hookrightarrow$] Enlaces directos con \textbf{His51}, \textbf{Asp75} y \textbf{Ser135}.
+        \item[$\hookrightarrow$] \textbf{246DA} forma puentes más cortos y estables.
+    \end{itemize}
+    
+    \vspace{0.25cm}
+    
+\item[] \textbf{Bolsillo hidrofóbico} 
+    \begin{itemize}
+        \scriptsize
+        \item[$\hookrightarrow$] Contacto estrecho con residuos no polares: \textbf{Leu76}, \textbf{Trp83}, \textbf{Ile165} e \textbf{Ile166}.
+    \end{itemize}
 \end{itemize}
 
-
-\vspace*{2cm}
- \scriptsize{\cite{jonniya2022functional}Jonniya, N. \& Kar, P.,\emph{Journal of Chemical Information and Modeling}, 2022.}
+\vspace{0.45cm}
+\scriptsize{\cite{frimayanti2011design} Frimayanti, N., Chee, C. F., Zain, S. M. \& Rahman, N. A., \emph{International Journal of Molecular Sciences}, 2011.}
 \end{column}
 \end{columns}
 \end{frame}
@@ -444,12 +458,9 @@ C$_{60}$ y su geometría molecular.
     \includegraphics[width=0.95\textwidth,height=0.9\textwidth]{imagenes/Resultados/prueba-final.png}
     \textbf{ \caption{\justifying
 Estructura molecular de un derivado del
-fulereno C$_{60}$ funcionalizado con aminoácidos,
-con potencial para establecer interacciones
-con proteínas de interés biológico.
+fulereno C$_{60}$ funcionalizado con glicinas.
 }}
 
-  \scriptsize{\cite{zephyr2023allosteric} Zephyr, J. et al.,\emph{Bioorganic Chemistry}, 2023.}
 
 \end{figure}
 \end{column}
@@ -492,7 +503,7 @@ producto fue del 85\%.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.7\textwidth,height=0.5\textwidth]{imagenes/Intro/Fullereno-glicina.png}
+    \includegraphics[width=0.9\textwidth,height=0.6\textwidth]{imagenes/Resultados/glicina.pdf}
     \textbf{\caption{Reacción nucleofílica del C\textsubscript{60}(\textit{Gly})\textsubscript{4}.}
     \label{workin} }%Esto genera un numero a mi etiqueta
 \end{figure}
@@ -511,16 +522,6 @@ producto fue del 85\%.
 \end{frame}
 
 
-
-
-
-
-
-
-
-
-
-
 \section{Planteamiento del problema}
 \begin{frame}{Planteamiento del problema}
 \footnotesize \justifying
@@ -537,7 +538,7 @@ El dengue sigue siendo un problema de salud pública sin antivirales específico
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.4\textwidth,height=0.2\textwidth]{imagenes/Intro/planteamiento-1.png}
+    \includegraphics[width=0.3\textwidth,height=0.2\textwidth]{imagenes/Resultados/molecula.png}
 
 \end{figure}
 
@@ -602,7 +603,7 @@ La funcionalización de fullerenos con aminoácidos modifica su estructura elect
             \begin{minipage}{0.9\textwidth}
                 \small
                 \textbf{Objetivo General} \vspace{2pt} \\
-                Identificar las estructuras más estables del derivado C\textsubscript{60}(Gly)\textsubscript{4} y analizar su interacción con las proteínas NS2B-NS3 en conformación abierta y cerrada del DENV2.
+                Identificar las estructuras más estables del derivado C\textsubscript{60}(Gly)\textsubscript{4} y analizar su interacción con las proteínas NS2B-NS3 en conformación abierta del DENV2.
             \end{minipage}
         }
     \end{center}
@@ -630,7 +631,7 @@ La funcionalización de fullerenos con aminoácidos modifica su estructura elect
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.82\textwidth,height=0.68\textheight,keepaspectratio]{imagenes/Resultados/metodologia.pdf}
+    \includegraphics[width=1.5\textwidth,height=0.88\textheight,keepaspectratio]{imagenes/Resultados/metodologia.pdf}
     
     \caption{\justifying
     Diagrama general de la metodología.
@@ -652,7 +653,6 @@ La funcionalización de fullerenos con aminoácidos modifica su estructura elect
 
 
 %----------------------------------------------------------------------------------------------
------------------------------------------------------------------------
 
 
 %---------------------------------------------------------------------------
@@ -661,7 +661,7 @@ La funcionalización de fullerenos con aminoácidos modifica su estructura elect
 %------------------------------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------------------------------------------------
-\begin{frame}{Mapa de Ramachandran}
+\begin{frame}{Mapa de ramachandran}
 \begin{columns}
 \begin{column}{0.6\textwidth}
 \begin{figure}[h]
@@ -674,9 +674,10 @@ La funcionalización de fullerenos con aminoácidos modifica su estructura elect
 
 
 \begin{column}{0.4\textwidth}
+    \vspace{-3cm}
 \begin{table}[H]
 \centering
-\caption{Resultados del Mapa de Ramachandran tras el equilibrio NPT.}
+\textbf{\caption{Resultados del mapa de ramachandran tras el equilibrio NPT.}}
 \label{tab:ramachandran_npt}
 \resizebox{\linewidth}{!}{%
 \begin{tabular}{ccc}
@@ -701,11 +702,11 @@ Isoleucina / Valina   & 32  & 1 \\
 \begin{frame}{Acoplamiento molecular}
 \begin{columns}
 \begin{column}{0.5\textwidth}
-\vspace*{-2cm}
+\vspace*{-1cm}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{imagenes/Resultados/benza-3.png}
-    \caption{Distribución de las 100 poses del derivado de benzamida según las puntuaciones de acoplamiento obtenidas mediante AutoDock Vina.}
+   \textbf{ \caption{Distribución de las 100 poses del derivado de benzamida con un (umbral de $\text{RMSD} = $5.0$\text{ \AA}$) en función de las puntuaciones depuntuaciones de acoplamiento obtenidas mediante AutoDock Vina.}}
     \label{fig:benzamida-3d}
 \end{figure}
 \end{column}
@@ -715,8 +716,8 @@ Isoleucina / Valina   & 32  & 1 \\
 \vspace*{-1.5cm}
     \begin{figure}[H]
     \centering
-    \includegraphics[width=0.78\textwidth]{imagenes/Resultados/benza.pdf}
-    \caption{Representación del acoplamiento molecular del derivado de benzamida en la región propuesta como alostérica de la proteasa NS2B-NS3.}
+    \includegraphics[width=0.78\textwidth]{imagenes/Resultados/benza-1.pdf}
+ \textbf{   \caption{Representación del acoplamiento molecular del derivado de benzamida en la región propuesta como alostérica de la proteasa NS2B-NS3.}}
     \label{fig:benzamida-3d}
 \end{figure}
 
@@ -727,11 +728,11 @@ Isoleucina / Valina   & 32  & 1 \\
 \begin{frame}{Acoplamiento molecular}
 \begin{columns}
 \begin{column}{0.4\textwidth}
-\vspace*{-2cm}
+\vspace*{-1cm}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{imagenes/Resultados/246-1.png}
-        \caption{Distribución de las 100 poses del compuesto 246DA según las puntuaciones de acoplamiento obtenidas mediante AutoDock Vina.}
+      \textbf{  \caption{Distribución de las 100 poses del compuesto 246DA  con un (umbral de $\text{RMSD} $ = 8.0$\text{ \AA}$) en función de las puntuaciones depuntuaciones de acoplamiento obtenidas mediante AutoDock Vina.}}
     \label{fig:246-contactos}
     \end{figure}
 \end{column}
@@ -742,7 +743,7 @@ Isoleucina / Valina   & 32  & 1 \\
     \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{imagenes/Resultados/246.pdf}
-    \caption{Representación tridimensional del acoplamiento molecular del compuesto de referencia 246DA en la región ortostérica de la proteasa NS2B-NS3. Se muestran los contactos identificados y sus distancias expresadas en \AA.}
+    \textbf{\caption{Representación tridimensional del acoplamiento molecular del compuesto de referencia 246DA en la región ortostérica de la proteasa NS2B-NS3. Se muestran los contactos identificados y sus distancias expresadas en \AA.}}
     \label{fig:246da-3d}
 \end{figure}
 \end{column}
@@ -758,7 +759,7 @@ Isoleucina / Valina   & 32  & 1 \\
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{imagenes/Resultados/ciego.png}
-     \caption{Distribución de las 100 poses obtenidas mediante acoplamiento ciego del derivado C$_{60}$(Gly)$_4$, agrupadas según su puntuación de AutoDock Vina.}
+    \textbf{ \caption{Distribución de las 100 poses obtenidas mediante acoplamiento ciegodel derivado C$_{60}$(Gly)$_4$  con un (umbral de $\text{RMSD} $ = 4.0$\text{ \AA}$) en función de las puntuaciones depuntuaciones de acoplamiento obtenidas mediante AutoDock Vina.}}
     \label{fig:ciego-contactos}
 \end{figure}
 \end{column}
@@ -767,8 +768,8 @@ Isoleucina / Valina   & 32  & 1 \\
 \begin{column}{0.5\textwidth}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.95\textwidth]{imagenes/Resultados/ciego.pdf}
-    \caption{Representación tridimensional de una pose obtenida mediante acoplamiento ciego del derivado C$_{60}$(Gly)$_4$ con la proteasa NS2B-NS3.}
+    \includegraphics[width=0.95\textwidth]{imagenes/Resultados/ciego-1.pdf}
+   \textbf{ \caption{Representación tridimensional de una pose obtenida mediante acoplamiento ciego del derivado C$_{60}$(Gly)$_4$ con la proteasa NS2B-NS3.}}
     \label{fig:ciego-perfil}
 \end{figure}
 \end{column}
@@ -783,7 +784,7 @@ Isoleucina / Valina   & 32  & 1 \\
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{imagenes/Resultados/alo-resu-c60.png}
-   \caption{Distribución de las 100 poses del derivado C$_{60}$(Gly)$_4$ obtenidas mediante acoplamiento dirigido hacia la región alostérica.}
+   \textbf{\caption{Distribución de las 100 poses del derivado C$_{60}$(Gly)$_4$  con un (umbral de $\text{RMSD} $ = 4.0$ \text{ \AA}$) en función de las puntuaciones depuntuaciones de acoplamiento dirigido hacia la región alostérica.}}
     \label{fig:alosterico-contactos}
 \end{figure}
 \end{column}
@@ -793,7 +794,7 @@ Isoleucina / Valina   & 32  & 1 \\
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{imagenes/Resultados/repor-c60.pdf}
-   \caption{Representación tridimensional del acoplamiento dirigido del derivado C$_{60}$(Gly)$_4$ hacia la región propuesta como alostérica de la proteasa NS2B-NS3.}
+   \textbf{\caption{Representación tridimensional del acoplamiento dirigido del derivado C$_{60}$(Gly)$_4$ hacia la región propuesta como alostérica de la proteasa NS2B-NS3.}}
     \label{fig:alosterico-perfil}
 \end{figure}
 
@@ -807,107 +808,17 @@ Isoleucina / Valina   & 32  & 1 \\
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{imagenes/Resultados/orto-1.pdf}
-   \caption{Representación tridimensional del acoplamiento dirigido del derivado C$_{60}$(Gly)$_4$ hacia la región ortostérica de la proteasa NS2B-NS3.}
+  \textbf{ \caption{Representación trididimensional del acoplamiento dirigido del derivado C$_{60}$(Gly)$_4$ hacia la región ortostérica de la proteasa NS2B-NS3 con un (umbral de $\text{RMSD} $ = 4.0$\text{ \AA}$) y energia de unión de -7.90 (kcal/mol).}}
     \label{fig:ortosterico-perfil-2}
 \end{figure}
 
 \end{frame}
 %-----------------------------------------------------------------------------------------------------
-
-%----------------------------------------------------------------------------------------------------------
-%--------------------------------------------------------------------------------------------------
-\begin{frame}{PCA}
-\begin{figure}[h]
-\vspace*{-0.20cm}
-    \centering
-    \includegraphics[width=1.0\textwidth,height=0.35\textwidth]{imagenes/Resultados/pca_fel-1.pdf}
-      \caption{\textbf{{Paisaje de energía libre (FEL) en el espacio conformacional.} 
-\textbf{a)} sitio alostérico con el ligando C$_{60}$(Gly)$_{4}$; 
-\textbf{b)} sitio alostérico con el ligando de benzamida; 
-\textbf{c)} sitio ortostérico con el ligando C$_{60}$(Gly)$_{4}$;}}
-\end{figure}
-
-\end{frame}
-
-
-
-%-------------------------------------------------------------------------------------------------------
-\begin{frame}{PCA}
-\begin{figure}[h]
-\vspace*{-0.30cm}
-    \centering
-    \includegraphics[width=1.0\textwidth,height=0.35\textwidth]{imagenes/Resultados/pca_fel-2.pdf}
-      \vspace*{-0.20cm}
-      \caption{\textbf{ {Paisaje de energía libre (FEL) en el espacio conformacional.} 
-\textbf{d)} sitio ortostérico con el ligando 246DA; 
-\textbf{e)} acoplamiento ciego
-\textbf{f)} proteína en su conformación nativa (estado inactivo abierto).}}
-\end{figure}
-
-\end{frame}
-%_____________-----------------------------------------------------------------
-\begin{frame}{DCCM}
-\begin{figure}[h]
-\vspace*{-0.15cm}
-    \centering
-    \includegraphics[width=1.05\textwidth,height=0.40\textwidth]{imagenes/Resultados/dccm-1.pdf}
-      \vspace*{-0.30cm}
-      \caption{\textbf{Matrices de correlación cruzada dinámica (DCCM) obtenidas a partir de las trayectorias de 100 ns de la proteasa NS2B-NS3. \textbf{a)} C$_{60}$(Gly)$_4$ en la región alostérica; \textbf{b)} derivado de benzamida en la región alostérica; \textbf{c)} C$_{60}$(Gly)$_4$ en la región ortostérica.}}
-\end{figure}
-
-\end{frame}
-%------------------------------------------------------------------------------------------------------------
-\begin{frame}{DCCM}
-\begin{figure}[h]
-\vspace*{-0.15cm}
-    \centering
-    \includegraphics[width=1.05\textwidth,height=0.40\textwidth]{imagenes/Resultados/dccm-2.pdf}
-      \vspace*{-0.30cm}
-         \caption{\textbf{Matrices de correlación cruzada dinámica (DCCM) obtenidas a partir de las trayectorias de 100 ns de la proteasa NS2B-NS3. \textbf{d)} compuesto 246DA en la región ortostérica; \textbf{e)} C$_{60}$(Gly)$_4$ en la conformación obtenida mediante acoplamiento ciego; y \textbf{f)} proteína libre (Apo). Los tonos rojos representan correlaciones positivas, mientras que los azules corresponden a movimientos anticorrelacionados.}}
-\end{figure}
-
-\end{frame}
-%------------------------------------------------------------------------------------------------------------------
-%------------------------------------------------------------------------------------------------------------------------
-
-\begin{frame}{Common PCA}
-\begin{figure}[h]
-\vspace*{-0.15cm}
-    \centering
-    \includegraphics[width=1.05\textwidth,height=0.40\textwidth]{imagenes/Resultados/pca-common-1.pdf}
-      \vspace*{-0.30cm}
-      \caption{\textbf{ {Evolución temporal del espacio conformacional (PCA común).} 
-\textbf{a)} sitio alostérico con el ligando C$_{60}$(Gly)$_{4}$; 
-\textbf{b)} sitio alostérico con un derivado de benzamida; 
-\textbf{c)} sitio ortostérico con el ligando C$_{60}$(Gly)$_{4}$; }}
-\end{figure}
-
-\end{frame}
-%--------------------------------------------------------------------------------------------------------------------------
-
-\begin{frame}{Common PCA}
-\begin{figure}[h]
-\vspace*{-0.15cm}
-    \centering
-    \includegraphics[width=1.05\textwidth,height=0.40\textwidth]{imagenes/Resultados/pca-common-2.pdf}
-      \vspace*{-0.30cm}
-      \caption{\textbf{ {Evolución temporal del espacio conformacional (PCA común).} 
-\textbf{d)} sitio ortostérico con el ligando 246DA; 
-\textbf{e)} acoplamiento ciego
-\textbf{f)} proteína en su conformación nativa (estado inactivo abierto).}}
-\end{figure}
-
-\end{frame}
-%----------------------------------------------------------------------------------------------------------------------------
-
-
-
-%----------------------------------------------------------------------------------------------------------
 \begin{frame}{Análisis conformacional mediante dinámica molecular}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{imagenes/Resultados/rmsd_ca.pdf}
-    \caption{Evolución temporal de la desviación cuadrática media (RMSD) de los átomos C$\alpha$ de la proteasa NS2B-NS3 en estado libre (\textit{Apo}) y en los sistemas con el derivado C$_{60}$(Gly)$_4$ y los compuestos de referencia, durante 100 ns de simulación.}
+   \textbf{ \caption{Evolución temporal de la desviación cuadrática media (RMSD) de los átomos C$\alpha$ de la proteasa NS2B-NS3 en estado libre (\textit{Apo}) y en los sistemas con el derivado C$_{60}$(Gly)$_4$ y los compuestos de referencia, durante 100 ns de simulación.}}
     \label{fig:RMSD}
 \end{figure}
 
@@ -917,7 +828,7 @@ Isoleucina / Valina   & 32  & 1 \\
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{imagenes/Resultados/rmsf_ca.pdf}
-    \caption{Raíz de la fluctuación cuadrática media (RMSF) de los átomos C$\alpha$, representada por índice de residuo, para NS2B--NS3 libre (\textit{apo}) y los sistemas con ligando durante 100~ns de simulación.}
+ \textbf{   \caption{Raíz de la fluctuación cuadrática media (RMSF) de los átomos C$\alpha$, representada por índice de residuo, para NS2B--NS3 libre (\textit{apo}) y los sistemas con ligando durante 100~ns de simulación.}}
     \label{fig:RMSF}
 \end{figure}
 \end{frame}
@@ -929,8 +840,8 @@ Isoleucina / Valina   & 32  & 1 \\
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{imagenes/Resultados/SASA.pdf}
-    \caption{Distribución de las 100 poses del derivado de benzamida según las puntuaciones de acoplamiento obtenidas mediante AutoDock Vina.}
-    \label{fig:benzamida-3d}
+ \textbf{\caption{Evolución temporal de la superficie accesible al solvente (SASA) de los átomos C$\alpha$ de la proteasa NS2B-NS3. }}
+   \label{fig:benzamida-3d}
 \end{figure}
 \end{column}
 
@@ -939,13 +850,142 @@ Isoleucina / Valina   & 32  & 1 \\
     \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{imagenes/Resultados/radio_giro.pdf}
-    \caption{Representación del acoplamiento molecular del derivado de benzamida en la región propuesta como alostérica de la proteasa NS2B-NS3.}
+\textbf{\caption{Evolución temporal de el radio de giro (R\textit{g}) de los átomos C$\alpha$ de la proteasa NS2B-NS3. }}
     \label{fig:benzamida-3d}
 \end{figure}
 
 \end{column}
 \end{columns}
 \end{frame}
+%----------------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+
+%_____________-----------------------------------------------------------------
+\begin{frame}{DCCM (matríz de correlación cruzada dinámica)}
+\begin{figure}[h]
+\vspace*{-0.25cm}
+    \centering
+    \includegraphics[width=1.05\textwidth,height=0.35\textwidth]{imagenes/Resultados/dccm-10.pdf}
+      \vspace*{-0.30cm}
+      \caption{\textbf{Matrices de correlación cruzada dinámica (DCCM) obtenidas a partir de las trayectorias de 100 ns de la proteasa NS2B-NS3. \textbf{a)} proteína libre (Apo); \textbf{b)} C$_{60}$(Gly)$_4$ en la región alostérica; \textbf{c)} derivado de benzamida en la región alostérica .}}
+\end{figure}
+
+\end{frame}
+%------------------------------------------------------------------------------------------------------------
+\begin{frame}{DCCM (matríz de correlación cruzada dinámica)}
+\begin{figure}[h]
+\vspace*{-0.20cm}
+    \centering
+    \includegraphics[width=1.05\textwidth,height=0.35\textwidth]{imagenes/Resultados/dccm-11.pdf}
+      \vspace*{-0.30cm}
+         \caption{\textbf{Matrices de correlación cruzada dinámica (DCCM) obtenidas a partir de las trayectorias de 100 ns de la proteasa NS2B-NS3. \textbf{a)} proteína libre (Apo); \textbf{b)} compuesto 246DA en la región ortostérica; \textbf{c)} C$_{60}$(Gly)$_4$ en la conformación obtenida mediante acoplamiento ciego.}}
+\end{figure}
+
+\end{frame}
+%------------------------------------------------------------------------------------------------------------------
+\begin{frame}{DCCM (matríz de correlación cruzada dinámica)}
+\begin{figure}[h]
+\vspace*{-0.15cm}
+    \centering
+    \includegraphics[width=0.90\textwidth,height=0.40\textwidth]{imagenes/Resultados/dccm-12.pdf}
+      \vspace*{-0.30cm}
+         \caption{\textbf{Matrices de correlación cruzada dinámica (DCCM) obtenidas a partir de las trayectorias de 100 ns de la proteasa NS2B-NS3. \textbf{a)} proteína libre (Apo); \textbf{b)} C$_{60}$(Gly)$_4$ en la conformación obtenida mediante acoplamiento ciego. }}
+\end{figure}
+
+\end{frame}
+%------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{frame}{ PCA Común}
+\begin{figure}[h]
+
+    \centering
+    \includegraphics[width=0.9\textwidth,height=0.9\textwidth]{imagenes/Resultados/pca-common-10.pdf}
+   \vspace{-8cm}
+      \caption{\textbf{ {Evolución temporal del espacio conformacional (PCA común).} 
+\textbf{a)} proteína en su conformación nativa (estado inactivo abierto);
+\textbf{b)} sitio alostérico con el ligando C$_{60}$(Gly)$_{4}$;  
+\textbf{c)} sitio alostérico con un derivado de benzamida.}}
+\end{figure}
+
+\end{frame}
+%--------------------------------------------------------------------------------------------------------------------------
+
+\begin{frame}{ PCA Común}
+\begin{figure}[h]
+\vspace*{-0.2cm}
+    \centering
+    \includegraphics[width=0.95\textwidth,height=0.7\textwidth]{imagenes/Resultados/pca-common-11.pdf}
+      \vspace*{-5cm}
+      \textbf{\caption{\textbf{{Evolución temporal del espacio conformacional (PCA común).}}
+\textbf{a)} proteína en su conformación nativa (estado inactivo abierto);
+\textbf{b)} sitio ortostérico con el ligando C$_{60}$(Gly)$_{4}$; 
+\textbf{c)} sitio ortostérico con el ligando 246DA. }}
+\end{figure}
+
+\end{frame}
+%----------------------------------------------------------------------------------------------------------------------------
+\begin{frame}{PCA Común}
+\begin{figure}[h]
+
+    \centering
+    \includegraphics[width=0.80\textwidth,height=0.40\textwidth]{imagenes/Resultados/pca-common-12.pdf}
+      \vspace*{-0.30cm}
+      \caption{\textbf{ {Evolución temporal del espacio conformacional (PCA común).} 
+\textbf{a)} proteína en su conformación nativa (estado inactivo abierto);
+\textbf{b)} acoplamiento ciego. }}
+\end{figure}
+
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------------------------
+\begin{frame}{PCA-Fel}
+\begin{figure}[h]
+\vspace*{0.20cm}
+    \centering
+    \includegraphics[width=1.4\textwidth,height=0.6\textwidth]{imagenes/Resultados/pca_fel-10.pdf}
+      \vspace{-4cm}
+    \caption{\textbf{{Paisaje de energía libre (FEL) en el espacio conformacional.} 
+\textbf{a)} proteína en su conformación nativa (estado inactivo abierto).
+\textbf{b)} sitio alostérico con el ligando C$_{60}$(Gly)$_{4}$;  
+\textbf{c)} sitio alostérico con el ligando de benzamida. }}
+\end{figure}
+
+\end{frame}
+
+
+
+%-------------------------------------------------------------------------------------------------------
+\begin{frame}{PCA-Fel}
+\begin{figure}[h]
+\vspace*{-5cm}
+    \centering
+    \includegraphics[width=1.4\textwidth,height=0.6\textwidth]{imagenes/Resultados/pca_fel-11.pdf}
+      \vspace*{-0.20cm}
+      \caption{\textbf{ {Paisaje de energía libre (FEL) en el espacio conformacional.} 
+\textbf{a)} proteína en su conformación nativa (estado inactivo abierto);
+\textbf{b)} sitio ortostérico con el ligando C$_{60}$(Gly)$_{4}$;
+\textbf{c)} sitio ortostérico con el ligando 246DA.}}
+\end{figure}
+
+\end{frame}
+
+
+\begin{frame}{PCA-Fel}
+\hspace{5cm}\begin{figure}[h]
+\vspace*{-1cm}
+    \includegraphics[width=0.80\textwidth,height=0.3\textwidth]{imagenes/Resultados/pca_fel-12.pdf}
+
+      \caption{\textbf{ {Paisaje de energía libre (FEL) en el espacio conformacional.}  
+\textbf{a)} proteína en su conformación nativa (estado inactivo abierto);
+\textbf{b)} acoplamiento ciego. }}
+\end{figure}
+
+\end{frame}
+
+
+
 
 %--------------------------------------------------------------------------------------------------------------------
 
@@ -969,24 +1009,33 @@ Isoleucina / Valina   & 32  & 1 \\
 
 
 \section{Conclusiones}
-\begin{frame}[allowframebreaks]{Conclusiones}
+\begin{frame}{Conclusiones}
+\small
 \begin{itemize}
+\setlength{\itemsep}{0.65em}
 \justifying
-\item Comportamiento estructural: Los análisis de RMSD, RMSF, radio de giro y SASA permitieron caracterizar las diferencias en la evolución estructural, flexibilidad y exposición al solvente de NS2B-NS3 entre los sistemas simulados durante 100 ns.
-\item Interacciones moleculares: El análisis de los puentes de hidrógeno permitió estudiar la evolución de las interacciones presentes en los sistemas y complementar la interpretación de su comportamiento conformacional.
-\item Dinámica conformacional. Los análisis de PCA y los paisajes de energía libre (FEL) evidenciaron diferencias en los movimientos colectivos y en las regiones conformacionales exploradas por la proteasa, dependiendo del sistema estudiado.
-\item Movimientos correlacionados. Los mapas DCCM permitieron identificar patrones de correlación y anticorrelación entre los movimientos de residuos, aportando información sobre posibles cambios en la comunicación dinámica de NS2B-NS3.
+\item \textbf{Comportamiento.} Durante los 100 ns, el sistema de acoplamiento ciego mostró mayor compactación, menor exposición al solvente y una exploración conformacional más limitada que la proteína libre.
+
+\item \textbf{Interacciones moleculares.} Las poses de C$_{60}$(Gly)$_4$ mostraron puentes de hidrógeno y contactos hidrofóbicos con NS2B--NS3, con diferencias según la región de acoplamiento.
+
+\item \textbf{Dinámica conformacional.} Los sistemas presentaron diferencias en RMSD y flexibilidad local. El análisis PCA--FEL también mostró distintas distribuciones de las conformaciones exploradas.
+
+\item \textbf{Movimientos correlacionados.} Las matrices DCCM mostraron cambios frente a la proteína libre. En el acoplamiento ciego, varias regiones presentaron correlaciones menos intensas entre sus movimientos.
 \end{itemize}
+\vspace{0.4em}
+\footnotesize\justifying
+En conjunto, los resultados sugieren cambios en la dinámica de NS2B--NS3 en presencia de C$_{60}$(Gly)$_4$, aunque no se confirma inhibicion ni actividad antiviral, hasta la realización experimental y pruebas enzimáticas.
 \end{frame}
+
 
 \section{Perspectivas}
 \begin{frame}[allowframebreaks]{Perspectivas}
-En trabajos futuros se pretende:
+\textbf{En trabajos futuros se pretende:}
 \begin{itemize}
 \justifying
- \item Nuevo acoplamiento dirigido para la proteína en conformacion abierta-inactiva.
- \item Acoplamiento molecular con la proteína en conformación cerrada-activa.
-    \item Dinámica del complejo proteína-ligando. 
+ \item Nuevo acoplamiento dirigido para la proteína NS2B-NS3 en conformacion cerrada-activa.
+ \item  Acoplamiento molecular (proteína-ligando)  en la conformación cerrada-activa. 
+    \item Dinámica del complejo proteína-ligando en esta conformación. 
    
 \end{itemize}
 
@@ -994,16 +1043,26 @@ En trabajos futuros se pretende:
 
 \section{Cronograma}
 \begin{frame}{Cronograma de actividades}
-\vspace*{-0.3cm}
+\vspace*{-0.1cm}
 \begin{figure}
     \centering
-    \includegraphics[width=0.9\textwidth,height=0.5\textwidth]{imagenes/metodologia/cronograma.png}
-    \vspace*{-0.5cm}
+    \includegraphics[width=0.8\textwidth,height=0.4\textwidth]{imagenes/Resultados/cronograma.pdf}
+
     \textbf{\caption{Cronograma de actividades}
     \label{met:1} }%Esto genera un numero a mi etiqueta
 \end{figure} 
 \end{frame}
 
+\begin{frame}{Publicación en extenso}
+\vspace*{-0.1cm}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth,height=0.4\textwidth]{imagenes/Resultados/Constancia.pdf}
+
+    \textbf{\caption{Participación mujer en la ciencia.}
+    \label{met:1} }%Esto genera un numero a mi etiqueta
+\end{figure} 
+\end{frame}
 
 
 % Referencias ------------------------------------------------------------
@@ -1063,6 +1122,21 @@ En trabajos futuros se pretende:
 \end{column}
 \end{columns}
 \end{frame}
+
+\begin{frame}{Ciclo de replicación del DENV}
+\justifying
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\textwidth, height=0.48\textwidth]{imagenes/Intro/ciclo-1.pdf} 
+\vspace*{-0.25cm
+    \caption{\justifying \textbf{Proceso de replicación del virus del dengue} \cite{screaton2015new}.}}
+    \label{solarcell} %Esto genera un numero a mi etiqueta
+\end{figure} 
+
+
+\end{frame}
+
+
 
 \begin{frame}{Ciclo de replicación del DENV}
 \justifying
